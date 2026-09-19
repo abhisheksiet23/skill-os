@@ -1,0 +1,128 @@
+[
+  {
+    "Variant": "baseline",
+    "File": "E:/aj/experiments/ai-product-engineering-os-v1.4/skills/app-frontend/SKILL.md",
+    "Words": 639,
+    "Sha256": "6307050E5C24CAC231D6999594BA4D4E9F1DF9A6D5467C6AFACA39C9B8364571"
+  },
+  {
+    "Variant": "baseline",
+    "File": "E:/aj/experiments/shipwright/skills/discover/SKILL.md",
+    "Words": 932,
+    "Sha256": "2085910811290617BDC973ECE775023795B13B7B4136FA69B21D4068AF88972C"
+  },
+  {
+    "Variant": "baseline",
+    "File": "E:/aj/experiments/ai-driven-website/skills/website-create/SKILL.md",
+    "Words": 480,
+    "Sha256": "6CD5550DFD9635BE0D5571CAF5BAFA9C42829BAB77E804BEB899123D5978994C"
+  },
+  {
+    "Variant": "baseline",
+    "File": "E:/aj/experiments/ai-product-engineering-os-v1.4/skills/app-deliver/SKILL.md",
+    "Words": 369,
+    "Sha256": "7CC5F47E5E51FC73C1681EED555F4396952FD9184DE5226F0F30D4CD8692E154"
+  },
+  {
+    "Variant": "baseline",
+    "File": "C:/Users/Abhishek/.codex/product-engineering-os/kernel/bootstrap.md",
+    "Words": 324,
+    "Sha256": "66970F0511EFFD28F3DEB0A0412469BCFD9A76FBFB3070A7C7AC6971D56C0AF2"
+  },
+  {
+    "Variant": "baseline",
+    "File": "C:/Users/Abhishek/.codex/product-engineering-os/kernel/evidence.md",
+    "Words": 215,
+    "Sha256": "45A25C0B2AC05D66AFEA7CE13E2804F9422061A4BF8141777D4B30F6E808E303"
+  },
+  {
+    "Variant": "baseline",
+    "File": "C:/Users/Abhishek/.codex/product-engineering-os/disciplines/review.md",
+    "Words": 358,
+    "Sha256": "BCDF0EEC960358DFF6E54DFBCEF6C9EE4BEEF4444F859E2CA5FE890756B174E4"
+  },
+  {
+    "Variant": "baseline",
+    "File": "C:/Users/Abhishek/.codex/product-engineering-os/kernel/agent-trust.md",
+    "Words": 209,
+    "Sha256": "BF22FD57C3DE415E094922F1741DE2DF74906A1462B8178BC786781D17059FFD"
+  },
+  {
+    "Variant": "baseline",
+    "File": "C:/Users/Abhishek/.codex/product-engineering-os/orchestration/planning.md",
+    "Words": 365,
+    "Sha256": "8BA7843B7FAF167CEA6758AEF1F77415AF665B0ECB3B98006FD1EC53BC6A5B88"
+  },
+  {
+    "Variant": "baseline",
+    "File": "C:/Users/Abhishek/.codex/product-engineering-os/disciplines/testing.md",
+    "Words": 275,
+    "Sha256": "0C8BE8FCD0219D0E6433A5CF06C3AA0438F91529A4B1F4B81B9601B998C90D72"
+  },
+  {
+    "Variant": "baseline",
+    "File": "C:/Users/Abhishek/.codex/product-engineering-os/orchestration/change-classifier.md",
+    "Words": 96,
+    "Sha256": "4AB27019745AD039157710BC8661AF9DDF1AA21CF6FBA2BCFD4D72E6AC9245C0"
+  },
+  {
+    "Variant": "baseline",
+    "File": "E:/aj/experiments/ai-driven-website/skills/website/references/operating-rules.md",
+    "Words": 794,
+    "Sha256": "84A2D31B0B466E5B6463269CD532198634C98A2E5300E8DA34DB5B627407761C"
+  },
+  {
+    "Variant": "baseline",
+    "File": "E:/aj/experiments/ai-driven-website/skills/website-create/references/creative-practice.md",
+    "Words": 871,
+    "Sha256": "47FFA7EB73B43CBF27E0C28C78C3AB1BABD5E61ADA7CF7FBBD9D74B009AAA41A"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\app-qa\\SKILL.md",
+    "Words": 316,
+    "Sha256": "D164B600E6B00566E216C96B24E0EB1BA7823843478FC3D6554ACDB29CCBD49E"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\app-qa\\references\\verification.md",
+    "Words": 266,
+    "Sha256": "84CC105A827B9884DA179BDF799604823B7974C4D9779A782B025EC27DDEA0D0"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\app-frontend\\SKILL.md",
+    "Words": 321,
+    "Sha256": "9E66CC9335CCF2CEFCB029C8E937FD41B7C2D0FA2B3886801A05E4D40F8DE06F"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\business-pricing\\SKILL.md",
+    "Words": 312,
+    "Sha256": "4AECE76169A9D49FA7B3449E17320172E89B6CCD6F743C3C1B7426B7AB35CBB3"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\website-create\\SKILL.md",
+    "Words": 313,
+    "Sha256": "1562ABC527C29E1B238B521C49BC3A7C47C1283661C1240A56856D52E10857F3"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\business-challenge\\SKILL.md",
+    "Words": 317,
+    "Sha256": "2A6149BF540F2CE907637D74BE1338753982A12D6800C894E697C39EB12D93FD"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\app-deliver\\SKILL.md",
+    "Words": 285,
+    "Sha256": "5E9D3DDC9713FA2799011983225158903F6B340A355B6AE6565AC5AD60F8BE58"
+  },
+  {
+    "Variant": "candidate",
+    "File": "E:\\aj\\experiments\\skill-os\\skillmesh\\skills\\app-deliver\\references\\release.md",
+    "Words": 201,
+    "Sha256": "54CF1517ABB2840249E733F232BB51A5E02C75BF5C0B40431774AC6D4643CF8A"
+  }
+]

@@ -24,7 +24,7 @@ Use motion when it clarifies feedback, sequence, or meaning. It must not delay a
 
 ## Asset decisions
 
-Record availability, source, rights, intended role, crop/ratio, and any factual implications of imagery. For material asset work, follow the [artwork workflow](artwork.md). Distinguish documentary assets from conceptual illustration. When tools allow image generation and it serves the direction, follow their applicable skill/tool rules. Generated artwork is optional; authentic work photography often carries evidence that illustration cannot replace.
+Record availability, source, rights, intended role, crop/ratio, and factual implications of imagery. For material asset work, use [artwork guidance](artwork.md). Distinguish documentary assets from conceptual illustration. The agent selects tools and additional expertise; this reference does not invoke skills. Generated artwork is optional; authentic photography often carries evidence illustration cannot replace.
 
 Choose an honest fallback when material is missing: licensed conceptual imagery, diagrams, intentional typography, a photography brief, or a reduced claim. Do not present a synthetic office, team, project, or product as the company's real one. Keep private source materials out of deployed assets.
 

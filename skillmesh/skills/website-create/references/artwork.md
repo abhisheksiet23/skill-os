@@ -11,7 +11,7 @@ Let communication needs determine quantity. There is no mandatory image per sect
 | Visual need | Preferred approach |
 | --- | --- |
 | Actual people, facilities, projects, products, or customer proof | Supplied/commissioned authentic assets with usable rights and factual context |
-| Brand-specific conceptual illustration, atmosphere, textures, or expressive raster artwork | Available image-generation tools, using their applicable skill instructions, or commissioned illustration |
+| Brand-specific conceptual illustration, atmosphere, textures, or expressive raster artwork | Available image-generation tools or commissioned illustration; recommend specialist expertise if needed |
 | Precise process diagrams, charts, simple geometric graphics, icons, or editable vector work | SVG, HTML/CSS, or established vector/icon tools; use real data and accessible labels |
 | Product interface demonstration | Real screenshots or a truthful, labeled prototype; preserve legible interface text |
 | Supporting contextual photography | Licensed stock when it genuinely fits, without implying it depicts the company or its work |
@@ -26,7 +26,7 @@ Do not use generated raster text for headings, CTAs, logos, precise charts, or i
 4. Produce the remaining meaningful visuals and necessary variants. Inspect every selected final asset for artifacts, inaccurate details, unintended text, style drift, low resolution, and misleading representations.
 5. Reinspect assets in the rendered page. A pleasing standalone image may fail at the intended crop, contrast, size, or download cost. Adjust art direction rather than hiding failures with overlays everywhere.
 
-Use available image-generation capabilities directly when generation is the chosen method and the task authorizes asset creation. Read their applicable skill/tool instructions first. If tools or authentic materials are missing, state the dependency and use an intentional alternative; do not silently replace the promised visual direction with generic placeholders. New paid purchases or commissioned work need actual authorization.
+When generation is chosen and authorized, the agent selects tools and follows their tool instructions. Image-generation expertise may be recommended but is not invoked by this skill. If tools or authentic materials are missing, state the dependency and use an intentional alternative; do not silently replace the promised direction with generic placeholders. Paid purchases or commissioned work need actual authorization.
 
 ## Deliver for mobile first
 

@@ -5,6 +5,8 @@ description: Helps coordinate multiple installed specialist skills for complex t
 
 # Skill Ecosystem Orchestrator
 
+Historical advisory example, not installed by SkillMesh. The agent owns selection and continuation. Never invoke another skill from this one, including for a user-requested sequence; the agent executes that sequence.
+
 ## Purpose
 
 Help Codex compose existing skills without creating a separate orchestration runtime.

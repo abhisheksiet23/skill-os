@@ -1,0 +1,40 @@
+# Source reconciliation — 2026-09-19
+
+## Inspected sources
+
+- `E:/aj/experiments/ai-product-engineering-os-v1.4`: six app entrypoints, shared bootstrap, review/debugging and existing-system/replacement practices, and v1.6/v1.6.1 evaluation reports.
+- `E:/aj/experiments/shipwright`: principles, seven entrypoints, customer/voice, quality and non-functional-requirement practices.
+- `E:/aj/experiments/ai-driven-website`: six entrypoints and references. Content comparison with `ai-driven-website-claude/skills` found equivalent Markdown; the latter omitted six Codex UI metadata files.
+- Installed copies in `C:/Users/Abhishek/.codex/skills`: twelve website/app skills and their external product-engineering-os dependency.
+- User-supplied [Business Idea Validation conversation](https://chatgpt.com/share/6aaea398-9efc-83ee-b867-1162907d8d6a), also retrieved with the app conversation reader: original brief, method discussion, pricing/Strategy Canvas additions, protocol summary and applied case.
+
+The conversation names protocol/case attachments whose full file contents were not recovered. Business skills are a new distillation of the visible conversation and current user direction, not a byte-for-byte attachment migration. The source method was provisional; no commercial validation is claimed. Company-specific prices and case claims are not reusable truth and were excluded.
+
+## Reconciliation
+
+| Preserve | Change | Reason |
+| --- | --- | --- |
+| Challenge assumptions; evidence over polish | No complete-framework requirement | Objective determines depth and stopping |
+| Observable use cases and contracts | Accept adequate existing records | Independent use in any project |
+| Concrete design before material UI expansion | Honor approval/delegation and inspect output | Preserve intent without ritual confirmations |
+| Real integration and meaningful tests | No forced frontend-first/mock-first order | APIs and backend-only work are valid starting points |
+| Candidate-specific release evidence | No mandatory JSON checkpoint or phase ledger | Evidence matters; state machinery has not earned a general requirement |
+| Existing-system/coexistence caution | Local optional references | Retain expertise without an external OS bootstrap |
+| Buyer language, credible claims and craft | No discovery requirement for every edit | Preserve purpose while bounding work |
+| Pricing, experiments, economics and challenge | Focused business skills | Narrow work need not load a whole protocol |
+| Awareness of other expertise | Recommendations, never invocation | Agent owns composition |
+
+The original v1.6.1 evaluation report found no quality advantage over a bare agent in its limited comparison. It also recorded reproduced validator defects and fixes. This supports testing simpler instructions, not claiming safeguards were useless or that SkillMesh is already better.
+
+## Conflicts resolved
+
+- Shipwright's hand-authored CSS preference and the website toolkit's Astro/Tailwind recommendation are context-specific. Existing project conventions win; the qualified website default requires implementation-time documentation checks.
+- Shipwright's README says no auto-chaining, but entrypoints direct subsequent invocations. SkillMesh consistently permits only agent-assessed recommendations.
+- Material UX retains concrete review and existing approval or delegated authority. Silence never becomes a reserved approval.
+- Fixed folders, mandatory in-app wiki, exact prototype DOM reuse and phase ledgers were not retained as universal requirements. Durable decisions, useful help and visual fidelity remain.
+
+## Exclusions and learning
+
+No legacy runtime, state engine, code-indexing service, MCP server, global instruction replacement or unrelated skills are imported. Existing specialized tools remain available at their original locations until separately migrated. Old source repositories remain intact. The optional historical orchestrator is not installed.
+
+For a recurring failure, record the task, observed behavior, smallest instruction correction and comparison outcome. Update the owning skill only when the lesson generalizes; keep one-off company/project choices in project records. This review is not required reading for executing skills.

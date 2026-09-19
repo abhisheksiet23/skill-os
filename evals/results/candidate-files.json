@@ -1,0 +1,146 @@
+[
+  {
+    "Path": ".codex-plugin\\plugin.json",
+    "Sha256": "07771C22603839751ACDF32B4A6004BDEE145FC07257A5526ADA1D17F96138A1"
+  },
+  {
+    "Path": "skills\\app-analyze\\SKILL.md",
+    "Sha256": "686F2FB881706A1C3AD156A48EA52D67A52B61A7E59D479B8AD26E0F14C08195"
+  },
+  {
+    "Path": "skills\\app-analyze\\references\\existing-systems.md",
+    "Sha256": "EC7034C25B55DF36B0F1158F97DA0CC490107A405BA37C05E104BD582F639657"
+  },
+  {
+    "Path": "skills\\app-analyze\\references\\requirements.md",
+    "Sha256": "D18A8D1B2BBB2B89F01F76D4951C5936809F9FA9E4F089ADB611694CC9BDEA63"
+  },
+  {
+    "Path": "skills\\app-backend\\SKILL.md",
+    "Sha256": "A9B13520B9061DE8DBA084D7261F1ACFE4EBB44DAB72566E25BFAE8F33D18E58"
+  },
+  {
+    "Path": "skills\\app-backend\\references\\data-and-integration.md",
+    "Sha256": "B5F0B43C57281B9836FFA2BBB4A71964A40D1C217FE36290E6DC86C00358B540"
+  },
+  {
+    "Path": "skills\\app-deliver\\SKILL.md",
+    "Sha256": "5E9D3DDC9713FA2799011983225158903F6B340A355B6AE6565AC5AD60F8BE58"
+  },
+  {
+    "Path": "skills\\app-deliver\\references\\release.md",
+    "Sha256": "54CF1517ABB2840249E733F232BB51A5E02C75BF5C0B40431774AC6D4643CF8A"
+  },
+  {
+    "Path": "skills\\app-frontend\\SKILL.md",
+    "Sha256": "9E66CC9335CCF2CEFCB029C8E937FD41B7C2D0FA2B3886801A05E4D40F8DE06F"
+  },
+  {
+    "Path": "skills\\app-prototype\\SKILL.md",
+    "Sha256": "0838EC7F0F9A4CD2B8C93C06A18395D230EC92B154E7B70C94D1CB5B7A6A0608"
+  },
+  {
+    "Path": "skills\\app-prototype\\references\\experience.md",
+    "Sha256": "F0F990AF8F5D6E7F0431CC677E8CEE6741B5BB41EB81DA2442801551FFA62EB2"
+  },
+  {
+    "Path": "skills\\app-qa\\SKILL.md",
+    "Sha256": "D164B600E6B00566E216C96B24E0EB1BA7823843478FC3D6554ACDB29CCBD49E"
+  },
+  {
+    "Path": "skills\\app-qa\\references\\verification.md",
+    "Sha256": "84CC105A827B9884DA179BDF799604823B7974C4D9779A782B025EC27DDEA0D0"
+  },
+  {
+    "Path": "skills\\business-challenge\\SKILL.md",
+    "Sha256": "2A6149BF540F2CE907637D74BE1338753982A12D6800C894E697C39EB12D93FD"
+  },
+  {
+    "Path": "skills\\business-model\\SKILL.md",
+    "Sha256": "C5E2C2AC1124CED9B0BB1753F27B8CC3D7E066B71FEF5B5EC33FDA405B78B1EB"
+  },
+  {
+    "Path": "skills\\business-model\\references\\economics.md",
+    "Sha256": "08B818261AB62D78018EF4C5416FECA2D0883ED6B5A92F13B411E83F72880035"
+  },
+  {
+    "Path": "skills\\business-pricing\\SKILL.md",
+    "Sha256": "4AECE76169A9D49FA7B3449E17320172E89B6CCD6F743C3C1B7426B7AB35CBB3"
+  },
+  {
+    "Path": "skills\\business-validate\\SKILL.md",
+    "Sha256": "53C6BA627D448853B160166891BC8F95CE00A117F0575A1639FCCA338726E824"
+  },
+  {
+    "Path": "skills\\market-research\\SKILL.md",
+    "Sha256": "CBDEEB2FFADDA0326C01F192F6F3FA2C7CAF96E8E9DBD246CE7EEDD20CEE7090"
+  },
+  {
+    "Path": "skills\\market-research\\references\\value-curves.md",
+    "Sha256": "0DC3686972BC3797946ACF20AE156B665BC07563C35A2A04E65A1F21A61F6517"
+  },
+  {
+    "Path": "skills\\venture-investigate\\SKILL.md",
+    "Sha256": "2EFAC999EFD7C19A5E7BD0DE4768DF4286F461146683E3F0BDC52EF6676C0EE5"
+  },
+  {
+    "Path": "skills\\venture-investigate\\references\\investigation.md",
+    "Sha256": "0C101D44E5C86E4D29C032FBC2292B9E08BC01A5BEBC8B3001B2F22D62314C21"
+  },
+  {
+    "Path": "skills\\website\\SKILL.md",
+    "Sha256": "441F9E462314722937E580E5E66F23410611172381263296FF788220B10618FF"
+  },
+  {
+    "Path": "skills\\website-build\\SKILL.md",
+    "Sha256": "750E983ED3D47B260939CCF64DE81F41018E9C944CE01CCA5D98C76CAFAFF9D4"
+  },
+  {
+    "Path": "skills\\website-build\\references\\implementation.md",
+    "Sha256": "64CFD413158C3ADEB2D0DCA06B6574DDDA0BBA6850B5056775A2A18FCEC90D73"
+  },
+  {
+    "Path": "skills\\website-build\\references\\technology-selection.md",
+    "Sha256": "D2497503374598CABC73618E5796D122BCD9948AD53C3E7FF3C913BDE4CAA990"
+  },
+  {
+    "Path": "skills\\website-create\\SKILL.md",
+    "Sha256": "1562ABC527C29E1B238B521C49BC3A7C47C1283661C1240A56856D52E10857F3"
+  },
+  {
+    "Path": "skills\\website-create\\references\\artwork.md",
+    "Sha256": "13B6EF9E49480094840275EC38ADC9C879016FA44F8038EE96409F3952365BEE"
+  },
+  {
+    "Path": "skills\\website-create\\references\\creative-practice.md",
+    "Sha256": "1166084225E0949CCB8A377E0F35C1C3DB60625E83DDE03B1126A8FF677C73CC"
+  },
+  {
+    "Path": "skills\\website-deliver\\SKILL.md",
+    "Sha256": "48A6414C40AF93B048A68A883E532E5B9EFC9C10551D16ECF67BF756FA01AB4E"
+  },
+  {
+    "Path": "skills\\website-deliver\\references\\release.md",
+    "Sha256": "CED143D9FEE859F50843B8EBF3B22C34A96915BAC73680F249464288ECA75307"
+  },
+  {
+    "Path": "skills\\website-discover\\SKILL.md",
+    "Sha256": "7EDDE0D41A0A7B57937052834D4E0F477BFE30A36A210D612CA75C90052D9E7F"
+  },
+  {
+    "Path": "skills\\website-discover\\references\\interview.md",
+    "Sha256": "459BE2C667F02269DBEEAD27AE535286DB75696C6BBC39BE4F1D770B25AE2CDF"
+  },
+  {
+    "Path": "skills\\website-discover\\references\\research.md",
+    "Sha256": "8B10F5D802024140C32BA1B203F67B556E1703B82E15CCD98354146475231164"
+  },
+  {
+    "Path": "skills\\website-review\\SKILL.md",
+    "Sha256": "867EAC2F63E7CADD279FC3065B4EF999549C3B35ADF9573CC345ECF484D5CA45"
+  },
+  {
+    "Path": "skills\\website-review\\references\\review-guide.md",
+    "Sha256": "CAA3B3D10844680E11C19D49A4988825C7C3FA53DB2613FAA929872CEE2C4B42"
+  }
+]

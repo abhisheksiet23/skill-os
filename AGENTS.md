@@ -16,7 +16,7 @@ For substantial tasks:
 8. Preserve important evidence, assumptions, uncertainties, constraints, and explicit user decisions in the working context or artifacts.
 9. Distinguish evidence from assumptions and recommendations from decisions.
 10. If a specialist exposes a missing evidence type or expertise need, treat that as a recommendation to the orchestrator, not an instruction that must be followed.
-11. Codex owns orchestration. Skills should not autonomously chain other skills unless the user explicitly requested a fixed workflow.
+11. Codex owns orchestration. Skills may recommend named expertise with the gap and useful evidence, but must never invoke other skills. A user-requested fixed workflow is executed by the agent, not by skills calling skills.
 12. When several skills contribute, synthesize them into one coherent result rather than returning disconnected mini-reports.
 13. Stop when further skill usage is unlikely to materially change the answer, decision, artifact, or risk assessment.
 14. Involve the user when progress depends on a genuine preference, unavailable data, or a material scope decision.
@@ -63,3 +63,11 @@ Every new ecosystem mechanism must answer:
 > What repeated, observed failure does this solve better than improved descriptions, instructions, or model reasoning?
 
 If there is no concrete answer, keep the simpler system.
+
+## Source and project boundaries
+
+Author maintained skills in `skillmesh/skills/`, one self-contained folder per skill. Required references stay inside the owning skill. Do not require siblings, a shared external toolkit, a phase-status ledger or a previous invocation. Optional named recommendations must describe the underlying need so the skill works without them.
+
+Adapt to adequate existing project records. Company facts, decisions and implementation belong in the project, not in reusable instructions. Installed copies are deployment artifacts; this repository is the authoring source.
+
+For substantive changes use representative before/after evals. Metadata checks and simulated test artifacts are not live behavioral passes. Report unavailable metrics as unknown.
