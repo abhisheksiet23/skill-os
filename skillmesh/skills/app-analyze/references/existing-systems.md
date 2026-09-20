@@ -6,6 +6,10 @@ Inspect source, running behavior, schema and project records as available. Recor
 
 Follow consequential validation, permissions, persistence, jobs, reports, history and external effects. One screen or role cannot establish all behavior. Use targeted symbol/reference searches or available read-only tools rather than repeatedly loading entire repositories.
 
+Discover paths, symbols and exact database objects before retrieving their contents. If results truncate, narrow the query rather than repeating the broad read; truncation is not negative evidence. Confirm runtime/tool commands once and reuse working commands. Retain source locations and identity so unchanged evidence can be reused, but recheck when code, deployment, data or the question changes.
+
+Separate a shallow dependency map from detailed recovery. Before tracing every configurable widget or retained module, establish whether it belongs in the target increment or materially constrains its integration. For uncertain legacy contracts, retain exact stored identifiers alongside business/transport labels and propose an early read-only integration check; mock agreement alone cannot establish those mappings.
+
 Reconcile contradictions explicitly: code can be dead, documentation stale, or the deployment different. Record what was observed, what is inferred, and what the target should preserve, change or retire. Do not silently choose a convenient source.
 
 For coexistence, determine entry routing and session/auth boundaries, the authoritative writer for shared entities, compatible old/new contracts, retained jobs and consumers, and cutover/recovery. Uncoordinated dual writes are not a migration strategy. A routing rollback does not undo new data: prove old code can read new writes, or define reconciliation/forward recovery.

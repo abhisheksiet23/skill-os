@@ -9,6 +9,8 @@ Establish the exact candidate, requested review scope, relevant requirements and
 
 Inspect the implementation and choose checks proportional to affected risk. Use [verification practice](references/verification.md) for consequential changes, failures or release-readiness assessment.
 
+When important journeys will be repeated, turn useful checks into project-owned executable tests with a documented command and reliable setup. Reuse the existing runner and fixtures. Prefer durable assertions over repeatedly directing the same browser steps, without imposing a new harness on a trivial correction. See [repeatable verification](references/repeatable-verification.md) when establishing or improving recurring checks.
+
 Run the applicable tests rather than predict results. Exercise important normal, boundary, invalid and recovery behavior. Test real API/consumer integration when required. For UI, use available browser tools and inspect representative screenshots, keyboard/focus and journeys with realistic data. Automated assertions do not replace visual inspection.
 
 Review both requirement coverage and engineering correctness: access, data integrity, failure handling, performance and maintainability where affected. These are two lenses, not mandatory separate agents. For material visual changes compare the actual experience with its reviewed direction; for contained corrections use the established product.

@@ -17,4 +17,6 @@ Use the real API when available. Otherwise put contract-faithful mocks behind th
 
 Run relevant builds and meaningful tests for logic, state transitions and consequential behavior. For visual changes, render and inspect the affected routes/states at appropriate widths against the reviewed prototype or existing product. Fix drift and retest affected behavior. No browser access means visual proof remains pending.
 
+Exercise one representative real journey using the production bundle and intended serving/security configuration early when integration is material. Development or mock rendering can miss asset, CSP and authentication failures. Preserve useful assertions as project tests; expand coverage with the implementation rather than waiting for final QA to rediscover the boundary.
+
 Record what changed, integration mode, actual checks and remaining gaps in existing project records. Finish the requested scope; frontend-only work does not imply backend work or release. Recommend `app-backend`, `app-prototype` or `app-qa` only for a specific unresolved need. The agent decides; this skill never invokes another skill.
