@@ -70,4 +70,6 @@ Author maintained skills in `skillmesh/skills/`, one self-contained folder per s
 
 Adapt to adequate existing project records. Company facts, decisions and implementation belong in the project, not in reusable instructions. Installed copies are deployment artifacts; this repository is the authoring source.
 
+Run application work in the application's own directory. Keep its prototypes, scripts, reference extractions and temporary build/review artifacts there as well; do not stage them inside skill-os. Only reusable skill authoring and isolated skill evaluations belong in this repository.
+
 For substantive changes use representative before/after evals. Metadata checks and simulated test artifacts are not live behavioral passes. Report unavailable metrics as unknown.
