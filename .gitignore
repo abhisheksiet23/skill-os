@@ -4,3 +4,10 @@ __pycache__/
 .migration-tests/
 .migration-backups/
 .validation-deps/
+
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/

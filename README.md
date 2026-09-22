@@ -43,6 +43,8 @@ Every skill accepts adequate project evidence regardless of its author. No previ
 
 ## Install and replace
 
+For cloning on another device and editing in Codex cloud, see [GitHub and cloud setup](docs/github-and-cloud.md).
+
 See [migration](docs/migration.md). Validate first, install one plugin, then archive only the superseded individual skill copies. Keep old source repositories and specialized toolkit tools available until separately migrated.
 
 The migration helper defaults to inspection. Installation uses the official plugin scaffold helper for personal-marketplace registration and the Codex CLI. Retirement is explicit and follows verified installation. Unrelated plugins, global instructions and projects remain untouched.
