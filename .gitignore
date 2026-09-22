@@ -11,3 +11,6 @@ __pycache__/
 !.env.example
 .venv/
 venv/
+
+# Generated cloud discovery links; author in skillmesh/skills instead.
+.agents/skills/
