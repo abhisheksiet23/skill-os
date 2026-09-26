@@ -15,6 +15,6 @@ Inventory authentic claims, work, credentials, testimonials, imagery and publica
 
 Recommend audience, buying situation, central promise, differentiation, objections, page/journey implications and valuable conversion. Tie consequential claims to sources and limitations. Keep private customer material out of public research tools and deployable content.
 
-Save a concise brief in existing project records: evidence, decisions, assumptions, usable assets and unresolved questions. Finish when the requested positioning decision is useful and its limits are clear; research need not become exhaustive.
+Lead the brief with the recommended audience, promise and conversion, plus the implication for the page journey. Explain consequential choices with nearby evidence and limitations rather than a claim inventory alone. Save the concise result in existing project records, keeping accepted decisions, recommendations, assumptions, usable assets and unresolved questions distinct. Finish when the requested positioning decision is useful and its limits are clear; research need not become exhaustive.
 
 If demand uncertainty blocks the offer, recommend the relevant validation question, optionally naming `business-validate`. If expression is the remaining need, `website-create` may help. These are optional recommendations to the agent; this skill neither invokes others nor mandates continuation.

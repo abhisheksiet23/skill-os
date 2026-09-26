@@ -15,6 +15,6 @@ Implement honest navigation and conversion: trust-boundary validation, useful er
 
 Run the project's relevant build/static checks and meaningful behavioral tests. Inspect rendered affected pages and exercise important journeys at relevant widths. Fix observed failures and recheck affected behavior. Preserve unrelated valid evidence rather than rerunning everything reflexively.
 
-Record candidate, configuration names, routes, real versus simulated integration, checks and gaps in existing project records. A build or preview does not authorize production publishing.
+Keep the implemented site and working journeys primary. Summarize the delivered visitor outcome and consequential choices, then the actual visual/functional checks and remaining gaps; do not substitute a file list or tool diary for the result. Record candidate, configuration names, routes and real versus simulated integration in existing project records. A build or preview does not authorize production publishing.
 
 Recommend `website-review` for a concrete independent quality need, `website-create` for unresolved experience, or application expertise for a genuine application boundary. The agent chooses; recommendations never invoke skills or make other skills prerequisites.

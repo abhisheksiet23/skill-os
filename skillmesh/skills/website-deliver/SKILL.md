@@ -13,7 +13,7 @@ Honor existing publication authorization. If it is missing, finish the reviewabl
 
 Deploy the reviewed candidate through the authorized mechanism. Inspect the outcome before retrying an uncertain operation. Verify actual live pages/assets, navigation, indexing intent, redirects, responsive presentation and the primary conversion, including production configuration and authorized delivery checks. Apply bounded recovery based on observations.
 
-Record revision, time, URL, live evidence, residual risks and recovery information. Update only what actually shipped in the live baseline. Provide practical editing/asset guidance and clear ownership of domains, hosting and enquiries without secrets. Keep handoff proportional to the site.
+Lead the handoff with the actual launch state and its consequence for visitors or operators. Record revision, time, URL, live evidence, residual risks and recovery information. Separate prepared, deployed and directly verified facts so status does not have to be inferred from a checklist. Update only what actually shipped in the live baseline. Provide practical editing/asset guidance and clear ownership of domains, hosting and enquiries without secrets. Keep handoff proportional to the site.
 
 Define observable business outcomes; distinguish visits, attempts, accepted submissions, receipt and qualified demand. Do not claim conversion improvement or create recurring monitoring without evidence and scope.
 

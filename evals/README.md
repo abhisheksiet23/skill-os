@@ -58,13 +58,16 @@ Also record approximate context/token overhead if available.
 1 = useful with material omissions
 2 = correct and actionable within the stated evidence and scope
 
+### Reader effort and decision usability
+For output-quality work, also score the outcome/consequence, meaningful economy, checkability, actionability, continuity/boundaries and proportionality criteria in [deliverable-quality-rubric.md](deliverable-quality-rubric.md). A heading, table, file or longer response earns no credit by itself.
+
 Use N/A when a task does not exercise a dimension. A direct answer can receive full selection/stopping marks without loading a skill. Metadata/packaging checks are not behavioral evidence; word counts are not provider tokens.
 
 ## Matched task runs
 
 For decision ordering, contained-change restraint, recurring QA and early legacy integration, use [efficiency-tasks.md](efficiency-tasks.md). The [2026-09-20 assessment](results/efficiency-assessment.md) separates planning-only before/after responses from the executed browser pilot and records limitations; it does not claim measured token savings.
 
-Use [task-pack.md](task-pack.md) for bounded, offline before/after tasks spanning standalone review, existing contracts, business economics, context transfer, contradictions, restraint and stale release proof. Dispatch the task pack and the available variant's descriptions to fresh evaluators; let them load only relevant skills. Do not give evaluators the intended answers or each other's outputs. Keep scope, model and tools as comparable as possible and record differences.
+Use [task-pack.md](task-pack.md) for bounded, offline before/after tasks spanning standalone review, existing contracts, business economics, context transfer, contradictions, restraint and stale release proof. Use [deliverable-quality-tasks.md](deliverable-quality-tasks.md) for matched output-quality cases spanning strategy, two initiatives, executable backend work, website review, cross-product isolation and restraint; keep its separate assessment key from task performers. Dispatch the task pack and the available variant's descriptions to fresh evaluators; let them load only relevant skills. Do not give evaluators the intended answers or each other's outputs. Keep scope, model and tools as comparable as possible and record differences.
 
 Save actual outputs and a separate assessment under `results/`. [RESULT_TEMPLATE.md](RESULT_TEMPLATE.md) is optional recording guidance, not production state. Repeat meaningful scenarios and add real implementation/browser journeys before claiming general superiority. The original eight business scenarios remain available in [scenarios.md](scenarios.md); live market research needs sources and should not be simulated as completed evidence.
 
