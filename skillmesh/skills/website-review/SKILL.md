@@ -11,7 +11,7 @@ Inspect actual pages and important journeys. For a substantial review use [revie
 
 Render and examine representative narrow, intermediate and wide layouts at recorded sizes. Exercise navigation, CTA, keyboard/focus, form validation and failure recovery. Test external delivery only within authorization. Reuse trustworthy checks for the same candidate; a local build, screenshot and verified receipt establish different things.
 
-Report each material issue with location/state, observation, buyer consequence, evidence and actionable correction. Group systemic issues. Fix reversible implementation defects only when in scope; review-only work reports findings without editing the site. Recheck affected views/journeys after fixes.
+Lead with the readiness outcome and the issue most likely to change buyer action. Report material issues in decision-impact order, each with location/state, observation, buyer consequence, evidence and actionable correction. Group systemic issues and keep detailed proof linked rather than repeating it. Fix reversible implementation defects only when in scope; review-only work reports findings without editing the site. Recheck affected views/journeys after fixes.
 
 Missing tools, credentials or evidence leave the relevant check unverified. A fake primary conversion and unsupported central claims cannot become a pass because other checks succeed. Distinguish readiness, verification completeness and publication authority.
 

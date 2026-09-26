@@ -15,6 +15,6 @@ Before execution, record hypothesis, participants/recruitment, method, success/f
 
 Assess results honestly: source, sample bias, observed versus stated behavior, commitments and limitations. Payment is stronger than praise for some demand questions but does not alone prove repeatability or profitable delivery. Do not move the goalposts after failure; record a changed hypothesis and new test separately.
 
-Recommend stop, reshape, another specific test or proceed within remaining uncertainty. Preserve evidence and unresolved assumptions in existing project records. Capture useful customer vocabulary when available, without turning one experiment into a compulsory brand strategy project.
+Lead a result with the learning decision—stop, reshape, run a specific next test or proceed within remaining uncertainty. Connect observations to what they mean for the hypothesis and next action; keep accepted decisions, assumptions and unverified interpretations distinct. Do not inflate a small result into a report. Preserve evidence and unresolved assumptions in existing project records. Capture useful customer vocabulary when available, without turning one experiment into a compulsory brand strategy project.
 
 Stop at the learning decision. Prototype, pricing or economics expertise may help a particular gap; optionally recommend `app-prototype`, `website-create`, `business-pricing` or `business-model` with the reason. The agent decides; this skill never invokes others or requires prior skills.

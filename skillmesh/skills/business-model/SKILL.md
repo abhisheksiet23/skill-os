@@ -15,6 +15,6 @@ Check operational capacity as well as revenue. Account for billable versus avail
 
 Assess defensibility, distribution and expansion only to the extent they change the requested decision. Distinguish sustainable small-business economics from venture-scale return potential. Early paid work does not establish repeatable acquisition, retention or product-market fit.
 
-Output a transparent model or concise calculation, explanation of binding constraints, decision implications and the next evidence needed. Use project conventions and label simulated company cases throughout. Stop when the requested viability question is answered within stated limits.
+Lead with the viability implication, then show a transparent model or concise calculation with units, assumption ranges and binding constraints. Prefer a compact scenario table or sensitivity chart when it makes comparison easier, but explain what drives the result and avoid invented precision. Keep business economics distinct from a project budget, schedule or delivery commitment. Use project conventions and label simulated company cases throughout. Stop when the requested viability question is answered within stated limits.
 
 Recommend `business-pricing`, `business-validate` or `business-challenge` only for a concrete uncertainty. Recommendations preserve inputs and assumptions, but do not invoke skills. The agent owns selection and continuation.

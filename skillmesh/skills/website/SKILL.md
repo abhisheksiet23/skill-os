@@ -15,7 +15,7 @@ Make page purposes and the visitor journey coherent. Write real copy, establish 
 
 Never invent customer proof, claims, prices, guarantees, locations or delivery promises. Separate owner statements, external evidence, assumptions and permitted public content. Simulated forms and generated conceptual imagery must not masquerade as real delivery or documentary evidence.
 
-Keep decisions, candidate evidence and live facts distinct in the project's existing records. Honor user delegation and existing approvals; pause only work dependent on a reserved decision. Preparation does not itself authorize publishing, spending or contacting people.
+Keep the site or concrete direction primary. Explain the central story and important page or journey choices with the buyer evidence, why they matter and the action they support; avoid a disconnected set of specialist summaries. Keep decisions, candidate evidence and live facts distinct in the project's existing records. Honor user delegation and existing approvals; pause only work dependent on a reserved decision. Preparation does not itself authorize publishing, spending or contacting people.
 
 ## Optional expertise
 

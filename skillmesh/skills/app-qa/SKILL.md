@@ -15,7 +15,7 @@ Run the applicable tests rather than predict results. Exercise important normal,
 
 Review both requirement coverage and engineering correctness: access, data integrity, failure handling, performance and maintainability where affected. These are two lenses, not mandatory separate agents. For material visual changes compare the actual experience with its reviewed direction; for contained corrections use the established product.
 
-Each finding needs a location/state, observation or reproducer, consequence, and useful correction. Fix defects only within authorized scope; review-only work reports them without editing implementation. After changes, rerun affected checks and relevant regressions. Preserve unaffected valid evidence.
+Lead with the assessment outcome and the highest-consequence issue. Order independent findings by severity or decision impact; each needs a location/state, observation or reproducer, consequence, and useful correction. Keep supporting commands compact and separate executed proof from unavailable checks. Fix defects only within authorized scope; review-only work reports them without editing implementation. After changes, rerun affected checks and relevant regressions. Preserve unaffected valid evidence.
 
 Report what was executed, passed, failed, blocked or untested, tied to the candidate and environment. Missing required proof cannot become a pass merely because it is documented. Distinguish observed defects from assumptions and optional improvements. A combined release requires evidence across interacting increments.
 

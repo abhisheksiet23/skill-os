@@ -23,7 +23,7 @@ Ask only about consequential choices that evidence cannot resolve. Present the r
 
 Define observable acceptance and the necessary UX, API, data, auth and deployment boundaries. For broad work, map major use cases and cross-cutting constraints, then detail the next coherent increment. Avoid both a giant speculative specification and a narrow first increment that misses shared architectural consequences.
 
-Reuse project records. Record current behavior separately from proposed changes, with evidence, decisions and remaining unknowns. A short task may need only the response; material work needs enough durable context for another session to continue without inventing requirements.
+Reuse project records. Lead the result with the recommended boundary and its important consequence, then connect consequential requirements to the observed behavior or decision that supports them. Keep accepted decisions, working assumptions, verification and unresolved questions visibly distinct. Use a compact comparison for genuine alternatives, not as a container for narrative. A short task may need only the response; material work needs enough durable context for another session to continue without inventing requirements.
 
 Keep one authoritative current contract, which may link focused supporting contracts and baseline evidence. Update it after material decisions; avoid copying the same requirements into multiple summaries. Reopen settled choices only for changed scope or relevant new evidence. On resumption, carry forward the release boundary, decisions, evidence locations and precise gaps, not the full investigation history.
 
