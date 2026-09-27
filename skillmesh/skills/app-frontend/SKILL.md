@@ -13,6 +13,14 @@ Implement a coherent user journey with real domain copy and meaningful loading, 
 
 Use the project's suitable components and styling conventions. Prefer mature components for genuinely complex grids/interactions; do not introduce a framework merely because the skill was invoked. Avoid speculative abstractions.
 
+Write for the next person reading the code. Prefer the simplest correct implementation that meets the actual requirements; fewer lines are not an optimization. Apply these choices while implementing and reviewing the changed code:
+
+- Follow the project's formatter, but also separate meaningful steps. Use descriptive names and intermediate values instead of packing conditions, transformations and effects into one expression. Expand dense JSX, callbacks and object literals across lines; avoid nested ternaries and clever boolean expressions for branching.
+- Keep rendering and event flow easy to trace. Use explicit branches for materially different UI states and named handlers for multi-step actions. Prefer straightforward derived values over synchronized duplicate state, unnecessary effects or custom hooks that hide simple local behavior.
+- Keep components and functions focused on a coherent responsibility. Extract a component or helper when it gives a meaningful name to complexity, isolates behavior or serves actual reuse. Avoid both sprawling components and fragmentation into trivial wrappers, generic render engines or speculative configuration layers. Reuse established project abstractions when they fit.
+- Start with straightforward algorithms and appropriate data structures. Add memoization, caching or other complexity only for a measured bottleneck or concrete performance constraint. Explain the reason locally when the extra machinery would otherwise be surprising; preserve accessibility, state correctness and required performance.
+- Before finishing, read the changed code in execution order. Simplify code that requires mentally unpacking several operations, tracing unnecessary indirection or deciphering names. Comments explain intent or a non-obvious constraint; rewrite confusing code rather than narrating it. Keep this cleanup within the requested change.
+
 Use the real API when available. Otherwise put contract-faithful mocks behind the same service boundary and clearly identify unproved integration. Do not alter API/data/auth rules to make UI coding convenient. Prove real integration when it is part of the requested outcome.
 
 Run relevant builds and meaningful tests for logic, state transitions and consequential behavior. For visual changes, render and inspect the affected routes/states at appropriate widths against the reviewed prototype or existing product. Fix drift and retest affected behavior. No browser access means visual proof remains pending.
