@@ -65,11 +65,13 @@ Use N/A when a task does not exercise a dimension. A direct answer can receive f
 
 ## Matched task runs
 
-For decision ordering, contained-change restraint, recurring QA and early legacy integration, use [efficiency-tasks.md](efficiency-tasks.md). The [2026-09-20 assessment](results/efficiency-assessment.md) separates planning-only before/after responses from the executed browser pilot and records limitations; it does not claim measured token savings.
+For instruction trimming, use [the matched prompts](trimming-tasks.md). Earlier paired runs covered an aggressive candidate, not the later conservative revision; do not treat them as proof for the current source. Execution-result archives were removed from the working tree at the owner's request.
+
+For decision ordering, contained-change restraint, recurring QA and early legacy integration, use [efficiency-tasks.md](efficiency-tasks.md). Historical committed assessments and outputs remain accessible through Git history; for example, the 2026-09-20 assessment is available with `git show f8daa37:evals/results/efficiency-assessment.md`. It separates planning-only responses from the executed browser pilot and does not establish measured token savings.
 
 Use [task-pack.md](task-pack.md) for bounded, offline before/after tasks spanning standalone review, existing contracts, business economics, context transfer, contradictions, restraint and stale release proof. Use [deliverable-quality-tasks.md](deliverable-quality-tasks.md) for matched output-quality cases spanning strategy, two initiatives, executable backend work, website review, cross-product isolation and restraint; keep its separate assessment key from task performers. Dispatch the task pack and the available variant's descriptions to fresh evaluators; let them load only relevant skills. Do not give evaluators the intended answers or each other's outputs. Keep scope, model and tools as comparable as possible and record differences.
 
-Save actual outputs and a separate assessment under `results/`. [RESULT_TEMPLATE.md](RESULT_TEMPLATE.md) is optional recording guidance, not production state. Repeat meaningful scenarios and add real implementation/browser journeys before claiming general superiority. The original eight business scenarios remain available in [scenarios.md](scenarios.md); live market research needs sources and should not be simulated as completed evidence.
+Capture actual outputs and an assessment when needed to substantiate a comparison, using ignored task scratch such as `.eval-runs/`. Retain repository evidence only when needed for review rather than accumulating execution logs by default. [RESULT_TEMPLATE.md](RESULT_TEMPLATE.md) is optional recording guidance, not production state. Repeat meaningful scenarios and add real implementation/browser journeys before claiming general superiority. The original eight business scenarios remain available in [scenarios.md](scenarios.md); live market research needs sources and should not be simulated as completed evidence.
 
 ## Escalation rule
 

@@ -21,4 +21,4 @@ Keep the case in the project's existing records; the skill holds the method, nev
 
 ## Optional expertise
 
-`market-research`, `business-validate`, `business-pricing`, `business-model` and `business-challenge` may address specific gaps. Explain the unresolved question and useful context; never invoke them or prescribe a chain. The agent selects expertise and synthesizes the result. This skill works independently when no specialist is available or needed.
+Optionally recommend `market-research`, `business-validate`, `business-pricing`, `business-model` or `business-challenge` for a specific unresolved question, with useful evidence. The agent selects expertise and synthesizes the result. Never invoke skills, require siblings or prescribe a chain.

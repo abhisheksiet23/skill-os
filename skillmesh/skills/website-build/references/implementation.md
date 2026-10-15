@@ -20,7 +20,7 @@ Specify destination, responsible owner, minimal fields, qualification/routing ru
 
 Validate at the trust boundary, use appropriate abuse protection, and handle invalid input, unavailable service, retries, and repeated submissions. Do not embed private service keys in browser code. Do not log sensitive form values unnecessarily. Use approved test recipients or sandbox destinations for delivery tests; actual messages to people require authorization.
 
-Verify client feedback, provider acceptance, and downstream receipt separately. A mocked integration proves UI behavior only. If live delivery cannot be tested, record the exact gap and avoid calling that journey release-ready unless the owner explicitly accepts the limitation or an honest alternative is implemented and tested.
+Verify client feedback, provider acceptance, and downstream receipt separately. A mocked integration proves UI behavior only. If live delivery cannot be tested, record the exact gap. The owner may explicitly accept the risk of launching with that gap, but acceptance does not establish verified delivery; keep the journey's verification status explicit. An honest alternative can replace the unverified path if implemented and tested.
 
 ## Responsive and accessible behavior
 

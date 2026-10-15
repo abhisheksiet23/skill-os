@@ -33,4 +33,4 @@ Completion means the next increment can be implemented and verified without gues
 
 ## Recommendations, not handoffs
 
-Uncertain demand may benefit from `business-validate`; unresolved material experience from `app-prototype`. Explain the need and relevant evidence. These are optional recommendations to the agent, never instructions to invoke another skill. The agent owns selection, sequencing and continuation under the user's scope.
+Optional expertise: `business-validate` for uncertain demand; `app-prototype` for unresolved experience. Explain the gap and relevant evidence. Recommendations do not invoke skills or prescribe transitions; the agent decides.

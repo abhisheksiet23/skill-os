@@ -1,23 +1,22 @@
 # Technology selection for marketing websites
 
-Recommendation reviewed against official documentation on 2026-09-16. Recheck current stable releases, integrations, hosting/runtime support, and relevant documentation when implementing; do not freeze version numbers into this skill. This is a reasoned default for greenfield marketing work, not a requirement to replace an existing suitable stack or override a chosen platform's constraints.
+Recommendation reviewed against official documentation on 2026-09-16. Recheck current stable releases, integrations, hosting/runtime support and relevant documentation when implementing; do not freeze version numbers into this skill. Evaluate this default for greenfield marketing work; preserve suitable existing stacks and respect the chosen platform's constraints.
 
 ## Default to consider
 
 For a primarily content-driven company website, recommend Astro with TypeScript, pre-rendered pages where suitable, and Tailwind CSS plus custom CSS/design tokens for the visual system. Add interactive components only where needed. Astro's architecture supports independently interactive islands; use React or another supported UI library for a complex interactive component when that actually helps. Ordinary navigation and basic interactions need not pull in a whole client application.
 
-This recommendation follows the fit between the project type and Astro's content-driven/server-first design, not a claim that it universally outperforms every alternative. Tailwind is a styling tool, not an art direction or a guarantee of good design. Existing CSS architecture is a valid reason not to add it.
+Choose this stack for its fit with content-driven rendering, not a universal performance claim. Tailwind is optional when existing CSS architecture fits; neither styling tools nor rendering frameworks establish art direction or visual quality.
 
 Use a supported static/CDN deployment for pre-rendered content, adding a compatible server endpoint or managed integration for submissions when required. Validate destination/provider/runtime choices together. A static build alone cannot process private-key form delivery. Keep content in structured files for developer/agent-maintained sites; introduce an editor-friendly CMS when actual ownership, preview, localization, or publishing needs justify it.
 
-Prefer CSS for ordinary transitions. Add a motion library only when choreography warrants it; maintain reduced-motion behavior and mobile performance. Use optimized authentic/generated assets from the established art direction. No rendering framework determines whether a website is visually striking.
+Prefer CSS for ordinary transitions. Add a motion library only when choreography warrants it; maintain reduced-motion behavior and mobile performance. Use optimized authentic/generated assets from the established art direction.
 
 ## Depart from the default deliberately
 
 | Situation | Decision |
 | --- | --- |
 | Existing viable site or established team/platform | Preserve it unless a justified migration is in scope |
-| Content-heavy public site with modest interaction | Astro is a strong default to evaluate |
 | Extensive connected React interactions or shared application architecture | Evaluate Next.js with TypeScript; exploit server/client boundaries intentionally |
 | Owner requires frequent visual editing and publishing | Select the editing/CMS/platform workflow first; avoid imposing source-file editing |
 | Existing provider or managed website-building environment fixes the stack | Follow its supported environment and apply the same design/content/quality standards |

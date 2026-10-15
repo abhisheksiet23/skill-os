@@ -5,6 +5,9 @@ __pycache__/
 .migration-backups/
 .validation-deps/
 
+# Device-specific installation evidence and recovery paths
+/docs/installation-status.local.md
+
 # Local credentials and environments
 .env
 .env.*

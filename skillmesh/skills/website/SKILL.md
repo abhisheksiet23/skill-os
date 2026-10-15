@@ -19,4 +19,4 @@ Keep the site or concrete direction primary. Explain the central story and impor
 
 ## Optional expertise
 
-`website-discover` can deepen buyer/positioning evidence; `website-create` can resolve narrative and design; `website-build` can implement; `website-review` can assess a candidate; `website-deliver` can support an authorized launch. `business-validate` may help when demand itself is uncertain. Explain the specific need and useful context rather than issuing skill calls. The agent chooses which, if any, to invoke and when to stop. No sibling skill is required to use this one.
+Optional expertise: `website-discover` for positioning, `website-create` for narrative/design, `website-build` for implementation, `website-review` for candidate assessment, `website-deliver` for authorized launch, and `business-validate` for demand uncertainty. Recommend only specific gaps with useful context. The agent decides; this skill never invokes others or requires siblings.

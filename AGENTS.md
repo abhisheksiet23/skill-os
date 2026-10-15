@@ -10,12 +10,12 @@ For substantial tasks:
 2. Inspect available skill names/descriptions before recreating an existing methodology manually.
 3. Select only skills that materially improve the task.
 4. Multiple skills may contribute to one objective, but do not invoke skills merely because they are available.
-5. Prefer one clear primary skill for the main job when one exists. Supporting and cross-cutting skills should enhance it rather than compete with it.
+5. Prefer one clear primary skill for the main job when one exists. Supporting skills contribute focused expertise; cross-cutting skills challenge, audit, transform, or improve other work. These are loose role labels, not required metadata; their contributions should serve the objective, including challenging the primary skill's conclusions when warranted.
 6. Let findings from completed work change what expertise is needed next.
 7. Reassess after meaningful new evidence instead of following a fixed chain blindly.
 8. Preserve important evidence, assumptions, uncertainties, constraints, and explicit user decisions in the working context or artifacts.
 9. Distinguish evidence from assumptions and recommendations from decisions.
-10. If a specialist exposes a missing evidence type or expertise need, treat that as a recommendation to the orchestrator, not an instruction that must be followed.
+10. If a specialist exposes a missing evidence type or expertise need, treat that as a recommendation to the agent, not an instruction that must be followed.
 11. Codex owns orchestration. Skills may recommend named expertise with the gap and useful evidence, but must never invoke other skills. A user-requested fixed workflow is executed by the agent, not by skills calling skills.
 12. When several skills contribute, synthesize them into one coherent result rather than returning disconnected mini-reports.
 13. Stop when further skill usage is unlikely to materially change the answer, decision, artifact, or risk assessment.
@@ -43,6 +43,8 @@ Use progressive disclosure:
 - do not load every skill into context;
 - keep detailed research in artifacts/files where appropriate;
 - preserve only the state needed to continue reasoning accurately.
+
+For complex work, keep a concise working summary of the objective, selected skills and their purpose, consequential findings, unresolved gaps, and the next action or stopping reason. Reuse the working context or existing project records; do not create a separate log or report by default. User-visible progress should contain concise decisions and useful findings, not private chain-of-thought.
 
 ## Conflict discipline
 

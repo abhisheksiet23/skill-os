@@ -17,4 +17,4 @@ Recommend the smallest evidence or experiment that could resolve each decisive u
 
 Return a coherent verdict: what holds, what fails, what remains unknown and whether to continue, reshape, park or stop. Keep owner decisions distinct from your recommendation. Store only useful findings and evidence in the project's existing records.
 
-Specific research, validation, pricing or economics expertise may help; name a relevant skill only as an optional recommendation with the question it would resolve. The agent decides whether to invoke it. This skill never starts a chain or recursively requests another review.
+Research, validation, pricing or economics expertise may help a decisive gap. Recommend it with the question and useful evidence; the agent decides. Never invoke skills or recursively request reviews.

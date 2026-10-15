@@ -1,6 +1,6 @@
 # Adaptive interview
 
-Use this as a question bank, not a form to send wholesale. Start with a synthesis grounded in supplied material. Select the questions whose answers would change positioning, scope, page structure, trust, conversion, or art direction. Ask related questions together and avoid burdening the owner with facts public research can establish.
+Use this as a question bank, not a form to send wholesale. Start with a synthesis grounded in supplied material. Inspect headings before reading the whole bank: use **Conduct each round** and **Exit discipline**, plus question sections relevant to unresolved positioning, scope, page structure, trust, conversion or art direction. Within those sections, select only questions not answered by existing evidence. Expand to other sections when findings expose a consequential gap. Ask related questions together and avoid burdening the owner with facts public research can establish.
 
 ## Conduct each round
 

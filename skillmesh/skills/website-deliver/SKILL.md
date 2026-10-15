@@ -17,4 +17,4 @@ Lead the handoff with the actual launch state and its consequence for visitors o
 
 Define observable business outcomes; distinguish visits, attempts, accepted submissions, receipt and qualified demand. Do not claim conversion improvement or create recurring monitoring without evidence and scope.
 
-Finish with verified release status or a precise remaining dependency. Missing candidate proof may justify recommending `website-review`. The agent decides whether that expertise is useful; this skill does not invoke other skills or require a fixed chain.
+Finish with verified launch status or a precise dependency. Optionally recommend `website-review` for missing candidate proof; the agent decides. Do not invoke skills or require a chain.

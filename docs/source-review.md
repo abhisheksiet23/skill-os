@@ -35,6 +35,6 @@ The original v1.6.1 evaluation report found no quality advantage over a bare age
 
 ## Exclusions and learning
 
-No legacy runtime, state engine, code-indexing service, MCP server, global instruction replacement or unrelated skills are imported. Existing specialized tools remain available at their original locations until separately migrated. Old source repositories remain intact. The optional historical orchestrator is not installed.
+No legacy runtime, state engine, code-indexing service, MCP server, global instruction replacement or unrelated skills are imported. Existing specialized tools remain available at their original locations until separately migrated. Old source repositories remain intact. The historical orchestrator skill has been removed; its useful role and working-summary guidance is maintained in `AGENTS.md`.
 
 For a recurring failure, record the task, observed behavior, smallest instruction correction and comparison outcome. Update the owning skill only when the lesson generalizes; keep one-off company/project choices in project records. This review is not required reading for executing skills.

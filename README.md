@@ -22,7 +22,7 @@ skill-os/
     skills/<name>/references/  Optional detail local to the owning skill
   SKILLS.md                   Human-readable inventory
   docs/                       Source reconciliation and migration
-  evals/                      Scenarios, fixtures and results
+  evals/                      Scenarios, fixtures and evaluation guidance
   scripts/                    Validation and migration, not agent routing
 ```
 

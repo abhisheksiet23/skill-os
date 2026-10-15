@@ -15,6 +15,6 @@ For each serious option state target buyer, value, metric, package, reference po
 
 Test with recent spend, package choice and credible offers. Stated willingness to pay and survey techniques can inform hypotheses; actual purchase and repeat behavior provide stronger commercial evidence. Define success/failure before the test. Never fabricate survey results, demand or paid-pilot outcomes.
 
-Lead with the option to test and why. Compare serious options compactly when that helps the buyer or owner see trade-offs, then state the evidence behind the recommendation, its commercial implication and what would change the choice. Distinguish recommendations from owner-approved commercial commitments. Store case facts in the project, not this skill. Finish at the requested pricing decision.
+Lead with the option to test and why, supporting evidence, commercial implications and what would change the choice. Compare serious options when it clarifies trade-offs. Distinguish recommendations from owner-approved commercial commitments. Keep case facts in project records and finish at the requested pricing decision.
 
-Missing demand evidence may justify recommending `business-validate`; uncertain economics may benefit from `business-model`. Explain the gap and relevant inputs. The agent decides whether to invoke another skill; this skill does not call skills or prescribe follow-on work.
+Optionally recommend `business-validate` for missing demand evidence or `business-model` for uncertain economics. Explain the gap and inputs; the agent decides. Do not invoke skills or prescribe follow-on work.

@@ -2,7 +2,7 @@
 
 ## Frame the investigation
 
-Start with a few consequential hypotheses: buyer trigger, main objection, alternative considered, trust requirement, search intent, or misunderstood category convention. Choose sources to test them. Research before production building; repeat narrowly when creative exploration reveals a gap.
+Start with a few consequential hypotheses: buyer trigger, main objection, alternative considered, trust requirement, search intent, or misunderstood category convention. Choose sources to test them. Resolve consequential uncertainty before building dependent production work; adequate existing evidence needs no new research. Research narrowly when creative exploration reveals a consequential gap.
 
 Use official company sources for what an organization says it offers; direct buyer evidence for specific experiences; credible independent sources for broader context. A competitor's marketing claim is evidence of its messaging, not proof of its performance. Reviews are selective observations, not a representative survey.
 

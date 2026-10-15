@@ -25,4 +25,4 @@ This is a human review aid, not a routing database. Each skill's description is 
 
 Website expertise emphasizes marketing narrative and conversion; app expertise emphasizes workflows and domain behavior. An application-backed marketing journey may benefit from both for actual gaps. Business validation establishes demand evidence; website discovery establishes a credible site story. Neither automatically reruns the other.
 
-The historical orchestrator is outside the active plugin. The agent owns orchestration. Tools/connectors such as TWG, Sites, documents and image generation remain separate capabilities; this library does not duplicate or remove them.
+The agent owns orchestration, guided by `AGENTS.md`. Tools/connectors such as TWG, Sites, documents and image generation remain separate capabilities; this library does not duplicate or remove them.
