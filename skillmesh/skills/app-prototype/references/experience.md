@@ -8,6 +8,8 @@ Before drawing bespoke controls, inspect the project's component catalog, packag
 
 Use real words: labels that describe the domain, action verbs, errors explaining what happened and what to do, and confirmations proportional to consequence. Existing customer language and voice guidance are useful inputs; their absence does not require a separate research project. Distinguish provisional tone from an owner-approved brand change.
 
+For material interface-copy decisions, use [microcopy craft](microcopy.md): choose wording from the actual state and supported actions, preserve requirements while editing, and adapt tone to consequence.
+
 Use real data-grid behavior when sorting/filtering/paging matters. Evaluate the project's existing library first, including its documented limits and extension points. Avoid building complex reusable widgets from scratch when a mature accessible component fits. A simple static table needs no grid dependency.
 
 Test realistic long labels, large values, dense results, empty states and permission differences. Check reflow and touch access on small screens; compose larger layouts deliberately. Include focus order, keyboard access, readable contrast and reduced-motion behavior.

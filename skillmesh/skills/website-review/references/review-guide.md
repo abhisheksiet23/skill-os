@@ -26,6 +26,8 @@ Explain consequence and scope. Do not equate personal stylistic preference with 
 
 ## Important distinctions
 
+For interface copy in conversion journeys, compare the exact wording with validation rules, actual submission states and supported next actions. Preserve qualifications when shortening text. Check terminology across the journey, distinguish no matches from no content or restricted access, and flag invented delivery promises, failure causes or recovery times. Inspect visible labels, accessible names and error context together; localized journeys need representative expanded text and count/date formats. Report consequential confusion with evidence rather than treating preferred phrasing as a defect.
+
 - A CTA click is not a lead. A displayed thank-you is not proof of receipt.
 - A prototype's simulated states are not production integration evidence.
 - An automated accessibility pass is not a complete accessibility evaluation.
