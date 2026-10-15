@@ -26,7 +26,7 @@ Pass `-Python`, `-Codex` or `-Rtk` when executables are not on PATH. The script 
 
 The authoring source remains `<repository>/skillmesh`. The installer stages a deployment copy under `~/plugins/skillmesh`, registers the default personal marketplace at `~/.agents/plugins/marketplace.json`, and uses `codex plugin add skillmesh@<marketplace-name>`. The personal marketplace is discovered implicitly; no marketplace-add command is needed. Existing marketplace names and unrelated entries are preserved.
 
-Re-running the installer refreshes the deployment copy, uses the official cachebuster helper, then reinstalls. Do not edit deployed or cached copies. Start a new Codex task to pick up the installed skills; an existing task's captured skill list may remain stale.
+Re-running the installer refreshes the deployment copy, updates the version cachebuster, then reinstalls. When the older bundled plugin-creator Python helpers are unavailable, the installer uses the repository packaging validator, preserves existing marketplace entries during registration, and adds a timestamp to the deployment version. It does not require those removed helpers. Do not edit deployed or cached copies. Start a new Codex task to pick up the installed skills; an existing task's captured skill list may remain stale.
 
 Installation status is device-specific. If retaining a local record, use ignored `docs/installation-status.local.md` for the verification date, source revision or snapshot, installed version, checks and recovery paths. Verify each device independently; another device's installation record does not establish local deployment status. Keep reusable installation guidance here.
 
