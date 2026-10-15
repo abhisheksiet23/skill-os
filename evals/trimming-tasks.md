@@ -58,7 +58,7 @@ The company has an adequate approved prototype, suitable stack/provider and impo
 
 ### W3. Concrete candidate review
 
-Review `evals/fixtures/deliverable-quality/website/index.html` without editing it. Use a browser if available; if not, perform a bounded source review and identify unverified visual/interaction checks. The owner facts are the same as W1. Prioritize actionable findings and distinguish readiness, verification completeness and publication authority. Do not send any test message.
+Review `evals/fixtures/deliverable-quality/website/index.html` without editing it. Use a browser if available; if not, perform a bounded source review and identify unverified visual/interaction checks. Use the company and owner facts under “Coherent direction with sparse evidence.” Prioritize actionable findings and distinguish readiness, verification completeness and publication authority. Do not send any test message.
 
 ### W4. Launch preparation and uncertain results
 

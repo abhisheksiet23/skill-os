@@ -18,6 +18,8 @@ Do not create speculative location pages, fake addresses, or repetitive keyword 
 
 Specify destination, responsible owner, minimal fields, qualification/routing rules, privacy wording, submission mechanism, and valid success/failure behavior. Confirm any promised response time with the business. Avoid unnecessary personal-data collection.
 
+Follow project terminology and approved copy. Include consequential strings and state conditions in acceptance checks: labels match actual actions, and shortening preserves validation rules, costs, commitment and supported recovery.
+
 Validate at the trust boundary, use appropriate abuse protection, and handle invalid input, unavailable service, retries, and repeated submissions. Do not embed private service keys in browser code. Do not log sensitive form values unnecessarily. Use approved test recipients or sandbox destinations for delivery tests; actual messages to people require authorization.
 
 Verify client feedback, provider acceptance, and downstream receipt separately. A mocked integration proves UI behavior only. If live delivery cannot be tested, record the exact gap. The owner may explicitly accept the risk of launching with that gap, but acceptance does not establish verified delivery; keep the journey's verification status explicit. An honest alternative can replace the unverified path if implemented and tested.

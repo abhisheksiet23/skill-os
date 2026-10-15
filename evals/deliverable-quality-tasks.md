@@ -22,11 +22,11 @@ In a disposable copy of `fixtures/deliverable-quality/backend`, change `remainin
 
 ## 4. Website experience and review
 
-Review `fixtures/deliverable-quality/website/index.html` as a local candidate for the service in case 1. Inspect the actual page with browser tooling if available and report a prioritized, actionable outcome. Do not claim browser or delivery evidence you did not obtain. Do not modify the fixture.
+Review `fixtures/deliverable-quality/website/index.html` as a local candidate for the release-testing service described under “Opportunity and Strategy Canvas.” Inspect the actual page with browser tooling if available and report a prioritized, actionable outcome. Do not claim browser or delivery evidence you did not obtain. Do not modify the fixture.
 
 ## 5. Different product
 
-After case 2, assess this unrelated request: a neighborhood bakery wants a pre-order page for weekend bread. Known facts: pickup only, six products, quantities close Thursday, no customer interviews, budget and launch date unknown. Recommend the smallest useful next step. Do not import facts or decisions from earlier cases.
+After “One product, two projects,” assess this unrelated request: a neighborhood bakery wants a pre-order page for weekend bread. Known facts: pickup only, six products, quantities close Thursday, no customer interviews, budget and launch date unknown. Recommend the smallest useful next step. Do not import facts or decisions from earlier cases.
 
 ## 6. Restraint
 

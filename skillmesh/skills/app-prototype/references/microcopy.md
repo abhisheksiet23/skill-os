@@ -17,15 +17,17 @@ Start with the user's task, the actual system state, what is known, and the acti
 | Permission request | Specific benefit, permission needed, and available choice | Explain in context; distinguish optional permission from a prerequisite and preserve platform-owned wording |
 | Destructive confirmation | Affected object, scope, consequences, reversibility and explicit action | Preserve retention exceptions and recovery windows; do not exaggerate permanence |
 
-Treat these as prompts for judgment, not mandatory title/body/button formulas. Routine confirmation may need only “Changes saved.” An unavailable action does not need an invented CTA.
+Treat these as prompts for judgment, not mandatory title/body/button formulas. Routine confirmation may need only a short completion message. An unavailable action does not need an invented CTA.
 
 ## Voice, tone and editing
 
-Use existing terminology and product voice. When consistency needs clarification, record a few useful voice traits with actual do/don't examples in the project: “direct: ‘Save changes,’ rather than ‘Proceed with saving.’” Do not manufacture a brand exercise for a contained correction.
+Use the project's terminology, house style and product voice, especially representative approved strings. Examples illustrate choices; they do not prescribe wording or a universal voice. When consistency needs clarification, record project-specific contrasts. For a new voice, use known customer circumstances and company values where they resolve a writing choice; keep proposals provisional and surface conflicts. Do not manufacture a brand exercise for a contained correction.
 
 Keep voice recognizable while adapting tone to the task: brief for routine completion, explanatory for first use, calm and practical for failure, explicit about consequences for high-stakes choices. Avoid forced celebration, blame, artificial urgency and guilt for declining. Conversational language need not be casual or less precise.
 
 Review wording through four lenses: does it serve the task, can words be removed without losing meaning, does it sound natural for this audience, and is its meaning unambiguous? Preserve useful specialist vocabulary. Fixed sentence lengths, reading grades and active-voice percentages are not acceptance criteria; do not truncate essential instructions to meet them.
+
+Write for scanning: lead with the meaningful state, outcome or action, and make labels understandable independently. If extensive explanation is needed to make a flow usable, reconsider the interaction.
 
 ## Content in the interface
 

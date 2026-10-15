@@ -11,6 +11,8 @@ For material new UX, establish a concrete reviewed direction before expanding pr
 
 Implement a coherent user journey with real domain copy and meaningful loading, empty, error, success and recovery states. Preserve the reviewed hierarchy, tokens, responsive intent and interaction behavior. Reuse prototype assets/styles when useful and verify framework adaptations visually. Keep semantic structure, keyboard/focus, accessible errors, security and performance active while building.
 
+Follow project terminology and approved copy. Include consequential strings and their state conditions in acceptance checks: labels match actual actions, pending work stays distinct from completion, and shortening preserves validation rules, consequences and supported recovery.
+
 Use the project's suitable components and styling conventions. Prefer mature components for genuinely complex grids/interactions; do not introduce a framework merely because the skill was invoked. Avoid speculative abstractions.
 
 Write for the next person reading the code. Prefer the simplest correct implementation that meets the actual requirements; fewer lines are not an optimization. Apply these choices while implementing and reviewing the changed code:

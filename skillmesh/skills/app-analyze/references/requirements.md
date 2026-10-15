@@ -7,6 +7,7 @@ Use this as a scan, not a questionnaire or mandatory artifact.
 - **Data:** ownership, identifiers, calculations, retention/history, migration, transactions and concurrent changes.
 - **Integration:** API shapes, errors, auth, paging/filter/sort, timeouts, retries, idempotency and partial failure where relevant.
 - **Experience:** journey, navigation, density, meaningful states, accessibility, supported devices, customer terminology and tone.
+- **Consequential interface copy:** include representative strings and their state conditions in acceptance criteria where wording defines behavior or consequences, such as queued versus completed work.
 - **Quality:** performance under representative data/load; reliability and recovery; security; accessibility; compatibility; observability and auditability. Specify measurable targets only when grounded in requirements or explicitly identified assumptions. A named compliance obligation needs actual applicable evidence, not a generic checklist claim.
 
 Scope targets to the affected subsystem. A business-hours back office need not inherit a clinical workflow's availability target. An audit trail records consequential business actions and their actors; ordinary diagnostic logs do not replace it.
