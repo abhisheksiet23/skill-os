@@ -7,6 +7,8 @@ description: Implement backend business rules, APIs, persistence, migrations and
 
 Work from the actual repository, requested outcome and adequate business/API/data decisions, regardless of who produced them. A frontend, prototype, phase ledger or particular document layout is not a prerequisite for backend work.
 
+Honor adequate technical designs and their cross-component guarantees; resolve routine implementation choices locally. Missing consequential architecture decisions may justify recommending `app-solution-design` with the specific gap, without making a separate design phase mandatory or silently changing accepted decisions.
+
 Identify authoritative boundaries for validation, access and data scope. Implement the required rules, state transitions, calculations and persistence. Keep transport and storage concerns separate when that protects the contract. Make transaction, concurrency, retry, idempotency and partial-failure behavior deliberate where material.
 
 Write for the next person reading the code. Prefer the simplest correct implementation that meets the actual requirements; fewer lines are not an optimization. Apply these choices while implementing and reviewing the changed code:

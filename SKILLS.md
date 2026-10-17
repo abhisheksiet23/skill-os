@@ -17,6 +17,7 @@ This is a human review aid, not a routing database. Each skill's description is 
 | [website-review](skillmesh/skills/website-review/SKILL.md) | Buyer clarity, craft and conversion verification | Standalone audits need no discovery records |
 | [website-deliver](skillmesh/skills/website-deliver/SKILL.md) | Authorized launch and owner handoff | Live proof and business results remain distinct |
 | [app-analyze](skillmesh/skills/app-analyze/SKILL.md) | Requirements, existing behavior and contracts | Analysis, not production code or demand proof |
+| [app-solution-design](skillmesh/skills/app-solution-design/SKILL.md) | Technical approach, architecture trade-offs and cross-component guarantees | Between requirements and implementation when consequential design is unresolved; no mandatory phase |
 | [app-prototype](skillmesh/skills/app-prototype/SKILL.md) | Inspectable application experience and states | Material UX; contained fixes use existing baseline |
 | [app-frontend](skillmesh/skills/app-frontend/SKILL.md) | Application UI implementation and integration | Real API when present; mocks only where useful |
 | [app-backend](skillmesh/skills/app-backend/SKILL.md) | Domain, API, data, migrations and integration | No frontend-first prerequisite |

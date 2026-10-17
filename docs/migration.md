@@ -1,6 +1,6 @@
 # Install SkillMesh and retire replaced copies
 
-The plugin contains 18 independent skills and no MCP servers, hooks or runtime. It does not replace TWG, document/media tools, Sites or system skills.
+The plugin contains 19 independent skills and no MCP servers, hooks or runtime. It does not replace TWG, document/media tools, Sites or system skills.
 
 ## Validate
 
