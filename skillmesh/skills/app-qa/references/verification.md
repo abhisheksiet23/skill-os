@@ -12,6 +12,8 @@ For uncertain defects, establish expected behavior and a repeatable failure, min
 
 Review requirements and engineering separately in the same concise report if useful. Cite the requirement and affected implementation for gaps. Scope fixes to approved behavior; optional refactors should not become blockers.
 
+When identity/authorization changes, verify the single-role foreign key and local module grants where required; no redundant user-role join table should appear without a real multi-role requirement. Exercise real bcrypt verification, wrong-password and multibyte length boundaries for local login. Module grants must not bypass record/tenant/workflow rules. For central identity, check trusted issuer/subject mapping, wrong audience/signature/expiry, unknown or disabled local accounts, local role changes and rejected external-role escalation. Confirm stable local user IDs/business history survive linking and that invalid external authentication cannot silently fall back to local credentials. Separate stubbed token/schema checks from real library, issuer and database evidence.
+
 Keep proof factual: command or interaction, environment, result and limitations. Test-file existence does not prove execution; coverage percentage does not prove adequacy; a mocked result does not prove external integration. Sanitized outputs are enough; private records and credentials do not belong in evidence.
 
 Before a release recommendation, verify the combined candidate, unresolved defects, migration/configuration implications and affected acceptance. A ready local candidate and an authorized, validated deployment are different outcomes.
