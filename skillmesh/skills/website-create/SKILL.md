@@ -11,6 +11,8 @@ Give each page a purpose: visitor question, message, proof and next step. Draft 
 
 Build the smallest representative non-production prototype exposing the hard content and conversion journey. Use real draft copy, realistic lengths and final-quality representative assets. Label simulated operations. For substantial imagery use [artwork](references/artwork.md); conceptual artwork must not imply real people, projects or customers. Preserve existing brand unless a change is authorized.
 
+Keep authored prototype code readable for an owner returning after six years: blank lines between logical handler blocks and page sections, expanded branches/error handling and object literals, visible HTML/template nesting and attributes, and separated CSS rules. Keep cohesive statements together rather than inserting a gap after each line. Inspect final formatted source; an attractive preview does not establish code readability. Exclude generated/minified dependencies from this source standard.
+
 Design the mobile reading journey first, then compose intermediate and large layouts with equal care. Render and inspect actual screenshots and exercise navigation, keyboard/focus, CTA and represented form/recovery states. Fix weak composition and generic expression before presenting. A working hero alone does not establish a complete visual direction.
 
 Present the concrete prototype revision and unresolved consequential choices. Honor existing approvals and delegated design authority; do not add arbitrary approval gates or infer a reserved decision from silence. Save copy/assets, tokens, responsive intent, launch instructions and actual review evidence in the project's conventions. Missing browser access leaves visual proof pending.
