@@ -2,6 +2,8 @@
 
 Subsequent owner feedback: regenerated code remains dense; readability is not accepted as fixed. The structural observations below are historical evidence, not owner acceptance. Follow-up spacing requirements and a new reviewable example are evaluated separately in `code-spacing-tasks.md`.
 
+Later feedback on 2026-10-17 accepted the spacing example as more readable. That scoped review is closed in `code-spacing-assessment.md`; it does not retrospectively accept the earlier dense code or establish whole-application readability.
+
 ## Scope and method
 
 Updated `app-frontend`, `app-backend` and `app-qa` to require readable implementation for a developer returning after six years. The standard concerns business-flow comprehension, visible contracts, structured values, meaningful boundaries and necessary explanations, without banning modern syntax or requiring tutorial comments.
