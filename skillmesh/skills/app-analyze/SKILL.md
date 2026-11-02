@@ -33,4 +33,4 @@ Completion means the next increment can be implemented and verified without gues
 
 ## Recommendations, not handoffs
 
-Optional expertise: `business-validate` for uncertain demand; `app-prototype` for unresolved experience. Explain the gap and relevant evidence. Recommendations do not invoke skills or prescribe transitions; the agent decides.
+Optional expertise: `business-validate` for uncertain demand; `app-prototype` for unresolved experience; `app-solution-design` for material architecture choices, component responsibilities or cross-system guarantees before implementation. Analysis owns intended behavior and constraints; solution design develops the technical approach without requiring requirements to be rewritten. Explain the gap and relevant evidence. Recommendations do not invoke skills or prescribe transitions; the agent decides.

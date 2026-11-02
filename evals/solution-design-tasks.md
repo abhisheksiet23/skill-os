@@ -1,0 +1,9 @@
+# Solution design comparison
+
+Run these offline requests in separate baseline and candidate contexts with comparable models and tools. Baseline uses the pre-change `app-analyze` and `app-backend`; candidate uses `app-solution-design` with adjacent expertise only as relevant. Preserve verbatim responses in ignored `.eval-runs/solution-design/`. Do not give performers assessment criteria or peer outputs. No external writes, production integration or deployment is authorized. These synthetic design tasks establish reasoning behavior, not implementation correctness or live guarantees.
+
+1. Design adding order fulfillment to an existing monolith/Postgres. Orders and stock reservations commit locally; the external carrier label API has no idempotency key and may timeout after creating a label. No distributed transaction. Two engineers, 300 orders/day, existing deployment preferred. Need avoid charging twice and recover stuck orders. Propose approach, guarantees, alternatives, implementation and proof.
+2. Design a new internal approval app: 40 staff, 500 requests/month, existing SSO and managed Postgres, two maintainers, no 24/7 SLA specified. Compare approaches and define usable architecture, assumptions and validation.
+3. Change only the existing report API to clamp negative remaining quota to zero, preserving the integer response and existing validation. Architecture is settled. Explain what work is needed.
+
+After collecting outputs, assess whether recommendations are supported by constraints, ownership and failure behavior are explicit, ambiguous external effects have credible recovery, unknowns remain visible, and the contained fix avoids an unnecessary design phase. Record differences without assuming the new skill must outperform the baseline. Provider tokens, production reliability and implementation outcomes remain unknown unless independently measured.

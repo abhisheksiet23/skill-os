@@ -15,4 +15,6 @@ Lead with the readiness outcome and the issue most likely to change buyer action
 
 Missing tools, credentials or evidence leave the relevant check unverified. A fake primary conversion and unsupported central claims cannot become a pass because other checks succeed. Distinguish readiness, verification completeness and publication authority.
 
+When implementation/source readability is in scope, inspect it for an owner returning after six years: blank lines between logical blocks and meaningful UI sections, cohesive groups, expanded guards/branches/error handling and object literals, visible template nesting, and separated CSS rules. An attractive page or formatter pass does not establish source readability. Exclude generated/minified assets, preserve behavior and scope, and keep owner readability unresolved until the owner reviews the concrete code. Do not turn a visual-only website audit into an unsolicited source refactor.
+
 Save concise findings in the project's existing records and stop at the requested review outcome. Recommend `website-discover` for unresolved positioning, `website-create` for design problems, or `website-deliver` for an authorized launch need. The agent assesses these recommendations; this skill never invokes another skill or starts a mandatory workflow.
