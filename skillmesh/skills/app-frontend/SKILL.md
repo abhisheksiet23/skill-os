@@ -5,6 +5,8 @@ description: Implement or change production application UI against established b
 
 # App Frontend
 
+When the project adopts automatic context maintenance, preserve accepted interaction/API decisions, candidate-bound browser/integration evidence and remaining gaps in its authoritative records and this workstream's checkpoint. A mock or development check does not become production proof.
+
 Inspect the actual application, repository guidance, requested behavior, existing design and service boundaries. Accept adequate contracts and designs from any source; no previous SkillMesh invocation is required.
 
 For material new UX, establish a concrete reviewed direction before expanding production UI. Existing explicit approval or delegated design authority counts. Contained corrections use the established experience. Resolve consequential behavior or contract ambiguity before coding dependent work; continue independent work.

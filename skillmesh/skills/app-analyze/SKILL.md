@@ -1,6 +1,6 @@
 ---
 name: app-analyze
-description: Clarify and challenge software requirements, recover relevant existing behavior, and define use cases and technical contracts before implementation. Use for material product changes, ambiguous defects or modernization analysis; skip mechanical fixes and business-demand validation.
+description: Clarify, challenge and review software requirements, recover relevant existing behavior, and define use cases and behavioral contracts before implementation. Use for material product changes, ambiguous defects, modernization analysis or standalone requirements review; skip mechanical fixes, technical architecture review and business-demand validation.
 ---
 
 # App Analyze
@@ -26,6 +26,8 @@ Define observable acceptance and the necessary UX, API, data, auth and deploymen
 Reuse project records. Lead the result with the recommended boundary and its important consequence, then connect consequential requirements to the observed behavior or decision that supports them. Keep accepted decisions, working assumptions, verification and unresolved questions visibly distinct. Use a compact comparison for genuine alternatives, not as a container for narrative. A short task may need only the response; material work needs enough durable context for another session to continue without inventing requirements.
 
 Keep one authoritative current contract, which may link focused supporting contracts and baseline evidence. Update it after material decisions; avoid copying the same requirements into multiple summaries. Reopen settled choices only for changed scope or relevant new evidence. On resumption, carry forward the release boundary, decisions, evidence locations and precise gaps, not the full investigation history.
+
+For consequential contracts crossing sessions or implementers, check whether the artifact and its linked evidence explain the current behavior, proposed behavior and important constraints without the authoring conversation. A reader's brief restatement can expose a different interpretation; resolve consequential differences in the authoritative contract, not only in chat. In standalone requirements review, report the gaps and consequences without rewriting the contract unless authorized. A reread in the authoring context is useful but is not independent review. Routine corrections do not need another reviewer or a separate document.
 
 This skill produces analysis and contracts, not production code. Finish when consequential behavior is sufficiently defined, or identify the precise unresolved decision and continue independent analysis.
 

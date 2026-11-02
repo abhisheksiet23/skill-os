@@ -5,6 +5,8 @@ description: Implement backend business rules, APIs, persistence, migrations and
 
 # App Backend
 
+When the project adopts automatic context maintenance, preserve changed API/data guarantees, candidate-bound integration evidence and unproved dependencies in its authoritative records and this workstream's checkpoint. Keep proposed migrations distinct from applied changes.
+
 Work from the actual repository, requested outcome and adequate business/API/data decisions, regardless of who produced them. A frontend, prototype, phase ledger or particular document layout is not a prerequisite for backend work.
 
 Honor adequate technical designs and their cross-component guarantees; resolve routine implementation choices locally. Missing consequential architecture decisions may justify recommending `app-solution-design` with the specific gap, without making a separate design phase mandatory or silently changing accepted decisions.

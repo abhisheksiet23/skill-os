@@ -75,6 +75,10 @@ Use [task-pack.md](task-pack.md) for bounded, offline before/after tasks spannin
 
 Capture actual outputs and an assessment when needed to substantiate a comparison, using ignored task scratch such as `.eval-runs/`. Retain repository evidence only when needed for review rather than accumulating execution logs by default. [RESULT_TEMPLATE.md](RESULT_TEMPLATE.md) is optional recording guidance, not production state. Repeat meaningful scenarios and add real implementation/browser journeys before claiming general superiority. The original eight business scenarios remain available in [scenarios.md](scenarios.md); live market research needs sources and should not be simulated as completed evidence.
 
+For requirements comprehension, source-grounded technical plan review, complexity introduced by review fixes and contained-change restraint, use [design-review-tasks.md](design-review-tasks.md). Keep [the assessment key](design-review-assessment-key.md) from performers. These offline design assessments do not establish application behavior or deployed guarantees; distinguish fresh performer contexts from a measured comparison of independent versus author-context review.
+
 ## Escalation rule
+
+For automatic project maintenance, actual local record updates, fresh-session recovery, workstream separation and bounded reviewer isolation, use [project-context-tasks.md](project-context-tasks.md) with its separate [assessment key](project-context-assessment-key.md). The packaged [session rubric](../skillmesh/skills/project-context/references/session-assessment.md) is also the ongoing assessment factor for every adopted project session. Project records stay in their owning projects; [the pilot note](../docs/project-context-pilot.md) tracks sanitized lessons and real-project evidence still pending. Do not count synthetic exercises as the live pilot or unobserved factors as passed.
 
 Do not add a new architecture layer after one bad run. Look for a repeated failure pattern across multiple scenarios.

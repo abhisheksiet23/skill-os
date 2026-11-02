@@ -41,6 +41,12 @@ Examples:
 
 Every skill accepts adequate project evidence regardless of its author. No previous invocation, phase ledger, preferred framework or in-app wiki is required. Material design, data and release risks still need real decisions and proof.
 
+## Automatic project context
+
+For projects adopting automatic maintenance, [project-context](skillmesh/skills/project-context/SKILL.md) maintains project-owned records and a concise assessment at each work-period closeout, pause or handoff. Adapt its [portable instruction snippet](skillmesh/skills/project-context/assets/project-instructions.md) to the project's existing map so another agent/device can follow the same rule. Keep accepted decisions, provisional assumptions, candidate-bound evidence and separate workstream checkpoints in the project; retrieve focused sections instead of loading every record. Existing records are preferred over new folders. Local maintenance does not imply a commit, push or installation in other projects.
+
+The [pilot note](docs/project-context-pilot.md) records the accepted direction, six assessment factors and real-project evidence still needed. Assessments belong in each project; this toolkit receives only authorized, sanitized lessons. The [rubric](skillmesh/skills/project-context/references/session-assessment.md) distinguishes observed success, gaps, unknowns and N/A. Abruptly closed chats cannot run a background closeout; recover missing context on resumption. Merely installing the plugin does not establish that a project's instructions load or that session maintenance is active.
+
 ## Install and replace
 
 For cloning on another device and editing in Codex cloud, see [GitHub and cloud setup](docs/github-and-cloud.md).

@@ -23,6 +23,8 @@ Lead with the assessment outcome and the highest-consequence issue. Order indepe
 
 Report what was executed, passed, failed, blocked or untested, tied to the candidate and environment. Missing required proof cannot become a pass merely because it is documented. Distinguish observed defects from assumptions and optional improvements. A combined release requires evidence across interacting increments.
 
+For adopted automatic context maintenance, refresh the current workstream's verification checkpoint and mark affected earlier proof stale after candidate changes; preserve other workstreams' evidence. A session self-assessment does not establish behavioral correctness or independent review.
+
 For manual releases, assess the actual published package and operator steps: startup must not mutate production schema, generated SQL must identify its baseline/target and fail safely in the named client, and persistent files/keys/configuration must survive application replacement. Release compilation, SQL generation, publishing and deployment are owner-initiated by default; do not create a missing release artifact merely to complete QA without explicit direction. Verify fresh install, supported upgrade, rerun and interrupted database execution where in scope. Keep local/source checks separate from real SSMS, host, identity, data-recovery and deployed smoke evidence; a documented runbook alone does not pass those checks.
 
 Stop when the requested scope is assessed; do not expand into a full lifecycle or deployment. Recommend `app-analyze`, implementation expertise or `app-deliver` only when a concrete need warrants it. The agent decides whether to use another skill; this skill does not invoke one.

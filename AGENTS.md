@@ -46,6 +46,14 @@ Use progressive disclosure:
 
 For complex work, keep a concise working summary of the objective, selected skills and their purpose, consequential findings, unresolved gaps, and the next action or stopping reason. Reuse the working context or existing project records; do not create a separate log or report by default. User-visible progress should contain concise decisions and useful findings, not private chain-of-thought.
 
+## Automatic project context and session assessment
+
+The owner has adopted automatic maintenance. Establish the active project's identity/root and task/branch; use its small context map and retrieve relevant records only. Maintain accepted owner decisions, source/revision-bound facts, provisional assumptions and superseded choices in authoritative project records after consequential changes. Link evidence rather than copying conversations; implementation drift does not silently replace accepted intent. Keep continuation state per workstream and re-read before editing to preserve concurrent work. Local maintenance does not authorize commits, pushes, deployment or external writes.
+
+At each project work-period completion, explicit pause or handoff, refresh its checkpoint and fill its session assessment: observed continuity, decision fidelity, evidence freshness, retrieval economy, project/workstream separation and review independence. Score observed factors 0=failed, 1=partial, 2=evidenced success; use unknown when unobserved and N/A when not exercised, with reasons. Provider-token/time/cost savings remain unknown unless measured. A session is a coherent work period, not each reply. Recover an abrupt closeout as a gap on resumption; do not invent historical scores. Respect no-write scope by reporting pending updates. Assessments stay in the owning project; only authorized sanitized lessons return to the toolkit. The optional project-context skill provides the full method; no other skill must invoke it.
+
+For this repository, README.md maps the library, EVOLUTION.md governs added mechanisms, docs/project-context-pilot.md preserves this decision and pending pilot work, and docs/toolkit-session-assessments.md holds toolkit-authoring session assessments. Application facts and assessments stay in their own projects. Fresh reviewers receive the target and selected evidence, excluding authoring notes, broad context recovery and session assessments; no-history dispatch does not isolate shared files or configured memory.
+
 ## Conflict discipline
 
 When two skills or sources disagree:
