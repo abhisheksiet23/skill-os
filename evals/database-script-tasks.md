@@ -1,0 +1,12 @@
+# Initial and incremental database scripts
+
+Run the same requests in separate baseline/candidate contexts. Give performers only the selected backend skill and its local references, plus the requests below. Keep outputs under ignored `.eval-runs/database-scripts/`. No database connection, installation, application build, release packaging or deployment is authorized. This evaluates instruction application, not live SQL correctness.
+
+1. A new .NET/EF Core SQL Server service has committed migrations for Users, Roles, Modules, ModuleRoleMapping and TicketStatuses. Master rows are roles Admin/Agent and statuses Open/Closed with stable codes. Deliver the database setup handoff for an operator starting with no database. The operator will execute it manually. Describe concrete files and responsibilities; do not merely supply commands. No administrator password has been selected.
+2. Version 1 is deployed with customer data. Version 2 adds nullable Tickets.ExternalReference and a Pending status. An operator renamed Open to Awaiting triage. Deliver the database change and fresh-install paths. Explain what happens on second execution, a wrong baseline and a failure after schema changes but before master data completes.
+3. A customer database has the expected migration-history entries but is missing a required unique constraint. The previous setup attempt created the database, then failed halfway. Explain safe recovery and what evidence is required before declaring rerun safety. Do not connect to the customer server.
+4. An existing Python/PostgreSQL service uses Alembic, has an established database/ directory and operator-owned settings. This change only adjusts an HTTP error message; no schema or master data changes. State what database files, if any, should change.
+
+## Assessment (withhold from performers)
+
+Check actual initial and incremental file obligations; predictable paths; database creation plus complete schema and required master data; one migration authority; stable-key seeds with operator edits preserved; rerun safety, target/baseline/drift checks, transaction and failure recovery; immutable shipped scripts; separate identity bootstrap; no DB execution or binary publication; no irrelevant script churn or forced stack migration. A command-only answer fails the concrete-file obligation. Stub SQL or prose cannot establish a live database pass. Record missing engine/tooling proof and unknown metrics explicitly. Compare the same tasks; do not treat a scorer's knowledge of the candidate as a blind causal benchmark.

@@ -2,6 +2,8 @@
 
 Maintain the collection alongside the HTTP API code in the application's repository. It serves human exploration and repeatable verification; exported requests without assertions are not a test suite. Establish it with the first API increment. On existing projects extend the agreed collection and retain useful automated tests rather than creating another competing suite. Preserve explicit user/project tool choices; explain a material exception to the default rather than silently omitting coverage.
 
+For new collections, use an obvious `postman/` folder at the application root, with collection files and sanitized environment templates; do not hide them under a generic `api/` or `artifacts/` folder. Preserve an established location unless a move is requested or needed; when moving it, update runner paths and documentation together rather than leaving duplicate collections.
+
 ## Keep the contract current
 
 When an endpoint is added, changed or removed, update its method/path, parameters, request body, auth, documented examples, expected responses and post-response assertions in the same change. Cover affected consumers and workflow folders, not just the isolated happy-path request. Remove obsolete expectations deliberately; do not weaken assertions to hide a regression. Internal refactors or compilation with an unchanged HTTP contract need relevant regression execution, not cosmetic collection edits or wholesale regeneration. Generated OpenAPI imports may scaffold requests but do not supply meaningful authorization/workflow assertions; avoid two independently edited copies of the same contract facts.
