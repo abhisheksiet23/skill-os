@@ -4,7 +4,7 @@ Bound the requested outcome and affected actors/entry points. For broad replacem
 
 Inspect source, running behavior, schema and project records as available. Record source/environment identity when it changes interpretation. A source commit does not establish the deployed version. Missing or truncated evidence is unknown, not proof of absence.
 
-Before authenticated discovery, establish a supported secret input or reference. Reuse it in diagnostic helpers; keep raw credentials out of tool arguments, shell history, URLs and temporary scripts as well as evidence. Redacting later logs cannot remove an earlier recorded invocation. If secure input is unavailable, use an authorized user-mediated session or leave authenticated checks blocked while continuing independent discovery; do not build a credential service by default.
+Use supported secret input/references throughout authenticated discovery and diagnostics. Keep raw secrets out of recorded inputs, shell history, scripts and evidence; later output redaction cannot remove earlier exposure. Missing secure input leaves the affected check blocked while independent discovery continues.
 
 Follow consequential validation, permissions, persistence, jobs, reports, history and external effects. One screen or role cannot establish all behavior. Use targeted symbol/reference searches or available read-only tools rather than repeatedly loading entire repositories.
 

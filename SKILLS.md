@@ -5,6 +5,7 @@ This is a human review aid, not a routing database. Each skill's description is 
 | Skill | Main job | Boundary |
 | --- | --- | --- |
 | [project-context](skillmesh/skills/project-context/SKILL.md) | Automatic project-owned context, continuation and session assessment | Adopted projects and handoffs; no global memory store or mandatory skill chain |
+| [project-manage](skillmesh/skills/project-manage/SKILL.md) | Outcome control, next-path planning, schedule/AI-tool-spend forecasts and corrective decisions | Tailored AI-led delivery or standalone project review; no simulated roles, routine approval loop or mandatory artifacts |
 | [venture-investigate](skillmesh/skills/venture-investigate/SKILL.md) | Evidence-backed pursue, reshape, park or reject decision | Broad investigation; focused questions need less expertise |
 | [market-research](skillmesh/skills/market-research/SKILL.md) | Competitors, substitutes, buyer/market evidence and value curves | Advertised offers do not prove purchases or profitability |
 | [business-validate](skillmesh/skills/business-validate/SKILL.md) | Falsifiable, cheap customer/demand tests | Learning, not implied outreach or implementation |

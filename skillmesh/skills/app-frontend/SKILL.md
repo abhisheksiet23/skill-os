@@ -9,9 +9,7 @@ When the project adopts automatic context maintenance, preserve accepted interac
 
 Inspect the actual application, repository guidance, requested behavior, existing design and service boundaries. Accept adequate contracts and designs from any source; no previous SkillMesh invocation is required.
 
-For material new UX, establish a concrete reviewed direction before expanding production UI. Existing explicit approval or delegated design authority counts. Contained corrections use the established experience. Resolve consequential behavior or contract ambiguity before coding dependent work; continue independent work.
-
-Inspect the first representative populated screen in the browser before expanding a new layout: use realistic record density, long labels, primary actions and representative narrow/wide widths. Fix hierarchy or overflow while the pattern is still small. Development rendering and available real-dependency checks can happen before a production bundle exists; intended-host/security verification remains separate. If a required check is unavailable, identify it and avoid multiplying unreviewed layout assumptions; no separate prototype phase or new approval ceremony is implied.
+For material new UX, establish a concrete reviewed direction before expanding production UI. Existing explicit approval or delegated design authority counts. Inspect a representative populated layout at relevant widths in development before repeating its pattern; realistic density and primary actions should expose consequential assumptions early. Production-host proof remains separate. Contained corrections use the established experience. Resolve consequential behavior or contract ambiguity before coding dependent work; continue independent work.
 
 Implement a coherent user journey with real domain copy and meaningful loading, empty, error, success and recovery states. Preserve the reviewed hierarchy, tokens, responsive intent and interaction behavior. Reuse prototype assets/styles when useful and verify framework adaptations visually. Keep semantic structure, keyboard/focus, accessible errors, security and performance active while building.
 

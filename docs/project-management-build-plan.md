@@ -1,8 +1,10 @@
 # Build plan: project control and reusable management expertise
 
-Date: 2026-11-03. Status: implementation plan requested; execution has not started. Owner objective: dependable project-position/path visibility, schedule and AI/tool-spend visibility, and evidence-based optimization. Financial scope is **AI/tool spend only**. The [proposal and skeptical review](project-control-proposal.md) explain why the operating practice should be tested before committing to a broad new skill.
+Date: 2026-11-03. Current status: tailored toolkit source implementation and the focused delivery-time refinement are complete with bounded synthetic evaluation. No installation, real-project adoption or actual optimization trial has occurred. The historical work-package sequence below was subsequently changed by explicit owner direction after activity/tailoring review; it is not a claim that every pilot stage is complete. Owner objective remains dependable project-position/path visibility, schedule and **AI/tool-only spend** visibility, and evidence-based optimization. See [current evaluation](../evals/project-manage-assessment.md) for candidate-bound evidence, the observed assessment-placement correction and remaining limits.
 
 Owner steering: the activity discipline must be established before selecting a solution. This plan is held for reassessment against the [project-management activity inventory](project-management-activity-inventory.md); it is not an accepted implementation specification.
+
+Implementation continuation: after the activity inventory and explicit AI-led/minimum-governance tailoring, the owner directed changing Skill OS accordingly. The current source change introduces focused `project-manage` expertise, compatible context upkeep and abstracted implementation guidance. That direction supersedes this earlier plan's requirement to complete a real-project pilot before authoring the capability. Synthetic behavioral evaluation and a bounded artifact review accompany authoring; actual project adoption, billing coverage, optimization outcomes and installation remain separate and unproved. Historical work packages below are preserved, not claimed complete wholesale.
 
 ## Outcome and scope
 

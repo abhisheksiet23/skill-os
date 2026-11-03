@@ -47,6 +47,10 @@ For projects adopting automatic maintenance, [project-context](skillmesh/skills/
 
 The [pilot note](docs/project-context-pilot.md) records the accepted direction, six assessment factors and real-project evidence still needed. Assessments belong in each project; this toolkit receives only authorized, sanitized lessons. The [rubric](skillmesh/skills/project-context/references/session-assessment.md) distinguishes observed success, gaps, unknowns and N/A. Abruptly closed chats cannot run a background closeout; recover missing context on resumption. Merely installing the plugin does not establish that a project's instructions load or that session maintenance is active.
 
+## Outcome control with proportionate governance
+
+[project-manage](skillmesh/skills/project-manage/SKILL.md) supplies project planning/recovery, current-position assessment, conditional schedule and AI/tool cost forecasts, and evidence-based corrective decisions. It combines delivery responsibilities while retaining real owner authority and grounded quality evidence. It does not require a PM platform, simulated management hierarchy or one artifact per activity. Context maintenance preserves authoritative control state; management expertise supplies the reasoning, without either skill invoking the other. For ongoing adoption, adapt the optional control instruction in the existing [project map example](skillmesh/skills/project-context/assets/project-instructions.md); installation alone does not activate controls in another project.
+
 ## Install and replace
 
 For cloning on another device and editing in Codex cloud, see [GitHub and cloud setup](docs/github-and-cloud.md).

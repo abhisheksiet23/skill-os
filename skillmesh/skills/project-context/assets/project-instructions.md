@@ -19,3 +19,9 @@ At every project session closeout, append a concise assessment in the mapped rec
 
 Fresh reviewers receive only the target and selected evidence/constraints, without authoring history, speculative notes or session assessments. Use a no-history reviewer when available; ordinary rereads are not independent. A fresh conversation still shares filesystem/project instructions unless separately restricted. Skip broad context recovery during an explicitly bounded independent review.
 ```
+
+If ongoing project control is also adopted, add its real sources to the map and adapt this instruction within existing authorization:
+
+```markdown
+Keep the current outcome/acceptance boundary, project position, next milestone/dependency path and available schedule/AI-tool-spend forecasts consistent with authoritative evidence. During ordinary delivery, completing/invalidating a milestone or changing its driving blocker triggers a bounded update without waiting for a status request. At resumption check summary claims against current evidence; show the as-of cutoff and unknowns. Reuse adequate records and avoid full report rewrites or duplicate assessments. Keep required self-assessments in the mapped assessment record or existing work report if no location is mapped, not the owner-facing current view. Make routine choices within delegation and bring the owner only unavailable judgment or decisions outside that authority. Scale controls to consequence; no fixed document set, per-tool report, simulated role hierarchy or automatic new approval step is required. Context continuity preserves this state; estimates and acceptance remain grounded in their actual sources.
+```

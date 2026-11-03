@@ -1,6 +1,6 @@
 # Project-management activity inventory
 
-Date: 2026-11-03. Status: discipline inventory requested before toolkit design or implementation. The earlier build plan is set aside for this review. No skill selection, automation allocation, project pilot or application change follows automatically from this inventory.
+Date: 2026-11-03. Current status: the discipline inventory informed the subsequent AI-led tailoring and owner-authorized toolkit source implementation. [Evaluation](../evals/project-manage-assessment.md) records its bounded evidence; actual application adoption and optimization remain untested. The original discipline review below preceded those choices and is retained separately from the later tailoring/decision sections. The inventory itself is not a checklist to implement wholesale.
 
 ## Scope and source boundaries
 
@@ -272,3 +272,5 @@ Measure usefulness by time to acceptable outcomes, avoidable blocked time/rework
 ### Current decision boundary
 
 Accepted owner direction: outcome-first, careful tailoring for combined AI delivery responsibilities, minimum effective governance and AI/tool-only cost visibility. Proposed: the six combined controls and baseline dispositions above. No new skill, agent hierarchy, project authority, application pilot or source implementation has been authorized or executed by this selection exercise. Review the selection's reasoning before revising the held build plan; do not treat the inventory as a checklist to implement wholesale.
+
+Subsequent owner decision: “let's change skill os accordingly” authorized implementing the tailored selection in the source library. It does not imply installation, application adoption, external account access or real-project optimization success. The authoring candidate adds focused management reasoning and preserves project-context ownership of current records; the earlier project-specific feedback rules are simplified. Candidate-bound evaluation and closeout evidence belong in the corresponding evaluation/session records, not in this activity inventory.

@@ -1,0 +1,13 @@
+{
+  "currency": "USD",
+  "coverage_end": "2026-11-02T23:59:59+05:30",
+  "reporting_cutoff": "2026-11-03T10:00:00+05:30",
+  "records": [
+    {"charge_id": "r1", "amount": 8, "includes": ["r2"], "source": "provider-export"},
+    {"charge_id": "r2", "amount": 3, "included_in": "r1", "source": "child-agent-detail"},
+    {"charge_id": "t1", "amount": 2, "source": "tool-export"},
+    {"charge_id": "r1", "amount": 8, "includes": ["r2"], "source": "overlapping-export"}
+  ],
+  "remaining_estimate": {"low": 8, "high": 12, "includes_future_tool_commitment": 2},
+  "subscription": "No allocation basis supplied; not included in provider-reported project actuals."
+}
