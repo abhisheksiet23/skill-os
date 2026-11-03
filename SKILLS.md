@@ -12,6 +12,7 @@ This is a human review aid, not a routing database. Each skill's description is 
 | [business-pricing](skillmesh/skills/business-pricing/SKILL.md) | Payer, metric, package and price hypotheses | Provisional prices are not validated willingness to pay |
 | [business-model](skillmesh/skills/business-model/SKILL.md) | Delivery, capacity, economics, cash and growth | Scenarios are conditional, not demand proof |
 | [business-challenge](skillmesh/skills/business-challenge/SKILL.md) | Skeptical evidence and assumption review | Specific contradictions, not automatic negativity |
+| [naming-architect](skillmesh/skills/naming-architect/SKILL.md) | Naming strategy, candidate critique and recommendations | Proportionate research and preliminary screening; no invented availability or legal clearance |
 | [website](skillmesh/skills/website/SKILL.md) | Whole-site coherence for broad marketing-site work | Judgment, not routing or mandatory child skills |
 | [website-discover](skillmesh/skills/website-discover/SKILL.md) | Buyer, offer, positioning and claims | Website strategy, not a full venture case |
 | [website-create](skillmesh/skills/website-create/SKILL.md) | Copy, art direction and responsive prototype | Non-production experience, not live delivery |

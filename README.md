@@ -1,6 +1,6 @@
 # SkillMesh
 
-One source library and one installable Codex plugin for Abhishek's business, website and software-engineering practices. Every skill remains independently usable.
+One source library and one installable Codex plugin for Abhishek's business, naming, website and software-engineering practices. Every skill remains independently usable.
 
 ## Three responsibilities
 
