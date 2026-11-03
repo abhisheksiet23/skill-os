@@ -17,7 +17,7 @@ After shallow discovery, settle choices that could invalidate substantial invest
 
 Trace the affected actors, permissions and data scope, business rules, states, alternate/error paths, concurrency, history and side effects. Scan material quality needs with [requirements](references/requirements.md). Separate observed behavior from intended behavior; an old defect is not automatically a requirement.
 
-Ask only about consequential choices that evidence cannot resolve. Present the recommended answer and trade-off. Mark unresolved blockers, user decisions and reasonable assumptions distinctly. Preserve the user's decision after constructive challenge; do not quietly change it later.
+Ask now when evidence cannot resolve a choice that blocks the next useful increment, changes architecture or authorization, or prevents substantial wasted investigation. Discover facts first and resolve reversible details within delegated authority; defer other questions until their answers matter. An owner's preferred question format does not make every collected question an immediate prerequisite. Present the recommended answer and trade-off. Mark unresolved blockers, user decisions and reasonable assumptions distinctly. Preserve the user's decision after constructive challenge; do not quietly change it later.
 
 ## Shape enough to implement
 

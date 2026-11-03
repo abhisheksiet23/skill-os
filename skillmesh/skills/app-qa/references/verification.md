@@ -2,6 +2,8 @@
 
 Identify the candidate revision or snapshot and whether uncommitted changes are included. A past pass belongs to the candidate and environment actually tested. Later changes invalidate affected evidence; do not rerun unrelated checks without reason.
 
+For a risky workflow, use its existing scenario packet, contract or test metadata to connect consequential assertions to requirement sources, actual results and remaining acceptance conditions. Before recommending dependent expansion, inspect unresolved external assumptions; a filled packet is not proof. Keep mutable requirement-source snapshots, implementation candidates and tested runtime/configuration identities distinct. Source drift requires reconciliation of affected assertions rather than silently rewriting earlier results. Report implemented behavior, local proof, real-dependency proof and unresolved acceptance separately; each may contain failed, blocked or untested checks. Link executable tests and reports instead of duplicating them into a new mandatory template.
+
 Choose checks from the changed behavior and its consumers: builds/static checks; rule/state/calculation tests; API/data integration; access and data-scope boundaries; migrations/backfills; consequential performance; observable failure handling. For coexistence include retained consumers and behavior after new writes.
 
 For browser work, prefer existing automation and user-observable selectors. Test high-value journeys and recovery with deterministic fixtures. Examine actual screenshots at recorded viewports, routes and states, including long/dense content and empty/error cases. No browser means browser evidence is unavailable, not a source-inspection pass.

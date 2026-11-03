@@ -11,6 +11,8 @@ Inspect the actual application, repository guidance, requested behavior, existin
 
 For material new UX, establish a concrete reviewed direction before expanding production UI. Existing explicit approval or delegated design authority counts. Contained corrections use the established experience. Resolve consequential behavior or contract ambiguity before coding dependent work; continue independent work.
 
+Inspect the first representative populated screen in the browser before expanding a new layout: use realistic record density, long labels, primary actions and representative narrow/wide widths. Fix hierarchy or overflow while the pattern is still small. Development rendering and available real-dependency checks can happen before a production bundle exists; intended-host/security verification remains separate. If a required check is unavailable, identify it and avoid multiplying unreviewed layout assumptions; no separate prototype phase or new approval ceremony is implied.
+
 Implement a coherent user journey with real domain copy and meaningful loading, empty, error, success and recovery states. Preserve the reviewed hierarchy, tokens, responsive intent and interaction behavior. Reuse prototype assets/styles when useful and verify framework adaptations visually. Keep semantic structure, keyboard/focus, accessible errors, security and performance active while building.
 
 Follow project terminology and approved copy. Include consequential strings and their state conditions in acceptance checks: labels match actual actions, pending work stays distinct from completion, and shortening preserves validation rules, consequences and supported recovery.
