@@ -58,3 +58,31 @@ Observed response excerpts/results:
 All variants handled these cases sensibly. The revision makes desired defaults explicit and removes contradictory overhead; this comparison demonstrates no material improvement over either prior skill or ordinary judgment. One run per variant, constrained written tasks and no human audience observations cannot establish general creative quality, recall, domain behavior or multilingual reliability. The examples reference received additional illustrations during evaluation, so exact timing of optional reference exposure was not frozen; the revised entrypoint itself remained unchanged. No final-example behavioral advantage is claimed.
 
 Repository validator passed all 22 skills; official quick validator and whitespace check passed. Reinstalled through backed-up installer; native installed/enabled confirmation succeeded and all 55 packaged files matched release/cache apart from the deployment manifest version. New-chat discovery and actual naming outcomes remain unverified. Source additions/refinement remain uncommitted; no push performed.
+
+## Domain execution correction and GitHub research — 2026-11-10
+
+Owner reports omitted domain checks and requests freely licensed GitHub naming skills. Source inspection found domain-evidence rules but no explicit standalone-public-name default or obligation to attempt accessible HTTP/browser routes before deferring. This device's release and only installed cache were older version `0.1.0+codex.20261103124407918`, with 21 skills and no Naming Architect. That establishes local deployment drift, not the cause of an unseen naming run or another device's state. No original failed response was available.
+
+Made shortlist screening explicit before recommending standalone public names unless an existing-domain home is established or research is excluded. Added IANA-bootstrap/RDAP lookup guidance, actual-failure reporting, not-checked versus failed/unknown distinctions and the rule that unknown cannot satisfy a hard availability constraint. Existing-domain/internal tasks remain proportionate. No runtime, tool dependency or account requirement added.
+
+Direct GitHub source/LICENSE inspection verified four MIT repositories. [Research and attribution](../skillmesh/skills/naming-architect/references/research-and-attribution.md) retains links, inspected blob identities, selective adaptations and notices. Adapted check-before-recommend, uncertainty-aware reporting and a concise benefit/aspiration creative prompt. Rejected dbknv's RDAP-404-to-available mapping; retained registrar/registry confirmation. No third-party executable imported or run.
+
+### Executed matched comparison
+
+Froze prior source under ignored `.eval-runs/naming-domain/before/naming-architect`. Two no-history agents independently received their variant and identical requests, without author conclusions or expected answers. Shared host instructions/files limit isolation. Read-only live lookup allowed only in A; no purchases, installs, outreach or external writes in any case.
+
+1. "Compare Mosaic and Quillhaven for our new standalone notebook app for English-speaking users globally. We need a matching .com that can be newly registered. Recommend one if it meets the constraint."
+2. "Name the temporary reminder-email pause feature inside our existing Cedar scheduling product. Siblings are Calendar and Reminders; existing domain stays. Three options and a short recommendation."
+3. "Compare PondRibbon and FernRelay for a new standalone garden journal. We need an exact .com. This case has no network/lookup tools: provide a provisional comparison."
+
+| Case | Prior | Revised |
+| --- | --- | --- |
+| A: live standalone | Both exact domains attempted through Verisign RDAP, Namecheap and shell fallback. Unknown; Quillhaven creative preference only, no qualifying winner. | Both exact domains attempted through Verisign RDAP, Namecheap and shell HTTP fallback. No verified qualifying candidate; Quillhaven creative preference only. |
+| B: existing-domain feature | Three options; Snooze recommended; skipped domain research. | Three options; Snooze recommended; skipped domain research. |
+| C: explicitly offline | FernRelay creative preference; both domains not checked and no confirmed eligible candidate. | PondRibbon creative preference; both domains not checked and no confirmed eligible candidate. |
+
+A attempts occurred around 12:13–12:15 UTC on 2026-11-10. Both agents' web RDAP/registrar opens returned internal/not-accessible errors; shell routes could not resolve `rdap.verisign.com`. Some fallbacks failed locally before HTTP: baseline Python alias inaccessible plus a PowerShell parse error; candidate corrected an initial parse error. No registration or availability response obtained. These are actual lookup attempts and honest failures, **not live availability passes**. Both variants behaved appropriately: the comparison neither reproduces the reported omission nor establishes superiority. The implicit standalone default without an explicit domain constraint remains untested. Creative preference divergence is subjective, not improvement evidence. Benefit-prompt/attribution additions followed these runs and were not independently rerun; tested domain instructions stayed unchanged.
+
+### Validation and installation
+
+Library validator: 22 skills, zero packaging errors. Whitespace check passed. Official quick validator attempted but blocked by missing PyYAML in bundled Python; no pass claimed. Refreshed personal plugin through the backed-up repository installer using bundled Python and a process-only PowerShell execution-policy override after unsigned-module loading failed before installation writes. Native CLI confirmed installed/enabled version `0.1.0+codex.20261110121644373`. All 56 source/release/cache file inventories and bytes match except intended deployment manifest version. Recovery path retained in ignored local installation status. No commits, pushes or legacy retirement. Next observation: fresh-chat activation and a naming task with functioning registrar/registry access; successful availability confirmation and general naming quality remain unverified.
