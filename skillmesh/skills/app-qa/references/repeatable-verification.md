@@ -1,15 +1,21 @@
-# Repeatable verification
+# Make valuable checks repeatable
 
-Invest when expected reuse, failure impact and debugging value justify creation and maintenance. Existing suites come first. Prefer unit/API tests for rules and permutations; keep browser coverage focused on important integrated journeys and experience risks. A typo does not justify a new automation platform.
+Invest when reuse, failure impact and debugging value justify setup and maintenance. Start with existing suites. Put rule permutations in unit/API tests and reserve browser automation for important integrated journeys and experience risks. A typo does not warrant a new platform.
 
-Persist checks in the application repository, using its runner and conventions. For browser journeys without a runner, a standard Playwright Test setup is a reasonable option when compatible with the project. Reuse useful existing journey functions. Do not mandate a framework, MCP server, browser matrix or CI migration merely because this skill is invoked.
+## Establish a trustworthy runner
 
-Make tests independently runnable: documented prerequisites and one command, controlled fixtures, fresh browser contexts, readiness assertions instead of fixed sleeps, and cleanup even after failure. Keep authentication state and secrets out of committed files and reports. Missing credentials, unavailable services or missing required fixtures are blocked coverage, not a passing suite. Separate mock contracts from real integration and identify which environment was tested.
+Keep tests in the application's repository with its runner and conventions. Without an existing browser runner, compatible Playwright Test is a reasonable option, not a requirement. Reuse useful journey functions and avoid imposing a browser matrix, MCP server or CI migration merely because QA was requested.
 
-Return concise machine-readable results and a human summary with candidate identity (including uncommitted changes), environment, command, executed/passed/failed/blocked counts and duration. Use standard runner reports first. Retain diagnostic artifacts for failures where safe; authentication traces and network payloads may contain secrets. Report retries/flakiness explicitly rather than hiding failures behind eventual success. Fetch detailed logs or traces only for relevant failures.
+Provide prerequisites and one runnable command. Use controlled fixtures, fresh browser contexts, readiness assertions instead of fixed sleeps and cleanup after failure. Missing credentials, services or required fixtures block coverage; they must not produce a passing suite. Identify the environment and distinguish mocked contracts from real integration. Keep authentication state and secrets out of committed files/reports.
 
-Run a new harness twice to expose state leakage and verify repeatability; a clean rerun is not permission to discard the first failure. For a regression fix, demonstrate the relevant assertion detects the original failure where feasible. Reuse unchanged proof, rerun checks affected by a change, and include combined acceptance before release. A working command is not evidence until actually executed.
+Run a new harness twice to expose leaked state; preserve and explain the first failure even if a retry passes. For a regression fix, demonstrate the assertion catches the original failure where feasible. A working-looking command is not execution evidence.
 
-MCP can expose the same runner/results if a demonstrated tool-access or coordination gap justifies it. A CLI plus structured report often suffices. Keep project facts, fixtures and tests in the project rather than reusable skill instructions. Do not build a shared orchestration/state service to avoid reading a report.
+## Return useful evidence without drowning the reader
 
-Preserve visual and exploratory review for design judgment, unfamiliar behavior and gaps in assertions. Automated semantics/reflow checks do not establish real screen-reader or browser-zoom behavior. Measure initial setup plus repeat execution, maintenance, user corrections and escaped defects; fewer tokens with more downstream rework is a regression.
+Prefer standard runner reports: concise structured results plus a human summary with candidate identity including uncommitted changes, environment, command, executed/passed/failed/blocked counts and duration. Report retries/flakiness explicitly. Retain safe failure artifacts, remembering that auth traces and network payloads can expose secrets; inspect detailed logs only for relevant failures.
+
+Reuse valid unchanged proof, rerun affected checks after changes and assess combined acceptance before release. Preserve visual/exploratory review for design judgment, unfamiliar behavior and assertion gaps. Automated semantics/reflow checks do not prove actual screen-reader or browser-zoom behavior.
+
+A CLI and structured report usually suffice. Expose the same runner through MCP only for a demonstrated access/coordination gap; do not create shared orchestration/state services merely to avoid reading reports. Project fixtures, facts and tests belong in the project, not reusable instructions.
+
+Judge the investment by setup, repeated execution, maintenance, owner corrections and escaped defects. Token/time/cost savings are unknown unless measured; lower token use with greater downstream rework is not improvement.

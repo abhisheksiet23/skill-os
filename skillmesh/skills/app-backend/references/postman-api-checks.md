@@ -1,6 +1,6 @@
-# Postman collections as executable API checks
+# Maintain and execute the human-facing API contract
 
-Maintain the collection alongside the HTTP API code in the application's repository. It serves human exploration and repeatable verification; exported requests without assertions are not a test suite. Establish it with the first API increment. On existing projects extend the agreed collection and retain useful automated tests rather than creating another competing suite. Preserve explicit user/project tool choices; explain a material exception to the default rather than silently omitting coverage.
+Treat the repository-owned Postman collection as both a readable API reference and an executable check of consumer-visible behavior. Requests without meaningful assertions provide exploration, not a test suite. Establish it with the first API increment. On existing projects extend the agreed collection and retain useful automated tests rather than creating another competing suite. Preserve explicit user/project tool choices; explain a material exception to the default rather than silently omitting coverage.
 
 For new collections, use an obvious `postman/` folder at the application root, with collection files and sanitized environment templates; do not hide them under a generic `api/` or `artifacts/` folder. Preserve an established location unless a move is requested or needed; when moving it, update runner paths and documentation together rather than leaving duplicate collections.
 
@@ -18,11 +18,15 @@ Use controlled synthetic data and explicit role accounts, capture generated IDs/
 
 Make repeated runs deliberate: isolate records using run identifiers, use bounded retry only where the contract permits it, and clean up only data created by that run through supported test facilities. Do not invent DELETE endpoints, relax authorization or change retention rules just to clean up tests. Where deletion is intentionally unavailable, use a disposable database/tenant or an agreed reset/retention process. Stop dependent actions after setup/auth failure and report partial cleanup; do not disguise skipped requests as passes.
 
-## Run within the owner's controls
+## Select a compatible local runner
 
 Prefer a supported Postman CLI local-file workflow for new suites, with an explicitly compatible collection format and pinned/tested runner. Keep established Newman setups when compatible; Newman does not support Postman's newer v3 collection format. Check current official documentation and the actual available version instead of migrating formats automatically. Do not assume desktop Postman, Postman CLI and Newman have identical capabilities, particularly for OAuth and multipart/local-file uploads. Verify file-fixture handling; use an appropriate local runner or desktop procedure where necessary, and never upload private files or results to a cloud service as an implicit workaround.
 
+## Execute only against the authorized target
+
 Run affected folders during authorized development verification against a known local/test target and run the agreed regression set before handoff when the environment is available. Development test execution is not permission to compile/publish a release, apply migrations, contact people or mutate production. Keep production smoke checks separately defined and owner-controlled; merely supplying a production URL does not authorize running the full write suite. Scope cleanup and external side effects to the approved environment. If tooling, accounts or an API are missing, update the artifacts, provide the command/prerequisite and mark execution pending; do not fabricate a pass or silently substitute a mock.
+
+## Report candidate-bound results
 
 Prefer local files/results without cloud login or synchronization unless requested. Supply a readable terminal summary plus a structured local report supported by the selected runner, with a nonzero exit on request/assertion failures. Check that options do not suppress failures, and report planned versus actually executed requests, assertions and skips. Store sanitized evidence under existing project conventions with candidate, runner version, target, folders and timestamp; do not promote an old report to proof of later code.
 

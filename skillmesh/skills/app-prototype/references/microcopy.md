@@ -1,6 +1,6 @@
-# Microcopy craft
+# Write interface copy from the actual state
 
-Start with the user's task, the actual system state, what is known, and the actions available. Copy must preserve validation rules, scope, consequences and uncertainty. A shorter message that changes the behavior's meaning is a regression. Do not infer a cause from a generic failure or promise data safety, payment status, recovery time or progress without supporting behavior or evidence.
+Before editing a string, identify the user's task, actual system state, known facts and supported actions. Use these to decide what the message must preserve, then choose wording and tone. Copy must preserve validation rules, scope, consequences and uncertainty. A shorter message that changes the behavior's meaning is a regression. Do not infer a cause from a generic failure or promise data safety, payment status, recovery time or progress without supporting behavior or evidence.
 
 ## Choose the pattern from the state
 
@@ -29,10 +29,12 @@ Review wording through four lenses: does it serve the task, can words be removed
 
 Write for scanning: lead with the meaningful state, outcome or action, and make labels understandable independently. If extensive explanation is needed to make a flow usable, reconsider the interaction.
 
-## Content in the interface
+## Check copy in the interface
 
 Use visible field labels and descriptive actions and links. Read labels, helper text and errors together for repetition or missing context. Accessible names should preserve visible wording; add hidden context only where needed. Alternative text should convey an image's purpose without repeating adjacent content; decorative images need no redundant announcement. Good wording alone does not establish correct semantic association or announcement behavior.
 
 Where localization is in scope, test realistic expanded labels, plural/count variants, dates and long values in the represented layouts. Avoid idioms and sentence fragments assembled from translated pieces. Use actual locale conventions and available translations rather than universal expansion percentages.
+
+## Keep the evidence behind the revision
 
 Inspect the copy in its actual state and layout. Record meaningful before/after wording, the rule or evidence preserved, and any unresolved factual dependency using existing project records. Editorial judgment can explain a revision; comprehension and task-success improvements require observed user evidence.

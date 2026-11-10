@@ -1,20 +1,26 @@
-# Manual database releases
+# Prepare SQL that an operator can execute and recover
 
-The library default is a prepared release that a human reviews and executes. For new .NET relational projects use EF Core migrations as schema history; for SQL Server deliver SQL for SSMS. Do not retrofit EF into another stack or silently replace an established migration system. Adopting EF on an existing unversioned or custom-versioned database requires a verified baseline against the actual schema, with existing data preserved; never mark a migration applied without establishing equivalence. Keep migration files and model snapshot in source control. Do not edit migrations already applied in shared environments; add a new migration.
+Deliver complete versioned SQL and an honest account of what has been executed. The library default is operator-reviewed, operator-executed database release; script authoring and safe generation are implementation work. For new .NET relational projects use EF Core migrations as schema history; for SQL Server deliver SQL for SSMS. Do not retrofit EF into another stack or silently replace an established migration system. Adopting EF on an existing unversioned or custom-versioned database requires a verified baseline against the actual schema, with existing data preserved; never mark a migration applied without establishing equivalence. Keep migration files and model snapshot in source control. Do not edit migrations already applied in shared environments; add a new migration.
 
-## Initial setup and later changes
+## Complete the install and upgrade paths
 
 Deliver actual repository-owned scripts during backend implementation, not only generation commands. Use `database/initial.sql` as the initial setup entry point and `database/changes/<sequence>-<purpose>.sql` for later schema/master-data changes, unless an adequate project convention exists. Release copies belong under `releases/<version>/database/`. Create no change script for work that changes neither schema nor master data.
 
 The initial entry point must create the database if absent, create all required schema objects (tables, constraints, indexes and other required DDL), establish migration history correctly and insert applicable master/reference rows in dependency order. Include all required SQL directly or compose supplied, ordered files with an explicit supported runner; no missing external script, TODO body or command-only handoff counts as complete. On SQL Server perform guarded database creation from master outside schema/data transactions, then switch to the validated target. Keep target identity and required server settings explicit; do not guess environment-specific paths or policy. Provisioning and schema may be separate stages in the same entry point.
 
+## Preserve one schema authority
+
 Keep one schema authority. With EF, derive schema SQL from committed migrations and retain exact source revision, starting/ending migration IDs and regeneration commands; do not independently hand-edit a parallel schema definition. SQL script execution does not run EF application seeding callbacks, so required master data must be in versioned SQL/migrations delivered with the script. Script authoring and safe local generation are implementation work, not permission to compile/publish a release or connect/apply SQL. If safe generation is unavailable or needs a separately unauthorized build, supply authorable files and commands, state precisely what is incomplete and never label placeholder SQL ready.
 
 Each schema/master-data change gets its own ordered, descriptive script with supported source/target versions and explicit prerequisites. Freeze shipped/applied scripts; correct them with a new script. Keep the fresh-install path current by regenerating the unreleased initial script or composing the frozen baseline and ordered changes. Fresh install and upgrade must converge on the same required schema/master data without resetting customer data.
 
+## Define safe rerun and partial-failure behavior
+
 Idempotence means a successful rerun makes no duplicate rows/objects or unintended data changes. Use migration history or the stack's established version mechanism for DDL, stable unique master-data keys and insert-if-missing behavior. Update existing master values only for an explicit versioned product change; preserve operator-managed labels/configuration. Do not delete/reinsert master rows or overwrite customer data to force convergence. Validate the actual expected state as well as history; object existence or an applied marker cannot establish schema equivalence. Reject unsupported drift or wrong baselines instead of silently skipping them. Require serialized execution, per-change transaction/error handling where supported, completion recording only after schema and required data succeed, and an explicit recovery path for nontransactional work. A partially created database must be recoverable by supported rerun or a documented corrective step without dropping it by default.
 
 Inspect generated SQL, especially renames, data movement, nullability, defaults and drops; the generator does not decide whether data loss is acceptable. Where a provider cannot generate idempotent SQL, use its established guarded/versioned execution mechanism and document how safe repeat execution is enforced; do not claim unsupported SQL syntax works.
+
+## Package the operator procedure
 
 Provide readable execution guidance alongside the scripts and preserve it in the application's release handoff:
 
@@ -25,6 +31,8 @@ Provide readable execution guidance alongside the scripts and preserve it in the
 - Least-privilege permission instructions or scripts, keeping deployment privileges separate from runtime access; read-only verification of objects, history, constraints and required data; backup/restore and failure-recovery instructions.
 
 Ordinary application startup may check schema compatibility and fail clearly, but must not create, migrate or seed production databases. Local fixture tooling must be explicitly limited to development/test environments. Do not package fixtures or bootstrap secrets into the production application ZIP.
+
+## Prove the exact package
 
 Test the exact operator package on an empty database and an upgrade from each supported relevant baseline with representative data. Check rerunning, an incorrect target/baseline, and an injected mid-script failure: no false completion marker or unintended later batch execution. Verify migration history against the intended version and inspect that required data and constraints survive. A generated script or successful compilation is not database deployment evidence. Record unavailable SQL Server/SSMS proof as pending; do not invent passes. Establish backup restore and application compatibility before a consequential change; routing or binary rollback does not undo data changes.
 

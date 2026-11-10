@@ -1,10 +1,12 @@
-# Content and art direction
+# Develop and test a creative argument
+
+Use this reference to turn company evidence into a page people can read and a visual direction they can recognize. Move between copy, composition and interaction as the candidate exposes weaknesses; do not finish each in isolation and assemble them at the end.
 
 ## Narrative before a section recipe
 
 Visitors need enough information to recognize relevance, understand the offer, assess fit, trust the company, and progress. The ordering and emphasis depend on entry intent and buying complexity. Do not force every page into hero, feature cards, testimonials, FAQ, CTA.
 
-Draft a page's main proposition and supporting argument before arranging sections. Each section should answer a visitor question or supply necessary evidence. Remove repetitions dressed up as new headings. Use descriptive headings that carry meaning when scanned. Benefits need a mechanism or proof; service detail needs a reason the buyer should care.
+Start with the proposition the visitor needs to understand and the argument that makes it credible. Identify the question or evidence job of each section, then arrange the reading journey. Remove sections that merely repeat the proposition under another heading. Let headings carry meaning when scanned, connect benefits to mechanisms or proof, and explain why service detail matters to this buyer. Revisit the argument if a layout requires generic filler to look complete.
 
 Write in the vocabulary buyers understand, retaining precise specialist terms where they help the intended audience. Avoid substituting "innovative," "trusted," "world-class," or "end-to-end" for substance. Read the copy aloud for plausibility and rhythm. Do not turn every sentence into a slogan. Front-load the meaningful outcome or action and make CTA wording understandable independently; use expectation-setting copy only when operationally true.
 
@@ -14,7 +16,7 @@ For evidence-light companies, show real scope, method, constraints, people, and 
 
 ## A creative idea with consequences
 
-Describe the idea in a short statement tied to the business, then demonstrate its consequences for layout, type, imagery, tone, and interaction. For example, a company whose differentiator is making a complex process understandable might emphasize annotated explanations and clear sequencing. The concept must arise from the brief; do not reuse that treatment universally.
+Make the creative idea testable through choices: state its connection to the business, then show what changes in layout, type, imagery, tone and interaction because of it. A company that makes complexity understandable might use annotations and clear sequencing. That is an example of a consequence, not a reusable house style. If the concept explains no concrete choice, it is still an adjective rather than art direction.
 
 Record reference observations: what works, why it is relevant, what would misrepresent this company, and how the proposed design differs. Learn principles from references without copying proprietary text, branded graphics, or a distinctive composition wholesale.
 
@@ -32,7 +34,7 @@ Choose an honest fallback when material is missing: licensed conceptual imagery,
 
 ## Representative prototype
 
-Select pages/states that test the distinctive story and the difficult content: long service explanations, proof, comparison, pricing qualifications, or forms as applicable. Use realistic copy lengths. Test mobile reading order and navigation, not just shrinkage of the desktop layout. Prototype form validation, success, and failure visibly; clearly label external calls as simulated unless genuinely integrated.
+Choose the smallest set of pages/states that could reveal a wrong direction. Include the distinctive story and difficult content, such as long service explanations, proof, comparisons, pricing qualifications or forms. A favorable short-copy homepage alone is a weak test of a multi-page design. Use realistic lengths and inspect mobile reading order/navigation as compositions in their own right. Represent form validation, success and failure visibly, labeling external calls as simulated unless genuinely integrated.
 
 For substantial visual uncertainty, compare a small number of genuinely different concepts on representative content. Explain the trade-off and recommend one. Do not build complete alternate websites merely to avoid choosing.
 
@@ -47,4 +49,6 @@ For substantial visual uncertainty, compare a small number of genuinely differen
 - Mobile: inspect content order, navigation, touch affordances, forms, sticky elements, overflow, and the use of limited space.
 - Interaction: check focus, keyboard access, reduced motion, contrast, link meaning, validation, and recovery where represented.
 
-For each meaningful weakness, identify the location, visible evidence, cause, and correction. Re-render affected views after fixing. Review mobile first, then intermediate and desktop compositions. Save only enough evidence to substantiate the reviewed direction. If the result still looks generic or underdeveloped against its own direction, revise before presenting it as finished. A numerical self-score does not establish craft.
+Use the lenses to locate a weakness, not to award a reassuring score. For each meaningful finding identify the visible evidence, likely cause and correction. Fix it, then re-render the affected view and any other composition sharing the change. Review mobile first, then intermediate and desktop layouts.
+
+Judge completion against the idea and the complete reading journey. If the opening is strong but secondary sections are generic, the direction is not yet demonstrated. Retain enough inspected evidence to show the result and its limits; a numerical self-score cannot establish craft or measured customer response.

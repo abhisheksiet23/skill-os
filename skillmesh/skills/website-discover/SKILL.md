@@ -5,16 +5,25 @@ description: Establish a marketing website's company brief, buyer understanding,
 
 # Website Discover
 
-Understand the business before proposing pages. Inspect supplied materials, current site, repository and existing decisions. Accept equivalent records from any source; no earlier skill is required.
+Produce a usable website position: who the site serves, the buying situation, the credible promise, the evidence and the next action. The brief should explain page and journey choices, not merely describe the company.
 
-Clarify what is sold, to whom, in what situation, with what scope and credible advantage. Separate user, buyer and decision-maker when relevant. Identify alternatives, objections, fit/exclusions, conversion and operational ownership. For consequential owner gaps, inspect the [interview bank](references/interview.md) headings first, then read its method, exit discipline and only the relevant question sections. Use [research guidance](references/research.md) for externally answerable questions; do not load both by default.
+## Recover what is already known
 
-Ask focused questions that change the website decision, with your interpretation and recommendation. Preserve prior answers and delegated authority. Owner knowledge is useful evidence but not proof of market-wide demand. Resolve ambiguous offers with the owner rather than inventing prices, guarantees or commitments.
+Inspect supplied material, the current site, repository and accepted decisions. Use adequate records from any author; no prior skill is required. Clarify the offer and delivery scope, audience, trigger, alternatives, objections, fit/exclusions and conversion ownership. Distinguish users, buyers and decision-makers only where their needs change the story.
 
-Inventory authentic claims, work, credentials, testimonials, imagery and publication permission early. Never fill gaps with invented proof. Where evidence is sparse, an honest story about real scope, method, people and constraints can still be useful.
+Inventory claim support and usable assets early: work, credentials, testimonials, imagery, source context and publication permission. Owner knowledge establishes what the owner reports; it does not prove market-wide demand. A young company can tell an honest story through scope, method, people and constraints without invented proof.
 
-Keep private customer material out of public research tools and deployable content.
+## Resolve the uncertainty that changes the site
 
-Lead with the recommended audience, buying situation, promise, differentiation, objections, conversion and page/journey implications. Explain consequential choices and why they matter using nearby sources and limitations. Save accepted decisions, recommendations, assumptions, usable assets and unresolved questions distinctly in existing project records. Finish when the requested positioning decision is useful and its limits are clear; avoid exhaustive research.
+Choose the evidence method from the missing fact. Owner-dependent knowledge needs a focused conversation; public category or competitor questions need research; low-risk details can remain explicit hypotheses. Do not ask the owner to repeat supplied answers or infer unapproved prices, guarantees and commitments.
 
-Optionally recommend `business-validate` for unresolved demand or `website-create` for expression. Explain the question and useful evidence; the agent decides. Do not invoke skills or mandate continuation.
+- For consequential owner gaps, inspect the [interview bank](references/interview.md) headings, then read its method, exit discipline and relevant question sections. Lead questions with the current interpretation and, when supported, a recommendation. Preserve delegated authority.
+- For externally answerable questions, read [research guidance](references/research.md). Choose sources to test a decision, including contradictory evidence; do not research merely to fill a section.
+
+Load only the reference needed for the unresolved question. Keep private customer material out of public research tools and deployable content.
+
+## Deliver a position someone can use
+
+Lead with the recommended audience, buying situation, promise, differentiation, objections and conversion, then show their consequences for page priority, narrative, proof and creative direction. Put sources and limits beside consequential conclusions. Separate accepted owner decisions, recommendations, assumptions, usable assets and open dependencies in existing project records.
+
+Stop when the requested positioning decision is useful and its remaining limits are clear. Unresolved demand may merit `business-validate`; expression may merit `website-create`. Recommend the evidence gap, not a mandatory next step. The agent decides whether additional expertise is useful; this skill does not invoke others.

@@ -1,8 +1,12 @@
-# Artwork and image production
+# Choose, produce and integrate website artwork
+
+An image has two jobs to satisfy: communicating the intended idea and working in the actual page. Treat factual truth, rights and placement as production inputs, not checks postponed until the image looks attractive.
 
 ## Plan visual roles before generating assets
 
-For new sites and material visual redesigns, make a concise asset plan alongside the page narrative. For each meaningful visual slot record: page/section, communication job, documentary or conceptual role, proposed source, style, mobile/desktop composition or crop, dimensions, accessibility treatment, rights/provenance, and status. Estimate unique assets, reusable variants, generation effort, and any external cost. Distinguish reusable source artwork from delivery sizes; five crops of one image are not five creative concepts.
+For a new site or material redesign, identify the visual slots alongside the narrative. For each meaningful slot decide what the visitor should understand and whether the image is documentary or conceptual. Record its page/section, source, style, mobile/desktop crop or composition, dimensions, accessibility treatment, rights/provenance and status. Keep this in existing project records rather than creating a separate asset bureaucracy.
+
+Estimate unique artwork, reusable variants, production effort and external cost before expanding the family. Five delivery crops of one image are not five creative concepts. Keep source artwork separate from optimized delivery files so later responsive changes do not require recreating the concept.
 
 Let communication needs determine quantity. There is no mandatory image per section, fixed image-to-text ratio, or quota of AI-generated artwork. A small service website might use one signature illustration, a few supporting visuals, and a handful of genuine proof/team images; a portfolio may need many project photographs, while a typographic consultancy site may need very few. Count the actual slots before committing effort. Never invent documentary images to reach a visual-density target.
 
@@ -20,11 +24,11 @@ Do not use generated raster text for headings, CTAs, logos, precise charts, or i
 
 ## Produce a coherent family
 
-1. Define a short art brief from the positioning and page role: subject, idea, palette, lighting/materials or illustration language, composition, focal point, negative space, and prohibited misleading implications.
-2. Produce or source one representative asset, then inspect it at the actual mobile and desktop placement. Check whether copy and imagery compete and whether the crop preserves meaning.
-3. Refine the direction before expanding the family. Use approved reference assets/style consistently across generation calls when the tool supports this. Do not generate every image independently with unrelated aesthetics.
-4. Produce the remaining meaningful visuals and necessary variants. Inspect every selected final asset for artifacts, inaccurate details, unintended text, style drift, low resolution, and misleading representations.
-5. Reinspect assets in the rendered page. A pleasing standalone image may fail at the intended crop, contrast, size, or download cost. Adjust art direction rather than hiding failures with overlays everywhere.
+Develop one representative asset against a short art brief: page role, subject/idea, palette, lighting/materials or illustration language, focal point, composition, negative space and misleading implications to avoid. Place it alongside real copy on mobile and desktop before multiplying it. If crop, contrast or content competition fails, revise the brief or composition first.
+
+Once that direction works, extend the family using approved references/style consistently where tools support them. Produce only the meaningful remaining visuals and necessary variants; unrelated generation prompts should not determine the site's visual identity. Inspect every selected final asset for artifacts, inaccurate details, unintended text, style drift, low resolution and misleading representations.
+
+Then inspect each asset in its rendered placement. Standalone beauty does not establish useful meaning, acceptable download cost or a successful crop. Resolve those failures through composition, responsive variants or a different visual approach rather than applying overlays everywhere.
 
 When generation is chosen and authorized, the agent selects tools and follows their tool instructions. Image-generation expertise may be recommended but is not invoked by this skill. If tools or authentic materials are missing, state the dependency and use an intentional alternative; do not silently replace the promised direction with generic placeholders. Paid purchases or commissioned work need actual authorization.
 
@@ -34,4 +38,4 @@ Plan focal points and image variants for narrow layouts before wide crops. If cr
 
 Use appropriate responsive source sizes and optimized formats with necessary fallbacks. Reserve image dimensions to avoid layout shifts. Prioritize the actual above-the-fold/LCP image appropriately; lazy-load offscreen images rather than blindly lazy-loading the hero. Give meaningful images useful alternatives and decorative images empty alternatives as appropriate. Avoid autoplay-heavy video as a default visual shortcut; use a deliberate poster/static and reduced-motion treatment when motion is justified.
 
-Retain editable/source assets and generation provenance separately from optimized public files. Publish only the selected assets with appropriate rights, not private references or every generation attempt. Record final asset paths and outstanding gaps in the project plan.
+At handoff, retain editable/source assets and generation provenance separately from optimized public files. Record selected paths and remaining gaps in the existing project plan. Check the public output contains only intended, appropriately licensed assets: private references and rejected generation attempts are not website deliverables.

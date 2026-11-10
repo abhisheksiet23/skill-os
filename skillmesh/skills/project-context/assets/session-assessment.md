@@ -1,6 +1,6 @@
 # Session assessments — optional compact shape
 
-Reuse the project's equivalent record. Replace example fields with observed information; do not leave template values as a completed assessment. Append one entry at each work-period closeout, pause or handoff. Small sessions can use a single row with the same evidence and applicability distinctions.
+Adapt this shape to the project's existing assessment record. Record only observed information, keeping unknown and unexercised factors explicit. One coherent work period needs one entry, updated through follow-up where appropriate; each reply does not need a new assessment. A small session can use a row rather than all the fields below. Unfilled template fields are not a completed assessment.
 
 ## Date / session / workstream
 
@@ -11,3 +11,5 @@ Reuse the project's equivalent record. Replace example fields with observed info
 - Measurements: provider tokens, elapsed time, reads/tool calls and corrections, where actually captured; otherwise unknown. Savings: unknown without a comparable baseline.
 - Remaining limitation and next action:
 - Local/synchronized state if relevant to continuation:
+
+Check the entry before saving: does each score point to an observation, are self-review and external feedback distinguishable, and will the next session know what remains unresolved? Writing this entry does not itself earn a successful-continuity score.

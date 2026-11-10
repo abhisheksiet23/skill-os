@@ -1,6 +1,8 @@
 # Forecasting with incomplete evidence
 
-## Scope, dates and capacity
+Use this reference to answer what can be ready when, what controls that forecast, and which expenditure is actually known. Preserve useful ranges and transparent calculations when some inputs are missing. Uncertainty calls for bounded reasoning, not fabricated precision or an automatic refusal to estimate.
+
+## Establish the planning basis and the driving dependency
 
 Recover an authorized baseline if one exists. Otherwise establish a current planning basis, recording its adoption date and authority; never invent an earlier commitment. A requested target is not proof of feasibility. Reconcile scope changes and partial acceptance before comparing progress.
 
@@ -8,11 +10,15 @@ Decompose enough to forecast the next useful outcome. Identify prerequisites, ex
 
 State the basis of a forecast: relevant observed history, supplied estimates or a provisional assumption. Use ranges or conditions where defensible; if a required input has no bounded arrival, do not invent an upper delivery date. Show the milestone-driving chain without calling it a verified critical path unless dependencies, durations and capacity support that calculation. Keep distant uncertain scope coarse. Update remaining-work forecasts with new evidence; do not silently reset baselines to hide variance.
 
-Do useful estimation work before settling for unknown. For controllable near-term work, use available task estimates or inspect a representative part, expose assumptions and offer a provisional effort range with confidence limits. Separate active effort/capacity from external waiting: an unbounded external approval need not prevent forecasting technical readiness. If even a provisional estimate is unsupported, identify the smallest observation or input that would improve the next decision and obtain it within authority when worthwhile. Do not make certainty a prerequisite for all forecasts or hide genuine uncertainty inside an arbitrary numeric range. Revisit estimates after relevant work instead of preserving an initial guess as fact.
+## Estimate controllable work without hiding external waiting
+
+Use supplied task estimates, relevant actuals or inspection of a representative part to offer a provisional effort range. State its assumptions and confidence limits. Separate active effort and capacity from external waiting: an approval with no known arrival date need not prevent estimating technical readiness. If a defensible range is still unavailable, identify the smallest observation that would improve the decision and obtain it within authority when worthwhile. Revisit the estimate as work supplies evidence.
+
+For example, 7–10 remaining active hours at four available hours per workday indicates roughly two to three workdays for that work, assuming dependencies and capacity hold. It does not bound an external acceptance date. Do not convert such an illustrative calculation into a project fact or quietly treat parallel tasks as independent of shared capacity.
 
 Do not average durations across unlike work or extrapolate a small first increment to a broad catalogue. Completion counts can describe throughput only when units/completion rules are comparable. Show implemented, verified and accepted outcomes separately where they differ. Any overall percentage requires a stable denominator, explicit weighting and completion rule; omission is better than a misleading number.
 
-## AI/tool financial evidence
+## Establish financial coverage before calculating a total
 
 Use authorized provider charges, exports or telemetry when available. Record period/cutoff, currency, provider/model/tool, source, attribution and coverage. Distinguish observed charges, usage-based estimates and allocated subscription cost. Apply historical rates appropriate to the usage/model/version and billing dimensions when estimating; verify them if needed rather than silently using today's list price. Tokens alone are not dollars.
 
@@ -24,7 +30,7 @@ Compare with actual owner-authorized limits and delegation. Provide a recommenda
 
 At adoption or a genuine cost decision, establish which authorized spend source is actually accessible, its cutoff/coverage and any attribution method. Reuse that finding until access or reporting changes; repeated requests for unavailable data add no visibility. Prefer an existing report/export over a new connector. If no project cost source exists, state that financial visibility is unavailable and distinguish useful operational observations from money. Only when a project sets a genuinely binding cap and incomplete evidence prevents knowing whether further discretionary expenditure is authorized, resolve a bounded fallback or the actual authority question; do not invent a financial gate for nonbinding estimates or claim a cap is enforced by reporting alone.
 
-## Choose useful measurement
+## Test whether an intervention improved delivery
 
 Use milestone/scope variance, blocked work and remaining-work forecasts before elaborate indices. Earned-value ratios require defensible planned value, completion measurement and actual-cost coverage. AI spend alone may poorly represent delivery value; do not infer project health from a cheaper run. Quantitative risk/capacity analysis is useful only when its inputs and decision consequence justify it.
 

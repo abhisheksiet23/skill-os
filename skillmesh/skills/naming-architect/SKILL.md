@@ -5,11 +5,11 @@ description: Develop, compare and critique names for brands, products, features,
 
 # Naming Architect
 
-Develop names that fit the audience, purpose and actual use. Treat this framework as practical synthesis: the source ledger mentioned in the owner's original attachment was not supplied, so no book/blog grounding is established.
+Help the owner choose a name that works in its actual context, with a clear distinction between creative fit, observed audience response and verified availability. This framework is practical synthesis; no book/blog grounding is established. Source provenance and limits are recorded in [research and attribution](references/research-and-attribution.md).
 
 ## Establish the decision
 
-Use the available brief and ask only for missing information that could change the recommendation. Identify what is being named, audience and markets/languages, desired associations, prohibited terms and real usage contexts. Separate nonnegotiable constraints from preferences and unknowns. Admired/disliked names can clarify taste when useful; do not require a questionnaire.
+Use the available brief and ask only for missing information that could change the recommendation. Identify what is being named, audience and markets/languages, desired associations, prohibited terms and real usage contexts. Separate nonnegotiable constraints from preferences and unknowns. Decide whether the task calls for generation, comparison, critique or a rename decision so a request to assess two candidates does not become an unsolicited naming exercise. Admired/disliked names can clarify taste when useful; do not require a questionnaire.
 
 Check the naming architecture: standalone brand, endorsed product, feature within an existing product, series title or internal label? Respect existing vocabulary, sibling names and parent-brand conventions. A feature often needs discoverability within its parent product more than independent brand distinctiveness. Determine whether a separate domain or handle is actually needed; public visibility alone does not imply one.
 
@@ -23,7 +23,7 @@ For benefit-led directions, connect what the product does to the practical impro
 
 Avoid defaulting to English two-word compounds, short invented words or fashionable suffixes. Explore forms appropriate to the audience, including phrases, local-language words or established series conventions. Never invent etymology or cultural meaning. Borrowed-language candidates need actual language evidence before endorsement.
 
-Prune against the brief. Use realistic spoken/written examples to expose likely misunderstanding, spelling-after-hearing problems, abbreviations, awkward word joins or unintended promises. Consider negative associations, category similarity, future scope and the fit alongside parent/sibling names. Distinguish perceived memorability/distinctiveness from tested recall or researched market separation.
+Prune against the brief, first removing candidates that violate hard constraints, then comparing the remaining trade-offs. Use realistic spoken/written examples to expose likely misunderstanding, spelling-after-hearing problems, abbreviations, awkward word joins or unintended promises. Consider negative associations, category similarity, future scope and the fit alongside parent/sibling names. A name that reads well on a list may fail in a navigation label, spoken introduction or email address. Distinguish perceived memorability/distinctiveness from tested recall or researched market separation.
 
 Default to a qualitative comparison: strongest fit, main weakness, decisive trade-off and what remains unknown. Numerical scoring is optional when requested or when an explicit decision process genuinely benefits. Explain criteria, weights and their judgmental nature; do not present small score differences as measured superiority. Mark unsupported criteria unknown, disclose any exclusions or normalization, and check whether reasonable weight changes reverse the recommendation. Never use a total to cancel a violated constraint or confirmed disqualifying conflict.
 
@@ -39,7 +39,7 @@ For consequential finalists, propose a small audience test tied to uncertainty: 
 
 ## Recommend and iterate
 
-Lead with the recommendation and deciding reason, then give only the shortlist, usage examples, trade-offs and evidence needed to assess it. Include assumptions or open checks that could reverse the choice. No mandatory seven-part report or fixed shortlist size. For high-consequence choices label provisional recommendations clearly and identify the next useful check. A recommendation to keep the current name is a valid outcome.
+Lead with the recommendation and deciding reason, then give the shortlist, usage examples, trade-offs and evidence needed to assess it. Keep creative preference separate from eligibility: if no candidate is verified to satisfy a hard requirement, report that result rather than naming an apparently qualifying winner. Include assumptions or open checks that could reverse the choice. No mandatory seven-part report or fixed shortlist size. For high-consequence choices label provisional recommendations clearly and identify the next useful check. A recommendation to keep the current name is a valid outcome.
 
 Learn from rejection reasons and preserve constraints rather than producing cosmetic variations. Keep project-specific shortlists and accepted decisions in the owning project. [Worked examples](references/examples.md) illustrate trade-offs; do not reuse their candidates as evidence of general naming quality.
 

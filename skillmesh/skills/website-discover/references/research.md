@@ -2,7 +2,9 @@
 
 ## Frame the investigation
 
-Start with a few consequential hypotheses: buyer trigger, main objection, alternative considered, trust requirement, search intent, or misunderstood category convention. Choose sources to test them. Resolve consequential uncertainty before building dependent production work; adequate existing evidence needs no new research. Research narrowly when creative exploration reveals a consequential gap.
+Name the website decision before searching. Translate it into a few consequential hypotheses about a buyer trigger, objection, alternative, trust requirement, search intent or category convention. Choose sources that could weaken as well as support those hypotheses. Adequate existing evidence needs no new search; if creative work reveals a gap, investigate that gap rather than reopening the whole brief.
+
+Resolve uncertainty before building work that depends on it. Independent, honest content can proceed while an unrelated question remains open.
 
 Use official company sources for what an organization says it offers; direct buyer evidence for specific experiences; credible independent sources for broader context. A competitor's marketing claim is evidence of its messaging, not proof of its performance. Reviews are selective observations, not a representative survey.
 
@@ -20,7 +22,7 @@ Scale source count to uncertainty and source quality. Avoid exhaustive research 
 
 ## Convert evidence to action
 
-For each consequential finding, record source/link, access date, observation, limits, inference, confidence, website implication, and follow-up if needed. Quote sparingly and accurately. Separate what the source says from what you infer.
+Turn findings into decisions through a short evidence chain: source/link and access date, observed fact, its limits, inference/confidence, then the website implication and any needed follow-up. Keep exact observations distinct from interpretation; quote sparingly and accurately. A long source list without an effect on copy, priority, proof or structure is not a useful synthesis.
 
 An adequate synthesis answers:
 
@@ -30,7 +32,7 @@ An adequate synthesis answers:
 4. What evidence or owner decision is still missing?
 5. How does this change priority, copy, page structure, proof, or creative direction?
 
-If evidence conflicts, describe the conflict and recommend a decision proportionate to its importance. A research brief should support a strategy discussion, not overwhelm the owner with links.
+When sources disagree, identify whether the difference concerns audience, date, geography, offer or evidence quality before combining them. Preserve an unresolved material contradiction and recommend a proportionate next decision or evidence request. Explain what changed from the initial hypothesis. A research brief should enable a strategy conversation, not overwhelm the owner with links.
 
 ## Limitations
 

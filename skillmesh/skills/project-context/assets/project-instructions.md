@@ -1,6 +1,6 @@
 # Automatic project context — adaptable project instruction snippet
 
-Merge the following into the project's existing agent instructions when adopting automatic maintenance. Replace example paths with real project records and verify agent loading. Preserve existing rules; the method also works without an installed skill. These paths are examples, not required directories.
+Use this snippet only when adopting or repairing project-owned context maintenance. Merge it into existing instructions, replace every example path with an actual authoritative source and confirm that the intended agent loads it. Preserve existing authority and delegation. The resulting instruction must work without an installed skill; the example folder layout is optional.
 
 ```markdown
 ## Project context
@@ -13,7 +13,7 @@ Maintain project context automatically within authorized local work. At start/re
 
 Treat explicit owner decisions as accepted, verified facts as source/revision-bound, and assumptions or recommendations as provisional. Preserve replaced decisions as superseded with reasons. Update authoritative records after consequential changes; link evidence instead of copying conversations. Do not replace accepted intent merely because implementation differs.
 
-Before completion, pause or handoff, refresh this workstream's boundary, candidate, actual checks, unknowns and next action. Re-read before editing, preserve other workstreams and concurrent changes, and mark evidence stale when affected code changes. Local updates do not authorize commits, pushes, deployment or external writes. Respect explicit read-only requests.
+After consequential changes and before completion, pause or handoff, refresh this workstream's boundary, candidate, actual checks, unknowns and next action. Re-read before editing and reconcile conflicting changes to the same fact; rereading alone does not guarantee concurrency safety. Preserve unrelated workstreams and mark affected evidence stale when code or environment changes. Local upkeep does not authorize commits, pushes, deployment or external writes. For explicit read-only work, report the pending update instead of editing records.
 
 At every project session closeout, append a concise assessment in the mapped record: date/session/workstream, outcome and evidence, next action; score observed continuity, decision fidelity, evidence freshness, retrieval economy, project/workstream separation and review independence as 0=failed, 1=partial, 2=evidenced success. Use unknown when unobserved and N/A when not exercised, with reasons. Continuity in a maintenance-only closeout stays unknown until a separate resumption/recipient recovers the maintained state. Token/time/cost savings stay unknown unless measured. A normal work-period closeout is a session, not each reply; record missed closeouts on resumption without fabricating scores. Keep detailed evidence in project records. If available, the project-context skill supplies the full rubric.
 

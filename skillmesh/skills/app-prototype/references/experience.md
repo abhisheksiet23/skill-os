@@ -1,19 +1,23 @@
-# Experience craft
+# Shape and inspect the experience
 
-Map entry, decisions, anxiety/friction, completion and recovery. Group information around user tasks rather than database entities. Choose an appropriate navigation shape; do not default every application to a dashboard of cards.
+## Start with the task and existing visual language
 
-Establish a clear scanning path, primary actions, sensible density, readable measure, consistent spacing and meaningful surface roles. Preserve brand and mature product patterns. A greenfield visual direction should fit the audience and task; no universal pastel palette, hover-only sidebar or component framework is required.
+Map entry, user decisions, anxiety/friction, completion and recovery. Group information around tasks rather than database entities. Choose navigation that supports the work; a card dashboard is not the default answer for every application.
 
-Before drawing bespoke controls, inspect the project's component catalog, package dependencies, theme tokens and representative product screens. Prefer suitable mature accessible components to building complex reusable widgets from scratch. Use the library's intended semantics and supported variants to shape the interface: compose workflows from known primitives, account for their actual responsive and accessibility behavior, and avoid mockups that depend on nonexistent states. When direct reuse would slow an intentionally disposable prototype, reproduce enough of the component contract and visual language to make later implementation credible, and record the mapping or deliberate deviation. A component library constrains the solution space; it does not replace information architecture or justify forcing every task into an available component.
+Inspect component documentation, package dependencies, theme tokens and representative product screens before drawing bespoke controls. Suitable mature accessible components reduce implementation risk, but their actual semantics, supported variants, responsive behavior and extension points must fit the journey. A catalog constrains the solution space; it does not replace information architecture.
 
-Use real words: labels that describe the domain, action verbs, errors explaining what happened and what to do, and confirmations proportional to consequence. Existing customer language and voice guidance are useful inputs; their absence does not require a separate research project. Distinguish provisional tone from an owner-approved brand change.
+Use the library directly when practical. For a deliberately disposable prototype in another format, reproduce enough of its visual and interaction contract to make implementation credible and record mappings or intentional deviations. Do not build a review around nonexistent component states. Sorting/filtering/paging needs real behavior and documented component limits; a static table needs no grid dependency.
 
-For material interface-copy decisions, use [microcopy craft](microcopy.md): choose wording from the actual state and supported actions, preserve requirements while editing, and adapt tone to consequence.
+## Compose layout and words together
 
-When sorting, filtering or paging matters, use real grid behavior and check the selected component's documented limits and extension points. A simple static table needs no grid dependency.
+Establish a scanning path, clear primary actions, appropriate density, readable measure, consistent spacing and meaningful surface roles. Preserve brand and mature patterns. Greenfield choices should fit audience/task, not a universal pastel palette, hover-only sidebar or framework preference.
 
-Test realistic long labels, large values, dense results, empty states and permission differences. Check reflow and touch access on small screens; compose larger layouts deliberately. Include focus order, keyboard access, readable contrast and reduced-motion behavior.
+Use real domain labels, action verbs and recovery language. Confirmations should reflect consequences. Existing customer language and voice guidance are useful; missing guidance does not require a research project. Keep provisional tone distinct from an approved brand change. Read [microcopy craft](microcopy.md) for consequential wording, actual states and supported actions.
 
-Record useful tokens and component treatments so implementation preserves the reviewed result. Reuse good prototype styles and assets where appropriate, but permit framework/accessibility adaptations; verify fidelity rather than demanding byte-identical markup.
+## Inspect the represented states
 
-Critique concrete screens and states: hierarchy, readability, alignment, density, clipped content, missing feedback and recovery. A checklist or aesthetic self-score cannot prove quality. Record actual viewport, route/state, finding, correction and remaining limitation.
+Exercise long labels, large values, dense results, empty states and permission differences. Check small-screen reflow/touch access and deliberately composed larger layouts, including focus order, keyboard access, contrast and reduced motion.
+
+Critique actual screens for hierarchy, readability, alignment, density, clipping, feedback and recovery. Record viewport, route/state, finding, correction and limitation; checklists and aesthetic scores do not prove quality.
+
+Retain useful tokens and component treatments so implementation preserves the reviewed experience. Reuse styles/assets where appropriate while allowing framework and accessibility adaptations; require verified fidelity rather than byte-identical markup.

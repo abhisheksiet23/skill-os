@@ -1,19 +1,19 @@
-# Recover behavior without recreating the whole system
+# Recover the behavior that constrains the change
 
-Bound the requested outcome and affected actors/entry points. For broad replacement, make a shallow map before choosing what to trace deeply. For a defect, follow only the relevant path.
+Start with the requested outcome, affected actors and entry points. A defect needs a focused path trace; a broad replacement needs a shallow map before deep investigation. Establish whether a retained module or configurable widget belongs in the target increment, or materially constrains it, before recovering all its detail.
 
-Inspect source, running behavior, schema and project records as available. Record source/environment identity when it changes interpretation. A source commit does not establish the deployed version. Missing or truncated evidence is unknown, not proof of absence.
+## Gather bounded evidence
 
-Use supported secret input/references throughout authenticated discovery and diagnostics. Keep raw secrets out of recorded inputs, shell history, scripts and evidence; later output redaction cannot remove earlier exposure. Missing secure input leaves the affected check blocked while independent discovery continues.
+Inspect relevant source, running behavior, schema and project records. Record source and environment identity when it changes interpretation: a commit does not establish the deployed version. Discover paths, symbols and exact database objects before retrieving contents. Use targeted searches or supported read-only tools; narrow truncated results rather than repeating broad reads. Missing or truncated evidence is unknown, not absence.
 
-Follow consequential validation, permissions, persistence, jobs, reports, history and external effects. One screen or role cannot establish all behavior. Use targeted symbol/reference searches or available read-only tools rather than repeatedly loading entire repositories.
+Trace consequential validation, permission/data scope, persistence, jobs, reports, history and external effects. One screen or role does not establish the system's behavior. Confirm working runtime/tool commands once and reuse them. Retain source locations and identity so unchanged evidence is reusable; recheck after changes to code, deployment, data or the question.
 
-Discover paths, symbols and exact database objects before retrieving their contents. If results truncate, narrow the query rather than repeating the broad read; truncation is not negative evidence. Confirm runtime/tool commands once and reuse working commands. Retain source locations and identity so unchanged evidence can be reused, but recheck when code, deployment, data or the question changes.
+Use supported secret input or references for authenticated checks. Raw secrets must not enter recorded inputs, shell history, scripts or evidence; later redaction cannot undo exposure. If secure input is unavailable, block that check and continue independent discovery. Keep private payloads out of durable records.
 
-Separate a shallow dependency map from detailed recovery. Before tracing every configurable widget or retained module, establish whether it belongs in the target increment or materially constrains its integration. For uncertain legacy contracts, retain exact stored identifiers alongside business/transport labels and propose an early read-only integration check; mock agreement alone cannot establish those mappings.
+## Reconcile current and intended behavior
 
-Reconcile contradictions explicitly: code can be dead, documentation stale, or the deployment different. Record what was observed, what is inferred, and what the target should preserve, change or retire. Do not silently choose a convenient source.
+Separate observation, inference and target intent. Contradictions may mean dead code, stale documentation or a different deployment; resolve the cause rather than choosing the convenient source. Decide what to preserve, change or retire. Preserve exact stored identifiers alongside domain/transport labels for uncertain legacy contracts, and propose an early read-only check of the actual mapping. Mocks alone cannot prove it.
 
-For coexistence, determine entry routing and session/auth boundaries, the authoritative writer for shared entities, compatible old/new contracts, retained jobs and consumers, and cutover/recovery. Uncoordinated dual writes are not a migration strategy. A routing rollback does not undo new data: prove old code can read new writes, or define reconciliation/forward recovery.
+For coexistence, establish entry routing and session/auth boundaries, authoritative writers for shared entities, compatible old/new contracts, retained jobs/consumers and cutover/recovery. Uncoordinated dual writes are not a migration strategy. Routing rollback cannot undo new data: demonstrate old code can read new writes or define reconciliation/forward recovery.
 
-Exit with bounded baseline evidence, material dependencies, target decisions, acceptance and precise remaining gaps. Keep private payloads and credentials out of durable records. No mandatory discovery dossier or tool provider is needed.
+Finish with bounded baseline evidence, material dependencies, target decisions, acceptance and precise remaining gaps. Use existing project records; no discovery dossier or particular provider is required.

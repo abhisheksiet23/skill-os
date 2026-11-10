@@ -1,8 +1,10 @@
-# Verification that changes confidence
+# Choose evidence for the guarantee being assessed
 
-Identify the candidate revision or snapshot and whether uncommitted changes are included. A past pass belongs to the candidate and environment actually tested. Later changes invalidate affected evidence; do not rerun unrelated checks without reason.
+Begin by naming the guarantee or user outcome under assessment, its requirement source and the candidate revision/snapshot, including relevant uncommitted changes. A past pass belongs to the candidate and environment actually tested. Later changes invalidate affected evidence; do not rerun unrelated checks without reason.
 
 Keep requirement-source identity distinct from the implementation candidate and tested environment. Reconcile affected assertions when source intent changes; do not silently rewrite historical results. Link existing contracts, tests and reports rather than introduce a new verification template.
+
+## Exercise the affected behavior and consumers
 
 Choose checks from the changed behavior and its consumers: builds/static checks; rule/state/calculation tests; API/data integration; access and data-scope boundaries; migrations/backfills; consequential performance; observable failure handling. For coexistence include retained consumers and behavior after new writes.
 
@@ -10,11 +12,17 @@ For browser work, prefer existing automation and user-observable selectors. Test
 
 For changed interface copy, compare messages with actual rules, operation outcomes and available recovery actions. Check that edits preserve requirements and consequences; queued work is not completed work, filtered-out content is not an empty collection, and an unknown payment result is not a failed charge. Flag unsupported causes, reassurance, deadlines or progress claims. Check terminology, visible labels and accessible names in context, field-error association and announcements where relevant. For localized interfaces, exercise representative expanded text and count/date variants. Editorial preference is not a defect or measured usability improvement.
 
+## Diagnose before claiming a fix
+
 For uncertain defects, establish expected behavior and a repeatable failure, minimize it, test competing explanations, fix the cause and rerun both the reduced and original scenario. Add a meaningful regression test when feasible. Performance comparisons need equivalent workloads; intermittent failures need enough observations to justify the conclusion.
 
 Review requirements and engineering separately in the same concise report if useful. Cite the requirement and affected implementation for gaps. Scope fixes to approved behavior; optional refactors should not become blockers.
 
+## Verify account and authorization boundaries
+
 When identity/authorization changes, verify the single-role foreign key and local module grants where required; no redundant user-role join table should appear without a real multi-role requirement. Exercise real bcrypt verification, wrong-password and multibyte length boundaries for local login. Module grants must not bypass record/tenant/workflow rules. For central identity, check trusted issuer/subject mapping, wrong audience/signature/expiry, unknown or disabled local accounts, local role changes and rejected external-role escalation. Confirm stable local user IDs/business history survive linking and that invalid external authentication cannot silently fall back to local credentials. Separate stubbed token/schema checks from real library, issuer and database evidence.
+
+## State what the evidence supports
 
 Keep proof factual: command or interaction, environment, result and limitations. Test-file existence does not prove execution; coverage percentage does not prove adequacy; a mocked result does not prove external integration. Sanitized outputs are enough; private records and credentials do not belong in evidence.
 

@@ -1,4 +1,6 @@
-# Worked examples (illustrative; no availability claims)
+# Worked naming decisions
+
+These examples illustrate how scope and constraints change the method. They are fictional exercises, not audience tests, live domain checks or reusable winning names. Use only the example relevant to the task.
 
 ### Example A: Internal performance-testing session
 Brief: recurring 40-minute team slot to trace API workflows under simulated load; engineers are the audience. Desired: direct and credible, not playful.
@@ -17,7 +19,7 @@ Brief: product that helps developers understand distributed request failures. Wa
 - Territories: visibility (`Trace Lens`), navigation (`Signal Path`), discovery (`Fault Atlas`).
 - Shortlist: **Fault Atlas**, **Trace Lens**, **Signal Path**.
 - Tentative recommendation: **Fault Atlas**, because it suggests mapping and understanding failures without binding the product to one protocol.
-- Risks: 'fault' may sound negative; check competitors, trademarks, domains, pronunciation, and associations before adoption. No availability implied.
+- Risks: 'fault' may sound negative. Because this is a standalone public product, live shortlist domain screening belongs in the naming task unless the brief excludes it or supplies an existing-domain home. The names here remain illustrative; no availability is implied. Competitor, preliminary trademark, pronunciation and audience checks may also affect the recommendation.
 
 
 ## Existing product feature
@@ -27,4 +29,4 @@ An invoicing product uses the navigation labels Invoices and Customers. A new ac
 A neighborhood newsletter has recognizable readership but its committee wants a fashionable new title. Keep the current title among the options. Determine whether there is an actual audience/confusion problem; weigh any gain against recognition, subscriptions, search and archive continuity. A subtitle or cover refresh may address the problem without a full rename. These are options, not authority to change the publication.
 
 ## Multilingual event
-An event serves speakers of two languages. Compare a descriptive phrase and a locally rooted option without declaring the latter authentic from an unverified translation. Test meaning, pronunciation and comprehension with speakers from the actual audience. A provisional English phrase may be understandable yet less welcoming; state that trade-off rather than assigning an invented cultural-fit score.
+An event serves speakers of two languages. Compare a descriptive phrase and a locally rooted option without declaring the latter authentic from an unverified translation. Propose testing meaning, pronunciation and comprehension with speakers from the actual audience, and conduct it only with appropriate authorization. A provisional English phrase may be understandable yet less welcoming; state that trade-off rather than assigning an invented cultural-fit score or reporting the proposed test as completed.

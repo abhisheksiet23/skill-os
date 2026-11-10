@@ -1,8 +1,10 @@
-# Review a real candidate
+# Review the candidate, not the intention
+
+Use the requested scope to choose the relevant lenses below. A useful review connects an observed page or journey state to a buyer consequence and a correction; it does not infer quality from a technology choice, checklist completion or the author's description.
 
 ## Scope and severity
 
-Tie review to a revision or immutable snapshot where possible. Choose representative routes and unusual content/interaction patterns, plus all business-critical journeys. A large site needs systematic sampling and critical-route coverage, not a claim that every page was visually inspected when it was not.
+Identify the revision or immutable snapshot, environment and available acceptance evidence. Choose representative routes, unusual content/interaction patterns and all business-critical journeys. Record the sampling boundary: a large site can be reviewed systematically without claiming every page was visually inspected. Check whether existing evidence still applies to this candidate before reusing it.
 
 - Blocking: materially false central claims, a broken primary journey, exposed secrets/private data, or another defect that defeats safe intended use.
 - Material: meaningfully damages comprehension, fit assessment, trust, access, or responsiveness.
@@ -38,7 +40,9 @@ For interface copy in conversion journeys, compare the exact wording with valida
 
 ## Execute meaningful journeys
 
-Start at plausible entry pages, not just the homepage. Check how visitors assess fit, find supporting detail, and progress. Include invalid input and an appropriate failure/recovery path for important forms. Confirm test-message authorization and destination before sending. Do not trigger purchases, messages, or other external effects merely to complete a checklist.
+Start from plausible search, campaign or referral entry pages as well as the homepage. Follow the buyer's path to fit assessment, supporting proof and action. For important forms, inspect exact labels and validation, invalid input, the success state and an appropriate failure/recovery path. Verify that the next action promised in each state exists.
+
+Separate a safe UI exercise from a real downstream transaction. Confirm authorization and the test destination before sending a message or causing another external effect. If receipt cannot be checked, report that boundary as unverified; never complete a checklist by triggering an unauthorized purchase or enquiry.
 
 Review the mobile journey and composition first, then intermediate and desktop layouts with equal care. Check supported viewport sizes and actual breakpoints. Include keyboard operation, clear focus, navigation state, form errors, long content, and images/fonts as relevant. Check that mobile crops preserve image meaning, sticky elements do not obstruct actions, and input remains usable with the onscreen keyboard where device tools permit. Inspect screenshots directly; recording them without examination is not visual review.
 
@@ -46,6 +50,6 @@ Evaluate visual readiness separately from functional readiness. Compare actual p
 
 ## Record concise findings
 
-Use: candidate; route/state; environment/viewport; expected; observed; consequence/severity; evidence; fix; retest. Group identical systemic issues under one finding with affected examples. Link screenshots/logs rather than dumping them into the report.
+Make each finding reconstructable: candidate, route/state, environment/viewport, expectation, observation, consequence/severity, evidence, correction and retest result when available. Group systemic issues with affected examples rather than repeating one defect per page. Link inspected screenshots/logs. Distinguish a design preference from an evidenced loss of meaning, usability or fidelity to the agreed direction.
 
-After repair, repeat affected checks and any downstream journey the change could influence. Report readiness and verification separately: readiness is ready within stated scope, needs changes, or not yet determinable; verification is complete within stated scope or incomplete with named gaps. A candidate can both need changes and have incomplete verification. State exactly what each judgment covers. Remaining external authorization is separate from technical readiness.
+After an in-scope repair, repeat affected checks and downstream journeys the change could influence. Report two judgments with their scope: readiness (ready, needs changes or not yet determinable) and verification (complete or incomplete with named gaps). These are independent: a candidate can have observed defects and untested areas at the same time. Explicit acceptance of a limitation does not erase the finding, and technical readiness does not confer publication authority.

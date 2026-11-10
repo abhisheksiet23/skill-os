@@ -1,5 +1,7 @@
 # Domain screening
-Use when a standalone name needs a separate domain or the user requests a check. A public feature hosted under an existing product/domain does not automatically need one. Screen the actual shortlist before recommending; do not defer the check to the user when read-only lookup tools are available. Recheck finalists before registration.
+Use for the default shortlist screening of a new standalone public brand, company or product unless the brief establishes an existing-domain home or excludes research. Also use whenever the user requests a domain check. A public feature hosted under an existing product/domain does not automatically need one. Screen the actual shortlist before recommending; do not defer the check to the user when read-only lookup tools are available. Recheck finalists before registration.
+
+The outcome is an evidence-backed registration status for exact domains, not legal clearance or a purchase. Preserve the distinction between a strong creative candidate and one that satisfies a verified domain requirement.
 
 1. **Agree on domain strategy.** Default to `.com` for broadly marketed commercial brands; also consider target-market and category TLDs (`.in`, `.co`, `.io`, `.dev`, etc.) where appropriate. Ask about geographic markets and preferred TLD only if the answer would change the recommendation. Note that some TLDs have eligibility or use restrictions.
 2. **Normalize each candidate.** Check the exact spelling without spaces, plus only sensible variants (for example `getNAME.com`, `tryNAME.com`, or `NAMEqa.com`). Avoid silently substituting a hyphenated or misspelled address for an exact match.
@@ -27,5 +29,7 @@ Interpret the response body as well as transport status:
 - An unsupported TLD, invalid response, access denial, timeout, rate limit or tool error means **unknown**. It is neither registered nor available evidence. Avoid repeated retries against a blocked source.
 - If registrar and registry evidence disagree, report the disagreement and keep availability **unknown** until resolved. A verified resale listing is an acquisition option, not ordinary registration availability.
 
-Show each finalist's exact queried domain, status, linked evidence and checked-at time. If all exact domains fail a hard requirement, say no candidate is verified to meet it, then offer a small new batch or explicitly labeled variants. If none is verifiable, provide a provisional creative preference without claiming a qualifying winner. Do not quietly replace the required exact `.com` with another TLD or a modifier.
+## Finish or iterate
+
+Show each finalist's exact queried domain, status, linked evidence and checked-at time. If all exact domains fail a hard requirement, say no candidate is verified to meet it, then offer a small new batch or explicitly labeled variants. Screen replacement finalists before treating them as qualifying recommendations. If none is verifiable, provide a provisional creative preference without claiming a qualifying winner. Do not quietly replace the required exact `.com` with another TLD or a modifier. Stop retrying when actual access limits prevent reliable evidence; record the attempted routes and failures rather than filling the gap with a guessed status.
 

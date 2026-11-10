@@ -5,18 +5,28 @@ description: Implement responsive marketing websites, content, forms and integra
 
 # Website Build
 
-Inspect the repository, existing site and adequate content/design decisions. Accept briefs and designs from any author; no sibling skill, phase status or new documentation tree is required. Contained corrections use the established direction. Resolve consequential uncertainty before multiplying speculative pages.
+Deliver a functioning marketing website whose implemented content, responsive composition and conversion behavior preserve the established direction. A successful build is one piece of evidence, not the delivered visitor outcome.
 
-Preserve suitable stack, provider, URLs, integrations and editing workflows. For greenfield technology choices, use [technology selection](references/technology-selection.md). For routes, forms, accessibility or performance work, use the relevant parts of [implementation guidance](references/implementation.md).
+## Establish the implementation contract
 
-Build complete visitor journeys with real copy, purposeful page composition, usable assets and mobile-first responsive behavior. Inspect a representative small-screen and desktop page early. Keep the reviewed direction through implementation; reuse good prototype assets without freezing poor markup or accessibility defects.
+Inspect the repository, existing site and adequate content/design decisions from any author. Use established direction for contained corrections; no sibling skill, phase status or new documentation tree is required. Resolve only uncertainty that would make dependent pages speculative.
 
-Implement honest navigation and conversion: trust-boundary validation, useful errors, success/recovery behavior and actual integration. Provider acceptance, downstream receipt and a client success message are different evidence. Do not claim delivery from mocks. Never send live enquiries without authorization. Keep secrets server-side and private research out of public output.
+Preserve suitable stack, provider, URLs, integrations and editing workflows. Read [technology selection](references/technology-selection.md) for greenfield choices and relevant sections of [implementation guidance](references/implementation.md) for routes, forms, accessibility or performance. Make acceptance concrete around the actual entry-to-action journeys, including redesign continuity and operational destinations.
+
+## Implement complete journeys
+
+Use real copy, purposeful composition, usable assets and mobile-first behavior. Inspect representative small-screen and desktop pages early so layout problems do not spread. Reuse good prototype assets while correcting poor semantics, markup or accessibility.
+
+Make navigation, validation, submission and recovery truthful. Validate at trust boundaries and integrate the real destination where available. A client success message, provider acceptance and downstream receipt establish different facts; mocks prove only the behavior exercised. Test live enquiries only with authorization. Keep secrets server-side and private research out of public output.
+
+## Make the source maintainable
 
 Write source for an owner returning to code after six years. Require blank lines between logical blocks: input/state preparation, validation, payload construction, requests, success updates and recovery where present. Keep cohesive statements together; do not put a gap after every line. Expand guard/branch/catch/finally bodies, callbacks, calls and object literals rather than packing multiple operations onto one line. In HTML/templates/JSX, make nesting, significant attributes, conditions and events visible, with gaps between meaningful sections. In CSS separate rules and meaningful property groups without reordering cascade-sensitive declarations. Use names and boundaries that explain the visitor journey. Inspect the actual formatted source; a formatter or successful build does not establish readable spacing. Preserve behavior and scope, and present a representative code path for owner review when readability is the issue. Owner readability remains unresolved until they review the result.
 
-Run the project's relevant build/static checks and meaningful behavioral tests. Inspect rendered affected pages and exercise important journeys at relevant widths. Fix observed failures and recheck affected behavior. Preserve unrelated valid evidence rather than rerunning everything reflexively.
+## Prove the affected outcome
 
-Keep the implemented site and working journeys primary. Summarize the delivered visitor outcome and consequential choices, then the actual visual/functional checks and remaining gaps; do not substitute a file list or tool diary for the result. Record candidate, configuration names, routes and real versus simulated integration in existing project records. A build or preview does not authorize production publishing.
+Run relevant project build/static checks and meaningful behavioral tests. Inspect affected rendered pages at sizes that exercise actual breakpoints and complete the important journeys, including failure and recovery. Fix observed defects and retest affected behavior; retain unrelated valid evidence instead of rerunning everything reflexively.
 
-Recommend `website-review` for a concrete independent quality need, `website-create` for unresolved experience, or application expertise for a genuine application boundary. The agent chooses; recommendations never invoke skills or make other skills prerequisites.
+Lead the handoff with the visitor outcome and consequential choices, followed by actual visual/functional proof and named gaps. Record the candidate, configuration names, important routes and real versus simulated integrations in existing records. A preview or build does not authorize production publishing.
+
+Recommend additional expertise only for a concrete gap: independent candidate quality (`website-review`), unresolved experience (`website-create`), or a genuine application boundary. The agent chooses; these are not prerequisites and this skill invokes none of them.

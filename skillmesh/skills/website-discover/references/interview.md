@@ -1,14 +1,12 @@
 # Adaptive interview
 
-Use this as a question bank, not a form to send wholesale. Start with a synthesis grounded in supplied material. Inspect headings before reading the whole bank: use **Conduct each round** and **Exit discipline**, plus question sections relevant to unresolved positioning, scope, page structure, trust, conversion or art direction. Within those sections, select only questions not answered by existing evidence. Expand to other sections when findings expose a consequential gap. Ask related questions together and avoid burdening the owner with facts public research can establish.
+Use the bank to resolve decisions, not to administer an intake form. First synthesize supplied material and identify what uncertainty could change positioning, scope, page structure, trust, conversion or art direction. Read **Conduct each round**, **Exit discipline** and the question sections relevant to that uncertainty. Preserve answered questions and expand only when a finding exposes another consequential gap. Publicly researchable facts should not become owner homework.
 
 ## Conduct each round
 
-1. State the current interpretation and its evidence.
-2. Identify the consequential uncertainty or contradiction.
-3. Offer a recommendation when enough evidence exists.
-4. Ask concrete questions about actual situations, examples, and decisions.
-5. Record the answer once; update downstream implications.
+Lead with what the supplied evidence currently suggests and the uncertainty or contradiction that matters. Offer a recommendation when evidence supports one, then ask for a concrete situation, example or decision that can distinguish alternatives. Bundle related questions without sending the whole bank. Record the answer once and revise its downstream consequences for copy, pages, proof or operations.
+
+An interview can change the recommendation. Do not frame questions only to confirm an attractive story, and distinguish a reported customer experience from the owner's interpretation of why it happened.
 
 Useful pattern: "Your deck leads with speed, but your customer examples emphasize avoiding disruption. I recommend leading with reliability. In the last few wins, what did buyers actually say tipped the decision?"
 
@@ -91,4 +89,6 @@ When the owner cannot answer, suggest what evidence could resolve it or proceed 
 
 ## Exit discipline
 
-Classify remaining gaps as: consequential owner decision; researchable question; implementation dependency; or low-risk assumption. Resolve the first two enough to avoid speculative positioning. Do not block honest work merely because a young company lacks case studies. Save only answers and reasoning that affect the website.
+Stop asking when the website decision can be made honestly. Classify remaining gaps by how they will be resolved: consequential owner decision, researchable question, implementation dependency or low-risk assumption. Resolve owner/research gaps sufficiently to avoid speculative positioning; continue independent work around dependencies.
+
+Lack of case studies does not prevent a young company from describing real scope, method and constraints. Save answers and reasoning that change the website, preserving recommendations separately from accepted decisions. Honor existing delegation instead of requesting approval again for settled choices.

@@ -1,6 +1,6 @@
-# Manual database, backend and frontend release packages
+# Prepare, produce and verify manual release packages
 
-The owner initiates release compilation, publishing and installation. By default prepare the recipe: profiles, explicit build/publish settings, commands, configuration templates and verification/recovery instructions. Initial and incremental database SQL files are authored or safely generated during backend implementation; their presence does not authorize applying them or producing release binaries/packages. Do not execute release-producing commands, ZIP/package generation or remote installation without explicit direction. Ordinary development builds/tests are distinct from producing a release. When the owner runs the recipe, artifacts must come from the exact candidate in a clean staging directory. Operator-run scripts can make execution repeatable but must expose inputs, checks, changes and recovery; no hidden remote deployment or startup schema mutation. Keep release-specific facts in the application, not this skill.
+Choose the authorized outcome first: recipe preparation, artifact production or installation. The owner initiates release compilation, publishing and installation unless explicitly delegated. An explicit build/package request authorizes that artifact within scope; it does not authorize deployment. For preparation, provide profiles, explicit build/publish settings, commands, configuration templates and verification/recovery instructions. Initial and incremental database SQL files are authored or safely generated during backend implementation; their presence does not authorize applying them or producing release binaries/packages. Do not execute release-producing commands, ZIP/package generation or remote installation without explicit direction. Ordinary development builds/tests are distinct from producing a release. When the owner runs the recipe, artifacts must come from the exact candidate in a clean staging directory. Operator-run scripts can make execution repeatable but must expose inputs, checks, changes and recovery; no hidden remote deployment or startup schema mutation. Keep release-specific facts in the application, not this skill.
 
 ## Database handoff
 
@@ -10,9 +10,11 @@ Require a complete initial setup entry point, normally `database/initial.sql`, c
 
 Test fresh installation, supported upgrades, rerun and failure behavior against the exact package. Report missing SQL Server/SSMS execution as unverified. Include backup identity/restore evidence, schema/app compatibility and forward recovery when rollback cannot safely restore service. Never substitute a destructive down-migration for an assessed recovery plan.
 
-## Backend handoff
+## Backend artifact and host choices
 
 Confirm OS, architecture, hosting model, runtime availability, maintenance window and operator access before choosing a publish target. For .NET provide a Visual Studio Folder publish profile or explicit owner-run `dotnet publish -c Release` instructions, with automatic deployment and database execution disabled. Describe separate restore, build/test, publish, inspection and packaging steps so the owner can inspect outputs before proceeding. Make frontend asset generation explicit where bundled; publishing the API must not silently run frontend or database deployment. The eventual ZIP contains publish output, not bin/obj, source or a development build. Make framework-dependent versus self-contained deployment and runtime identifier explicit. Prefer framework-dependent publishing on a managed IIS server whose supported runtime is maintained; self-contained publishing is an alternative when runtime ownership requires it and brings application-owned runtime patching. Include checksums, build identity, supported schema, configuration template without secrets, prerequisites, install/upgrade steps, smoke checks and recovery steps. Verify the owner-produced published candidate when requested; until then mark package verification pending rather than substituting development serving.
+
+## Windows Server/IIS cutover and recovery
 
 For Windows Server/IIS:
 
@@ -28,14 +30,20 @@ The owner explicitly builds the production frontend, reviews its output and manu
 
 Identify static browser assets versus SSR/server output. A static Angular/React-style frontend can be served by IIS Static Content; an SSR app requires its actual server runtime/hosting setup and cannot be deployed by copying browser files alone. Confirm prerequisites and MIME mappings for the emitted assets; do not infer a .NET Hosting Bundle is needed for an otherwise static-only site.
 
+### Choose who serves the frontend and API
+
 Choose the topology deliberately:
 
 - For a standalone IIS frontend site/application, provide appropriate web.config and HTTPS/site settings. Specify relative API routing or a reviewed API origin; a separate origin needs matching CORS, cookies/credentials and CSRF behavior, not just a changed URL. Same-origin /api proxying needs an explicit supported proxy configuration; static IIS does not proxy automatically.
 - For frontend assets packaged with ASP.NET Core, make the owner's frontend build and copy to a clean web asset staging area explicit before backend folder publishing. Preserve the backend-generated web.config/handler configuration; do not overwrite it with a standalone static-site configuration. The IIS physical path is the backend publish root, not wwwroot. The owner may prefer this single-site arrangement without losing separate control of frontend build and backend publish.
 
+### Preserve routing, caching and recovery behavior
+
 For client-side routing, provide fallback to index.html only for eligible navigation routes. Exclude API paths and real/missing asset requests so API errors and missing JavaScript remain meaningful failures rather than HTML with status 200. Account for IIS application/subpath and base href. Decide whether IIS rewrite rules or the backend owns fallback, avoiding competing handlers. Require URL Rewrite only when the chosen rules depend on that installed module.
 
 Use content-versioned assets and a deliberate index/config cache policy. Consider open browser tabs and lazy-loaded chunks during cutover; retain compatible prior hashed assets or document reload/recovery behavior instead of claiming an atomic folder switch solves browser caching. Include a service-worker update/recovery procedure only when used. Stage a full versioned folder and use controlled cutover rather than overlaying a running site's files. Keep frontend/API compatibility explicit for independent rollback.
+
+### Verify the produced frontend artifact
 
 Once the owner supplies the built artifact, verify through actual IIS/HTTPS: initial load, deep-link refresh, subpath/assets, missing asset 404, API errors staying API responses, login/session/CSRF, representative read/write behavior and cache/version transition. Inspect rendered screens and console/network errors. Until executed, report IIS/browser verification pending. Keep the prior compatible release, path/configuration and operator recovery steps.
 

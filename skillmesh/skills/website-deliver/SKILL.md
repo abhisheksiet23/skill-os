@@ -5,16 +5,22 @@ description: Prepare and execute an authorized marketing website launch, verify 
 
 # Website Deliver
 
-Identify the exact candidate, existing live baseline, destination/provider, review evidence, configuration, redirects and known limitations. Accept sufficient proof from any source; no specific prior skill or phase ledger is required. Confirm owner content decisions and operating responsibility.
+Move a reviewed candidate to its authorized destination, prove what is live and leave the owner able to operate it. Keep prepared, deployed and directly verified states separate throughout the handoff.
 
-Use [release guidance](references/release.md) for meaningful launches. Prepare build/deploy steps, domain implications, recovery and live checks using the project's chosen provider. Do not buy services, change unrelated infrastructure or create accounts as implied launch work.
+## Prepare the concrete release
 
-Honor existing publication authorization. If it is missing, finish the reviewable candidate and release plan before requesting it. Reserved DNS choices, costs and messages to people retain their own authorization boundaries. A preview is not a published site.
+Identify the exact candidate and current live baseline, destination/provider, review evidence, configuration, redirects and limitations. Accept adequate proof from any author without requiring a prior skill or phase ledger. Confirm accepted content decisions and who operates the site and receives enquiries.
 
-Deploy the reviewed candidate through the authorized mechanism. Inspect the outcome before retrying an uncertain operation. Verify actual live pages/assets, navigation, indexing intent, redirects, responsive presentation and the primary conversion, including production configuration and authorized delivery checks. Apply bounded recovery based on observations.
+For meaningful launches use [release guidance](references/release.md) to prepare deploy steps, domain implications, recovery and live checks for the chosen provider. Honor existing publication authority. If it is absent, finish the reviewable candidate and release plan before requesting it. Reserved DNS decisions, purchases and messages retain their own authorization boundaries; launch work does not imply new accounts or unrelated infrastructure changes.
 
-Lead the handoff with the actual launch state and its consequence for visitors or operators. Record revision, time, URL, live evidence, residual risks and recovery information. Separate prepared, deployed and directly verified facts so status does not have to be inferred from a checklist. Update only what actually shipped in the live baseline. Provide practical editing/asset guidance and clear ownership of domains, hosting and enquiries without secrets. Keep handoff proportional to the site.
+## Publish and verify the real destination
 
-Define observable business outcomes; distinguish visits, attempts, accepted submissions, receipt and qualified demand. Do not claim conversion improvement or create recurring monitoring without evidence and scope.
+Deploy the reviewed candidate through the authorized mechanism. Inspect the result of uncertain operations before retrying. Check actual live pages/assets, navigation, indexing intent, redirects, responsive presentation and the primary conversion, including production configuration and authorized delivery tests. Diagnose failures and apply bounded, authorized recovery; do not treat a preview as proof of production behavior.
 
-Finish with verified launch status or a precise dependency. Optionally recommend `website-review` for missing candidate proof; the agent decides. Do not invoke skills or require a chain.
+## Hand over the observed state
+
+Lead with the actual launch state and its consequence for visitors/operators. Record revision, time, URL, live evidence, residual risks and recovery information; update the live baseline only with what shipped. Explain common content/asset edits and ownership of domains, hosting and enquiries without exposing secrets. Scale the handoff to the site.
+
+Define meaningful measurable outcomes, separating visits, attempts, accepted submissions, receipt and qualified demand. Neither deployment nor a short before/after snapshot proves conversion improvement. Recurring monitoring and campaigns require their own scope.
+
+Finish with verified status or the precise dependency preventing completion. Missing candidate proof may merit recommending `website-review`; explain the gap and let the agent choose. No other skill is required or invoked.

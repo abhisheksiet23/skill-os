@@ -1,4 +1,6 @@
-# Implementation decisions and proof
+# Implement a visitor journey and prove its boundaries
+
+Read the sections relevant to the change. Use the site's actual acceptance criteria to select checks; a navigation correction does not require a fresh stack decision or an unrelated integration audit. For new sites, connect the choices below into one entry-to-action journey.
 
 ## Choose the simplest adequate foundation
 
@@ -16,13 +18,15 @@ Do not create speculative location pages, fake addresses, or repetitive keyword 
 
 ## Forms and integrations
 
-Specify destination, responsible owner, minimal fields, qualification/routing rules, privacy wording, submission mechanism, and valid success/failure behavior. Confirm any promised response time with the business. Avoid unnecessary personal-data collection.
+Before wiring a form, identify the destination and responsible operator. Determine the smallest useful field set, qualification/routing rules, privacy wording and submission mechanism. Define what each visible state actually means: invalid input, sending, provider accepted, confirmed receipt, or failed/unknown outcome. Show only states the integration can establish. Confirm any response-time promise with the business and avoid unnecessary personal-data collection.
 
 Follow project terminology and approved copy. Include consequential strings and state conditions in acceptance checks: labels match actual actions, and shortening preserves validation rules, costs, commitment and supported recovery.
 
 Validate at the trust boundary, use appropriate abuse protection, and handle invalid input, unavailable service, retries, and repeated submissions. Do not embed private service keys in browser code. Do not log sensitive form values unnecessarily. Use approved test recipients or sandbox destinations for delivery tests; actual messages to people require authorization.
 
-Verify client feedback, provider acceptance, and downstream receipt separately. A mocked integration proves UI behavior only. If live delivery cannot be tested, record the exact gap. The owner may explicitly accept the risk of launching with that gap, but acceptance does not establish verified delivery; keep the journey's verification status explicit. An honest alternative can replace the unverified path if implemented and tested.
+Test UI behavior, provider acceptance and downstream receipt as separate boundaries. Include invalid input, a service failure and the supported retry path; check repeated submissions where they could duplicate enquiries. A mock can demonstrate those UI states but cannot establish live delivery. Use an authorized destination for real receipt checks.
+
+If a boundary cannot be tested, name the exact missing proof and its visitor consequence. Explicit owner acceptance may permit launch with a known gap, but does not turn the gap into verified delivery. Alternatively implement and test an honest contact route rather than leaving a simulated primary form in place.
 
 ## Responsive and accessible behavior
 
@@ -40,7 +44,11 @@ Use responsive image sources and purposeful crops; preserve visual quality while
 
 Define conversion events around meaningful milestones, distinguishing CTA clicks, attempted submissions, accepted submissions, and qualified outcomes where measurable. Avoid collecting form contents or unnecessary identifiers. Determine tracking/consent requirements from actual project context and current applicable guidance; do not invent jurisdictional compliance claims.
 
-## Acceptance examples
+## Choose acceptance evidence
+
+Bind results to the candidate and the conditions that matter: routes/states, viewport sizes, integration environment and measurement conditions. Reuse valid existing proof; after a change repeat affected checks and downstream behavior it could influence. Report unavailable evidence as unverified, not failed or passed by inference.
+
+The following are examples of observable outcomes, not a mandatory complete test plan:
 
 - An intended buyer arriving on a service page can identify scope, fit, evidence, and the appropriate next step.
 - The primary enquiry journey validates input, recovers from service failure, and reaches its intended test destination when authorized.

@@ -1,14 +1,16 @@
 # Technology selection for marketing websites
 
-Recommendation reviewed against official documentation on 2026-09-16. Recheck current stable releases, integrations, hosting/runtime support and relevant documentation when implementing; do not freeze version numbers into this skill. Evaluate this default for greenfield marketing work; preserve suitable existing stacks and respect the chosen platform's constraints.
+Use this reference when a marketing site's technical foundation is genuinely undecided. First identify rendering needs, interactive behavior, who edits content and the hosting constraints. A preference for a framework is weaker evidence than an existing suitable stack or an owner's publishing workflow.
+
+The recommendation below was reviewed against official documentation on 2026-09-16. It is a starting hypothesis, not current compatibility evidence. At implementation time verify stable releases, integrations and hosting/runtime support in official documentation; do not freeze version numbers into the skill.
 
 ## Default to consider
 
-For a primarily content-driven company website, recommend Astro with TypeScript, pre-rendered pages where suitable, and Tailwind CSS plus custom CSS/design tokens for the visual system. Add interactive components only where needed. Astro's architecture supports independently interactive islands; use React or another supported UI library for a complex interactive component when that actually helps. Ordinary navigation and basic interactions need not pull in a whole client application.
+For a primarily content-driven company website with no contrary constraints, consider Astro with TypeScript and pre-rendered pages, using Tailwind CSS plus custom CSS/design tokens. Evaluate that choice against the actual editing and deployment needs before recommending it. Add independent interactive components where they earn their runtime cost; React or another supported UI library can help with a complex island without turning ordinary navigation into a whole client application.
 
 Choose this stack for its fit with content-driven rendering, not a universal performance claim. Tailwind is optional when existing CSS architecture fits; neither styling tools nor rendering frameworks establish art direction or visual quality.
 
-Use a supported static/CDN deployment for pre-rendered content, adding a compatible server endpoint or managed integration for submissions when required. Validate destination/provider/runtime choices together. A static build alone cannot process private-key form delivery. Keep content in structured files for developer/agent-maintained sites; introduce an editor-friendly CMS when actual ownership, preview, localization, or publishing needs justify it.
+Trace the conversion path before choosing hosting: browser, endpoint or managed integration, destination and operating owner. A static/CDN deployment can serve pre-rendered pages but cannot itself perform private-key delivery. Verify that the chosen provider supports the endpoint's runtime and configuration. Keep content in structured files for developer/agent-maintained sites; introduce an editor-friendly CMS for real ownership, preview, localization or publishing needs.
 
 Prefer CSS for ordinary transitions. Add a motion library only when choreography warrants it; maintain reduced-motion behavior and mobile performance. Use optimized authentic/generated assets from the established art direction.
 
@@ -26,7 +28,9 @@ A contact form, a small calculator, or animation alone does not force a full app
 
 ## Record the decision
 
-State rendering approach, styling, interaction strategy, content editing, images, form/data flow, hosting compatibility, and tests. Explain the actual constraint behind each non-default choice. Select supported stable dependency versions at implementation time and pin them with a lockfile. Verify build, rendered output, important journeys, and deployment behavior; neither framework choice nor a successful scaffold proves readiness.
+Record the selected rendering, styling, interaction, editing and asset approach with the form/data flow and hosting evidence. Explain consequential trade-offs, including why a migration is worthwhile if one is proposed; a departure from a default needs a reason, not an approval ceremony. Select supported stable dependencies at implementation time and pin them with a lockfile.
+
+Prove compatibility with the actual build, rendered output, important journeys and deployment behavior. If delivery or runtime testing is unavailable, keep that part provisional instead of presenting a successful scaffold as readiness.
 
 ## Official reference points
 

@@ -5,20 +5,28 @@ description: Design and build an inspectable, high-fidelity software prototype w
 
 # App Prototype
 
-Make the intended experience concrete enough to judge before production code hardens it. Work from the existing brief, behavior, constraints and design system, regardless of their author. Missing skill-specific records are not missing requirements.
+Make the experience inspectable before production implementation hardens it. The deliverable is a realistic prototype, observed review evidence and reusable design direction. It does not establish production integration.
 
-Identify the user's journey and important decisions, then arrange information by how the user thinks. Work structure, visual design and real microcopy together as evidence changes; do not polish a confusing flow. For material design work use [experience craft](references/experience.md).
+## Choose what the prototype must resolve
 
-Prototype the smallest representative journey that exposes the hard parts. Use realistic density, long content, permissions, loading, empty, success, validation, error and recovery states where relevant. Build browser-inspectable HTML/CSS/JS or the project's appropriate prototype format. Label simulated data and operations. Keep prototype work separate from production changes.
+Start from the actual brief, intended behavior, constraints and design system, regardless of author. Missing skill-specific records are not missing requirements. Identify the user's journey, important decisions and hardest interaction; prototype the smallest representative path that exposes those questions.
 
-Keep authored prototype source readable too: blank lines between logical handler blocks and UI sections, expanded branch/error bodies and object literals, visible template nesting/attributes, and separated CSS rules. Group cohesive statements instead of spacing every statement apart. Do not use disposable status to justify dense source or assume a formatter establishes owner readability. Generated/minified third-party output is not the source review target.
+Work structure, visual design and real microcopy together. Arrange information around the user's task, not the database, and reconsider a confusing flow before polishing it. Read [experience craft](references/experience.md) for material design, and its linked microcopy guidance when wording defines state, consequence or recovery.
 
-Preserve the existing identity unless redesign is authorized. Before choosing UI patterns, inspect the project's component library, design-system documentation or component catalog when available; treat its tokens, variants, composition rules and interaction conventions as design inputs, not merely implementation details. Reuse those components in the prototype when practical, and keep a recognizable component mapping when the prototype format cannot consume them directly. Do not let a library's catalog dictate a poor journey or invent unsupported variants without making the deviation explicit.
+Inspect the project's component catalog, design-system guidance, tokens and representative screens before inventing controls. Use supported variants and interaction conventions as design inputs. Reuse components when practical; when the prototype format cannot consume them, record the recognizable mapping or deliberate deviation. A component catalog must not dictate a poor journey.
 
-Establish concrete typography, spacing, color, surface, layout and interaction choices. For a new direction, choose a reasoned starting point; ask about preferences only when they materially affect the outcome. Use mature components when they represent difficult interactions accurately.
+Preserve existing identity unless redesign is authorized. Establish concrete typography, spacing, color, surface, layout and interaction choices. For a new direction choose a reasoned starting point; ask preferences only when they materially change the outcome. Use mature controls where they represent difficult interactions accurately.
 
-Render and inspect representative narrow, intermediate and wide layouts. Exercise the primary journey, keyboard/focus and recovery. Fix visible problems and re-inspect before presenting. A screenshot file not examined is not visual review; source inspection is not browser proof.
+## Build the evidence, not just the happy screen
 
-Keep the inspectable prototype primary. Present the concrete revision with the important experience choices, why they matter for the journey and the observed review evidence; link detailed state coverage instead of describing an unseen experience as verified. Save the prototype, launch instructions and durable direction using the project's conventions. Honor an existing approval or delegated design authority; do not infer a reserved approval from silence. Keep unavailable verification explicit.
+Create browser-inspectable HTML/CSS/JS or the project's suitable prototype format. Keep prototype changes separate from production code and label simulated data and operations. Include realistic density and long content, plus permission, loading, empty, success, validation, error and recovery states that affect the journey.
 
-The output is a reviewed experience and reusable design assets, not production integration. Missing behavior may justify recommending `app-analyze`; a settled prototype may help `app-frontend`. Recommendations explain the gap; only the agent decides whether to invoke another skill or continue.
+Keep authored source readable: blank lines between logical handlers and UI sections, expanded branches/error handling and object literals, visible template nesting/attributes and separated CSS rules. Group cohesive statements instead of spacing every line. Disposable code and formatter success do not establish readability; generated/minified third-party output is outside this source review.
+
+Render narrow, intermediate and wide layouts appropriate to the product. Exercise the primary journey, keyboard/focus and recovery, inspect the actual output, correct visible defects and re-inspect. A saved screenshot that was never examined is not visual review; source inspection cannot replace browser evidence.
+
+## Present the concrete revision
+
+Keep the inspectable prototype primary. Explain consequential experience choices and their effect on the journey, with observed viewport/state evidence and remaining limitations. Save launch instructions, useful tokens, component treatments and durable direction using project conventions; link detailed coverage rather than describing unseen states as verified.
+
+Honor existing approval and delegated design authority. Do not infer a reserved owner approval from silence, or claim a mock as production proof. Missing consequential behavior may need analysis; an established direction may support frontend implementation. Explain the gap and let the agent choose whether further expertise changes the result.

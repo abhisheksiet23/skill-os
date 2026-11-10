@@ -1,6 +1,6 @@
 # Naming-skill research and attribution
 
-Inspected directly on GitHub on 2026-11-10. These are selected examples, not an exhaustive survey or an endorsement of their results. Git blob hashes bind the inspected contents; default-branch links may change.
+This ledger preserves the recorded GitHub inspection of 2026-11-10; later editorial rewrites do not constitute a fresh source or license verification. These are selected examples, not an exhaustive survey or an endorsement of their results. Git blob hashes bind the inspected contents; default-branch links may change. The source ledger mentioned in the owner's original attachment was not supplied, so no book/blog grounding is established.
 
 | Source | Verified license | Useful contribution / adaptation |
 | --- | --- | --- |
