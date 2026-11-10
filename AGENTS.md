@@ -25,6 +25,8 @@ For substantial tasks:
 
 Prefer relevance over coverage.
 
+Optimize for useful outcomes and total effort, including verification, owner decisions and rework. Keep detail that improves correctness, judgment, execution or recovery; length and word count alone are not reasons to trim. Remove or relocate guidance only when it is redundant, irrelevant to its loading context, obsolete or demonstrably unhelpful. A shorter instruction that loses an important guarantee is a regression. Evaluate material simplification on representative tasks rather than a word budget.
+
 Before using another skill, ask:
 
 - What unresolved question will this skill help answer?

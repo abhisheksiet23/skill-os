@@ -20,7 +20,7 @@ Keep each project's context and session assessments inside that project. Reuse a
 
 ## Current pilot status
 
-Application-project pilot: **pending adoption in a real application/business project**. Toolkit authoring and isolated synthetic exercises do not count as that pilot. This repository adopts maintenance through its own AGENTS.md; [its session assessments](toolkit-session-assessments.md) track the authoring project only. The [executed implementation evaluation](../evals/project-context-assessment.md) records actual synthetic maintenance, fresh recovery, a bounded no-history probe and a correction to inflated continuity scoring. Shared host instructions limit baseline attribution, and token/cost/time savings remain unknown.
+Application-project pilot: **pending adoption in a real application/business project**. Toolkit authoring and isolated synthetic exercises do not count as that pilot. This repository adopts maintenance through its own AGENTS.md; [its session assessments](toolkit-session-assessments.md) track the authoring project only. The [executed implementation evaluation](https://github.com/abhisheksiet23/skill-os/blob/e9a361d/evals/project-context-assessment.md) records actual synthetic maintenance, fresh recovery, a bounded no-history probe and a correction to inflated continuity scoring. Shared host instructions limit baseline attribution, and token/cost/time savings remain unknown.
 
 ## Skeptical review — 2026-11-02
 

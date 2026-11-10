@@ -4,6 +4,26 @@ Run these against the baseline ecosystem and again after changes.
 
 The purpose is not to force identical execution paths. The goal is consistently competent skill selection and composition.
 
+Judge detail by its contribution to correct decisions, reliable execution and total effort, including owner attention and rework. Longer guidance is worthwhile when it improves outcomes. Word counts describe text size, not quality, provider tokens or waste; do not trim to a budget or reward brevity that drops important guarantees. Compare substantial simplifications on both meaningful work and contained corrections.
+
+## Current review and evidence
+
+Owner direction on 2026-11-10: preserve useful detail, fix concrete conflicts and remove disposable evaluation clutter. The whole-library review covered all 22 entrypoints and selected supporting evidence at `e9a361d`; it found no demonstrated need for skill mergers or a routing runtime. The localized App Deliver conflict has been corrected: an explicit build-only request permits the named build/artifact, while preparation-only work produces a recipe and deployment retains its own authorization. No broad instruction trimming was performed.
+
+Keep reusable tasks, fixtures, assessment keys and rubrics here. Historical run reports and superseded planning documents were removed from the current tree; links below use the frozen Git revision where needed. Ignored execution snapshots and outputs are disposable and are no longer retained. Existing project/session records preserve adopted decisions and their limitations. A historical result belongs to its recorded candidate and environment, not to later source changes.
+
+| Area | Useful historical conclusion | Evidence still needed |
+| --- | --- | --- |
+| Readability/spacing | Actual changed-source checks and owner acceptance of one spacing example; not universal comprehension proof | Feedback on subsequent concrete code; no measured comprehension speed |
+| SQL and manual release | Written handoff/recipe comparisons clarified obligations and preserved existing stacks | Actual SQL generation/execution, interrupted upgrade, package/host and recovery proof |
+| HTTP API collections | Instruction cases understood upkeep; no real runner/API execution established | Runnable collection against a real local endpoint and detection of an intentionally broken contract |
+| Context/management | Executed synthetic edits/recovery, including a failed assessment-placement attempt and corrected rerun; baseline often equally capable | Real-project adoption, concurrent/cross-device behavior, owner usefulness and net upkeep burden |
+| Naming | Latest variants actually attempted live lookup but obtained no registration response; implicit default without a domain request was not tested | Successful registrar/registry evidence and implicit-default behavior; audience outcomes |
+| Deliverable quality | Instruction/fixture checks, without matched model outputs | Actual representative outputs and owner usefulness |
+| Current maintenance | Preserve quality-bearing detail; fix the explicit-build ambiguity without changing owner release defaults | No new independent behavioral comparison is claimed for this wording correction |
+
+Provider tokens, financial/time savings and general superiority remain unknown. Current packaging/unit checks establish their stated integrity only. The prior migration run stopped at Windows junction creation with access denied; later assertions did not execute. Real application evidence belongs in the application's own project. Next useful evidence is a bounded executed API/collection case or an actual adopted project workstream, rather than another round of broad framework authoring.
+
 ## Score each scenario (0-2)
 
 ### Discovery recall
@@ -71,9 +91,9 @@ For interface-copy work, use [the microcopy scenarios](microcopy-tasks.md) and k
 
 For decision ordering, contained-change restraint, recurring QA and early legacy integration, use [efficiency-tasks.md](efficiency-tasks.md). Historical committed assessments and outputs remain accessible through Git history; for example, the 2026-09-20 assessment is available with `git show f8daa37:evals/results/efficiency-assessment.md`. It separates planning-only responses from the executed browser pilot and does not establish measured token savings.
 
-For first-write feasibility, clarification timing, early dense-screen inspection and contained-change restraint, use [automation-feedback-tasks.md](automation-feedback-tasks.md) with its separate [assessment key](automation-feedback-assessment-key.md). The [2026-11-02 comparison](automation-feedback-assessment.md) records an observed ordering improvement and its limits. The first task executes a harmless local boundary simulator; the other tasks assess written decisions. Neither the simulator nor a stated plan proves live application integration, visual quality or credential non-retention.
+For first-write feasibility, clarification timing, early dense-screen inspection and contained-change restraint, use [automation-feedback-tasks.md](automation-feedback-tasks.md) with its separate [assessment key](automation-feedback-assessment-key.md). The [2026-11-02 comparison](https://github.com/abhisheksiet23/skill-os/blob/e9a361d/evals/automation-feedback-assessment.md) records an observed ordering improvement and its limits. The first task executes a harmless local boundary simulator; the other tasks assess written decisions. Neither the simulator nor a stated plan proves live application integration, visual quality or credential non-retention.
 
-For tailored outcome control, actual status-record recovery/change, incomplete AI/tool costs, delegation, improvement claims and real operator boundaries, use [project-manage-tasks.md](project-manage-tasks.md) with its separate [assessment key](project-manage-assessment-key.md). The [2026-11-03 comparison](project-manage-assessment.md) records executed local edits and bounded findings. Local synthetic edits and arithmetic test reasoning/maintenance; they do not establish real project outcomes or billing access.
+For tailored outcome control, actual status-record recovery/change, incomplete AI/tool costs, delegation, improvement claims and real operator boundaries, use [project-manage-tasks.md](project-manage-tasks.md) with its separate [assessment key](project-manage-assessment-key.md). The [2026-11-03 comparison](https://github.com/abhisheksiet23/skill-os/blob/e9a361d/evals/project-manage-assessment.md) records executed local edits and bounded findings. Local synthetic edits and arithmetic test reasoning/maintenance; they do not establish real project outcomes or billing access.
 
 For ordinary implementation with adopted upkeep, useful positive forecasts, next-action choice, small-correction restraint and unchanged unavailable spend sources, use [project-manage-delivery-tasks.md](project-manage-delivery-tasks.md) with its separate [assessment key](project-manage-delivery-assessment-key.md). A fresh recipient can then recover the actual synthetic implementation/checkpoint without performer conclusions. This remains a bounded local exercise, not unattended monitoring or live project optimization.
 
