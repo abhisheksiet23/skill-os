@@ -1,6 +1,6 @@
 # Implementation-guidance regression cases
 
-These cases exercise actual artifacts after the 2026-11-10 rewrite and 2026-11-11 readability-loading correction. Once used, they are regression inputs, not held-out evidence. For a new comparison use fresh cases that vary behavior and failure paths. Freeze each skill variant, give each performer its own project and prevent access to peer outputs, author conclusions and assessment notes. Shared host instructions and filesystem access limit isolation.
+These cases exercise small implementation changes and asynchronous-action artifacts. Once used, they are regression inputs, not held-out evidence. For a new comparison use fresh cases that vary behavior and failure paths. Freeze each skill variant, give each performer its own project and prevent access to peer outputs, author conclusions and assessment notes. Shared host instructions and filesystem access limit isolation.
 
 Use only Python and Node built-ins. No installs, production builds, deployments, external services or changes outside the assigned project. The API below is a synthetic contract, not an application fact. Loopback HTTP tests are allowed; browser/layout verification is outside this task. Report actual skill/reference reads, changed files, commands/results, source comprehension obstacles and unavailable evidence. Do not treat test counts or agent source review as owner readability acceptance.
 

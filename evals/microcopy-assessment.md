@@ -34,4 +34,4 @@ For each scenario, record whether the response meets the observable requirements
 
 Record omissions, unsupported claims, scope expansion, unnecessary work and any corrections needed. Accept equivalent wording. Do not grade literal matches, fixed word counts, compulsory voice traits or stylistic scores. User comprehension, production task success and provider token/time/cost measures remain unknown unless observed or measured.
 
-These scenarios revise the earlier business-software-focused microcopy requests. Their facts and wording differ; previous responses are historical evidence for the earlier fixtures, not passes for this version. Freeze the scenario version with the skill variants in future paired runs.
+Freeze the scenario version with both skill variants. A result applies only to the supplied scenario, candidate and tested conditions; changing the inputs requires fresh evaluation.

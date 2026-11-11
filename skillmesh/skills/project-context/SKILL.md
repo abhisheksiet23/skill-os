@@ -21,7 +21,7 @@ Record explicit owner decisions as accepted, observations as verified only withi
 
 Update the authoritative record after consequential changes and before closeout or handoff. Link detailed evidence rather than copying transcripts, command logs or the same decision into multiple summaries. Keep the map small and remove obsolete duplication. Markdown suits explanatory context; use small structured metadata only when it aids retrieval. Existing search is the default. Introduce indexes only for measured retrieval problems, keeping them rebuildable from project sources.
 
-Leave enough continuation state to recover the objective, current boundary, candidate and relevant uncommitted changes, checks with their limits, open decisions, and next useful action or stopping reason. Keep it scoped to the workstream and link supporting evidence.
+Keep a compact workstream checkpoint: objective/boundary; candidate; accepted decisions or links; current proof and gaps; next action/dependency. Use labeled facts or a short table, not a chronological tool diary. Reuse the current record and update only changed facts, preserving consequential rationale and unrelated workstreams. Links carry supporting detail; a small correction needs no full record rewrite.
 
 Re-read the destination before editing and preserve unrelated changes. This reduces overwrite risk but is not an atomic concurrency guarantee: reconcile conflicting evidence and accepted authority before replacing the same fact. Newest timestamp alone does not settle a conflict. Keep past passes attached to their tested candidates. Local upkeep does not authorize commits, pushes, external edits or publication; expose unsynced state when another device needs it.
 

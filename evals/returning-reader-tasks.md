@@ -4,7 +4,7 @@ Use matched, isolated contexts with the same captured source and request. Baseli
 
 ## Performer request
 
-Refactor the Medcross approve-and-assign workflow for readability for an owner returning to code after six years. Work from a frozen source copy. Preserve permissions, approval cycles, assignee/team eligibility, accumulated team visibility, history, transactions, version conflicts and retry behavior. Keep unrelated workflow changes out. Produce actual code, execute feasible checks, and identify unavailable integration proof. Follow the action from form selection through API handling and persisted approval. Do not claim the owner finds it readable without their feedback.
+Refactor the supplied application approve-and-assign workflow for readability for an owner returning to code after six years. Work from a frozen source copy. Preserve permissions, approval cycles, assignee/team eligibility, accumulated team visibility, history, transactions, version conflicts and retry behavior. Keep unrelated workflow changes out. Produce actual code, execute feasible checks, and identify unavailable integration proof. Follow the action from form selection through API handling and persisted approval. Do not claim the owner finds it readable without their feedback.
 
 Capture the frontend component, template and API contracts and the backend ticket service, account service and models from the same source snapshot. Additional dependencies can be read or copied to isolated scratch for compilation. Record source hashes so later edits in the active project cannot be mistaken for the evaluated candidate.
 

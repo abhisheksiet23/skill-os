@@ -15,7 +15,7 @@ Inventory claim support and usable assets early: work, credentials, testimonials
 
 ## Resolve the uncertainty that changes the site
 
-Choose the evidence method from the missing fact. Owner-dependent knowledge needs a focused conversation; public category or competitor questions need research; low-risk details can remain explicit hypotheses. Do not ask the owner to repeat supplied answers or infer unapproved prices, guarantees and commitments.
+Choose the evidence method from the missing fact. Owner-dependent knowledge needs a focused conversation; public category or competitor questions need research; low-risk details can remain explicit hypotheses. Carry forward accepted answers and adequately sourced findings while their date, market and scope remain applicable; investigate the gap that could change the site rather than recreating the whole brief. Do not ask the owner to repeat supplied answers or infer unapproved prices, guarantees and commitments.
 
 - For consequential owner gaps, inspect the [interview bank](references/interview.md) headings, then read its method, exit discipline and relevant question sections. Lead questions with the current interpretation and, when supported, a recommendation. Preserve delegated authority.
 - For externally answerable questions, read [research guidance](references/research.md). Choose sources to test a decision, including contradictory evidence; do not research merely to fill a section.
@@ -24,6 +24,6 @@ Load only the reference needed for the unresolved question. Keep private custome
 
 ## Deliver a position someone can use
 
-Lead with the recommended audience, buying situation, promise, differentiation, objections and conversion, then show their consequences for page priority, narrative, proof and creative direction. Put sources and limits beside consequential conclusions. Separate accepted owner decisions, recommendations, assumptions, usable assets and open dependencies in existing project records.
+Lead with the recommended audience, buying situation, promise, differentiation, objections and conversion, then show their consequences for page priority, narrative, proof and creative direction. Use descriptive labels and short lists for the brief; use a compact comparison table for competing positions when it helps the decision. Retain the reasoning and qualifications needed to support real copy rather than delivering an unexplained keyword list. Put sources and limits beside consequential conclusions. Separate accepted owner decisions, recommendations, assumptions, usable assets and open dependencies in existing project records.
 
 Stop when the requested positioning decision is useful and its remaining limits are clear. Unresolved demand may merit `business-validate`; expression may merit `website-create`. Recommend the evidence gap, not a mandatory next step. The agent decides whether additional expertise is useful; this skill does not invoke others.

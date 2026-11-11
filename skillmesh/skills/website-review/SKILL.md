@@ -13,7 +13,7 @@ Identify the URL/revision, environment, requested scope and success criteria. Us
 
 ## Inspect the actual experience
 
-For substantial review read [review guidance](references/review-guide.md). Sample representative page types and unusual states, covering all business-critical journeys. Assess story, fit, proof, copy, imagery, hierarchy, responsive composition, accessibility, functionality and operating ownership together. Attractive generic copy is not a credible offer.
+For substantial review read the relevant sections of [review guidance](references/review-guide.md). Inspect a representative complete journey early to expose systemic issues, then extend coverage to other page types, unusual states and all business-critical journeys. Reuse valid proof for unchanged parts of the candidate and concentrate new inspection on changed, shared or unverified behavior; sampling still needs an explicit boundary. Assess story, fit, proof, copy, imagery, hierarchy, responsive composition, accessibility, functionality and operating ownership together. Attractive generic copy is not a credible offer.
 
 Render and examine narrow, intermediate and wide layouts at recorded sizes. Exercise navigation, CTAs, keyboard/focus, form validation and recovery. Reuse trustworthy evidence for the same candidate, distinguishing build results, screenshots and actual receipt. External delivery tests require authorization; missing tools or credentials leave their checks unverified.
 
@@ -21,7 +21,7 @@ When implementation/source readability is in scope, inspect it for an owner retu
 
 ## Return a decision, with limits
 
-Lead with readiness and the issue most likely to change buyer action. Order material findings by consequence. Give each a location/state, observation, buyer impact, supporting evidence and practical correction. Group systemic issues and link detailed proof. A fake primary conversion or unsupported central claim remains a failure regardless of unrelated passes.
+Lead with readiness and the issue most likely to change buyer action. Order material findings by consequence. Use specific finding labels and a short list or table when it helps scanning; give each a location/state, observation, buyer impact, supporting evidence and practical correction. Group systemic issues and link detailed proof instead of repeating page-by-page check narration. A fake primary conversion or unsupported central claim remains a failure regardless of unrelated passes.
 
 Repair reversible defects only when implementation is in scope; review-only work does not edit the site. Recheck affected views and downstream journeys after repairs. Record concise findings in existing project records and stop at the requested outcome.
 

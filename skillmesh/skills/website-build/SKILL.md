@@ -15,7 +15,7 @@ Preserve suitable stack, provider, URLs, integrations and editing workflows. Rea
 
 ## Implement complete journeys
 
-Use real copy, purposeful composition, usable assets and mobile-first behavior. Inspect representative small-screen and desktop pages early so layout problems do not spread. Reuse good prototype assets while correcting poor semantics, markup or accessibility.
+Use real copy, purposeful composition, usable assets and mobile-first behavior. Implement and render a representative entry-to-action slice before multiplying shared layouts across pages; include difficult content and inspect small-screen and desktop behavior so defects do not spread. For a contained correction, inspect the affected component in its real page instead of building a new demonstration. Reuse good prototype assets while correcting poor semantics, markup or accessibility.
 
 Make navigation, validation, submission and recovery truthful. Validate at trust boundaries and integrate the real destination where available. A client success message, provider acceptance and downstream receipt establish different facts; mocks prove only the behavior exercised. Test live enquiries only with authorization. Keep secrets server-side and private research out of public output.
 
@@ -27,6 +27,6 @@ Write source for an owner returning to code after six years. Require blank lines
 
 Run relevant project build/static checks and meaningful behavioral tests. Inspect affected rendered pages at sizes that exercise actual breakpoints and complete the important journeys, including failure and recovery. Fix observed defects and retest affected behavior; retain unrelated valid evidence instead of rerunning everything reflexively.
 
-Lead the handoff with the visitor outcome and consequential choices, followed by actual visual/functional proof and named gaps. Record the candidate, configuration names, important routes and real versus simulated integrations in existing records. A preview or build does not authorize production publishing.
+Lead the handoff with the visitor outcome and consequential choices, followed by actual visual/functional proof and named gaps. Use short, meaningful route/state labels and link evidence rather than narrating each check. Record the candidate, configuration names, important routes and real versus simulated integrations in existing records. A preview or build does not authorize production publishing.
 
 Recommend additional expertise only for a concrete gap: independent candidate quality (`website-review`), unresolved experience (`website-create`), or a genuine application boundary. The agent chooses; these are not prerequisites and this skill invokes none of them.

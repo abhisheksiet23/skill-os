@@ -9,7 +9,7 @@ Turn a request into intended behavior that can be implemented and verified witho
 
 ## Bound the question before deep discovery
 
-Inspect project instructions, existing decisions and the affected implementation. Accept adequate briefs and contracts from any author or tool. No prior invocation, phase ledger or prescribed documentation tree is required.
+Inspect project instructions, existing decisions and the affected implementation. Accept adequate briefs and contracts from any author or tool; locate their relevant sections and source identities before retrieving more. Reuse still-valid behavior and acceptance evidence, investigating the changed or uncertain boundary rather than rediscovering the system. No prior invocation, phase ledger or prescribed documentation tree is required.
 
 For a defect, trace its affected path. For broad change or replacement, first make a shallow capability/dependency map. Settle choices that could invalidate substantial investigation: product purpose, next-release capabilities, compatibility obligations and how retained workflows remain reachable. Recommend a boundary and explain its consequences rather than issuing a standard questionnaire. Use [existing-system recovery](references/existing-systems.md) when current behavior or coexistence is uncertain.
 
@@ -29,7 +29,7 @@ For consequential handoffs, check whether the contract and linked evidence expla
 
 ## Finish at the decision boundary
 
-Lead with the recommended scope and its important consequence, followed by the contract, supporting evidence and precise unresolved decisions. Completion means implementers and verifiers can proceed with the next increment without guessing consequential behavior and understand its dependencies. If a blocker remains, identify the work it blocks and complete independent analysis.
+Lead with the recommended scope and its important consequence. Keep the contract scannable with labeled facts such as actor/trigger, behavior, exceptions, acceptance and decision needed; use a short list for one flow or a table when comparing behaviors. Link evidence beside the claim and keep observed, assumed and accepted behavior distinct. These are useful shapes, not required sections. Completion means implementers and verifiers can proceed with the next increment without guessing consequential behavior and understand its dependencies. If a blocker remains, identify the work it blocks and complete independent analysis.
 
 Preserve enough durable context to resume: release boundary, accepted decisions, source/revision-bound evidence and exact gaps. Optimize total delivery effort, including owner decisions, verification and rework; neither brevity nor a time/token cap justifies exporting consequential uncertainty downstream.
 

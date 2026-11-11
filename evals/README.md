@@ -1,122 +1,50 @@
-# Ecosystem Evals
+# Skill evaluation
 
-Run these against the baseline ecosystem and again after changes.
+## Clean starting state
 
-The purpose is not to force identical execution paths. The goal is consistently competent skill selection and composition.
+No prior run scores, outputs or success claims are carried forward. Reusable tasks, fixtures and assessment keys are test inputs, not evidence that a current skill passes. Dates, revisions and test histories inside fictional fixtures describe the scenario only. Published tasks are regression/practice material; use fresh independently prepared inputs for held-out comparisons. Resetting records cannot make previously exposed tasks unseen.
 
-Judge detail by its contribution to correct decisions, reliable execution and total effort, including owner attention and rework. Longer guidance is worthwhile when it improves outcomes. Word counts describe text size, not quality, provider tokens or waste; do not trim to a budget or reward brevity that drops important guarantees. Compare substantial simplifications on both meaningful work and contained corrections.
+## Compare useful outcomes and total execution effort
 
-## Current review and evidence
+- Freeze the current and candidate source separately. Keep model/tools, task and authorized scope comparable; record material differences.
+- Give fresh performers only their variant, raw inputs and task. Exclude peer outputs, author conclusions and assessment keys. Shared host instructions/filesystem still limit isolation.
+- Execute the requested artifact where feasible. A written plan, mocked dependency, inspected screenshot and verified integration establish different things.
+- Check a representative small task, consequential task, blocked-boundary case and existing-evidence case where relevant. The shortest path still has to preserve requirements and prove affected behavior.
+- Measure time to a usable correct artifact, owner corrections, rework, retrieval/tool work and available provider usage. Separate setup from execution. Keep unobserved metrics unknown; do not infer speed from word count or quality from test totals.
+- Prefer code/site/model artifacts plus a compact assessment: result | consequential difference | evidence | limit. Keep raw runs only while needed for assessment; remove disposable outputs at closeout. Do not accumulate historical claims in discovery or operating instructions.
 
-Evaluation hygiene: instructional examples and previously exposed cases are learning/regression material, not held-out evidence. The numeric answer formerly included in the forecasting reference was removed on 2026-11-11; delivery forecast case B remains an exposed regression case because deleting the example cannot undo prior exposure. For a new quality comparison, create fresh inputs before dispatch, keep its assessment key from performers, and vary dependencies/capacity as well as numbers. Preserve earlier candidate-specific results as historical evidence rather than retroactively invalidating them.
+## Assessment dimensions
 
-Correction and executed implementation evidence — 2026-11-11: backend/frontend instructions now load relevant readability sections for small source edits too, scoped to affected code. Two no-history performers used frozen `d6996b2` versus corrected backend/frontend sources and equal isolated projects for [the implementation cases](implementation-guidance-tasks.md). Each fixed the inclusive discount boundary and implemented an asynchronous settings action. Both actually loaded the two readability references. Each Python suite passed three tests and detected the original guard when restored in memory. Earlier-source Node tests passed two methods; corrected-source tests passed three, covering actual PUT/JSON, pending/success, 422, 503, draft preservation, explicit retry, overlap suppression and a destroyed-socket transport failure. Root inspected source/tests and reran all six Python and five Node methods successfully. Method counts reflect different grouping, not quality differences. Initial localhost checks failed with sandbox EACCES; the same loopback-only suites passed with authorized tool escalation.
+Use 0 = failed, 1 = partial/material gap, 2 = evidenced success; unknown for unobserved and N/A for unexercised dimensions. Do not average away a consequential failure.
 
-These are executed synthetic implementation and local HTTP checks. They do not establish rendered UI/accessibility, real production APIs, SQL generation/execution, release packages, deployment, owner readability or universal reliability. Both variants passed, so no comparative advantage is demonstrated. Shared host instructions/tools and explicit task contracts limit causal attribution. Temporary snapshots, code and raw results were removed after inspection; reusable task inputs and this bounded summary remain. The broader rewrite retains its previously stated evidence gaps.
+| Dimension | Assess |
+| --- | --- |
+| Outcome correctness | Intended behavior, preserved requirements, factual/commercial truth |
+| Artifact usability | Useful labels, concise facts, appropriate lists/comparisons; reasoning and qualifications survive compression |
+| Decision value | Outcome, deciding reason, evidence, uncertainty and next action are easy to recover |
+| Execution economy | Focused retrieval, early decisive check, reuse of valid evidence, no unnecessary expansion or repeated work |
+| Discovery/selection | Relevant expertise found; unnecessary skills/references avoided |
+| Composition/transfer | Findings inform subsequent work without losing authority, assumptions or evidence limits |
+| Adaptation/stopping | New evidence changes next work; task ends at its useful boundary |
+| Contradiction handling | Locate differences in evidence, assumptions or scope and resolve or target the gap |
+| Owner effort | Actual correction burden, decisions and rework, with measured boundaries |
 
-Whole-library rewrite — 2026-11-10: reviewed and revised all 22 skills and their owned references/assets against baseline `0caf1ba`, organizing guidance around intent, consequential decisions, execution and evidence while preserving owner conventions. Detailed backend/frontend readability and frontend serving guidance now have three local references with explicit loading instructions. Legal notices and recorded source identities were preserved. No word-count target was used. A separate no-history static reviewer inspected all entrypoints and targeted references/HEAD comparisons and reported no blocking findings; shared host/filesystem access limits isolation.
+Use [the deliverable rubric](deliverable-quality-rubric.md) for detailed artifact criteria. Tables or short outputs receive no credit by themselves. A compressed conclusion that hides its cause, caveat or evidence is a regression. Static packaging checks establish packaging only.
 
-Executed comparison: two separate performers used frozen before/after context skills and isolated copies of the Atlas fixture. Both actually updated only decisions, team-export continuation and session assessment. Root inspected both outputs and compared file inventories: own-team approval superseded company-wide scope; credentials/schema stayed fixed; B remained untested, A evidence historical; email provisional and SSO unknown; unrelated workstream and evidence files were unchanged. Both kept continuity unknown. This supports bounded maintenance behavior, not superiority, fresh-recipient recovery, cross-device operation or real application quality. Performers had unrelated skill-authoring context and shared host instructions; the comparison is not a fully isolated experiment. Raw scratch was removed after inspection under the owner's cleanup preference.
+## Reusable inputs
 
-Additional business and website before/after desk exercises preserved economic arithmetic, evidence-light positioning and contained-change scope, and clarified offer-test denominators, artwork-in-placement checks and conversion proof. These were author-context exercises, not live market/browser or causal performance evaluations. Final source was checked by all 22 official skill validators, repository packaging, local-link and whitespace checks. Exact source identity and remaining limits are in the owning session checkpoint. No general quality, provider-token, cost or time improvement is claimed.
+| Need | Inputs |
+| --- | --- |
+| Broad composition and restraint | [task pack](task-pack.md), [efficiency](efficiency-tasks.md), [business scenarios](scenarios.md) |
+| Artifact usefulness | [deliverable tasks](deliverable-quality-tasks.md), [rubric](deliverable-quality-rubric.md) |
+| Instruction economy | [trimming tasks](trimming-tasks.md); judge outcomes and total effort, not a word budget |
+| Interface copy | [microcopy tasks](microcopy-tasks.md), separate [key](microcopy-assessment.md) |
+| Early boundary checks | [automation cases](automation-feedback-tasks.md), [key](automation-feedback-assessment-key.md) |
+| Requirements/design review | [design cases](design-review-tasks.md), [key](design-review-assessment-key.md), [solution design](solution-design-tasks.md) |
+| Implementation and comprehension | [implementation](implementation-guidance-tasks.md), [returning reader](returning-reader-tasks.md), [spacing](code-spacing-tasks.md) |
+| Identity, SQL and HTTP contracts | [identity](identity-authorization-tasks.md), [database](database-script-tasks.md), [Postman](postman-api-tasks.md) |
+| Release authority and recovery | [manual release](manual-release-tasks.md) |
+| Context recovery and isolation | [context tasks](project-context-tasks.md), [key](project-context-assessment-key.md) |
+| Management decisions and upkeep | [management](project-manage-tasks.md), [key](project-manage-assessment-key.md), [delivery](project-manage-delivery-tasks.md), [delivery key](project-manage-delivery-assessment-key.md) |
 
-Owner direction on 2026-11-10: preserve useful detail, fix concrete conflicts and remove disposable evaluation clutter. The whole-library review covered all 22 entrypoints and selected supporting evidence at `e9a361d`; it found no demonstrated need for skill mergers or a routing runtime. The localized App Deliver conflict has been corrected: an explicit build-only request permits the named build/artifact, while preparation-only work produces a recipe and deployment retains its own authorization. No broad instruction trimming was performed.
-
-Keep reusable tasks, fixtures, assessment keys and rubrics here. Historical run reports and superseded planning documents were removed from the current tree; links below use the frozen Git revision where needed. Ignored execution snapshots and outputs are disposable and are no longer retained. Existing project/session records preserve adopted decisions and their limitations. A historical result belongs to its recorded candidate and environment, not to later source changes.
-
-| Area | Useful historical conclusion | Evidence still needed |
-| --- | --- | --- |
-| Readability/spacing | Actual changed-source checks and owner acceptance of one spacing example; not universal comprehension proof | Feedback on subsequent concrete code; no measured comprehension speed |
-| SQL and manual release | Written handoff/recipe comparisons clarified obligations and preserved existing stacks | Actual SQL generation/execution, interrupted upgrade, package/host and recovery proof |
-| HTTP API collections | Instruction cases understood upkeep; no real runner/API execution established | Runnable collection against a real local endpoint and detection of an intentionally broken contract |
-| Context/management | Executed synthetic edits/recovery, including a failed assessment-placement attempt and corrected rerun; baseline often equally capable | Real-project adoption, concurrent/cross-device behavior, owner usefulness and net upkeep burden |
-| Naming | Latest variants actually attempted live lookup but obtained no registration response; implicit default without a domain request was not tested | Successful registrar/registry evidence and implicit-default behavior; audience outcomes |
-| Deliverable quality | Instruction/fixture checks, without matched model outputs | Actual representative outputs and owner usefulness |
-| Current maintenance | Preserve quality-bearing detail; fix the explicit-build ambiguity without changing owner release defaults | No new independent behavioral comparison is claimed for this wording correction |
-
-Provider tokens, financial/time savings and general superiority remain unknown. Current packaging/unit checks establish their stated integrity only. The prior migration run stopped at Windows junction creation with access denied; later assertions did not execute. Real application evidence belongs in the application's own project. Next useful evidence is a bounded executed API/collection case or an actual adopted project workstream, rather than another round of broad framework authoring.
-
-## Score each scenario (0-2)
-
-### Discovery recall
-0 = misses important relevant skill(s)
-1 = partially discovers useful skills
-2 = discovers the important skill(s)
-
-### Selection precision
-0 = substantial unnecessary skill usage
-1 = some unnecessary usage
-2 = uses a focused set
-
-### Composition
-0 = skills operate as disconnected reports
-1 = partial integration
-2 = findings naturally inform later work
-
-### Reassessment
-0 = follows fixed chain regardless of findings
-1 = limited adaptation
-2 = meaningfully changes next steps based on findings
-
-### Stopping
-0 = keeps expanding work without value
-1 = stops imperfectly
-2 = stops when further work is unlikely to matter
-
-### Synthesis
-0 = fragmented / contradictory
-1 = mostly coherent
-2 = unified and decision-useful
-
-### Human correction burden
-0 = frequent user correction needed
-1 = some correction
-2 = little or no correction
-
-Also record approximate context/token overhead if available.
-
-### Context transfer
-0 = loses or promotes assumptions/decisions incorrectly
-1 = preserves some but loses a consequential limitation
-2 = preserves evidence, assumptions, authority and remaining uncertainty in later output
-
-### Contradiction handling
-0 = silently chooses a view or blends incompatible claims
-1 = notices disagreement but does not locate the cause
-2 = distinguishes evidence/scope/assumptions and resolves or proposes targeted evidence
-
-### Final output quality
-0 = incorrect, misleading or unusable
-1 = useful with material omissions
-2 = correct and actionable within the stated evidence and scope
-
-### Reader effort and decision usability
-For output-quality work, also score the outcome/consequence, meaningful economy, checkability, actionability, continuity/boundaries and proportionality criteria in [deliverable-quality-rubric.md](deliverable-quality-rubric.md). A heading, table, file or longer response earns no credit by itself.
-
-Use N/A when a task does not exercise a dimension. A direct answer can receive full selection/stopping marks without loading a skill. Metadata/packaging checks are not behavioral evidence; word counts are not provider tokens.
-
-## Matched task runs
-
-For instruction trimming, use [the matched prompts](trimming-tasks.md). Earlier paired runs covered an aggressive candidate, not the later conservative revision; do not treat them as proof for the current source. Execution-result archives were removed from the working tree at the owner's request.
-
-For interface-copy work, use [the microcopy scenarios](microcopy-tasks.md) and keep the separate [assessment key](microcopy-assessment.md) from task performers. The suite spans product types and pairs empty states, draft voices and processing states across products; assess factual correctness and product adaptation separately. Freeze the scenarios with the skill variants; results from earlier fixture versions do not validate revised requests.
-
-For decision ordering, contained-change restraint, recurring QA and early legacy integration, use [efficiency-tasks.md](efficiency-tasks.md). Historical committed assessments and outputs remain accessible through Git history; for example, the 2026-09-20 assessment is available with `git show f8daa37:evals/results/efficiency-assessment.md`. It separates planning-only responses from the executed browser pilot and does not establish measured token savings.
-
-For first-write feasibility, clarification timing, early dense-screen inspection and contained-change restraint, use [automation-feedback-tasks.md](automation-feedback-tasks.md) with its separate [assessment key](automation-feedback-assessment-key.md). The [2026-11-02 comparison](https://github.com/abhisheksiet23/skill-os/blob/e9a361d/evals/automation-feedback-assessment.md) records an observed ordering improvement and its limits. The first task executes a harmless local boundary simulator; the other tasks assess written decisions. Neither the simulator nor a stated plan proves live application integration, visual quality or credential non-retention.
-
-For tailored outcome control, actual status-record recovery/change, incomplete AI/tool costs, delegation, improvement claims and real operator boundaries, use [project-manage-tasks.md](project-manage-tasks.md) with its separate [assessment key](project-manage-assessment-key.md). The [2026-11-03 comparison](https://github.com/abhisheksiet23/skill-os/blob/e9a361d/evals/project-manage-assessment.md) records executed local edits and bounded findings. Local synthetic edits and arithmetic test reasoning/maintenance; they do not establish real project outcomes or billing access.
-
-For ordinary implementation with adopted upkeep, useful positive forecasts, next-action choice, small-correction restraint and unchanged unavailable spend sources, use [project-manage-delivery-tasks.md](project-manage-delivery-tasks.md) with its separate [assessment key](project-manage-delivery-assessment-key.md). A fresh recipient can then recover the actual synthetic implementation/checkpoint without performer conclusions. This remains a bounded local exercise, not unattended monitoring or live project optimization.
-
-Use [task-pack.md](task-pack.md) for bounded, offline before/after tasks spanning standalone review, existing contracts, business economics, context transfer, contradictions, restraint and stale release proof. Use [deliverable-quality-tasks.md](deliverable-quality-tasks.md) for matched output-quality cases spanning strategy, two initiatives, executable backend work, website review, cross-product isolation and restraint; keep its separate assessment key from task performers. Dispatch the task pack and the available variant's descriptions to fresh evaluators; let them load only relevant skills. Do not give evaluators the intended answers or each other's outputs. Keep scope, model and tools as comparable as possible and record differences.
-
-Capture actual outputs and an assessment when needed to substantiate a comparison, using ignored task scratch such as `.eval-runs/`. Retain repository evidence only when needed for review rather than accumulating execution logs by default. [RESULT_TEMPLATE.md](RESULT_TEMPLATE.md) is optional recording guidance, not production state. Repeat meaningful scenarios and add real implementation/browser journeys before claiming general superiority. The original eight business scenarios remain available in [scenarios.md](scenarios.md); live market research needs sources and should not be simulated as completed evidence.
-
-For requirements comprehension, source-grounded technical plan review, complexity introduced by review fixes and contained-change restraint, use [design-review-tasks.md](design-review-tasks.md). Keep [the assessment key](design-review-assessment-key.md) from performers. These offline design assessments do not establish application behavior or deployed guarantees; distinguish fresh performer contexts from a measured comparison of independent versus author-context review.
-
-## Escalation rule
-
-For automatic project maintenance, actual local record updates, fresh-session recovery, workstream separation and bounded reviewer isolation, use [project-context-tasks.md](project-context-tasks.md) with its separate [assessment key](project-context-assessment-key.md). The packaged [session rubric](../skillmesh/skills/project-context/references/session-assessment.md) is also the ongoing assessment factor for every adopted project session. Project records stay in their owning projects; [the pilot note](../docs/project-context-pilot.md) tracks sanitized lessons and real-project evidence still pending. Do not count synthetic exercises as the live pilot or unobserved factors as passed.
-
-Do not add a new architecture layer after one bad run. Look for a repeated failure pattern across multiple scenarios.
+[RESULT_TEMPLATE.md](RESULT_TEMPLATE.md) is optional recording guidance. Live application work and evidence belong in their owning projects; only isolated skill evaluations belong here. Do not add routing/state infrastructure without repeated observed failures that simpler instructions cannot resolve.

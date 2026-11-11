@@ -11,7 +11,7 @@ Turn a broad website request into one coherent visitor experience: a credible of
 
 Read company material and adequate existing decisions, then inspect the current site/repository. Determine who arrives, what makes the offer relevant now, what evidence helps them decide and what useful next action the business can support. Include alternatives, fit/exclusions, operating ownership and constraints. Separate a website assignment from changing the business itself; preserve valuable content, URLs, integrations and editing workflows.
 
-Choose the next work from the uncertainty most likely to invalidate the result. An unclear offer needs clarification; an approved design may need implementation; a broken form needs repair. Do not restart positioning or build a fresh prototype for an established, contained correction. If the work spans these concerns, keep their decisions connected rather than handing back separate reports.
+Choose the next work from the uncertainty most likely to invalidate the result. An unclear offer needs clarification; an approved design may need implementation; a broken form needs repair. Reuse accepted direction, usable assets and candidate-bound proof while their assumptions still hold; reopen only what the change invalidates. Do not restart positioning or build a fresh prototype for an established, contained correction. If the work spans these concerns, keep their decisions connected rather than handing back separate reports.
 
 ## Make the direction concrete
 
@@ -23,7 +23,7 @@ Use only supportable claims, prices, guarantees, locations and delivery commitme
 
 ## Complete at the requested boundary
 
-Keep the site or concrete direction primary. Explain consequential page/journey choices through buyer evidence and the action they support. In existing project records distinguish accepted decisions, the reviewed candidate, live facts and unresolved dependencies. Report what was actually inspected and tested; missing evidence remains a gap.
+Keep the site or concrete direction primary. Explain consequential page/journey choices through buyer evidence and the action they support. Use meaningful labels and short lists for decisions, proof and dependencies; use a comparison table when it makes an actual choice easier. Keep the buyer argument and its qualifications intact rather than reducing the website copy to keywords. In existing project records distinguish accepted decisions, the reviewed candidate, live facts and unresolved dependencies. Report what was actually inspected and tested; missing evidence remains a gap.
 
 Honor delegated authority and existing approvals. Pause only dependent work for a genuinely reserved decision. Preparation alone does not authorize publication, purchases or messages to people.
 

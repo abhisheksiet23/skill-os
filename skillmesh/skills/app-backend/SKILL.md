@@ -9,7 +9,7 @@ Deliver backend behavior that consumers can rely on: enforced business rules, ex
 
 ## Establish the working boundary
 
-Inspect the affected implementation, project instructions and accepted decisions. Identify the caller, intended outcome, access/data scope, state changes and observable acceptance. Resolve routine code choices locally; surface missing consequential behavior or architecture before building dependent work. Continue independent implementation while a genuine decision is pending.
+Inspect the affected implementation, project instructions and accepted decisions. Identify the caller, intended outcome, access/data scope, state changes and observable acceptance. Locate and reuse the current API/data contracts, relevant handlers and existing checks before adding code or test scaffolding; deepen retrieval along the affected execution path. Resolve routine code choices locally; surface missing consequential behavior or architecture before building dependent work. Continue independent implementation while a genuine decision is pending.
 
 For uncertain existing-system or external contracts, test the consequential boundary with representative identity/configuration before multiplying dependent code. An adjacent successful operation or passing mock is insufficient. Preserve exact stored-to-domain mappings when they matter, and bound the affected work if the check is unavailable.
 
@@ -32,7 +32,7 @@ Use supported secret input or references. Raw secrets must not enter recorded ar
 
 ## Prove and hand over the behavior
 
-Test business invariants and API/data boundaries with meaningful unit/integration checks. Run affected Postman folders against the authorized development/test API and the agreed regression set before handoff. A collection does not prove every concurrency, transaction or external-system guarantee. Report the actual target, candidate and results, or the exact unavailable runner/environment.
+Test business invariants and API/data boundaries with meaningful unit/integration checks. Run affected Postman folders against the authorized development/test API and the agreed regression set before handoff. Reuse candidate/environment-bound proof for unaffected behavior; broaden execution when shared enforcement, schema, configuration or failures create a concrete coverage gap. A collection does not prove every concurrency, transaction or external-system guarantee. Report the actual target, candidate and results, or the exact unavailable runner/environment.
 
 When a consumer is in scope, exercise the real agreed boundary; separately passing frontend mocks and backend tests do not prove agreement. API-only work does not require frontend changes. For defects, establish the reproduction, isolate the cause, correct it and rerun the original case and affected regressions. Prove coherent increments before expanding unverified work.
 
@@ -40,4 +40,4 @@ Review one material path in execution order for comprehension and report remaini
 
 SQL authoring and safe local generation belong to implementation. Release compilation, publishing, package production and database execution remain owner-controlled unless explicitly authorized. If SQL generation needs unavailable tooling or an unauthorized build, supply the authorable portions and exact blocker and mark the script incomplete.
 
-Finish with delivered behavior, consumer implications, actual checks and precise migration/integration limitations. In projects adopting automatic context maintenance, update authoritative API/data decisions, candidate-bound evidence and this workstream's checkpoint; distinguish proposed from applied migrations. Recommend analysis, technical design or independent verification only for a concrete unresolved need. The agent chooses expertise; this skill invokes none.
+Keep code and runnable SQL/API checks primary. Finish with compact labeled facts for behavior, consumer impact, checks and migration/integration limits; link detailed evidence instead of repeating contracts or successful response bodies. Preserve enough explanation to trace consequential rules and recovery. In projects adopting automatic context maintenance, update authoritative API/data decisions, candidate-bound evidence and this workstream's checkpoint; distinguish proposed from applied migrations. Recommend analysis, technical design or independent verification only for a concrete unresolved need. The agent chooses expertise; this skill invokes none.

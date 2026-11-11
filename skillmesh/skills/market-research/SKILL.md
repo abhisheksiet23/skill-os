@@ -9,7 +9,7 @@ Answer a business decision with a defensible view of the alternatives buyers can
 
 ## Build a relevant comparison set
 
-Search for what customers actually use: direct competitors, adjacent offers, in-house work, freelancers, free tools and doing nothing. Compare the job and buying situation rather than feature counts alone. Separate user from payer and identify switching costs and channels.
+Reuse supplied current sources where their scope fits. Search in focused batches around the unresolved buyer choice and stop adding alternatives when they no longer change it. Search for what customers actually use: direct competitors, adjacent offers, in-house work, freelancers, free tools and doing nothing. Compare the job and buying situation rather than feature counts alone. Separate user from payer and identify switching costs and channels.
 
 ## Establish what each source can support
 
@@ -19,6 +19,6 @@ Seek contradictory evidence and sample beyond the easiest visible companies. Dis
 
 ## Translate findings into the decision
 
-Use [value curves and sizing](references/value-curves.md) only when the requested decision needs them. Produce a comparison and synthesis showing meaningful alternatives, the factors that change buyer choice, credible gaps and implications for the decision. Distinguish a gap observed in the sampled offers from an unmet customer need. For a Strategy Canvas, state whether each factor and score is observed, sourced or hypothesized; separate current alternatives from the proposed curve and explain the eliminate/reduce/raise/create trade-offs. Differentiation is not demand proof. Link evidence near the claim it supports and preserve assumptions in existing project records.
+Use [value curves and sizing](references/value-curves.md) only when needed. Lead with **Implication**, then compare alternatives using the buyer factors that change the decision, normalized units and nearby source/date links. Unknowns stay unknown; distinguish sampled offer gaps from unmet demand. Keep a short list of decisive uncertainties instead of a source-by-source narrative. For a Strategy Canvas, label observed/sourced/hypothesized factors and scores, separate proposed from current curves, and explain eliminate/reduce/raise/create trade-offs; differentiation is not demand proof. Preserve assumptions in project records.
 
 Stop when decision-relevant alternatives and uncertainties are covered. If sources are unavailable, report the gap and a bounded research plan, not fabricated findings. Optionally recommend `business-validate`, `business-pricing` or `venture-investigate` with a specific question; the agent decides. Do not invoke skills or expand scope automatically.

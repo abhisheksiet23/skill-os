@@ -1,6 +1,6 @@
 # Executable Postman upkeep evaluation
 
-Use separate baseline/candidate contexts with the same requests. Baseline reads git HEAD `2833a89` backend instructions/references; candidate reads working-tree backend instructions/local references. Do not provide peer outputs or assessment criteria to performers. Preserve actual answers and any generated samples under ignored `.eval-runs/postman/`. This is an isolated skill evaluation, not a live application change.
+Use separate contexts with the same requests and independently frozen current/candidate backend skills and local references. Do not provide peer outputs or assessment criteria. Keep answers and generated samples in ignored temporary scratch only while assessing them. This is an isolated skill evaluation, not a live application change.
 
 1. A new local HTTP helpdesk increment is implemented: POST /session returns accessToken, POST /tickets returns 201 with id/status/version, and POST /tickets/{id}/approve requires reviewer token plus version and returns assigned state. Requesters can create but cannot approve; stale version returns 409. Prepare reusable human/API verification deliverables, assertions and execution steps. No actual server is supplied.
 2. Existing repository collection expects GET /tickets to return an array. The changed endpoint returns `{items,total,page}` and accepts page/size. Explain targeted collection upkeep and checks while retaining unrelated tests.

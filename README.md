@@ -21,7 +21,7 @@ skill-os/
     skills/<name>/SKILL.md
     skills/<name>/references/  Optional detail local to the owning skill
   SKILLS.md                   Human-readable inventory
-  docs/                       Source reconciliation and migration
+  docs/                       Current policy, provenance and migration
   evals/                      Scenarios, fixtures and evaluation guidance
   scripts/                    Validation and migration, not agent routing
 ```
@@ -45,7 +45,7 @@ Every skill accepts adequate project evidence regardless of its author. No previ
 
 For projects adopting automatic maintenance, [project-context](skillmesh/skills/project-context/SKILL.md) maintains project-owned records and a concise assessment at each work-period closeout, pause or handoff. Adapt its [portable instruction snippet](skillmesh/skills/project-context/assets/project-instructions.md) to the project's existing map so another agent/device can follow the same rule. Keep accepted decisions, provisional assumptions, candidate-bound evidence and separate workstream checkpoints in the project; retrieve focused sections instead of loading every record. Existing records are preferred over new folders. Local maintenance does not imply a commit, push or installation in other projects.
 
-The [pilot note](docs/project-context-pilot.md) records the accepted direction, six assessment factors and real-project evidence still needed. Assessments belong in each project; this toolkit receives only authorized, sanitized lessons. The [rubric](skillmesh/skills/project-context/references/session-assessment.md) distinguishes observed success, gaps, unknowns and N/A. Abruptly closed chats cannot run a background closeout; recover missing context on resumption. Merely installing the plugin does not establish that a project's instructions load or that session maintenance is active.
+The [context policy](docs/project-context.md) records current adoption and retention rules. Assessments belong in each project; this toolkit receives only authorized, sanitized lessons. The [rubric](skillmesh/skills/project-context/references/session-assessment.md) distinguishes observed success, gaps, unknowns and N/A. Abruptly closed chats cannot run a background closeout; recover missing context on resumption. Merely installing the plugin does not establish that a project's instructions load or that session maintenance is active.
 
 ## Outcome control with proportionate governance
 
@@ -61,7 +61,7 @@ The migration helper defaults to inspection. Installation uses the official plug
 
 ## Verify and evolve
 
-Preserve detail that improves outcomes, correctness and reliable execution. Word count is a loading diagnostic, not a quality target; simplify waste without exporting errors or rework downstream. Keep reusable evaluation inputs and current evidence limits in the tree; historical reports remain available through Git. Remove disposable runs and obsolete planning files once useful conclusions and provenance are preserved. [EVOLUTION.md](EVOLUTION.md) defines the maintenance boundary.
+Preserve detail that improves outcomes, correctness and reliable execution. Word count is a loading diagnostic, not a quality target; simplify waste without exporting errors or rework downstream. Keep reusable evaluation inputs and current evidence limits in the tree. The active toolkit starts without inherited run results, scores or installation claims. Remove disposable runs and obsolete records; preserve accepted policy and required provenance. [EVOLUTION.md](EVOLUTION.md) defines the maintenance boundary.
 
 The plugin is Markdown and a manifest. Python 3.10+ and PowerShell 7 are used only by local validation/migration helpers.
 
@@ -75,4 +75,4 @@ Also run the installed skill-creator and plugin-creator validators as described 
 
 [Source reconciliation](docs/source-review.md) records what was kept, changed and not recovered. Improve observed failures, put reusable lessons in the owning skill and keep company facts in projects. [EVOLUTION.md](EVOLUTION.md) retains the high bar for added architecture.
 
-Let pain create architecture. Keep SkillMesh as simple as it can be, but no simpler.
+Optimize time to a correct usable outcome. Supporting artifacts favor meaningful labels, concise facts, short action lists and genuine comparison tables; preserve the reasoning and qualifications needed to act.

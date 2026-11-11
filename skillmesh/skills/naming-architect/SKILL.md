@@ -17,7 +17,7 @@ For renaming, establish the problem with the current name and include keeping it
 
 ## Explore and compare
 
-For generation, explore distinct conceptual directions before polishing variants: descriptive function, audience benefit, metaphor, meaningful compounds, coined forms or relevant community vocabulary. Choose directions and candidate counts to suit the brief. For comparison/critique, start with the supplied names; generate alternatives only when useful or requested. Honor explicit counts and formats.
+Prune creative directions against hard constraints before checking a useful shortlist. Avoid spending lookup effort on discarded candidates, while preserving required live checks before recommendation. For generation, explore distinct conceptual directions before polishing variants: descriptive function, audience benefit, metaphor, meaningful compounds, coined forms or relevant community vocabulary. Choose directions and candidate counts to suit the brief. For comparison/critique, start with the supplied names; generate alternatives only when useful or requested. Honor explicit counts and formats.
 
 For benefit-led directions, connect what the product does to the practical improvement and then the feeling or aspiration it enables. Use that last association to explore metaphors beyond category vocabulary; check that the name still fits actual use rather than promising an unsupported outcome.
 
@@ -39,7 +39,7 @@ For consequential finalists, propose a small audience test tied to uncertainty: 
 
 ## Recommend and iterate
 
-Lead with the recommendation and deciding reason, then give the shortlist, usage examples, trade-offs and evidence needed to assess it. Keep creative preference separate from eligibility: if no candidate is verified to satisfy a hard requirement, report that result rather than naming an apparently qualifying winner. Include assumptions or open checks that could reverse the choice. No mandatory seven-part report or fixed shortlist size. For high-consequence choices label provisional recommendations clearly and identify the next useful check. A recommendation to keep the current name is a valid outcome.
+Lead with **Recommended name** and the deciding reason. Use a shortlist comparison only when useful: candidate | fit/use example | main trade-off | verified eligibility or open check. Keep creative judgment, observed audience response and registration evidence distinct. If no candidate is verified against a hard requirement, say so explicitly. Omit forced scores, report sections and candidate quotas; preserve requested counts. State assumptions that could reverse the choice and the next useful check. Keeping the current name can be the recommendation.
 
 Learn from rejection reasons and preserve constraints rather than producing cosmetic variations. Keep project-specific shortlists and accepted decisions in the owning project. [Worked examples](references/examples.md) illustrate trade-offs; do not reuse their candidates as evidence of general naming quality.
 

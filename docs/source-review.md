@@ -1,10 +1,10 @@
-# Source reconciliation — 2026-09-19
+# Source provenance and retained design choices
 
-## Inspected sources
+## Source lineage
 
 - `E:/aj/experiments/ai-product-engineering-os-v1.4`: six app entrypoints, shared bootstrap, review/debugging and existing-system/replacement practices, and v1.6/v1.6.1 evaluation reports.
 - `E:/aj/experiments/shipwright`: principles, seven entrypoints, customer/voice, quality and non-functional-requirement practices.
-- `E:/aj/experiments/ai-driven-website`: six entrypoints and references. Content comparison with `ai-driven-website-claude/skills` found equivalent Markdown; the latter omitted six Codex UI metadata files.
+- `E:/aj/experiments/ai-driven-website`: website methods and references.
 - Installed copies in `C:/Users/Abhishek/.codex/skills`: twelve website/app skills and their external product-engineering-os dependency.
 - User-supplied [Business Idea Validation conversation](https://chatgpt.com/share/6aaea398-9efc-83ee-b867-1162907d8d6a), also retrieved with the app conversation reader: original brief, method discussion, pricing/Strategy Canvas additions, protocol summary and applied case.
 
@@ -24,8 +24,6 @@ The conversation names protocol/case attachments whose full file contents were n
 | Pricing, experiments, economics and challenge | Focused business skills | Narrow work need not load a whole protocol |
 | Awareness of other expertise | Recommendations, never invocation | Agent owns composition |
 
-The original v1.6.1 evaluation report found no quality advantage over a bare agent in its limited comparison. It also recorded reproduced validator defects and fixes. This supports testing simpler instructions, not claiming safeguards were useless or that SkillMesh is already better.
-
 ## Conflicts resolved
 
 - Shipwright's hand-authored CSS preference and the website toolkit's Astro/Tailwind recommendation are context-specific. Existing project conventions win; the qualified website default requires implementation-time documentation checks.
@@ -35,6 +33,6 @@ The original v1.6.1 evaluation report found no quality advantage over a bare age
 
 ## Exclusions and learning
 
-No legacy runtime, state engine, code-indexing service, MCP server, global instruction replacement or unrelated skills are imported. Existing specialized tools remain available at their original locations until separately migrated. Old source repositories remain intact. The historical orchestrator skill has been removed; its useful role and working-summary guidance is maintained in `AGENTS.md`.
+No legacy runtime, state engine, code-indexing service, MCP server, global instruction replacement or unrelated skill is required. Existing specialized tools remain separate until explicitly migrated. `AGENTS.md` owns expertise selection, synthesis and working-summary guidance.
 
 For a recurring failure, record the task, observed behavior, smallest instruction correction and comparison outcome. Update the owning skill only when the lesson generalizes; keep one-off company/project choices in project records. This review is not required reading for executing skills.

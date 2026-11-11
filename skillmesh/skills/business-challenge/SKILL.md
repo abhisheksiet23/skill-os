@@ -9,7 +9,7 @@ Help the owner decide whether a case survives scrutiny, needs a different premis
 
 ## Find the claims that carry the decision
 
-Trace the conclusion back to its necessary assumptions. Prioritize assumptions by how much their failure changes the decision and how weakly they are supported. A correct but peripheral criticism should not displace a decisive demand, distribution, delivery or cash constraint.
+Challenge the assumption most capable of changing the verdict first. Reuse adequate evidence; broaden research only if a competing explanation remains decision-relevant. Trace the conclusion back to its necessary assumptions. Prioritize assumptions by how much their failure changes the decision and how weakly they are supported. A correct but peripheral criticism should not displace a decisive demand, distribution, delivery or cash constraint.
 
 Check whether evidence supports the precise claim: segment, buying situation, geography, time, price and outcome. Look for intent presented as payment, competitor presence as profitability, revenue as margin, fictional scenarios as forecasts, or a differentiated canvas as demand proof.
 
@@ -23,6 +23,6 @@ Recommend the smallest evidence or experiment that could resolve each decisive u
 
 ## Return a decision, not a criticism inventory
 
-Lead with whether to continue, reshape, park or stop and the finding that drives that recommendation. Explain what holds, what fails and what remains unknown. Tie each consequential concern to the affected decision and the smallest resolving evidence; distinguish immediate blockers from risks that can be managed during execution. State what would reverse your verdict. Stop when additional critique is unlikely to change the decision or its safeguards. Keep owner decisions distinct from your recommendation and preserve useful findings in the project's existing records.
+Lead with **Verdict** and the deciding reason. Use a short finding list or, for several claims, a table: claim | evidence or counterevidence | decision consequence | resolving check. Distinguish demonstrated faults, unknowns and manageable risks. State what would reverse the verdict and who owns any decision. Stop when further critique cannot change the decision or its safeguards; preserve useful findings in existing project records.
 
 Research, validation, pricing or economics expertise may help a decisive gap. Recommend it with the question and useful evidence; the agent decides. Never invoke skills or recursively request reviews.

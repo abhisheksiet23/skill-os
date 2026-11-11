@@ -9,7 +9,7 @@ Determine whether the proposed business can deliver its offer, earn an adequate 
 
 ## Build the smallest useful business engine
 
-Choose the unit of analysis and period before modelling: engagement, order, active account or usage unit, for example. Identify which unknown can change viability before building a large model. Keep realized price, volume and mix separate so discounting or a changing customer mix cannot hide inside averages.
+Calculate the binding driver first and expand the model only if another driver can change viability. Reuse existing inputs with their units and dates rather than rebuilding a full spreadsheet. Choose the unit of analysis and period before modelling: engagement, order, active account or usage unit, for example. Identify which unknown can change viability before building a large model. Keep realized price, volume and mix separate so discounting or a changing customer mix cannot hide inside averages.
 
 Trace the business engine: acquisition channel and sales effort, conversion, onboarding, delivery, support/rework, repeat purchase or retention, and cash collection. Separate variable delivery costs, acquisition costs, fixed costs and founder time. Do not count the same cost twice or treat unpaid founder labor as economically free.
 
@@ -23,6 +23,6 @@ Assess defensibility, distribution and expansion only to the extent they change 
 
 ## Explain the implication
 
-Lead with the viability implication and binding constraint, supported by a transparent calculation with units and assumption ranges. Show which change in price, demand, effort, retention or cash timing would change the decision and what observation could resolve it. Use scenario tables or sensitivity charts when they clarify the drivers, without false precision. Keep business economics separate from project budgets, schedules and delivery commitments. Label simulated cases, preserve useful inputs in project records and stop when the requested viability question is answered within its limits.
+Lead with **Viability** and the binding constraint. Put decisive inputs in a compact table with units, period and evidence/assumption status; show formulas or a linked working model rather than repeating calculations in prose. Compare scenarios only for drivers that change the decision. Finish with the break-even/capacity/cash implication and the next observation that could reverse it. Keep business economics separate from project commitments, label simulated cases, and stop at the requested viability boundary.
 
 Optionally recommend `business-pricing`, `business-validate` or `business-challenge` for a concrete uncertainty, preserving inputs and assumptions. The agent decides; recommendations do not invoke skills.

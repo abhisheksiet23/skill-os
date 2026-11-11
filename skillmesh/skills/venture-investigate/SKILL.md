@@ -15,13 +15,13 @@ Identify the next commitment, its reversibility and the uncertainty that could m
 
 ## Investigate in order of decision value
 
-Use [investigation lenses](references/investigation.md) only to find important gaps, not as mandatory stages. Reassess after meaningful findings. A costly delivery model may matter before market sizing; an obvious feasibility constraint may matter before interviews.
+Investigate the claim most likely to invalidate the next commitment first; do not complete every lens for coverage. Use [investigation lenses](references/investigation.md) only to find important gaps, not as mandatory stages. Reassess after meaningful findings. A costly delivery model may matter before market sizing; an obvious feasibility constraint may matter before interviews.
 
 Keep consequential claims explicitly known, supported, assumed, unknown or contradicted, with source, scope and limitations. Behavioral commitment, payment and repeat use usually support demand more strongly than praise or competitor presence; strength still depends on relevance and sampling. Public offers do not establish competitor profitability. Simulated economics are not evidence of sales. When evidence conflicts, inspect differences in segment, buying conditions, period and method before averaging it into a confidence label. Preserve the strongest countercase as well as supporting findings.
 
 ## Recommend the next commitment
 
-Lead with a coherent recommendation—reject, park, reshape, test, build or scale—and its most important implication. Explain the decisive evidence, what it means, consequential uncertainty and what would change the recommendation; do not make the reader reconstruct the case from a list of facts. Separate business attractiveness from VC attractiveness. Do not claim product-market fit or investor readiness without corresponding evidence. Stop when further analysis is unlikely to change the decision, or propose a bounded next test.
+Lead with **Recommendation**—reject, park, reshape, test, build or scale—and the next commitment it warrants. Follow with only the decisive claims: evidence | implication | uncertainty | what would change the decision. Use a short table when it makes conflicting evidence easier to inspect; retain prose where it explains causality. Separate business attractiveness from VC attractiveness and recommendations from owner decisions. Do not imply product-market fit or investor readiness without proof. Stop when further work is unlikely to change the decision, or propose one bounded next test.
 
 Keep the case in the project's existing records; the skill holds the method, never the company's facts. Preserve assumptions and decisions through later work without copying whole transcripts.
 

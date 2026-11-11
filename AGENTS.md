@@ -36,6 +36,22 @@ Before using another skill, ask:
 
 If not, do not use the skill.
 
+## Execution economy
+
+- Establish the requested artifact, acceptance boundary and decision-driving uncertainty before expanding work. Use adequate existing decisions directly.
+- Retrieve affected symbols, sections and reference headings first; deepen only where the result could change the work. Batch independent reads/checks, keep dependent actions sequential, and reuse working tool commands.
+- Test the uncertain consequential boundary before multiplying dependent implementation. Build one representative complete path before repeating its pattern.
+- Reuse evidence only for the same relevant source, candidate and environment. After a change, rerun affected checks and consumers; do not repeat valid unrelated checks or weaken required proof for speed.
+- Stop when acceptance is met or the precise dependency is established. Judge speed by time to a correct usable outcome, including owner decisions and rework; report unknown measurements honestly.
+
+## Artifact design
+
+Make the requested code, site, prototype, model or decision primary. For supporting artifacts, prefer meaningful labels and complete facts over paragraph-first narration: `Decision`, `Why`, `Evidence`, `Risk`, `Next` are examples, not compulsory fields. Omit empty or irrelevant sections.
+
+Use short lists for actions/findings and tables for genuine alternatives, scenarios or repeated attributes. Use concise complete cells, not paragraphs disguised as a table; state shared terms once and compare only decision-relevant differences. Keep a comparison row interpretable and place evidence and qualifications beside its claim. Use prose for causality, nuance, creative narrative or a consequential trade-off that compression would obscure. Keywords are navigational labels, not a substitute for reasoning. Never turn required public copy, code or source contracts into a keyword dump.
+
+Avoid tool diaries, duplicate summaries and prescribed report sizes. A small question can need one labeled result; a substantial artifact can need linked supporting detail. Finish with the useful next action only when one remains.
+
 ## Context discipline
 
 Use progressive disclosure:
@@ -56,7 +72,7 @@ For substantial delivery work in this repository, keep the outcome/acceptance bo
 
 At each project work-period completion, explicit pause or handoff, refresh its checkpoint and fill its session assessment: observed continuity, decision fidelity, evidence freshness, retrieval economy, project/workstream separation and review independence. Score observed factors 0=failed, 1=partial, 2=evidenced success; use unknown when unobserved and N/A when not exercised, with reasons. Provider-token/time/cost savings remain unknown unless measured. A session is a coherent work period, not each reply. Recover an abrupt closeout as a gap on resumption; do not invent historical scores. Respect no-write scope by reporting pending updates. Assessments stay in the owning project; only authorized sanitized lessons return to the toolkit. The optional project-context skill provides the full method; no other skill must invoke it.
 
-For this repository, README.md maps the library, EVOLUTION.md governs added mechanisms, docs/project-context-pilot.md preserves this decision and pending pilot work, and docs/toolkit-session-assessments.md holds toolkit-authoring session assessments. Application facts and assessments stay in their own projects. Fresh reviewers receive the target and selected evidence, excluding authoring notes, broad context recovery and session assessments; no-history dispatch does not isolate shared files or configured memory.
+For this repository, README.md maps the library, EVOLUTION.md governs added mechanisms, docs/project-context.md preserves current adoption policy, and docs/toolkit-session-assessments.md holds only the current checkpoint and latest compact assessment. The owner requested a clean-state reset: do not reload old run conclusions, scores, installation records or historical reports as current evidence. Replace the latest checkpoint as work changes rather than rebuilding an append-only run history. Preserve accepted policy and required attribution. Application facts and assessments stay in their own projects. Fresh reviewers receive the target and selected evidence, excluding authoring notes, broad context recovery and session assessments; no-history dispatch does not isolate shared files or configured memory.
 
 ## Conflict discipline
 

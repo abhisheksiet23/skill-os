@@ -22,4 +22,4 @@ For subscription/usage products, separate acquisition, activation, retention, ex
 
 Check break-even and sensitivity to the most uncertain drivers: realized price, delivery effort, utilization, repeat rate, acquisition cost and payment delay. Negative unit contribution cannot be fixed by volume without a credible change in economics.
 
-Use formulas and independent arithmetic checks. Preserve evidence versus assumed values next to the inputs. No arbitrary precision, hard-coded market growth or hidden plug values. When data is unavailable, model an explicit scenario and identify what observation would narrow the range.
+Keep a compact input/formula/result table or executable model. Put units, periods, assumptions and evidence status beside the inputs; calculate the decision-sensitive drivers first. Independently check arithmetic without recreating an unchanged model. Avoid arbitrary precision, hidden plug values and invented growth. When data is missing, show the conditional scenario and the observation that would narrow it.

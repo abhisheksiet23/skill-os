@@ -10,7 +10,7 @@ Save a report outside the project copy listing expertise used, files changed, ac
 
 ## B. Useful forecast — response only
 
-This is an exposed regression case: its worked answer appeared in skill guidance before the 2026-11-11 correction. It remains useful for regression checks, but a future held-out comparison needs fresh inputs and a separate assessment key. Removing the instructional example does not restore this case's independence.
+This published case is regression/practice material. Use independently prepared fresh inputs and a separate assessment key for held-out evaluation.
 
 One agent has four active work hours available per working day. Task A takes an estimated 2–3 active hours; B takes 3–4. They have no precedence dependency but share that agent's capacity. Integration takes 1 hour after both; verification takes 1–2 hours after integration. These are supplied provisional ranges, not observed throughput. No further technical dependency is known. Owner product acceptance occurs separately and has no confirmed availability. Offer the useful forecast, its assumptions and next update trigger. Do not treat unknown acceptance availability as a reason to withhold technical-readiness forecasting.
 

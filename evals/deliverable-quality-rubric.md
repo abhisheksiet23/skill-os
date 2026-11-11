@@ -5,7 +5,7 @@ Keep this file from task performers. It supports evaluator consistency; it is no
 Score each applicable criterion 0–2: 0 = absent/misleading, 1 = useful with a material gap, 2 = clear and decision-useful within evidence. Unsupported claims, lost decisions, fabricated checks or scope expansion outweigh presentation gains.
 
 - **Outcome and consequence:** the opening makes the result and important implication easy to find.
-- **Meaningful economy:** representation fits the information; prose explains causality, bullets separate independent items, and tables compare rather than hold paragraphs.
+- **Meaningful economy:** the reader can scan meaningful labels and complete facts; short lists separate actions/findings and tables compare repeated attributes. Prose explains causality or nuance where needed. Neither a paragraph wall nor a keyword dump receives credit for its format alone.
 - **Checkability:** consequential claims carry evidence and nearby limitations; recommendations, accepted decisions, assumptions and verification remain distinct.
 - **Actionability:** choices can be compared and the next action is apparent without reconstructing the investigation.
 - **Continuity and boundaries:** prior decisions persist; product, initiative and delivery-surface facts remain separate; the unrelated product inherits nothing.
@@ -20,4 +20,4 @@ Case-specific facts to check:
 - **Different product:** No release-testing facts, constraints, brand or budget carry into the bakery. Unknown date/budget stays unknown.
 - **Restraint:** Expected response: “The checks were completed yesterday.” No report or workflow is useful.
 
-Record baseline and candidate separately. Report static validity, executed fixture checks, model-output assessment and owner preference as different evidence types. Owner satisfaction remains **pending**. Token, time and cost remain **unknown** unless measured by the execution surface.
+Record variants separately. Distinguish static validity, executed fixture checks, model-output assessment and observed owner judgment. Measure time to a usable correct artifact including retrieval, checks and rework when available; record unavailable quality, usage or time measurements as unknown. Do not infer owner satisfaction or speed from formatting or output length.

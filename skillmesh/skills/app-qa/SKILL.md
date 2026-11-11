@@ -11,7 +11,7 @@ Assess the requested software scope using observable behavior and source evidenc
 
 Identify the candidate revision/snapshot, relevant uncommitted changes, requirement sources, environment and requested scope. Accept adequate tickets, specifications, contracts and tests; SkillMesh lifecycle records are not prerequisites. Mark consequential requirement ambiguity and investigate observable defects without inventing intent.
 
-Choose checks from changed behavior, affected consumers and consequence of failure. Read [verification practice](references/verification.md) for material changes, diagnosis or release assessment. Include interacting increments when assessing a combined release, and distinguish requirement-source changes from implementation changes when invalidating evidence.
+Choose checks from changed behavior, affected consumers and consequence of failure. Inspect existing coverage/results and the affected diff first; reuse valid proof and retrieve detailed logs or source along the failing or uncertain path. Exercise the boundary most likely to invalidate the assessment early, then complete required coverage; early success does not replace regression or combined acceptance. Read [verification practice](references/verification.md) for material changes, diagnosis or release assessment. Include interacting increments when assessing a combined release, and distinguish requirement-source changes from implementation changes when invalidating evidence.
 
 Reuse project runners and fixtures. For important recurring journeys, read [repeatable verification](references/repeatable-verification.md) and preserve useful checks as executable project tests with reliable setup and a documented command. A contained correction does not justify a new automation platform.
 
@@ -29,7 +29,7 @@ For manual-release assessment, inspect the actual package and operator steps. Re
 
 ## Report and close the assessed scope
 
-Lead with the assessment and highest-consequence finding. Each actionable finding needs a location or state, observation/reproducer, consequence and useful correction. Distinguish defects, unresolved decisions and optional improvements. Keep commands compact and report executed, passed, failed, blocked and untested coverage with candidate/environment identity.
+Lead with the assessment and highest-consequence finding. Give each actionable finding compact labeled facts for location/state, observation/reproducer, consequence and useful correction, adding prose where causality needs it. Distinguish defects, unresolved decisions and optional improvements. Use a short check/result/limit table when it helps compare coverage; retain candidate/environment identity and executed, passed, failed, blocked and untested coverage. Link commands and detailed reports rather than copying successful logs; compact reporting must preserve reproduction details.
 
 For authorized fixes, rerun the original reproduction and affected regressions; preserve unaffected valid proof. Stop at the requested scope rather than expanding into a lifecycle or deployment. In projects adopting automatic context maintenance, update this workstream's verification checkpoint and invalidate only affected earlier evidence. Session self-assessment does not establish correctness or independent review.
 

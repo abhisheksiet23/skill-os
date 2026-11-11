@@ -9,7 +9,7 @@ Make the experience inspectable before production implementation hardens it. The
 
 ## Choose what the prototype must resolve
 
-Start from the actual brief, intended behavior, constraints and design system, regardless of author. Missing skill-specific records are not missing requirements. Identify the user's journey, important decisions and hardest interaction; prototype the smallest representative path that exposes those questions.
+Start from the actual brief, intended behavior, constraints and design system, regardless of author. Missing skill-specific records are not missing requirements. Reuse settled behavior and existing design evidence; retrieve only the journey, component and state details needed for the unresolved decision. Identify the user's journey, important decisions and hardest interaction; prototype the smallest representative path that exposes those questions and inspect it before multiplying screens or polishing secondary states.
 
 Work structure, visual design and real microcopy together. Arrange information around the user's task, not the database, and reconsider a confusing flow before polishing it. Read [experience craft](references/experience.md) for material design, and its linked microcopy guidance when wording defines state, consequence or recovery.
 
@@ -27,6 +27,6 @@ Render narrow, intermediate and wide layouts appropriate to the product. Exercis
 
 ## Present the concrete revision
 
-Keep the inspectable prototype primary. Explain consequential experience choices and their effect on the journey, with observed viewport/state evidence and remaining limitations. Save launch instructions, useful tokens, component treatments and durable direction using project conventions; link detailed coverage rather than describing unseen states as verified.
+Keep the inspectable prototype primary. Accompany it with compact labeled facts for launch, consequential choices, observed states/viewports and limitations. A short state/viewport/result table is useful when comparing coverage; explain the choices that affect the journey and link detailed evidence rather than narrating every screen. Save useful tokens, component treatments and durable direction using project conventions. Reuse still-valid review evidence for unchanged states, re-inspecting affected states after changes; unseen states remain unverified.
 
 Honor existing approval and delegated design authority. Do not infer a reserved owner approval from silence, or claim a mock as production proof. Missing consequential behavior may need analysis; an established direction may support frontend implementation. Explain the gap and let the agent choose whether further expertise changes the result.

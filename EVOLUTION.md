@@ -10,6 +10,8 @@ Judge instructions by the decisions and outcomes they improve, including avoided
 
 Retain maintained skills and references, reusable evaluation tasks/fixtures/keys, active decisions, current evidence limits and required project assessments. Remove disposable run outputs, copied skill variants, generated caches and superseded authoring plans when their useful conclusions are preserved. Use Git history for tracked historical reports rather than retaining every report in the current tree. Before cleanup, inspect callers, repair links and preserve provenance and consequential failures; deleting raw runs does not turn their conclusions into fresh proof. Keep credential/release recovery backups outside routine scratch cleanup.
 
+An explicit owner clean-state reset clears historical run conclusions, scores and verification records from active context as well as raw output. Keep current accepted policy, required source/license attribution and reusable inputs; leave the evidence baseline unestablished. Do not replace deleted history with a new summary of old successes or automatically reload it from Git. Keep only the current checkpoint and latest compact assessment under the project's adopted retention rule. A reset does not erase prior task exposure or authorize rewriting Git history or deleting external recovery backups.
+
 ## Add structured handoffs when
 
 Repeated runs show that specialist results are difficult to reuse because key findings, assumptions, evidence gaps, or artifacts are lost in prose.

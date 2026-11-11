@@ -1,8 +1,8 @@
 # Code spacing evaluation
 
-Owner feedback: prior regenerated code is still dense. Readability is unresolved. The new requirement is visual breathing room between logical blocks as well as understandable naming and responsibility boundaries.
+Scenario: supplied workflow source is dense. Improve visual breathing room between logical blocks as well as naming and responsibility boundaries; owner comprehension remains unverified.
 
-Freeze the six authored source files from the earlier isolated Medcross candidate (`.eval-runs/readability/candidate`), not the concurrently changing live application. Preserve hashes in local scratch. Give identical requests in separate baseline/candidate contexts: baseline uses git HEAD app frontend/backend instructions; candidate uses working-tree revisions. Do not share peer outputs or assessment criteria with performers.
+Supply a coherent frozen workflow source set: frontend component/template/API contract and backend service/account contract/models. Use synthetic source or an authorized isolated project copy, never a missing past-run directory or the live application. Preserve hashes in local scratch. Give identical requests in separate baseline/candidate contexts: baseline uses git HEAD app frontend/backend instructions; candidate uses working-tree revisions. Do not share peer outputs or assessment criteria with performers.
 
 ## Implementation request
 

@@ -9,7 +9,7 @@ Move a reviewed candidate to its authorized destination, prove what is live and 
 
 ## Prepare the concrete release
 
-Identify the exact candidate and current live baseline, destination/provider, review evidence, configuration, redirects and limitations. Accept adequate proof from any author without requiring a prior skill or phase ledger. Confirm accepted content decisions and who operates the site and receives enquiries.
+Identify the exact candidate and current live baseline, destination/provider, review evidence, configuration, redirects and limitations. Accept adequate proof from any author without requiring a prior skill or phase ledger. Compare candidate, configuration and destination with the evidence before choosing remaining checks; reuse applicable proof and focus preparation on changed or unverified boundaries. Prelaunch evidence cannot replace live destination checks. Confirm accepted content decisions and who operates the site and receives enquiries.
 
 For meaningful launches use [release guidance](references/release.md) to prepare deploy steps, domain implications, recovery and live checks for the chosen provider. Honor existing publication authority. If it is absent, finish the reviewable candidate and release plan before requesting it. Reserved DNS decisions, purchases and messages retain their own authorization boundaries; launch work does not imply new accounts or unrelated infrastructure changes.
 
@@ -19,7 +19,7 @@ Deploy the reviewed candidate through the authorized mechanism. Inspect the resu
 
 ## Hand over the observed state
 
-Lead with the actual launch state and its consequence for visitors/operators. Record revision, time, URL, live evidence, residual risks and recovery information; update the live baseline only with what shipped. Explain common content/asset edits and ownership of domains, hosting and enquiries without exposing secrets. Scale the handoff to the site.
+Lead with the actual launch state and its consequence for visitors/operators. Use concise labels for prepared, deployed and verified facts, with evidence links and actionable gaps rather than a deployment diary. Record revision, time, URL, live evidence, residual risks and recovery information; update the live baseline only with what shipped. Explain common content/asset edits and ownership of domains, hosting and enquiries without exposing secrets. Scale the handoff to the site.
 
 Define meaningful measurable outcomes, separating visits, attempts, accepted submissions, receipt and qualified demand. Neither deployment nor a short before/after snapshot proves conversion improvement. Recurring monitoring and campaigns require their own scope.
 

@@ -34,7 +34,7 @@ Compress internal meetings, role handoffs and reporting into direct coordination
 
 ## Explain position, forecast and financial coverage together
 
-Use authoritative project records and link detailed evidence. A concise current view should let the owner recover the outcome, meaningful completed/partial work, next milestone/path, blockers and responsible parties, forecast implications, AI/tool spend coverage and next useful decision. Include an as-of cutoff and material unknowns. Reuse an adequate view; do not require a dashboard, schema, percentage or duplicate ledger. Existing technical evidence stays owned by its specialist record.
+Use the existing current view. Lead with **Position**, followed by a compact milestone/path table only where it helps: outcome | current evidence/state | dependency/owner | forecast or next action. Include the as-of cutoff and known spend coverage once. Keep assumptions and uncertainty beside their figures. Link specialist evidence instead of repeating it, omit unsupported percentages, and keep self-assessment out of the owner-facing view. A status answer should not require reading a narrative history.
 
 Use [forecasting and cost](references/forecasting-and-cost.md) when estimating dates, reconciling expenditure or evaluating financial/schedule variance. A WBS is not a forecast; test counts are not accepted progress. Default financial scope is AI/tool spend unless the project specifies otherwise; human availability and external waiting still affect schedules. Report unavailable measurements honestly rather than block unrelated useful work or fabricate totals.
 

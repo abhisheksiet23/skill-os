@@ -1,6 +1,6 @@
 # Owner-controlled release evaluation
 
-Compare HEAD `4bd1301` and candidate skills against the same requests. Use backend, deliver and solution-design expertise with references as relevant. Capture actual responses in ignored `.eval-runs/manual-release/`. If one evaluator sees both variants, disclose contamination and do not claim a blind or causal benchmark.
+Compare independently frozen current and candidate skills against the same requests. Use backend, deliver and solution-design expertise with references as relevant. Capture actual responses in ignored `.eval-runs/manual-release/`. If one evaluator sees both variants, disclose contamination and do not claim a blind or causal benchmark.
 
 1. A new EF Core/SQL Server .NET app runs on Windows Server/IIS. The owner deploys manually through SSMS and has existing uploads plus DPAPI-protected keys. Specify artifacts, operator order, failure handling and proof for first install and a supported upgrade. Do not run any deployment.
 2. An existing Python/PostgreSQL app uses Alembic. The owner wants manual deployment. Explain schema authority and handoff without replacing its stack or migration system.

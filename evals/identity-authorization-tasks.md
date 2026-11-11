@@ -1,6 +1,6 @@
 # Simple identity and local authorization evaluation
 
-Give the same request to separate baseline/candidate contexts. Baseline reads HEAD `4dafbde` backend/solution-design guidance and local references; candidate reads working-tree revisions. Do not expose peer outputs or assessment criteria. Save actual responses under ignored `.eval-runs/identity/`. This evaluates instruction application, not an implemented identity system.
+Give the same request to separate contexts with independently frozen current/candidate backend and solution-design skills and their local references. Do not expose peer outputs or assessment criteria. Use ignored temporary scratch only while assessing the outputs. This evaluates instruction application, not an implemented identity system.
 
 ## Request
 

@@ -34,13 +34,3 @@ Cloud repository access enables editing the source. It does not transfer this co
 The setup script exposes skills only within this checkout. Other application environments require their own installation of the library; merely connecting this repository does not install it account-wide. Avoid running this cloud setup locally if the SkillMesh plugin is already installed, since both discovery paths can expose duplicate skills.
 
 Official setup reference: [Codex cloud](https://learn.chatgpt.com/docs/cloud).
-
-## Verified setup (2026-09-22)
-
-The private repository is connected to the `abhisheksiet23/skill-os` Codex cloud environment. Its interactive setup test cloned the repository and executed the setup on Linux with Python 3.12.13:
-
-- All 18 skills were exposed under `/workspace/skill-os/.agents/skills`.
-- Packaging validation reported zero errors.
-- All nine unit tests passed, including actual symlink resolution, repeat setup and preservation of an existing skill.
-
-This verifies cloud setup and discoverable files. It is not a behavioral evaluation of automatic skill selection or skill quality. External connectors and access in other project environments remain separate.

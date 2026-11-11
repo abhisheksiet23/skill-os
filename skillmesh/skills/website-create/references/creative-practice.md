@@ -36,7 +36,9 @@ Choose an honest fallback when material is missing: licensed conceptual imagery,
 
 Choose the smallest set of pages/states that could reveal a wrong direction. Include the distinctive story and difficult content, such as long service explanations, proof, comparisons, pricing qualifications or forms. A favorable short-copy homepage alone is a weak test of a multi-page design. Use realistic lengths and inspect mobile reading order/navigation as compositions in their own right. Represent form validation, success and failure visibly, labeling external calls as simulated unless genuinely integrated.
 
-For substantial visual uncertainty, compare a small number of genuinely different concepts on representative content. Explain the trade-off and recommend one. Do not build complete alternate websites merely to avoid choosing.
+Render that sample before extending shared layouts. Correct weaknesses in its argument, composition and interaction first, then reuse the working pattern where page purposes match. Expand the sample when a different page purpose or state introduces a new risk; an inspected homepage does not cover a complex detail page by implication.
+
+For substantial visual uncertainty, compare a small number of genuinely different concepts on representative content. Explain the trade-off and recommend one, using a compact table of buyer effect, visual consequence and limitation when useful. Do not build complete alternate websites merely to avoid choosing.
 
 ## Critique before presenting
 

@@ -4,7 +4,7 @@ Use the requested scope to choose the relevant lenses below. A useful review con
 
 ## Scope and severity
 
-Identify the revision or immutable snapshot, environment and available acceptance evidence. Choose representative routes, unusual content/interaction patterns and all business-critical journeys. Record the sampling boundary: a large site can be reviewed systematically without claiming every page was visually inspected. Check whether existing evidence still applies to this candidate before reusing it.
+Identify the revision or immutable snapshot, environment and available acceptance evidence. Choose representative routes, unusual content/interaction patterns and all business-critical journeys. Record the sampling boundary: a large site can be reviewed systematically without claiming every page was visually inspected. Check whether existing evidence still applies to this candidate before reusing it. A shared typography, template, navigation or integration change can invalidate proof across routes; use that dependency to choose rechecks rather than either reviewing every page again or checking only the edited route.
 
 - Blocking: materially false central claims, a broken primary journey, exposed secrets/private data, or another defect that defeats safe intended use.
 - Material: meaningfully damages comprehension, fit assessment, trust, access, or responsiveness.
