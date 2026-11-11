@@ -61,6 +61,8 @@ The migration helper defaults to inspection. Installation uses the official plug
 
 ## Verify and evolve
 
+The [tooling and effort measurement roadmap](docs/tooling-roadmap.md) plans per-use tracking, Serena evaluation for Angular/.NET, deterministic offloading and SQL Server evidence access. It records accepted direction, implementation boundaries and adoption criteria; savings remain unmeasured.
+
 Preserve detail that improves outcomes, correctness and reliable execution. Word count is a loading diagnostic, not a quality target; simplify waste without exporting errors or rework downstream. Keep reusable evaluation inputs and current evidence limits in the tree. The active toolkit starts without inherited run results, scores or installation claims. Remove disposable runs and obsolete records; preserve accepted policy and required provenance. [EVOLUTION.md](EVOLUTION.md) defines the maintenance boundary.
 
 The plugin is Markdown and a manifest. Python 3.10+ and PowerShell 7 are used only by local validation/migration helpers.

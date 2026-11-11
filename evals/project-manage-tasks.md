@@ -2,6 +2,10 @@
 
 Use frozen baseline/candidate libraries in fresh contexts. Performers get these tasks and the supplied fixture only, not assessment keys, authoring notes or peer results. No network, package installs, real accounts, production action or external writes. Execute local artifact updates only in the assigned output workspace. Prefix shell commands with `rtk`; use the bundled Python if necessary. These are synthetic decisions and actual local record edits, not a real-project pilot or measured savings.
 
+## E. Brief exploratory roadmap
+
+The owner wants per-use effort tracking, a Serena comparison for Angular/.NET and later SQL Server inspection. Existing telemetry and an application target are unknown. They find long documents hard to read. Write a short roadmap only; no implementation or installation. Include the next action and observable completion without designing a telemetry platform or making tracking block independent evaluation.
+
 ## A. Recover then update a project
 
 Copy the supplied fixture to `output/project/` and inspect its records. The owner asks: “Where are we, what should happen next, and what can you tell me about time and AI/tool cost? Use the existing status record. Make routine planning choices under the recorded delegation; don't make me administer the project.”

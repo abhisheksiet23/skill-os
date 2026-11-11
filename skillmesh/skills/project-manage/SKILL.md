@@ -9,6 +9,8 @@ Help the owner understand where delivery stands and choose the next action that 
 
 Apply the method at the depth the decision needs. Keep detail that protects quality or avoids rework. Fewer documents, words, tokens or questions are not success measures by themselves. This skill owns delivery reasoning; the agent selects additional expertise and the project owns its records.
 
+Keep owner-facing plans and replies short and easy to scan. Respect an explicit brevity preference. Lead with the decision and next action; retain essential reasons, evidence limits and consequential constraints without repeating them across sections.
+
 ## Recover the outcome before planning the work
 
 Recover the project's objective, accepted scope, success/acceptance conditions, current evidence, decisions and existing plan/tracker. Establish the task/workstream and source identities. Distinguish missing information from information that is merely dispersed; reconcile contradictions rather than creating a competing plan. A standalone status or plan review needs no prior skill invocation or prescribed records.
@@ -35,6 +37,8 @@ When several actions compete, use the constraint/action comparisons in [tailorin
 Compress internal meetings, role handoffs and reporting into direct coordination and decision-useful visibility. Adapt resource management to real expertise, access, tools, environments, context and concurrency limits; do not assume unlimited AI capacity. Human-team development/appraisal is irrelevant when there is no human delivery team. Procurement, quantitative risk analysis, compliance, organizational change and formal assurance activate when actual commitments or consequences require them. Fewer participants do not remove external obligations or safety requirements.
 
 ## Explain position, forecast and financial coverage together
+
+For an early roadmap, give the goal and a short set of work items: what, why, next step and done when. Detail only the next uncertain increment. Defer schemas, exhaustive test cases and future operating procedures until they affect execution; do not create another document just to relocate speculative detail. Keep hypotheses beside the work they inform instead of repeating the plan in a second table. Measurement should support decisions without becoming a prerequisite for independent useful work.
 
 Use the existing current view. Lead with **Position**, followed by a compact milestone/path table only where it helps: outcome | current evidence/state | dependency/owner | forecast or next action. Include the as-of cutoff and known spend coverage once. Keep assumptions and uncertainty beside their figures. Link specialist evidence instead of repeating it, omit unsupported percentages, and keep self-assessment out of the owner-facing view. A status answer should not require reading a narrative history.
 
