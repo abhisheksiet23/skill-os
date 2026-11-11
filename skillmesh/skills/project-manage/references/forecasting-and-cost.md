@@ -14,7 +14,7 @@ State the basis of a forecast: relevant observed history, supplied estimates or 
 
 Use supplied task estimates, relevant actuals or inspection of a representative part to offer a provisional effort range. State its assumptions and confidence limits. Separate active effort and capacity from external waiting: an approval with no known arrival date need not prevent estimating technical readiness. If a defensible range is still unavailable, identify the smallest observation that would improve the decision and obtain it within authority when worthwhile. Revisit the estimate as work supplies evidence.
 
-For example, 7–10 remaining active hours at four available hours per workday indicates roughly two to three workdays for that work, assuming dependencies and capacity hold. It does not bound an external acceptance date. Do not convert such an illustrative calculation into a project fact or quietly treat parallel tasks as independent of shared capacity.
+Calculate technical readiness from the remaining active work, real precedence constraints and available capacity. Tasks without precedence dependencies still compete for the same agent or environment. State whether the result describes active working time or elapsed calendar time, and keep unbounded external acceptance separate.
 
 Do not average durations across unlike work or extrapolate a small first increment to a broad catalogue. Completion counts can describe throughput only when units/completion rules are comparable. Show implemented, verified and accepted outcomes separately where they differ. Any overall percentage requires a stable denominator, explicit weighting and completion rule; omission is better than a misleading number.
 

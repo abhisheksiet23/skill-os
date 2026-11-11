@@ -19,7 +19,7 @@ Use predictable folders. A single backend project's project file and source norm
 
 Trace endpoint or message entry through authorization, validation, business decisions, state mutation, persistence/external effects and response. Place enforcement at authoritative boundaries. Make transaction, concurrency, retry, idempotency and partial-failure behavior deliberate wherever the outcome depends on them; separating transport and storage helps only when it protects a real contract.
 
-Write for a developer returning after six years. Use business names, named consequential request/response contracts and structured values instead of opaque objects or delimiter conventions. Separate logical blocks with blank lines, expand branches/calls/initializers and keep normal, rejection and recovery paths visible. Read [readable implementation](references/readable-implementation.md) while implementing or reviewing material code; it defines the owner's spacing, responsibility and workflow-tracing expectations. Fewer lines and formatter success do not establish readability.
+Write for a developer returning after six years. Use business names, named consequential request/response contracts and structured values instead of opaque objects or delimiter conventions. Separate logical blocks with blank lines, expand branches/calls/initializers and keep normal, rejection and recovery paths visible. Read the relevant sections of [readable implementation](references/readable-implementation.md) when authoring or reviewing source, including small changes. Apply them to the affected code without expanding into an unrelated refactor. Fewer lines and formatter success do not establish readability.
 
 Load the relevant specialist detail as the change requires it:
 
