@@ -11,7 +11,7 @@ Create an inspectable design in which copy, imagery, composition and interaction
 
 Use adequate company, buyer, claim and brand evidence from any source. Preserve suitable direction and existing brand unless change is authorized. Resolve uncertainty that would make the central story misleading; missing testimonials alone do not prevent an honest design.
 
-Give each page a visitor question, message, proof and next step. Draft the substantive argument and a creative idea before committing to layouts. Use [creative practice](references/creative-practice.md) for material design work: narrative, visual expression and microcopy develop together through critique, rather than filling a generic section recipe.
+Give each page a visitor question, message, proof and next step. Draft the substantive argument and a creative idea before committing to layouts. Use [creative practice](references/creative-practice.md) for material design work: narrative, visual expression and microcopy develop together through critique. Its direction comparison and difficult-page test help resolve a material creative choice without building alternate whole sites.
 
 ## Build the smallest convincing demonstration
 

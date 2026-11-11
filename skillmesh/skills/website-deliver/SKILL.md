@@ -11,7 +11,7 @@ Move a reviewed candidate to its authorized destination, prove what is live and 
 
 Identify the exact candidate and current live baseline, destination/provider, review evidence, configuration, redirects and limitations. Accept adequate proof from any author without requiring a prior skill or phase ledger. Compare candidate, configuration and destination with the evidence before choosing remaining checks; reuse applicable proof and focus preparation on changed or unverified boundaries. Prelaunch evidence cannot replace live destination checks. Confirm accepted content decisions and who operates the site and receives enquiries.
 
-For meaningful launches use [release guidance](references/release.md) to prepare deploy steps, domain implications, recovery and live checks for the chosen provider. Honor existing publication authority. If it is absent, finish the reviewable candidate and release plan before requesting it. Reserved DNS decisions, purchases and messages retain their own authorization boundaries; launch work does not imply new accounts or unrelated infrastructure changes.
+For meaningful launches use [release guidance](references/release.md) to prepare deploy steps, domain implications, recovery and live checks for the chosen provider; use its operating-ownership diagnosis where ongoing actions could be orphaned. Honor existing publication authority. If it is absent, finish the reviewable candidate and release plan before requesting it. Reserved DNS decisions, purchases and messages retain their own authorization boundaries; launch work does not imply new accounts or unrelated infrastructure changes.
 
 ## Publish and verify the real destination
 

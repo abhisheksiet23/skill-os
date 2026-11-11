@@ -17,6 +17,18 @@ Choose the next work from the uncertainty most likely to invalidate the result. 
 
 Give each important page a visitor question, a message, supporting proof and an appropriate next step. Develop real copy and a company-specific visual idea together. Inspect a representative responsive journey before extending the pattern across the site; a framework choice, attractive hero or successful build does not establish the experience.
 
+Trace the buyer argument across likely entry pages, not just navigation order. Use a compact working map where the joins are uncertain; it is a diagnostic, not a required page template:
+
+| Argument | Decision to make | Cross-page/operating check |
+| --- | --- | --- |
+| Promise | What useful change can this buyer expect? | Search/campaign wording, page headline and actual service describe the same offer. |
+| Proof | Why believe this promise here? | Evidence is close to the claim, attributable and qualified; a linked case supports the relevant outcome. |
+| Fit | Who should proceed or choose another route? | Service scope, exclusions and practical constraints survive into detail pages and qualification. |
+| Objection | What could reasonably stop this purchase? | Relevant process, risk, comparison or pricing information appears before the decision that needs it. |
+| Action | What happens when the visitor acts? | CTA, form, confirmation, receiving operator and follow-up agree on the commitment. |
+
+A referral visitor may already trust the people but need scope and availability; a search visitor may need to establish both relevance and credibility. Let those differences change entry-page depth and links rather than repeating the entire homepage on every page. When a join fails, fix the underlying promise, evidence or operation before polishing its wording. For example, “Book a consultation” requires an actual booking or a clear request-and-confirm process; a generic thank-you cannot settle which one the business offers.
+
 Judge the joins as carefully as the components: does the promise match the service, does proof support that promise, does the CTA set correct expectations, and can the business receive and handle the resulting action? Evaluate buyer clarity, visual craft, accessible interaction and operational readiness together. Distinguish UI feedback, provider acceptance and actual receipt when describing a conversion path.
 
 Use only supportable claims, prices, guarantees, locations and delivery commitments. Separate owner statements, external evidence, assumptions and permission to publish. Conceptual imagery and simulated forms must be recognizable as such; neither supplies documentary or delivery proof.

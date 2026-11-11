@@ -15,7 +15,7 @@ Identify the next commitment, its reversibility and the uncertainty that could m
 
 ## Investigate in order of decision value
 
-Investigate the claim most likely to invalidate the next commitment first; do not complete every lens for coverage. Use [investigation lenses](references/investigation.md) only to find important gaps, not as mandatory stages. Reassess after meaningful findings. A costly delivery model may matter before market sizing; an obvious feasibility constraint may matter before interviews.
+Investigate the claim most likely to invalidate the next commitment first; do not complete every lens for coverage. Use [investigation lenses and commitment contrasts](references/investigation.md) to locate important gaps or choose a bounded commitment, not as mandatory stages. Reassess after meaningful findings. A costly delivery model may matter before market sizing; an obvious feasibility constraint may matter before interviews.
 
 Keep consequential claims explicitly known, supported, assumed, unknown or contradicted, with source, scope and limitations. Behavioral commitment, payment and repeat use usually support demand more strongly than praise or competitor presence; strength still depends on relevance and sampling. Public offers do not establish competitor profitability. Simulated economics are not evidence of sales. When evidence conflicts, inspect differences in segment, buying conditions, period and method before averaging it into a confidence label. Preserve the strongest countercase as well as supporting findings.
 

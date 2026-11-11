@@ -8,6 +8,19 @@ Inspect existing architecture and deployment constraints first. Marketing conten
 
 Define which content the owner can edit, required asset sizes, and how edits reach production. Avoid adding a database or service solely to store static content. If complex application behavior emerges, identify its boundary and use the appropriate application workflow rather than silently expanding scope.
 
+## Prove the risky seam before repeating pages
+
+Select the join most likely to invalidate the implementation: designed content into a CMS schema, mobile composition into actual content, a form into its receiving service, or old URLs into the new routing model. Implement one representative path across that join using the real stack and available integration. A static visual sample cannot resolve an uncertain submission contract; a working API call cannot establish that the approved composition survives content.
+
+| Risk exposed by the work | Representative proof before repetition | Preserve while implementing |
+| --- | --- | --- |
+| A polished prototype uses unusually short content. | Render a real long heading, proof qualification, list and image through the shared layout at narrow/intermediate/wide sizes. | Hierarchy, meaningful reading order, text measure and proximity of claim to qualification. |
+| Owner edits could break the design. | Preview an ordinary content/asset replacement through the actual editing path. | Supported field lengths, optional content behavior, crops/alt text and safe layout variation. |
+| The enquiry UI depends on a provider. | Exercise available acceptance/failure/unknown states across the real boundary, with authorized receipt testing separately. | Accurate state wording, retry behavior and supported operator destination. |
+| A redesign changes route structure. | Follow one valuable old deep link through its proposed redirect to relevant content and action. | Search/referral intent, useful detail and destination query parameters where required. |
+
+Choose the row that addresses the actual uncertainty rather than performing all of them by default. Record the invariant that the representative path established, then reuse its component/content pattern. Expand proof only for a genuinely different page purpose or boundary. If real content forces an approved design change, explain its buyer consequence and preserve existing design authority; do not silently replace the visual direction with framework defaults.
+
 ## Content and routes
 
 Implement meaningful titles, descriptions, heading hierarchy, internal links, canonical intent, social previews, sitemap and indexing configuration where applicable. Use structured data only for supported facts and relevant page types. A preview's indexing controls must not accidentally ship as production settings.

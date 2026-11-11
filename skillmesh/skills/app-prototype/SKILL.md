@@ -11,7 +11,7 @@ Make the experience inspectable before production implementation hardens it. The
 
 Start from the actual brief, intended behavior, constraints and design system, regardless of author. Missing skill-specific records are not missing requirements. Reuse settled behavior and existing design evidence; retrieve only the journey, component and state details needed for the unresolved decision. Identify the user's journey, important decisions and hardest interaction; prototype the smallest representative path that exposes those questions and inspect it before multiplying screens or polishing secondary states.
 
-Work structure, visual design and real microcopy together. Arrange information around the user's task, not the database, and reconsider a confusing flow before polishing it. Read [experience craft](references/experience.md) for material design, and its linked microcopy guidance when wording defines state, consequence or recovery.
+Work structure, visual design and real microcopy together. Arrange information around the user's task, not the database, and reconsider a confusing flow before polishing it. Read [experience craft](references/experience.md) to select and inspect the hardest user decision before expanding material design, and its linked microcopy guidance when wording defines state, consequence or recovery.
 
 Inspect the project's component catalog, design-system guidance, tokens and representative screens before inventing controls. Use supported variants and interaction conventions as design inputs. Reuse components when practical; when the prototype format cannot consume them, record the recognizable mapping or deliberate deviation. A component catalog must not dictate a poor journey.
 

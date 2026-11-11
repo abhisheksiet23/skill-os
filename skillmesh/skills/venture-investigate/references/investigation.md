@@ -17,6 +17,17 @@ Use these lenses to locate the next decisive question, not to generate twelve ma
 
 ## Convert findings into action
 
+Choose the next reversible commitment by both information value and downside. A test is useful when its result can alter that commitment; cheap activity that cannot discriminate the decisive explanations is not efficient learning. Compare the exposure of being wrong with the cost and delay of obtaining better evidence. Owner constraints govern acceptable downside; no generic score grants permission to spend or launch.
+
+| Current uncertainty and exposure | Useful next commitment | Decision boundary |
+| --- | --- | --- |
+| Buyers praise an idea, but building would consume the available runway | A bounded offer test with qualified buyers and an observable commitment | Proceed only to the exposure supported by the signal; park if credible buyer access cannot be obtained within the agreed bound. Praise alone does not warrant the build. |
+| Paid demand exists, but delivery effort might erase margin | Deliver a bounded representative unit and measure full effort, rework and collections | Reshape scope/price if contribution misses the required floor; stop if no credible configuration meets it within owner constraints. More market sizing will not resolve delivery economics. |
+| A feasible offer has no reachable decision maker until a seasonal procurement window | Preserve the hypothesis and a dated reopening trigger | Park with the trigger, owner and maximum carrying effort; do not leave an indefinite research backlog. Reject if the opportunity cannot survive the wait. |
+| Proposed scale depends on exceptional founder sales and manual support | Test one acquisition/delivery path without those exceptions | Expand only when the observed path supports its incremental cost and exposure; retain a small viable business as a distinct option. |
+
+Make stop/park actionable: name what work ceases, any unavoidable carrying obligation, and the specific evidence or event that permits reconsideration. A failed premise is not repaired by changing several assumptions at once; state a reshaped premise separately and retain only still-relevant evidence. Stop researching once additional information is unlikely to change the bounded decision.
+
 When a hypothesis fails, distinguish a bad test from an invalidated idea using evidence: did qualified buyers encounter the offer, and could the method detect the intended behavior? Do not excuse an unfavorable result merely because another test might succeed.
 
 - Reject when decisive contradictions make pursuit unattractive under the owner's constraints.

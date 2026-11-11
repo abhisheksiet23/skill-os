@@ -26,6 +26,21 @@ For a new direction, record a small set of inspected visual benchmarks and speci
 
 Use motion when it clarifies feedback, sequence, or meaning. It must not delay access to content, obstruct navigation, or make reduced-motion use unpleasant. Decorative complexity must earn its performance and maintenance cost.
 
+## Compare directions through their consequences
+
+When a new direction has a real unresolved choice, compare concepts on the same buyer problem and evidence. Changing only color, font or a decorative motif is usually a treatment variation. A distinct direction changes what the visitor notices, how the argument unfolds and what assets are needed. Avoid producing alternatives when accepted direction already settles the choice.
+
+For example, a specialist retrofit company might compare these directions using the same supplied work and claims:
+
+| Direction | Copy and composition | Asset dependency | Trade-off to test |
+| --- | --- | --- | --- |
+| Work explained | Lead with a buyer's disruption constraint; annotated project sequence connects decisions to outcomes. | Rights-cleared project photographs, drawings and accurate captions. | Distinctive technical confidence, but dense detail must remain readable on mobile. |
+| People accountable | Lead with who assesses and delivers; pair commitments with named responsibilities and direct process explanations. | Genuine team images, attributable credentials and supported commitments. | Personal reassurance, but portraits cannot substitute for evidence of delivery. |
+
+These are illustrative strategies, not house styles. Recommend based on buyer relevance, supported proof, composition at small sizes and realistic production/maintenance cost. An unavailable documentary asset is a consequence that may change the direction, not an invitation to synthesize fake evidence.
+
+Test the direction on the page most likely to break it: perhaps a service page with exclusions, a long case study, a comparison or a mobile enquiry flow. Carry one difficult passage, one proof unit and its qualification, one image/crop and one consequential interaction through the proposed direction. Inspect whether the character survives real content and whether reading order keeps qualification beside the claim. If the concept works only with a short hero headline, revise it before multiplying pages. Keep the substantial page narrative; this comparison is a decision aid, not replacement website copy.
+
 ## Asset decisions
 
 Record each visual's availability, source, rights, role, crop and factual implications. Use [artwork guidance](artwork.md) for material production detail. Authentic photography and conceptual illustration serve different roles; generated artwork is optional and cannot replace documentary evidence. The agent selects tools and expertise; this reference does not invoke skills.

@@ -17,6 +17,8 @@ Reuse the project's suitable components, styling, tokens and interaction convent
 
 Use real domain copy and meaningful loading, empty, error, success and recovery states. Preserve hierarchy, responsive intent, semantic structure, keyboard/focus, accessible errors, security and performance. Consequential strings belong in acceptance checks with their state conditions: action labels must match behavior, pending is not complete, and shortening must preserve validation rules and consequences.
 
+For asynchronous or stateful interactions, use the transition diagnostics in [readable implementation](references/readable-implementation.md): decide stale-response ownership, repeated-action identity, navigation and recovery where they can change the outcome. Keep the state representation as simple as the journey permits.
+
 Write for a developer returning after six years. Separate logical handler blocks and UI sections with blank lines; expand branches, error handling, calls, object literals and template nesting. Keep state, payload, API call and recovery easy to trace. Read the relevant sections of [readable implementation](references/readable-implementation.md) when authoring or reviewing source, including small changes. Apply them to the affected code without expanding into an unrelated refactor. A formatter or passing build is not comprehension evidence.
 
 Use the real API when available. If a dependency is unavailable, put contract-faithful mocks behind the same service boundary, label them and identify the unproved integration. Do not alter API/data/auth rules for UI convenience. Frontend-only scope does not authorize backend changes.

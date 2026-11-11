@@ -11,7 +11,7 @@ Deliver a functioning marketing website whose implemented content, responsive co
 
 Inspect the repository, existing site and adequate content/design decisions from any author. Use established direction for contained corrections; no sibling skill, phase status or new documentation tree is required. Resolve only uncertainty that would make dependent pages speculative.
 
-Preserve suitable stack, provider, URLs, integrations and editing workflows. Read [technology selection](references/technology-selection.md) for greenfield choices and relevant sections of [implementation guidance](references/implementation.md) for routes, forms, accessibility or performance. Make acceptance concrete around the actual entry-to-action journeys, including redesign continuity and operational destinations.
+Preserve suitable stack, provider, URLs, integrations and editing workflows. Read [technology selection](references/technology-selection.md) for greenfield choices and relevant sections of [implementation guidance](references/implementation.md) for routes, forms, accessibility or performance. For new shared layouts or integrations, use its risky-seam selection to prove the consequential boundary before repetition. Make acceptance concrete around the actual entry-to-action journeys, including redesign continuity and operational destinations.
 
 ## Implement complete journeys
 

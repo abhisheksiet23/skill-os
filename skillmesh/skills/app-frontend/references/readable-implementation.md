@@ -1,5 +1,20 @@
 # Readable implementation
 
+## Make consequential transitions explicit
+
+For the affected interaction, identify the current state, triggering event, permitted action, visible result and recovery. Use the project's ordinary state representation; add no state-machine library merely to describe a few transitions. Inspect the cases that can change this journey, rather than adding every state to every component.
+
+| Trigger | Decision to make explicit | Useful proof |
+| --- | --- | --- |
+| An older search returns after a newer search | Which response still owns the visible results? | Delay the older response; the newer query's results remain visible. |
+| Submit is repeated or retried | Is this the same business action, and when may another action start? | Double activation and ambiguous timeout do not create a second accepted operation. |
+| Navigate away/back during a write | Does work continue, cancel or need reconciliation? Which draft survives? | A late response cannot overwrite another record or falsely report cancellation. |
+| Save conflicts, validation fails or the session expires | Which values are retained, what may be retried and where does focus move? | Recovery preserves permitted work and does not silently overwrite newer data. |
+
+For example, disabling Save while a request is in flight improves feedback but does not establish server-side duplicate safety. Keep the operation identifier for a retry of an unknown result; replace it only for a genuinely new action under the contract. For a read-only search, ignoring an obsolete response may suffice; for a payment or reservation, ignoring its response does not cancel the accepted effect. Trace both visible state and the service outcome before choosing cancellation or retry behavior.
+
+## Keep the implementation readable
+
 Write for the next person reading the code. Prefer the simplest correct implementation that meets the actual requirements; fewer lines are not an optimization. Apply these choices while implementing and reviewing the changed code:
 
 Use an explicit returning-reader standard: a developer returning to code after six years should be able to follow the business workflow without first decoding clever syntax, hidden conventions or framework machinery. Use modern features when they make the flow clearer; briefly explain necessary unfamiliar mechanisms where used. Avoid both line-by-line tutorial comments and unexplained tricks.

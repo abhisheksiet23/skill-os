@@ -19,6 +19,18 @@ Before execution, record hypothesis, participants/recruitment, method, success/f
 
 ## Interpret results without changing the question
 
+Diagnose the failed boundary before choosing the next test. Use the observed funnel rather than treating every low conversion rate as weak demand:
+
+| Observation | Plausible explanation | Discriminating next check |
+| --- | --- | --- |
+| Few eligible buyers encountered the offer | Access/channel failure; demand remains unknown | Verify delivery and eligibility, then expose the same offer through a credible channel before rewriting it. |
+| Qualified buyers saw it but cannot explain the outcome, scope or price | Offer comprehension failure | Test comprehension without coaching; clarify only the misunderstood terms and repeat the same commitment request. |
+| Buyers understand it and choose their current workaround despite a credible, feasible offer | Weak relative value, switching friction or wrong buying trigger | Inspect recent actual choices and rejection reasons; test one changed premise against the unchanged offer. More impressions alone will not resolve this. |
+| Claimed commitments exceed logged purchases, or checkout/events fail | Measurement or transaction failure | Reconcile records and complete the intended path; label the original result inconclusive until the missing behavior is observable. |
+| Buyers pay once but need exceptional founder help or do not return | Initial demand without proven repeatability | Observe the next natural use/purchase cycle and cost of normal delivery; do not extrapolate pilot conversion to retention. |
+
+Select among these explanations using evidence, not a convenient rescue story. For example, zero purchases from 500 impressions is uninterpretable if eligible exposure is unknown; zero purchases after 30 qualified buyers understood and rejected a working offer is relevant adverse evidence, with a small-sample limit. These counts illustrate the distinction, not universal thresholds. Keep the original hypothesis and result visible when testing a revised offer.
+
 Assess results honestly: source, sample bias, observed versus stated behavior, commitments and limitations. Separate failure of the hypothesis from a failed test delivery, using evidence such as whether qualified participants actually encountered the offer. Founder relationships, incentives and heavy manual assistance can explain a result that will not generalize. Payment is stronger than praise for some demand questions but does not alone prove repeatability or profitable delivery. Do not move the goalposts after failure; record a changed hypothesis and new test separately.
 
 Lead with **Learning decision**: stop, reshape, test or proceed within stated uncertainty. Represent a proposed test as concise labeled facts: hypothesis; eligible audience/exposure; action measured; threshold; limit; next decision. For results, pair observation with interpretation and its limitation, using a small table if several signals differ. Distinguish approved decisions and assumptions. Preserve useful evidence and customer vocabulary in existing records; avoid a brand exercise or an expanded report when one decisive test suffices.

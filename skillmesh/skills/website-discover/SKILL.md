@@ -17,7 +17,7 @@ Inventory claim support and usable assets early: work, credentials, testimonials
 
 Choose the evidence method from the missing fact. Owner-dependent knowledge needs a focused conversation; public category or competitor questions need research; low-risk details can remain explicit hypotheses. Carry forward accepted answers and adequately sourced findings while their date, market and scope remain applicable; investigate the gap that could change the site rather than recreating the whole brief. Do not ask the owner to repeat supplied answers or infer unapproved prices, guarantees and commitments.
 
-- For consequential owner gaps, inspect the [interview bank](references/interview.md) headings, then read its method, exit discipline and relevant question sections. Lead questions with the current interpretation and, when supported, a recommendation. Preserve delegated authority.
+- For consequential owner gaps, inspect the [interview bank](references/interview.md) headings, then read its method, buying-episode method when buyer motivations are uncertain, exit discipline and relevant question sections. Lead questions with the current interpretation and, when supported, a recommendation. Preserve delegated authority.
 - For externally answerable questions, read [research guidance](references/research.md). Choose sources to test a decision, including contradictory evidence; do not research merely to fill a section.
 
 Load only the reference needed for the unresolved question. Keep private customer material out of public research tools and deployable content.

@@ -15,6 +15,15 @@ Check whether evidence supports the precise claim: segment, buying situation, ge
 
 ## Test the strongest case
 
+Construct the strongest evidence-consistent countercase, not a list of things that could go wrong. Pair it with the best defense of the thesis and a fair reversal condition. Apply comparable evidence standards to upside and downside: do not accept optimistic intent while demanding perfect proof of risk, or reject observed sales because every future risk is unresolved.
+
+| Thesis and evidence | Strongest countercase | Fair deciding observation |
+| --- | --- | --- |
+| Paid pilots support expansion | Founder relationships and bespoke delivery may explain payment; repeatable acquisition and margin remain unknown | Nonrelationship buyers accept the same bounded offer with delivery contribution above the stated floor. This supports expansion within that scope, not universal fit. |
+| A funded incumbent will make entry impossible | A neglected segment may tolerate fewer features for a materially better workflow | Observe actual switching from the incumbent in that segment, including migration effort. Incumbent size alone proves neither rejection nor an opening. |
+
+A reversal condition must be achievable, observable and tied to the pending commitment. State whether it would reverse the verdict, reduce exposure or merely justify another test; do not demand proof that only a full launch could produce to justify a small reversible experiment.
+
 Search for decisive counterexamples and alternative explanations. For a critical claim, identify its evidence, the strongest plausible competing explanation, and an observation that would distinguish them. Distinguish a demonstrated contradiction, unsupported assumption, execution risk and mere preference. An absence of supporting evidence does not by itself demonstrate the opposite claim. Strengths should survive scrutiny when supported.
 
 When analyses disagree, preserve both claims and their sources. Test differences in segment, conditions, time, method or definitions before declaring one wrong. A usage metric and buyer demand for budget predictability may be reconciled through bounded packaging; treat that as a hypothesis, not an automatic answer.

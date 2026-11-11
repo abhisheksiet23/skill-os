@@ -1,5 +1,19 @@
 # Protect data across integration boundaries
 
+## Derive enforcement and proof from the invariant
+
+State the business condition that must remain true, identify every writer capable of breaking it, then choose the authoritative enforcement boundary. Request validation improves errors; it cannot alone protect an invariant against another caller, concurrent write or worker. Use the existing transaction/storage capabilities before adding coordination machinery.
+
+| Invariant | Authoritative enforcement | Distinguishing check |
+| --- | --- | --- |
+| At most one active reservation per resource/time | Database constraint or transactional locking/version strategy covering all writers. | Two synchronized attempts: only one commits; the loser receives the defined outcome. |
+| A transition cannot skip approval | State/version and permission check at the mutation boundary. | Call the endpoint directly from an invalid state; neither state nor external effects change. |
+| Retrying one accepted operation cannot repeat its effect | Stable operation key plus atomic result/pending-work recording and recipient support where needed. | Lose the first response, then retry; inspect effect count and returned operation identity. |
+| Owned writes commit together or leave no committed partial state | A transaction covering those writes, with the appropriate isolation/reader behavior. | Inject failure between mutations; inspect committed records from another transaction and verify the defined rollback outcome. |
+| Cross-system partial work remains identifiable and recoverable, never falsely complete | Durable operation identity and explicit pending/recovering state, recipient idempotency where supported, and reconciliation or intervention ownership. | Crash around local commits and remote acceptance; inspect permitted intermediate states, duplicate effects, terminal recovery and the defined operator path when automation cannot finish. |
+
+For example, checking “remaining stock > 0” and then decrementing in a separate unguarded write passes sequential tests while two buyers can oversell the final unit. Enforce a conditional atomic update or an equivalent supported transaction/locking scheme, then synchronize competing requests at that boundary. Assert the invariant and the losing caller's contract, not a particular helper call. If a remote charge was already accepted, rolling back local rows is incomplete; retain enough durable identity to reconcile it. Recovery is not atomic rollback: define which intermediate states the product permits and prove reconciliation separately. Do not promise no partial external effects merely because recovery exists.
+
 ## Define what a successful write means
 
 Locate the authoritative server-side checks for permissions, record scope and exceptional actions. Preserve a business audit trail when required, separate from diagnostic logs, using existing project conventions before inventing an audit subsystem.

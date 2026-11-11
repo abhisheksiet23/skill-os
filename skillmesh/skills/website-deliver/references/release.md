@@ -30,6 +30,20 @@ Then explain the owner's recurring actions: edit common content, replace assets 
 
 Keep maintenance proportional to the site. Do not create a large operations manual for a small static website. Document the few actions the owner actually needs and material dependencies that could expire or fail.
 
+## Close operating gaps without inventing ownership
+
+A named provider or mailbox is not an operating owner. For the consequential recurring actions, establish who can act, how they recognize a problem and what supported fallback exists. Reuse existing roles/runbooks; a small site may need only a few labeled facts. Confirm unknown ownership with the business rather than assigning people by inference.
+
+| Boundary | Useful handoff proof | Gap and practical consequence |
+| --- | --- | --- |
+| Enquiries | Authorized receipt/routing result, responsible role and actual follow-up expectation. | Provider acceptance with no monitored destination can lose real enquiries; qualify the live claim and identify the missing receipt/operator proof. |
+| Content and assets | An ordinary edit through preview/publication, or clear unverified steps and required access. | Access without a usable editing path leaves routine changes dependent on a developer. |
+| Integrations | Responsible role, configuration location without values, expiry/failure signal and supported fallback. | A functioning embed today does not establish renewal or failure response ownership. |
+| Domain and hosting | Authorized account owner, renewal responsibility and known domain/deployment dependencies. | A live domain does not prove the business can renew, recover or transfer it. |
+| Recovery | Prior deploy identifier, restoration procedure, authorized operator and limits on reversing data/configuration. | A documented rollback button is insufficient if the operator cannot access it or restoring code leaves incompatible configuration. |
+
+Exercise a representative edit or recovery step only within scope and authority; otherwise distinguish documented from demonstrated. Do not trigger a live rollback merely to complete the table. Explain who handles an enquiry, what the visitor was promised and how failures will become visible. If ownership remains unknown, report that precise operating dependency beside the verified live state. Preparation for ongoing operation does not authorize a new monitoring service or recurring task.
+
 ## Measurement
 
 Agree what a useful business outcome means and preserve any valid pre-launch baseline. Map each observable event to what it actually establishes: traffic, CTA engagement, attempted submission, accepted submission, received enquiry or qualified opportunity. Identify the outcomes needing business follow-up; do not call a CTA click a lead or treat a thank-you view as receipt.

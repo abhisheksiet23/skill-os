@@ -30,6 +30,8 @@ For each proposed control, identify the outcome protected, credible failure, lig
 
 Choose the next action by its contribution to the next accepted outcome, not by availability alone. Compare advancing delivery, resolving its driving blocker, reducing consequential uncertainty and stopping/deferring low-value work. Useful independent work can proceed while blocked, but must not become an expanding side backlog that delays the highest-value path. Use a short rationale for a consequential choice, not a ranking ritual for every task.
 
+When several actions compete, use the constraint/action comparisons in [tailoring and assurance](references/tailoring-and-assurance.md). Identify what each action can actually unblock and its observable completion signal; do not replace that reasoning with an arbitrary weighted score.
+
 Compress internal meetings, role handoffs and reporting into direct coordination and decision-useful visibility. Adapt resource management to real expertise, access, tools, environments, context and concurrency limits; do not assume unlimited AI capacity. Human-team development/appraisal is irrelevant when there is no human delivery team. Procurement, quantitative risk analysis, compliance, organizational change and formal assurance activate when actual commitments or consequences require them. Fewer participants do not remove external obligations or safety requirements.
 
 ## Explain position, forecast and financial coverage together

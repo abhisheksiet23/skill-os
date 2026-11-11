@@ -12,6 +12,19 @@ Identify the revision or immutable snapshot, environment and available acceptanc
 
 Explain consequence and scope. Do not equate personal stylistic preference with a defect. Record unresolved material issues and any explicit owner's acceptance of a limitation; acceptance does not turn a failed test into a pass.
 
+## Select entry pages by the task they must support
+
+Choose routes from known acquisition paths, supplied search/campaign data and realistic buyer tasks. Without those sources, label plausible entry scenarios as assumptions. Prioritize a path where failure would lose a suitable buyer, mislead them or block access, alongside any distinctive template/state risk. A homepage tour alone can miss a visitor who lands directly on a service or case page.
+
+| Plausible entry and task | Follow through | Consequential failure to look for |
+| --- | --- | --- |
+| Search visitor lands on a service page to assess fit. | Scope/exclusions → relevant proof → suitable action. | The page assumes homepage context, hides limits or offers no credible reason to proceed. |
+| Referred buyer opens a case study to reduce risk. | Evidence/context → applicable service → enquiry. | Results lack attribution/qualification, or the path never explains applicability to the buyer. |
+| Campaign visitor follows a specific offer. | Campaign promise → landing detail → form → actual next step. | Offer, cost, availability or commitment changes between surfaces. |
+| Returning prospect wants contact on a phone. | Navigation/contact route → input → recovery/confirmation. | Sticky UI, inaccessible validation or an unsupported receipt promise prevents a useful action. |
+
+Use actual source evidence to choose among these examples, not to manufacture every scenario. Note which templates, routes and states the sample covers and what remains uninspected. Extend when a shared issue or a different buying task exposes a new risk. Prioritize findings by buyer consequence and reach: a misleading offer across a campaign journey can outweigh several isolated spacing defects; an inaccessible primary control can outweigh an otherwise polished mobile layout. Keep visual and functional evidence separate even when both affect the same task.
+
 ## Review lenses
 
 | Lens | Investigate | Useful evidence |

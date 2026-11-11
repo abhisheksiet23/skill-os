@@ -13,6 +13,8 @@ The agent owns maintenance and synthesis; this skill never invokes another skill
 
 Establish the project root/identity and current task, branch or workstream. Read its small instruction map and relevant current records, then retrieve focused sections as needed. Accept existing requirements, decisions, issues and continuation notes. Use relative links within the project; machine-specific absolute paths and another project's defaults are not portable facts. Native memory is a lead to verify against current project evidence, not authority over it.
 
+When resumption leaves competing claims, stale proof or an unclear next action, use [focused recovery and conflict diagnosis](references/context-recovery.md). Resolve the discrepancy that could change the next action before expanding retrieval; a checkpoint update is not a reason to rediscover the whole project.
+
 For an adopted project, follow its existing map and update responsibilities. When adoption itself is in scope, extend those records with any missing authoritative sources, workstreams and assessment destination. Adapt [the portable instruction snippet](assets/project-instructions.md); its example paths are not required structure. Verify that the intended agent loads the guidance. Installation or file presence alone does not prove activation. Leave global instructions and unrelated projects alone.
 
 ## Preserve intent and evidence at their sources

@@ -4,6 +4,16 @@
 
 Map entry, user decisions, anxiety/friction, completion and recovery. Group information around tasks rather than database entities. Choose navigation that supports the work; a card dashboard is not the default answer for every application.
 
+Identify the hardest user decision and the observation that would show whether the design supports it. Build enough realistic context to make that decision before polishing a family of screens. A working click is insufficient if the user cannot tell what to choose or what will happen.
+
+| Hard decision | Representative prototype slice | Inspect before expanding |
+| --- | --- | --- |
+| Choose between similar records | Populated results, distinguishing details and selection confirmation. | Can the visible evidence distinguish records without opening every row? |
+| Commit an expensive or irreversible action | Review, consequence, confirmation and uncertain-result recovery. | Are scope, cost and reversibility clear before commitment? |
+| Resolve conflicting edits | Original/current values, conflict choice and preserved draft. | Can the user recover work and understand which version will survive? |
+
+For example, a polished appointment calendar with empty slots does not resolve provider choice. Use realistic overlapping availability, location, duration and a fully booked option; exercise choosing and changing a slot. Inspect whether the selection and consequence remain clear at realistic density, then apply the successful pattern elsewhere. If alternatives are needed, vary the decision-driving interaction rather than recoloring the same layout. Record the observed design issue separately from assumptions about user comprehension; an agent walkthrough is not a user study.
+
 Inspect component documentation, package dependencies, theme tokens and representative product screens before drawing bespoke controls. Suitable mature accessible components reduce implementation risk, but their actual semantics, supported variants, responsive behavior and extension points must fit the journey. A catalog constrains the solution space; it does not replace information architecture.
 
 Use the library directly when practical. For a deliberately disposable prototype in another format, reproduce enough of its visual and interaction contract to make implementation credible and record mappings or intentional deviations. Do not build a review around nonexistent component states. Sorting/filtering/paging needs real behavior and documented component limits; a static table needs no grid dependency.

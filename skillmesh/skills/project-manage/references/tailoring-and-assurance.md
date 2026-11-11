@@ -4,6 +4,22 @@ Choose a control because it protects a consequential outcome or enables a decisi
 
 Increase attention for consequential uncertainty, irreversibility, external obligations, conflicting evidence or repeated failures. Reduce coordination ceremony for understood reversible work within delegation. Management time and owner attention are scarce resources too. Avoid a universal complexity score or process-count quota.
 
+## Choose an action against the driving constraint
+
+Name the next accepted outcome and the condition currently preventing it. Separate actual prerequisites from convenient sequencing. Compare only credible actions and account for access, shared capacity, reversibility and verification work. Use a brief comparison for a material choice; routine work needs no ranking ceremony.
+
+| Driving condition | Prefer investigating or doing | Signal it helped | Avoid |
+| --- | --- | --- | --- |
+| Behavior or scope ambiguity could invalidate implementation | Obtain the decisive owner choice or verify the existing contract | The next increment can proceed without guessing the consequential rule | Speculative features while the central rule remains unresolved |
+| An external boundary may not support the planned flow | Run the smallest authorized representative check | Actual behavior resolves the compatibility question or bounds the blocked work | Expanding mocks or dependent UI as if they prove that boundary |
+| Implementation exists but important acceptance is unproved | Execute the missing boundary/failure check and fix what it exposes | Current-candidate evidence covers the required outcome | More optional features or a report declaring readiness |
+| External access or acceptance has no bounded arrival | Prepare what genuinely reduces later work; state the dependency/owner | Technical readiness improves without pretending external completion is forecast | Unrelated busywork or repeatedly requesting unchanged unavailable inputs |
+| Work is technically ready for a reserved owner decision | Prepare the concrete demonstration and decision options | Owner can make the specific acceptance/trade-off decision | Simulated acceptance or another internal review loop without a real gap |
+
+Example: a reporting increment is blocked by an uncertain export permission. Styling a dashboard is available, but checking the authorized export boundary can invalidate the architecture. Prefer that check when accessible. If access is unavailable, prepare its minimal reproduction or another accepted prerequisite with bounded value; do not build a separate dashboard backlog merely to stay busy.
+
+Estimate active work and waiting separately. Describe the expected milestone effect conditionally, then inspect the result. A shorter local task is not necessarily the action that brings the accepted outcome closer. Stop or defer work whose result no longer affects that outcome.
+
 ## Combine work while preserving authority and challenge
 
 Analysis, implementation and tests may repeat the same mistaken interpretation. Ground important expectations in legitimate requirements and observed contracts, not solely in code or a test generated from that code. Real-boundary checks can challenge a shared mock assumption. Target fresh review, a different evidence source or operator/product judgment where that can change a consequential decision; do not double every task automatically.

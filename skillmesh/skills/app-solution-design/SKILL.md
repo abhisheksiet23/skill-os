@@ -23,7 +23,7 @@ For new account-based applications, default to local Users with one Role foreign
 
 Connect material quality requirements to mechanisms and observable checks: latency to a critical path, recovery objectives to restore behavior, tenant isolation to enforcement. Use measured evidence or calculations where available and label estimates and their assumptions. Address topology, configuration/secrets, observability and operating cost to the depth that affects the decision.
 
-For substantial integration, distributed work or replacement, read [boundary and failure design](references/boundaries-and-failures.md). A focused change may need a short decision/sequence; a broad system may need component views, critical flows and focused contracts. Use diagrams to clarify ownership/execution and prose to state guarantees and trade-offs.
+For consequential mechanism choices, integration or replacement, read [boundary and failure design](references/boundaries-and-failures.md) to compare the smallest sufficient alternatives and stress failure/migration transitions. A focused change may need a short decision/sequence; a broad system may need component views, critical flows and focused contracts. Use diagrams to clarify ownership/execution and prose to state guarantees and trade-offs.
 
 ## Reduce uncertainty before dependent investment
 

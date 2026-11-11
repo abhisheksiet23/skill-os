@@ -12,6 +12,21 @@ Useful pattern: "Your deck leads with speed, but your customer examples emphasiz
 
 When the owner cannot answer, suggest what evidence could resolve it or proceed with a clearly bounded hypothesis. "Everyone" as an audience calls for prioritizing buying situations, not silently inventing a persona. A request for minimal questions changes interview length, not permission to fabricate.
 
+## Reconstruct a buying episode
+
+When the proposed position depends on why customers choose, reconstruct a recent suitable win and a loss, stalled decision or poor-fit enquiry where available. Choose cases that could distinguish the competing explanations; do not ask for a quota of interviews. Keep names/private details out of publishable notes.
+
+Walk from the situation before contact to the decision: trigger, previous workaround, alternatives actually considered, people involved, questions asked, evidence examined, hesitation, deciding event and result. Ask “What did they say or do that shows that?” after an interpretation. A lost deal with no buyer feedback establishes the outcome, not its cause. If no customer evidence exists, use owner hypotheses to draft a bounded position and name the specific assumption it rests on.
+
+| Available account | What it establishes | Useful probe / website consequence |
+| --- | --- | --- |
+| Owner: “They choose us for speed.” | Owner explanation. | Which deadline, competing option and buyer statement support it? Do not publish “fastest” from this account. |
+| Buyer email: “We cannot close for the refit.” | This buyer's operational constraint. | Inspect the agreed delivery plan; disruption management may deserve priority over generic speed. |
+| Sales record: proposal accepted after a site visit. | Sequence of observed events. | What did the visit resolve? The visit alone does not prove the reason for purchase. |
+| Lost enquiry: no response after quotation. | A stalled conversation. | Price, timing and internal approval remain competing explanations; avoid inventing a price objection. |
+
+Preserve exact buyer language when authorized, its source/date and the interpretation separately. Check whether the episode is relevant to the intended audience and current offer. Compare wins with losses or non-decisions for differences in fit, urgency and reassurance before generalizing. A useful synthesis might be: **Evidence:** two supplied buyers required work during occupied hours. **Hypothesis:** disruption risk drives these purchases. **Site implication:** explain scheduling and limits beside the service promise. **Gap:** no evidence yet for other buyer groups. This keeps a persuasive story honest without making a research programme prerequisite to drafting it.
+
 ## Assignment and success
 
 - Why is this website needed now? What changed?

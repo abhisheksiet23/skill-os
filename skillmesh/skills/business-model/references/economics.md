@@ -10,7 +10,17 @@ Define contribution explicitly. Contribution before acquisition and contribution
 
 For stable positive contribution per unit, fixed operating costs divided by contribution after acquisition gives an approximate operating break-even volume. State the assumptions: mix, acquisition allocation and capacity costs must stay valid over that range. A step increase in staffing or equipment changes the calculation.
 
-## Capacity and cash
+## Locate the binding constraint with a threshold
+
+Compare demand, profitable delivery capacity and cash-funded throughput in the same period. The smallest feasible bound constrains the plan; an average margin alone does not identify it. Calculate the threshold that changes the recommendation and the intervention that could move it. Acquisition alone cannot achieve break-even if maximum feasible throughput stays below that threshold. It can still improve contribution and reduce losses within unused capacity: assess incremental acquisition/delivery cost, cash and opportunity cost before recommending or rejecting it. Do not present loss reduction as a viable steady-state business.
+
+Illustrative service: realized revenue 1,000 per engagement; variable delivery 400; acquisition 100; monthly fixed cash cost 6,000. Contribution after acquisition is 500, so operating break-even is 12 engagements. If each takes 10 delivery hours and the relevant role has 100 productive hours, capacity is 10 engagements and operating loss at capacity is 1,000. Moving from six to ten engagements reduces loss from 3,000 to 1,000 under those same assumptions, but more leads cannot remove the remaining capacity-bound loss. Holding other inputs fixed, break-even at 10 engagements needs realized price 1,100, or variable cost 300; alternatively 12 engagements need 120 productive hours, whose incremental staffing cost must be included. These are alternative conditional thresholds, not simultaneous improvements.
+
+Independently reconcile the decisive result: at capacity, revenue 10,000 minus delivery 4,000 minus acquisition 1,000 minus fixed 6,000 equals -1,000. A second calculation of `(10 * 500) - 6,000` should agree. A copied formula or repeated rounded subtotal is not an independent check. Use executable arithmetic when available; inspect units and allocations as well as totals.
+
+Profitability and cash can give different answers. For the cash illustration, use the feasible ten-engagement alternative at a realized price of 1,100, assuming buyers accept it; retain 100 productive hours and the same listed costs. Revenue is 11,000 and delivery/acquisition/fixed costs total 11,000, so this alternative breaks even economically. If delivery and payments occur in month one but collection occurs in month two, month-one funding need is 11,000 before deposits or starting cash. No added capacity or unpriced staffing is assumed. Compare the cash trough with committed cash, not expected future sales. Change collection timing, not revenue recognition, to test a deposit policy; the new price remains a scenario, not demonstrated willingness to pay.
+
+## Capacity and cash for the actual mix
 
 For mixed offers, calculate each offer's contribution and delivery hours, then weight by the mix. Required delivery hours divided by productive hours per person gives capacity needed under that utilization assumption. Apply utilization once: productive hours already exclude unavailable time. Check bottlenecks by role where work is not interchangeable. A revenue target may need more people than a naive total-hours division suggests.
 

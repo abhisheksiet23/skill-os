@@ -15,7 +15,7 @@ Default to owner-controlled release compilation, publishing, package generation,
 
 ## Prepare an executable handoff
 
-Prepare build inputs, configuration by name rather than secret value, complete migrations, operator steps, smoke checks and recovery. Resolve risky candidate/environment compatibility and recovery assumptions with the smallest authorized check before dependent release work; preparation-only scope records the required check without executing restricted actions. Missing, stale or failed required evidence blocks its dependent release action while independent preparation continues. Read [release risks](references/release.md) for migration, coexistence and candidate-readiness concerns.
+Prepare build inputs, configuration by name rather than secret value, complete migrations, operator steps, smoke checks and recovery. Resolve risky candidate/environment compatibility and recovery assumptions with the smallest authorized check before dependent release work; preparation-only scope records the required check without executing restricted actions. Missing, stale or failed required evidence blocks its dependent release action while independent preparation continues. Read [release procedure and risks](references/release.md) for executable operator steps with prerequisites, expected observations and stop/recovery boundaries, plus migration, coexistence and candidate-readiness concerns.
 
 Use `releases/<version>/` at the application root for release packages and handoff by default. Add component folders only for distinct deliverables and preserve explicit project conventions. A justified layout change updates producer scripts, publish profiles, ignore rules and commands together without discarding old releases.
 
