@@ -4,6 +4,7 @@ __pycache__/
 .migration-tests/
 .migration-backups/
 .validation-deps/
+.use-tracking/
 
 # Device-specific installation evidence and recovery paths
 /docs/installation-status.local.md

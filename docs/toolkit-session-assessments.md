@@ -1,28 +1,29 @@
 # Current toolkit checkpoint
 
-As of 2026-11-12: `D:/gitrepos/skill-os`, branch `main`, starting revision `a02818fb7670c4f5c334b88888a026226bdee03a`.
+As of 2026-11-12: `D:/gitrepos/skill-os`, branch `main`, starting revision `29d2f465d018d487cf57feb52285c531aced8bf4`; local changes uncommitted.
 
 | Item | Current position |
 | --- | --- |
 | Accepted principle | Compile inputs into coherent skills/references: preserve semantics and safeguards while optimizing expression and loading. [Authoring policy](../EVOLUTION.md#compile-inputs-into-skills), applied through AGENTS.md |
-| Delivered | App-analyze and both references rewritten; minimal methodological attribution retained. No fixed output template imposed |
-| Source verification | Independent old/new review found no remaining material semantic gap. Three Markdown files: 1,825 to 1,543 words, about 15% smaller; source size is not a behavioral score |
-| Behavioral verification | Four synthetic cases in matched fresh performer contexts; independent blinded review found no material regression in requirements, authority, exceptions, compatibility or credential boundaries. Cases shared context within each variant; host/filesystem shared |
-| Output limit | Contracts total 1,477 baseline versus 1,494 candidate words, excluding provenance. Reliable output shortening is not established; provider/time/cost savings unknown |
-| Retention / next | Compiled instructions, [regression inputs](../evals/requirements-density-tasks.md) and [key](../evals/requirements-density-assessment-key.md) only; disposable runs removed. Authoring rewrite complete; assess output brevity from new evidence. Separate [tooling roadmap](tooling-roadmap.md) unchanged |
-| Authority | Local source/evaluation only; no application-derived facts retained, installation, commit, push or deployment |
+| Active outcome / boundary | First [roadmap](tooling-roadmap.md) increment: inspect existing telemetry and prove one metadata-only, project-local collection path. Broader application adoption remains open |
+| Delivered | [PowerShell runner](../scripts/Measure-Use.ps1), [executed process checks](../scripts/Test-UseTracking.ps1), [usage and evidence](use-tracking.md); local records ignored by Git |
+| Current proof | RTK project telemetry empty before pilot. Actual local validation success and migration failures recorded with duration, source and gaps. Process checks pass for privacy, failures, nesting and unavailable collection; whitespace check passes |
+| Limits | Exit status does not establish acceptance. Collection overhead, repeated-use usefulness, model/human effort, provider tokens, cost and savings unknown. Migration tests reached a junction permission failure; Python launcher inaccessible, no Python checks run |
+| Next milestone / dependency | Owner-authorized Angular/.NET application required for real application sampling and overhead assessment. No application selected; schedule and spend evidence unavailable. Other roadmap tasks unchanged |
+| Other workstream | Requirements compilation remains complete; preserved [regression inputs](../evals/requirements-density-tasks.md) and [key](../evals/requirements-density-assessment-key.md). No skills changed or behavioral claims revalidated in this work period |
+| Authority | Local source, tests and ignored pilot records only; no application writes, installation, commit, push or deployment |
 
 ## Latest assessment
 
-0 failed, 1 partial, 2 evidenced success; unknown unobserved; N/A not exercised.
+Self-assessment of this work period: 0 failed, 1 partial, 2 evidenced success; unknown unobserved; N/A not exercised.
 
 | Factor | Score | Evidence / limit |
 | --- | --- | --- |
-| Continuity | 2 | Existing sources and checkpoint recovered; baseline frozen before rewrite |
-| Decision fidelity | 2 | Owner's compilation principle adopted; business/authority safeguards preserved |
-| Evidence freshness | 1 | Actual source and generated contracts reviewed; synthetic cases do not prove live application behavior or repeatable compression |
-| Retrieval economy | 1 | Focused owning files, source audit and bounded refinement; total effort/savings unmeasured |
-| Project/workstream separation | 2 | Reusable guidance and unrelated synthetic cases only |
-| Review independence | 2 | Separate source reviewer and fresh blinded output reviewer; shared host/filesystem limits remain |
+| Continuity | 2 | Recovered roadmap, acceptance boundaries and project policy from existing records; corrected candidate revision to actual HEAD |
+| Decision fidelity | 2 | Metadata-only/local scope preserved; partial pilot distinguished from broader adoption; no installation or application access inferred |
+| Evidence freshness | 1 | Current runner executed and real records inspected; application usefulness and overhead not established; unrelated checks not promoted to passes |
+| Retrieval economy | 1 | Retrieved mapped records and affected scripts; environment probes and failed migration attempts added effort. Total efficiency unmeasured |
+| Project/workstream separation | 2 | Toolkit pilot and synthetic fixtures remain here; requirements workstream preserved without rerunning old conclusions |
+| Review independence | N/A | No independent reviewer used; process tests and author review only |
 
-Checks: 22-skill packaging and whitespace pass. Current Markdown bundle matches the evaluated snapshot, SHA-256 `a00221a8a4919ff7117f606974143bdbee7a457678a1b1e76a98dd0b11d27cff` (ordered relative paths plus file bytes). Official skill validator not rerun after its earlier missing-PyYAML failure. Inputs are now exposed regression material, not held-out evidence.
+Validation boundary: new process tests cover the collector's behavior, not skill reasoning or application behavior. No new packaging claim, independent review, provider-savings comparison or cross-device continuity claim is made.
