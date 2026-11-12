@@ -96,6 +96,8 @@ If there is no concrete answer, keep the simpler system.
 
 ## Source and project boundaries
 
+When writing or updating skills, compile inputs into a coherent skill and its references rather than appending the conversation. Preserve intended behavior, authority, safeguards, exceptions and consequential uncertainty while refactoring their expression and loading boundaries. Follow the [compilation principle](EVOLUTION.md#compile-inputs-into-skills); validate semantic preservation and representative behavior, not just shorter text. This is an authoring discipline, not a new compiler runtime.
+
 Author maintained skills in `skillmesh/skills/`, one self-contained folder per skill. Required references stay inside the owning skill. Do not require siblings, a shared external toolkit, a phase-status ledger or a previous invocation. Optional named recommendations must describe the underlying need so the skill works without them.
 
 Adapt to adequate existing project records. Company facts, decisions and implementation belong in the project, not in reusable instructions. Installed copies are deployment artifacts; this repository is the authoring source.

@@ -2,6 +2,14 @@
 
 Do not move up the maturity ladder without repeated evidence.
 
+## Compile inputs into skills
+
+Treat requests, existing instructions, research and observed failures as source material. Recover their intended semantics, reconcile conflicts, then rewrite a coherent instruction set. Do not preserve the source's wording, repetition, chronology or accidental structure merely because it was supplied. Diagnose unresolved contradictions rather than silently changing their meaning.
+
+Optimize within the skill's responsibility: factor shared rules, remove redundant or inapplicable guidance, and place conditional expertise in discoverable owning references. Preserve business logic, accepted choices, authority, safety, exceptions, uncertainty and useful provenance. Handle intended semantic changes explicitly within the user's authorized scope, never under cover of optimization. Neither a shorter skill nor a more elaborate structure proves an improvement.
+
+Check old-to-new semantic coverage and representative before/after behavior. Keep the compiled instructions and minimal rationale/attribution; discard authoring journeys, copied research and disposable runs. Application facts remain in their own projects.
+
 ## Preserve useful detail
 
 Judge instructions by the decisions and outcomes they improve, including avoided errors and rework. Detailed guidance earns its place when it protects an important guarantee or makes execution more reliable. Word counts can help describe loading cost, but are neither a quality score nor a trimming target. Remove redundancy, obsolete advice and irrelevant loading; do not trade correctness or useful expertise for a shorter file. Use representative comparisons for material changes, keeping quality and total effort visible even when provider metrics are unavailable.

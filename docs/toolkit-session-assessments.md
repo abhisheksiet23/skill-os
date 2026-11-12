@@ -1,33 +1,28 @@
 # Current toolkit checkpoint
 
-Current checkpoint and latest compact assessment only. Prior run conclusions and installation records are not current evidence; do not reconstruct historical scores during recovery.
+As of 2026-11-12: `D:/gitrepos/skill-os`, branch `main`, starting revision `a02818fb7670c4f5c334b88888a026226bdee03a`.
 
-| Field | Current state |
+| Item | Current position |
 | --- | --- |
-| As of / identity | 2026-11-11; SkillMesh authoring repository `D:/gitrepos/skill-os`, branch `main`; starting revision `9bd0f8326052112d6b838572cb7cc37070701f4e` |
-| Active workstream | Shorten tooling roadmap and correct project-manage output guidance |
-| Outcome | Reduce time to correct application outcomes with preserved quality, including collection/setup overhead and rework |
-| Accepted owner decisions | Build per-use effort tracking; initial stack Angular, .NET Core/.NET and SQL Server; proceed with recommended selective Serena evaluation, deterministic verification and conditional DB access direction |
-| Durable contract | [Tooling roadmap](tooling-roadmap.md): four brief work items, minimal tracking safeguards and next action; owner prefers short replies/documents |
-| Current delivery boundary | Roadmap reduced from 1,779 to 379 words; project-manage source updated; regression scenario/key added. No installation or tracker implementation |
-| Retained policy | Agent-owned orchestration; independently usable skills; narrow retrieval and affected verification; project-owned facts/evidence; no new runtime without observed need; clean-state retention and provenance rules remain |
-| Current evidence | Owner direction, relevant source instructions and primary capability documentation; document-only checks recorded below. Earlier installation/behavior claims were not revalidated |
-| Next milestone | Inspect available telemetry and select one application; Serena comparison may proceed alongside tracking |
-| Dependencies | Application target and actual tool/runtime compatibility remain unspecified; database access and provider usage telemetry are unavailable in this work period |
-| Forecast / spend | No committed dates or implementation budget; provider usage, attributable cost and savings unknown |
-| Authority boundary | Planning artifacts only in this turn; no install, application changes, DB access, spending, commit, push or deployment performed |
+| Accepted principle | Compile inputs into coherent skills/references: preserve semantics and safeguards while optimizing expression and loading. [Authoring policy](../EVOLUTION.md#compile-inputs-into-skills), applied through AGENTS.md |
+| Delivered | App-analyze and both references rewritten; minimal methodological attribution retained. No fixed output template imposed |
+| Source verification | Independent old/new review found no remaining material semantic gap. Three Markdown files: 1,825 to 1,543 words, about 15% smaller; source size is not a behavioral score |
+| Behavioral verification | Four synthetic cases in matched fresh performer contexts; independent blinded review found no material regression in requirements, authority, exceptions, compatibility or credential boundaries. Cases shared context within each variant; host/filesystem shared |
+| Output limit | Contracts total 1,477 baseline versus 1,494 candidate words, excluding provenance. Reliable output shortening is not established; provider/time/cost savings unknown |
+| Retention / next | Compiled instructions, [regression inputs](../evals/requirements-density-tasks.md) and [key](../evals/requirements-density-assessment-key.md) only; disposable runs removed. Authoring rewrite complete; assess output brevity from new evidence. Separate [tooling roadmap](tooling-roadmap.md) unchanged |
+| Authority | Local source/evaluation only; no application-derived facts retained, installation, commit, push or deployment |
 
 ## Latest assessment
 
-Scores: 0 failed, 1 partial, 2 evidenced success; unknown unobserved; N/A not exercised. This assessment covers the present planning work period, not historical activity.
+0 failed, 1 partial, 2 evidenced success; unknown unobserved; N/A not exercised.
 
-| Factor | Score | Observation |
+| Factor | Score | Evidence / limit |
 | --- | --- | --- |
-| Continuity | 2 | Existing roadmap and skill inspected; accepted stack/tracker intent and independent Serena path preserved |
-| Decision fidelity | 2 | Owner-requested brevity applied to roadmap and authoring skill; no application changes or installation |
-| Evidence freshness | 1 | Actual before/after artifact reviewed; regression scenario is unexecuted; general behavioral improvement remains unproved |
-| Retrieval economy | 1 | Focused source reads; Python launcher unavailable, bundled runtime located for validation; no measured execution savings |
-| Project/workstream separation | 2 | Reusable toolkit planning only; no application records, raw data or project artifacts copied here |
-| Review independence | N/A | Direct self-review of a planning artifact; no independent reviewer used or claimed |
+| Continuity | 2 | Existing sources and checkpoint recovered; baseline frozen before rewrite |
+| Decision fidelity | 2 | Owner's compilation principle adopted; business/authority safeguards preserved |
+| Evidence freshness | 1 | Actual source and generated contracts reviewed; synthetic cases do not prove live application behavior or repeatable compression |
+| Retrieval economy | 1 | Focused owning files, source audit and bounded refinement; total effort/savings unmeasured |
+| Project/workstream separation | 2 | Reusable guidance and unrelated synthetic cases only |
+| Review independence | 2 | Separate source reviewer and fresh blinded output reviewer; shared host/filesystem limits remain |
 
-Verification: before/after roadmap reviewed; 22-skill packaging/reference validator and whitespace checks pass. Official skill quick-validator unavailable: bundled Python lacks PyYAML. Added scenario is unexecuted, not a live behavioral pass. Provider-token/time/cost savings remain unknown. Replace this checkpoint as work changes; do not append a run diary.
+Checks: 22-skill packaging and whitespace pass. Current Markdown bundle matches the evaluated snapshot, SHA-256 `a00221a8a4919ff7117f606974143bdbee7a457678a1b1e76a98dd0b11d27cff` (ordered relative paths plus file bytes). Official skill validator not rerun after its earlier missing-PyYAML failure. Inputs are now exposed regression material, not held-out evidence.

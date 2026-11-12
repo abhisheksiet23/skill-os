@@ -41,6 +41,7 @@ Use [the deliverable rubric](deliverable-quality-rubric.md) for detailed artifac
 | Interface copy | [microcopy tasks](microcopy-tasks.md), separate [key](microcopy-assessment.md) |
 | Early boundary checks | [automation cases](automation-feedback-tasks.md), [key](automation-feedback-assessment-key.md) |
 | Requirements/design review | [design cases](design-review-tasks.md), [key](design-review-assessment-key.md), [solution design](solution-design-tasks.md) |
+| Requirements density without factual loss | [contract tasks](requirements-density-tasks.md), separate [key](requirements-density-assessment-key.md) |
 | Implementation and comprehension | [implementation](implementation-guidance-tasks.md), [returning reader](returning-reader-tasks.md), [spacing](code-spacing-tasks.md) |
 | Identity, SQL and HTTP contracts | [identity](identity-authorization-tasks.md), [database](database-script-tasks.md), [Postman](postman-api-tasks.md) |
 | Release authority and recovery | [manual release](manual-release-tasks.md) |
