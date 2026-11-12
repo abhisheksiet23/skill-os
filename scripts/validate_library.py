@@ -39,7 +39,40 @@ def validate(plugin: Path) -> tuple[list[str], list[dict]]:
             errors.append("plugin folder and manifest name differ")
         if manifest.get("skills") != "./skills/":
             errors.append("this package must expose ./skills/")
-    except (OSError, ValueError) as exc:
+        target = manifest.get("mcpServers")
+        if (plugin / "plugin.json").is_file():
+            portable = json.loads((plugin / "plugin.json").read_text(encoding="utf-8-sig"))
+            if portable.get("$schema") != "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json":
+                errors.append("portable plugin schema is missing or unsupported")
+            for key in ("name", "version", "description", "author"):
+                if portable.get(key) != manifest.get(key):
+                    errors.append(f"portable and compatibility manifest {key} differ")
+            if portable.get("extensions", {}).get("com.openai", {}).get("interface") != manifest.get("interface"):
+                errors.append("portable and compatibility presentation differ")
+            if (plugin / "mcp.json").is_file():
+                target = "./mcp.json"
+        if target is not None:
+            if not isinstance(target, str):
+                raise ValueError("mcpServers must reference a packaged JSON file")
+            mcp_path = (plugin / target).resolve()
+            if not mcp_path.is_relative_to(plugin):
+                raise ValueError("MCP definition must stay inside the plugin")
+            servers = json.loads(mcp_path.read_text(encoding="utf-8-sig"))["mcpServers"]
+            if not isinstance(servers, dict) or not servers:
+                raise ValueError("MCP definition must contain servers")
+            for server in servers.values():
+                if not server.get("command") or not isinstance(server.get("args", []), list):
+                    raise ValueError("local MCP server requires a command and argument list")
+                for argument in server.get("args", []):
+                    if not isinstance(argument, str):
+                        raise ValueError("MCP arguments must be strings")
+                    root_prefix = next((prefix for prefix in ("${PLUGIN_ROOT}/", "${CLAUDE_PLUGIN_ROOT}/")
+                                        if argument.startswith(prefix)), None)
+                    if root_prefix:
+                        asset = (plugin / argument[len(root_prefix):]).resolve()
+                        if not asset.is_relative_to(plugin) or not asset.is_file():
+                            raise ValueError("missing or escaping MCP asset")
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
         errors.append(f"manifest: {exc}")
     skill_root = plugin / "skills"
     folders = sorted(p for p in skill_root.iterdir() if p.is_dir()) if skill_root.is_dir() else []

@@ -1,17 +1,19 @@
 # Current toolkit checkpoint
 
-As of 2026-11-12: `D:/gitrepos/skill-os`, branch `main`, starting revision `29d2f465d018d487cf57feb52285c531aced8bf4`; local changes uncommitted.
+As of 2026-11-12: `D:/gitrepos/skill-os`, branch `main`; SkillMesh 0.2.0 integration workstream. This checkpoint is part of the implementation check-in requested by the owner; device-specific release suffix/recovery paths belong in ignored `docs/installation-status.local.md`.
 
 | Item | Current position |
 | --- | --- |
 | Accepted principle | Compile inputs into coherent skills/references: preserve semantics and safeguards while optimizing expression and loading. [Authoring policy](../EVOLUTION.md#compile-inputs-into-skills), applied through AGENTS.md |
-| Active outcome / boundary | First [roadmap](tooling-roadmap.md) increment: inspect existing telemetry and prove one metadata-only, project-local collection path. Broader application adoption remains open |
-| Delivered | [PowerShell runner](../scripts/Measure-Use.ps1), [executed process checks](../scripts/Test-UseTracking.ps1), [usage and evidence](use-tracking.md); local records ignored by Git |
-| Current proof | RTK project telemetry empty before pilot. Actual local validation success and migration failures recorded with duration, source and gaps. Process checks pass for privacy, failures, nesting and unavailable collection; whitespace check passes |
-| Limits | Exit status does not establish acceptance. Collection overhead, repeated-use usefulness, model/human effort, provider tokens, cost and savings unknown. Migration tests reached a junction permission failure; Python launcher inaccessible, no Python checks run |
-| Next milestone / dependency | Owner-authorized Angular/.NET application required for real application sampling and overhead assessment. No application selected; schedule and spend evidence unavailable. Other roadmap tasks unchanged |
-| Other workstream | Requirements compilation remains complete; preserved [regression inputs](../evals/requirements-density-tasks.md) and [key](../evals/requirements-density-assessment-key.md). No skills changed or behavioral claims revalidated in this work period |
-| Authority | Local source, tests and ignored pilot records only; no application writes, installation, commit, push or deployment |
+| Active outcome / boundary | Bundle suitable navigation tooling with SkillMesh, prove project binding and fallback, check in and reinstall locally. [Implementation](serena.md), [roadmap](tooling-roadmap.md#project-aware-mcp-plan) |
+| Accepted owner direction | Suitable MCP tools should work with whichever project is active. No comparison application/benchmark gate. Bundle tools and usage guidance with SkillMesh rather than a separate personal setup |
+| Delivered | Portable manifests plus synchronized compatibility overlay; pinned Serena 2.1.0 connection, isolated launcher/settings, code-navigation skill, dependency preparation and extended existing installer/validator. Tracking pilot remains committed at `9de074a` |
+| Current proof | Native host reports 23 skills and exactly seven Serena tools. Live TypeScript/C# fixtures pass actual definitions/references, two independent process bindings, project switch and missing-root/direct source fallback. Available initial-stack backends prewarmed. Packaging/official new-skill validation pass; unit suite: 16 run, 15 passed, one Windows symlink-permission skip. Migration/recovery checks passed outside the sandbox junction restriction |
+| Consequential findings | Native legacy MCP startup failed on literal plugin-root arguments; portable manifests fixed discovery/handshake. Cold concurrent Roslyn extraction collided; preparation and readiness checks address the observed path. Broad native inventory exhausted memory; native verification now targets only Serena |
+| Limits | Synthetic integration proof does not establish model/skill behavior, real-application acceptance, full Angular template coverage or cross-device readiness. Upstream package constraints do not fully lock transitive dependencies. Resource/collection overhead, provider usage, costs and savings unknown |
+| Next milestone / dependency | Refresh/load the installed plugin in the intended chat, then activate the next authorized application and verify its stack-specific relationships. No comparison application gate. Offloading still needs an observed recurring burden; SQL work needs an authorized target |
+| Other workstream | Requirements compilation remains complete; preserved [regression inputs](../evals/requirements-density-tasks.md) and [key](../evals/requirements-density-assessment-key.md). Existing methodological skills were not rewritten |
+| Authority | Owner authorized implementation, local check-in and reinstall. Dependencies and local plugin updated with recovery copies; no application source writes, push, publication or DB access |
 
 ## Latest assessment
 
@@ -19,11 +21,11 @@ Self-assessment of this work period: 0 failed, 1 partial, 2 evidenced success; u
 
 | Factor | Score | Evidence / limit |
 | --- | --- | --- |
-| Continuity | 2 | Recovered roadmap, acceptance boundaries and project policy from existing records; corrected candidate revision to actual HEAD |
-| Decision fidelity | 2 | Metadata-only/local scope preserved; partial pilot distinguished from broader adoption; no installation or application access inferred |
-| Evidence freshness | 1 | Current runner executed and real records inspected; application usefulness and overhead not established; unrelated checks not promoted to passes |
-| Retrieval economy | 1 | Retrieved mapped records and affected scripts; environment probes and failed migration attempts added effort. Total efficiency unmeasured |
-| Project/workstream separation | 2 | Toolkit pilot and synthetic fixtures remain here; requirements workstream preserved without rerunning old conclusions |
-| Review independence | N/A | No independent reviewer used; process tests and author review only |
+| Continuity | 2 | Recovered accepted bundled-delivery direction and pending plan; preserved previous tracking and requirements workstreams |
+| Decision fidelity | 2 | Implemented project-adaptive tooling without a benchmark gate; preserved fallback, local ownership and reserved DB/application authority |
+| Evidence freshness | 1 | Real MCP/LSP and installed native-catalog checks executed; application use and Angular template semantics remain unobserved |
+| Retrieval economy | 1 | Scoped to package/provider/installer sources, but failed legacy attempts and an overbroad inventory probe caused avoidable rework; no efficiency claim |
+| Project/workstream separation | 2 | Synthetic fixtures and tool authoring stayed here; local installation evidence is device-specific; no application facts copied into skills |
+| Review independence | N/A | Author verification and executed tests only; no independent reviewer or skill-behavior evaluation |
 
-Validation boundary: new process tests cover the collector's behavior, not skill reasoning or application behavior. No new packaging claim, independent review, provider-savings comparison or cross-device continuity claim is made.
+Validation boundary: local Windows source/runtime and fresh native app-server catalog only. Model reasoning, other devices and future project continuation remain unproved. Deployment metadata stays out of the shared checkpoint; the native-host verifier creates no chat and invokes no model.

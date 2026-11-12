@@ -1,15 +1,15 @@
 {
   "name": "skillmesh",
-  "version": "0.1.0",
-  "description": "Independent business, website and software delivery skills shaped by Abhishek's working practices.",
+  "version": "0.2.0",
+  "description": "Independent business, naming, website and software practices with focused semantic code navigation.",
   "author": {
     "name": "Abhishek"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "SkillMesh",
-    "shortDescription": "Business, websites and software. One library, independent skills.",
-    "longDescription": "Reusable ways of working for investigating businesses, creating marketing websites and engineering software. The agent selects and composes skills; projects retain their own facts and decisions. No routing runtime or mandatory phase chain.",
+    "shortDescription": "Business, websites, software",
+    "longDescription": "Reusable ways of working for investigating businesses, creating marketing websites and engineering software, with Serena code navigation. The agent selects expertise and tools; projects retain their own facts and decisions. No routing runtime or mandatory phase chain.",
     "developerName": "Abhishek",
     "category": "Productivity",
     "capabilities": [],

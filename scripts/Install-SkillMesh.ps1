@@ -34,7 +34,8 @@ function Invoke-Native([string]$Executable, [string[]]$Arguments) {
 # All verification that can run before profile writes happens first.
 Invoke-Native $Python @((Join-Path $repo 'scripts/validate_library.py'), $source)
 if ($hasHelpers) { Invoke-Native $Python @((Join-Path $helper 'validate_plugin.py'), $source) }
-else { Write-Host 'Bundled plugin helpers unavailable; using the repository validator and skills-only marketplace registration.' }
+else { Write-Host 'Bundled plugin helpers unavailable; using the repository validator and native marketplace registration.' }
+& (Join-Path $PSScriptRoot 'Prepare-Serena.ps1') -UserRoot $UserRoot -Rtk $Rtk
 $marketplaceName = 'personal'
 $registered = $false
 if (Test-Path -LiteralPath $marketplace) {
@@ -72,6 +73,15 @@ if ($registered) {
         $manifest.version = ($manifest.version -split '\+')[0] + '+codex.' + [DateTime]::UtcNow.ToString('yyyyMMddHHmmssfff')
         $manifest | ConvertTo-Json -Depth 100 | Set-Content -LiteralPath $manifestPath -Encoding utf8
     }
+}
+if (Test-Path -LiteralPath (Join-Path $prepared 'plugin.json')) {
+    # The portable manifest is authoritative on current hosts; keep the legacy
+    # compatibility overlay's cachebuster and presentation synchronized.
+    $portablePath = Join-Path $prepared 'plugin.json'
+    $portable = Get-Content -LiteralPath $portablePath -Raw | ConvertFrom-Json
+    $compatibility = Get-Content -LiteralPath (Join-Path $prepared '.codex-plugin/plugin.json') -Raw | ConvertFrom-Json
+    $portable.version = $compatibility.version
+    $portable | ConvertTo-Json -Depth 100 | Set-Content -LiteralPath $portablePath -Encoding utf8
 }
 if ($hasHelpers) { Invoke-Native $Python @((Join-Path $helper 'validate_plugin.py'), $prepared) }
 else { Invoke-Native $Python @((Join-Path $repo 'scripts/validate_library.py'), $prepared) }

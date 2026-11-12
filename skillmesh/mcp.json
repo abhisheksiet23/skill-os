@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "serena": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python", "3.12",
+        "--from", "serena-agent==2.1.0",
+        "python", "${PLUGIN_ROOT}/serena/start.py", "start-mcp-server",
+        "--context", "${PLUGIN_ROOT}/serena/context.yml",
+        "--mode", "${PLUGIN_ROOT}/serena/mode.yml",
+        "--agent-interface", "tools",
+        "--language-backend", "LSP",
+        "--enable-web-dashboard", "false",
+        "--open-web-dashboard", "false",
+        "--enable-gui-log-window", "false",
+        "--log-level", "WARNING",
+        "--tool-timeout", "60"
+      ]
+    }
+  }
+}

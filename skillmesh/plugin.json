@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skillmesh",
+  "version": "0.2.0",
+  "description": "Independent business, naming, website and software practices with focused semantic code navigation.",
+  "author": { "name": "Abhishek" },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SkillMesh",
+        "shortDescription": "Business, websites, software",
+        "longDescription": "Reusable ways of working for investigating businesses, creating marketing websites and engineering software, with Serena code navigation. The agent selects expertise and tools; projects retain their own facts and decisions. No routing runtime or mandatory phase chain.",
+        "developerName": "Abhishek",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "Use the relevant SkillMesh expertise for this project."
+      }
+    }
+  }
+}

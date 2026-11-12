@@ -33,4 +33,4 @@ Nested wrappers inherit an environment marker and record only the outer operatio
 
 ## Next boundary
 
-Choose an owner-authorized Angular/.NET application and sample a few real operations before expanding collection. Identify one repeated burden from those observations. Stop or simplify if annotation costs outweigh useful findings. The roadmap's broader tracking acceptance remains open until real application uses and collection overhead support adoption.
+Use the collector on relevant operations in whichever authorized project is active next; no comparison application or benchmark campaign is required. Identify one repeated burden from those observations before expanding collection. Stop or simplify if annotation costs outweigh useful findings. The roadmap's broader tracking acceptance remains open until real application uses and collection overhead support adoption.

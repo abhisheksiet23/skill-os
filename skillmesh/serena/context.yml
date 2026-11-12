@@ -1,0 +1,29 @@
+description: Focused code navigation for SkillMesh; activate the current project explicitly.
+prompt: |
+  Serena supplies semantic code navigation during the user's authorized task.
+  Establish the active repository/worktree root using the host's task context and
+  native filesystem tools. Call activate_project with that absolute root before
+  querying symbols, and verify get_current_config identifies the intended project.
+  Never infer the application root from the plugin installation directory or a
+  previously active project. Recheck binding after changing projects.
+
+  Use focused symbol overviews, definitions, references and implementations when
+  useful; the host supplies ordinary file reads, search, edits and shell commands.
+  This navigation context does not put the overall task into planning-only mode.
+  No Serena memory/onboarding workflow is required. Existing project instructions
+  and records remain authoritative. Inspect existing .serena/project.yml and local
+  overrides before activation, especially activation commands and language settings.
+
+  Validate semantic availability with a known symbol. Empty results, initialization
+  failures, missing dependencies and unsupported files do not prove absence of uses.
+  Fall back to text search and source inspection; include configuration, reflection,
+  routes and Angular templates when they affect impact. Do not install dependencies
+  or change existing project settings without task authorization. Report limitations.
+fixed_tools:
+  - initial_instructions
+  - activate_project
+  - get_current_config
+  - get_symbols_overview
+  - find_symbol
+  - find_referencing_symbols
+  - find_implementations

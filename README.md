@@ -17,7 +17,10 @@ Skills may recommend named expertise with a concrete reason, but never invoke ot
 ```text
 skill-os/
   skillmesh/                   Installable plugin; folder matches its identifier
-    .codex-plugin/plugin.json
+    plugin.json               Portable plugin manifest
+    mcp.json                  Bundled Serena connection
+    .codex-plugin/plugin.json Compatibility overlay
+    serena/                   Provider launch settings
     skills/<name>/SKILL.md
     skills/<name>/references/  Optional detail local to the owning skill
   SKILLS.md                   Human-readable inventory
@@ -57,17 +60,17 @@ For cloning on another device and editing in Codex cloud, see [GitHub and cloud 
 
 See [migration](docs/migration.md). Validate first, install one plugin, then archive only the superseded individual skill copies. Keep old source repositories and specialized toolkit tools available until separately migrated.
 
-The migration helper defaults to inspection. Installation uses the official plugin scaffold helper for personal-marketplace registration and the Codex CLI. Retirement is explicit and follows verified installation. Unrelated plugins, global instructions and projects remain untouched.
+The migration helper defaults to inspection. Installation uses native marketplace registration and the Codex CLI, prepares Serena's dependencies, and preserves the previous release source for recovery. Retirement is explicit and follows verified installation. See [bundled code navigation](docs/serena.md) for setup, project activation and fallback. Unrelated plugins, global instructions and application source remain untouched.
 
 ## Verify and evolve
 
 Author skills by [compiling their inputs](EVOLUTION.md#compile-inputs-into-skills): preserve semantics and safeguards while optimizing expression, structure and selective loading.
 
-The [tooling and effort measurement roadmap](docs/tooling-roadmap.md) plans per-use tracking, Serena evaluation for Angular/.NET, deterministic offloading and SQL Server evidence access. It records accepted direction, implementation boundaries and adoption criteria; savings remain unmeasured.
+The [tooling and effort measurement roadmap](docs/tooling-roadmap.md) covers the local per-use tracking pilot, SkillMesh-bundled project-aware MCP tooling with Serena as the first candidate, deterministic offloading and SQL Server evidence access. It records accepted direction, implementation boundaries and adoption criteria; savings remain unmeasured.
 
 Preserve detail that improves outcomes, correctness and reliable execution. Word count is a loading diagnostic, not a quality target; simplify waste without exporting errors or rework downstream. Keep reusable evaluation inputs and current evidence limits in the tree. The active toolkit starts without inherited run results, scores or installation claims. Remove disposable runs and obsolete records; preserve accepted policy and required provenance. [EVOLUTION.md](EVOLUTION.md) defines the maintenance boundary.
 
-The plugin is Markdown and a manifest. Python 3.10+ and PowerShell 7 are used only by local validation/migration helpers.
+The plugin contains Markdown skills, manifests and a small Serena launcher/configuration. Local validation uses Python 3.10+ and PowerShell 7. Serena runs with uv-managed Python 3.12; language backends have their own prerequisites, described in [code navigation](docs/serena.md).
 
 ```powershell
 python scripts/validate_library.py
