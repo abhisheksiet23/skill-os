@@ -2,6 +2,12 @@
 
 Do not move up the maturity ladder without repeated evidence.
 
+## Improve incrementally
+
+The owner's direction is steady improvement: aim for one small useful addition or improvement each day toward practical perfection. Add missing expertise, refine a method, correct a failure or simplify an unnecessary burden. Use project experience, owner feedback and sound specialist reasoning to choose the next increment; repeated failures are not a prerequisite for a bounded improvement. Preserve working guarantees and verify the affected behavior at an appropriate depth. The stronger evidence requirements below still govern new ecosystem mechanisms.
+
+Practical perfection means reliable handling of intended work with useful expertise, little avoidable ceremony and no known consequential gaps. When no worthwhile increment is apparent, observe use rather than manufacture an addition. Revisit as tasks, tools and observed needs change; keep this learning in existing records rather than creating a daily reporting system.
+
 ## Compile inputs into skills
 
 Treat requests, existing instructions, research and observed failures as source material. Recover their intended semantics, reconcile conflicts, then rewrite a coherent instruction set. Do not preserve the source's wording, repetition, chronology or accidental structure merely because it was supplied. Diagnose unresolved contradictions rather than silently changing their meaning.

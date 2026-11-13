@@ -15,6 +15,8 @@ python "$env:USERPROFILE/.codex/skills/.system/plugin-creator/scripts/validate_p
 
 Run the system skill-creator `scripts/quick_validate.py` against each directory under `skillmesh/skills`. Official validators require PyYAML; install it in a local environment if absent. Do not confuse static validation with behavioral results; see [evaluation guidance](../evals/README.md). Historical committed results remain in Git history.
 
+With no directory argument, `validate_library.py` also checks tracked and new non-ignored repository files for complete Git conflict-marker lines, including diff3 ancestor markers. It reports file/line diagnostics and fails if Git inventory is unavailable. Binary files are skipped; quote intentional marker examples inline. An explicit plugin-directory argument checks that package alone, including markers outside its skills, without requiring Git.
+
 ## Inspect, then install
 
 ```powershell

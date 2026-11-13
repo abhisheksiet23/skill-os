@@ -1,28 +1,35 @@
 # Current toolkit checkpoint
 
-As of 2026-11-12: E:/aj/experiments/skill-os, main at f3d6f3be7225a81e98828235935b14266a40accd. Current workstream: owner-requested local refresh/reinstall complete; native Serena catalog verified after owner disabled Smart App Control. Device evidence belongs in ignored docs/installation-status.local.md.
-| Item | Current position |
-| --- | --- |
-| Accepted principle | Compile inputs into coherent skills/references: preserve semantics and safeguards while optimizing expression and loading. [Authoring policy](../EVOLUTION.md#compile-inputs-into-skills), applied through AGENTS.md |
-| Active outcome / boundary | Bundle suitable navigation tooling with SkillMesh, prove project binding and fallback, check in and reinstall locally. [Implementation](serena.md), [roadmap](tooling-roadmap.md#project-aware-mcp-plan) |
-| Accepted owner direction | Suitable MCP tools should work with whichever project is active. No comparison application/benchmark gate. Bundle tools and usage guidance with SkillMesh rather than a separate personal setup |
-| Delivered | Portable manifests plus synchronized compatibility overlay; pinned Serena 2.1.0 connection, isolated launcher/settings, code-navigation skill, dependency preparation and extended existing installer/validator. Tracking pilot remains committed at `9de074a` |
-| Current proof | This device: 23 skills validated and installed/enabled; native host exposes exactly seven Serena tools; 64 files and two manifests match source apart from release version. TypeScript/Angular/C# dependencies prepared. Same-revision unit suite 15 passed/one symlink skip and migration checks passed earlier in this work period |
-| Consequential findings | Native legacy MCP startup failed on literal plugin-root arguments; portable manifests fixed discovery/handshake. Cold concurrent Roslyn extraction collided; preparation and readiness checks address the observed path. Broad native inventory exhausted memory; native verification now targets only Serena |
-| Limits | Synthetic integration proof does not establish model/skill behavior, real-application acceptance, full Angular template coverage or cross-device readiness. Upstream package constraints do not fully lock transitive dependencies. Resource/collection overhead, provider usage, costs and savings unknown |
-| Next milestone / dependency | Restart Codex to refresh PATH and load the new plugin; then verify known symbols in the next authorized application. No application project was activated by installation |
-| Other workstream | Requirements compilation remains complete; preserved [regression inputs](../evals/requirements-density-tasks.md) and [key](../evals/requirements-density-assessment-key.md). Existing methodological skills were not rewritten |
-| Authority | Owner disabled Smart App Control and authorized retry. Installer succeeded with backup; no security-policy changes by agent, commit, push or application edits |
+As of 2026-11-13: `skill-os`, branch `main`; owner-authorized local check-in candidate based on `4515eac`, covering stabilization and incremental-improvement policy. Incoming integration and local skill checkpoints described different devices/workstreams; accepted decisions are reconciled below without treating earlier device proof as current or universal. Another process completed the merge during verification; its only change from `1fedac9` is the checkpoint. This candidate preserves both workstreams.
 
-## Latest assessment
+## Accepted direction and current workstreams
+
+| Workstream | Current position / boundary | Next useful action |
+| --- | --- | --- |
+| Incremental evolution | Owner clarified the normal direction: keep improving bit by bit, aiming for one small useful addition or improvement daily toward practical perfection. This supersedes the review's recommendation to make stabilization the main next phase. [Policy](../EVOLUTION.md#improve-incrementally) | Select a useful bounded increment from experience, feedback or specialist insight; preserve what works and check the affected behavior |
+| Skill methods and artifact restraint | Conditional inquiry, previews/drafts and compilation guidance remain at `1fedac9`. Preserve useful questions without blocking settled work; supporting files need a continuing consumer or required deliverable. No skill rewritten here | Use in ordinary authorized work; wider effectiveness remains a hypothesis. [Opportunity](opportunity-roadmap.md) |
+| Bundled navigation and tracking | Serena and tracking pilot remain implemented. Accepted delivery is one plugin with project-aware tools; no comparison application or benchmark prerequisite. Preserve root binding, known-symbol checks and search fallback | Verify relevant relationships in the actual project, including Angular templates where applicable. Expand only for a concrete need. [Roadmap](tooling-roadmap.md), [implementation/recovery](serena.md) |
+| Requirements compilation | Contract guidance and reusable [inputs](../evals/requirements-density-tasks.md)/[key](../evals/requirements-density-assessment-key.md) retained | No new authoring or inherited behavioral-pass claim |
+| Stabilization | Checkpoint reconciled; validator detects repository/package conflict markers; source and local deployment freshly compared. Git has no unmerged paths; owner requested local check-in | Continue ordinary authorized use after check-in. Push and installation remain outside this task |
+
+## Source, deployment and evidence boundaries
+
+- **Source:** plugin version `0.2.0` at `4515eac`, payload unchanged from `1fedac9`; this pass changes validation and records, not the plugin payload.
+- **Local deployment:** native CLI confirms an enabled registered release. All 66 authored payload files exist in cache; six Markdown files differ, plus expected generated manifest versions. Source improvements are not yet installed here. Exact release, paths, differences, fingerprint and recovery location are in ignored `docs/installation-status.local.md`. Other devices need independent checks; registration does not establish what every running chat loaded.
+- **Reproduction:** old default validator passed with six real checkpoint conflict markers; updated validator failed against the same unchanged checkpoint with all six file/line diagnostics. Tests cover tracked/new files, ignored runs, package-root files, orphan/diff3 markers, UTF-8 BOM/CRLF, inline examples and unavailable Git inventory.
+- **Current checks:** default repository validation and explicit package validation each pass with 23 skills and zero errors; diff whitespace/conflict checks pass. Unit suite: 20 passed, one Windows symlink-privilege skip. These prove structural behavior, not model judgment or application acceptance.
+- **Remaining proof:** no fresh model comparison, application navigation, Angular template, SQL, release, cross-device continuity or overhead check here. Earlier integration/check-in statements remain bound to their original candidates/devices. Provider usage, owner-effort benefit, savings and future dates are unknown.
+- **Authority:** owner accepted three bounded stabilization tasks, clarified ongoing incremental improvement as the normal direction and authorized local check-in with an appropriate message. The clarification is recorded in authoring policy; it does not require accumulating new instructions or artifacts each day. Preserve independent skills, project-owned facts and agent-owned orchestration. No broad rewrite, new runtime, provider expansion, installation, application change, deployment or push included.
+
+## Latest compact assessment
+
+Self-assessment of review and stabilization: 0 failed, 1 partial, 2 evidenced success, unknown unobserved, N/A not exercised.
 
 | Factor | Score | Evidence / limit |
 | --- | --- | --- |
-| Continuity | 2 | Retried exact blocked installation and retained accepted integration/workstream decisions |
-| Decision fidelity | 2 | Owner changed policy; agent used existing backed-up installer and left applications untouched |
-| Evidence freshness | 2 | Enabled release, current native catalog, dependency preparation and cache content verified; real application behavior remains untested |
-| Retrieval economy | 1 | Reused same-revision validation; repeated short polling during dependency setup added overhead |
-| Project/workstream separation | 2 | Toolkit/dependency setup and native catalog only; no application changes |
-| Review independence | N/A | Operational verification; no independent reviewer |
-
-Provider-token/time/cost savings unknown. Installation is complete; application-specific navigation acceptance remains separate. Device version/recovery details are in ignored installation-status.local.md.
+| Continuity | 1 | Accepted intent recovered despite competing states; reconciled continuation not yet recovered by a later session |
+| Decision fidelity | 2 | Recorded owner's daily incremental-improvement direction as accepted, superseding the review's stabilization emphasis; preserved artifact restraint, bundled delivery and no-benchmark-gate decisions |
+| Evidence freshness | 2 | Actual defect reproduced; candidate detector exercised; fresh local registration/cache separated from source and earlier device claims |
+| Retrieval economy | 1 | Focused source/test retrieval, but broad CLI output and edit-command retries added overhead; no savings claim |
+| Project/workstream separation | 2 | Toolkit records kept here, device details ignored, applications and installed payload untouched |
+| Review independence | N/A | Author verification and executed tests; no independent reviewer or model-performance comparison |

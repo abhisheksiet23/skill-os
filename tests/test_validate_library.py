@@ -1,11 +1,12 @@
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from validate_library import validate
+from validate_library import conflict_markers, repository_conflicts, validate
 
 
 class PackagingTests(unittest.TestCase):
@@ -22,6 +23,11 @@ class PackagingTests(unittest.TestCase):
 
     def test_valid_standalone_skill(self):
         self.assertEqual(validate(self.root)[0], [])
+
+    def test_package_conflict_outside_skills_fails(self):
+        (self.root / "mcp.json").write_text("<<<<<<< HEAD\n=======\n>>>>>>> incoming\n")
+        errors, _ = validate(self.root)
+        self.assertEqual(sum("unresolved conflict marker" in error for error in errors), 3)
 
     def add_mcp(self, argument="${PLUGIN_ROOT}/context.yml"):
         manifest_path = self.root / ".codex-plugin/plugin.json"
@@ -109,6 +115,52 @@ class PackagingTests(unittest.TestCase):
         with self.entry.open("a", encoding="utf-8") as f:
             f.write("[Local](detail.md#section) and [Web](https://example.org/docs)\n")
         self.assertEqual(validate(self.root)[0], [])
+
+
+class ConflictTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+
+    def test_bom_crlf_orphan_and_diff3_markers_report_line_numbers(self):
+        path = self.root / "checkpoint.md"
+        path.write_bytes(b"\xef\xbb\xbf<<<<<<< HEAD\r\n||||||| base\r\n=======\r\n>>>>>>> incoming\r\n========\r\n")
+        self.assertEqual(conflict_markers([path]), [
+            f"{path}:{number}: unresolved conflict marker" for number in range(1, 6)
+        ])
+
+    def test_inline_examples_short_rules_and_binary_are_not_conflicts(self):
+        text = self.root / "guide.md"
+        text.write_text("Example: <<<<<<< HEAD\n`=======`\n---\n======\n> >>>>>>> incoming\n")
+        binary = self.root / "image.bin"
+        binary.write_bytes(b"\0\n<<<<<<< HEAD\n")
+        self.assertEqual(conflict_markers([text, binary]), [])
+
+    def test_repository_scan_covers_tracked_and_new_files_but_not_ignored_runs(self):
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True, capture_output=True)
+        (self.root / ".gitignore").write_text(".eval-runs/\n")
+        docs = self.root / "docs"
+        docs.mkdir()
+        tracked = docs / "checkpoint.md"
+        tracked.write_text("settled\n")
+        subprocess.run(["git", "-C", str(self.root), "add", "."], check=True, capture_output=True)
+        tracked.write_text("<<<<<<< HEAD\n")
+        new = self.root / "new script.py"
+        new.write_text("=======\n")
+        ignored = self.root / ".eval-runs"
+        ignored.mkdir()
+        (ignored / "old.md").write_text(">>>>>>> old\n")
+        self.assertEqual(repository_conflicts(self.root), [
+            f"{tracked}:1: unresolved conflict marker",
+            f"{new}:1: unresolved conflict marker",
+        ])
+        tracked.write_text("resolved\n")
+        new.write_text("resolved\n")
+        self.assertEqual(repository_conflicts(self.root), [])
+
+    def test_repository_scan_failure_is_not_a_clean_pass(self):
+        self.assertTrue(repository_conflicts(self.root))
 
 
 if __name__ == "__main__":

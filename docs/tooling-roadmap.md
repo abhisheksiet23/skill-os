@@ -1,6 +1,6 @@
 # Tooling roadmap
 
-2026-11-12. Tracking pilot committed; SkillMesh 0.2.0 bundles Serena and is locally installed. No application source changed.
+2026-11-13. Tracking pilot committed; SkillMesh 0.2.0 source bundles Serena. Installation is device-specific and may lag authored changes; the [current checkpoint](toolkit-session-assessments.md) separates source state from deployment. No application source changed.
 
 **Goal:** reduce repeated effort without losing correctness. Initial stack: Angular, .NET Core/.NET and SQL Server.
 

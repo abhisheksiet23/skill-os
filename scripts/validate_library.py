@@ -1,12 +1,45 @@
 #!/usr/bin/env python3
-"""Offline packaging checks, not a router or a behavioral grader (stdlib only)."""
+"""Offline packaging and repository conflict checks, not a behavioral grader."""
 from __future__ import annotations
 
 import argparse
 import json
 import re
+import subprocess
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+
+
+CONFLICT_MARKER = re.compile(rb"(?:<{7,}|\|{7,}|>{7,})(?:[ \t].*)?|={7,}[ \t]*")
+
+
+def conflict_markers(paths: list[Path]) -> list[str]:
+    """Detect complete Git marker lines, including diff3 ancestors and orphan markers."""
+    errors = []
+    for path in sorted(set(paths)):
+        if path.is_symlink() or not path.is_file():
+            continue
+        content = path.read_bytes().removeprefix(b"\xef\xbb\xbf")
+        if b"\0" in content:
+            continue  # Binary files are outside this text check.
+        for number, line in enumerate(content.splitlines(), 1):
+            if CONFLICT_MARKER.fullmatch(line):
+                errors.append(f"{path}:{number}: unresolved conflict marker")
+    return errors
+
+
+def repository_conflicts(root: Path) -> list[str]:
+    """Use Git's file inventory so ignored local records and generated runs stay local."""
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(root), "ls-files", "--cached", "--others", "--exclude-standard", "-z"],
+            check=True, capture_output=True,
+        )
+    except (OSError, subprocess.CalledProcessError) as exc:
+        return [f"repository conflict scan unavailable: {exc}"]
+    paths = [root / name.decode("utf-8", errors="surrogateescape")
+             for name in result.stdout.split(b"\0") if name]
+    return conflict_markers(paths)
 
 
 def metadata(path: Path) -> dict[str, str]:
@@ -31,7 +64,7 @@ def metadata(path: Path) -> dict[str, str]:
 
 def validate(plugin: Path) -> tuple[list[str], list[dict]]:
     plugin = plugin.resolve()
-    errors: list[str] = []
+    errors = conflict_markers(list(plugin.rglob("*")))
     rows: list[dict] = []
     try:
         manifest = json.loads((plugin / ".codex-plugin/plugin.json").read_text(encoding="utf-8-sig"))
@@ -117,14 +150,18 @@ def validate(plugin: Path) -> tuple[list[str], list[dict]]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("plugin", nargs="?", type=Path, default=Path(__file__).resolve().parents[1] / "skillmesh")
+    parser.add_argument("plugin", nargs="?", type=Path,
+                        help="Validate only this package; omit to also scan repository source for conflicts")
     args = parser.parse_args()
-    errors, rows = validate(args.plugin)
+    root = Path(__file__).resolve().parents[1]
+    errors, rows = validate(args.plugin if args.plugin is not None else root / "skillmesh")
+    if args.plugin is None:
+        errors = list(dict.fromkeys(errors + repository_conflicts(root)))
     for row in rows:
         print(f"{row['name']}: {row['words']} entrypoint words")
     for error in errors:
         print(f"ERROR: {error}")
-    print(f"{len(rows)} skills; {len(errors)} packaging errors. Behavior is evaluated separately.")
+    print(f"{len(rows)} skills; {len(errors)} validation errors. Behavior is evaluated separately.")
     return bool(errors)
 
 

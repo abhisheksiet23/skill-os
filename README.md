@@ -82,6 +82,8 @@ pwsh -File scripts/Test-Migration.ps1
 
 Also run the installed skill-creator and plugin-creator validators as described in [migration](docs/migration.md). Static checks establish packaging/reference integrity, not improved reasoning. [Evals](evals/README.md) describe behavioral comparison and honest reporting of unavailable metrics.
 
+The default library validator also uses Git to scan tracked and new non-ignored repository files for conflict markers. Passing an explicit plugin directory checks only that package, including its conflict markers, without requiring Git. Ignored local records and evaluation runs are excluded from the repository scan.
+
 [Source reconciliation](docs/source-review.md) records what was kept, changed and not recovered. Improve observed failures, put reusable lessons in the owning skill and keep company facts in projects. [EVOLUTION.md](EVOLUTION.md) retains the high bar for added architecture.
 
 Optimize time to a correct usable outcome. Supporting artifacts favor meaningful labels, concise facts, short action lists and genuine comparison tables; preserve the reasoning and qualifications needed to act.
