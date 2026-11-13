@@ -10,8 +10,12 @@ For the affected interaction, identify the current state, triggering event, perm
 | Submit is repeated or retried | Is this the same business action, and when may another action start? | Double activation and ambiguous timeout do not create a second accepted operation. |
 | Navigate away/back during a write | Does work continue, cancel or need reconciliation? Which draft survives? | A late response cannot overwrite another record or falsely report cancellation. |
 | Save conflicts, validation fails or the session expires | Which values are retained, what may be retried and where does focus move? | Recovery preserves permitted work and does not silently overwrite newer data. |
+| Explore a proposed option before Apply, where the journey requires it | Which state is hypothetical, which consequences are known, and what changes only on commitment? | Compare/revise/cancel leave the business state and its external effects unchanged; Apply uses current server authority and constraints. |
+| Save and resume permitted incomplete work | Which values are unknown, which are saved, and what is required only for finalization? | Restore the correct permitted draft without replacing unknown with zero/false; expose changed access/version conflicts and enforce final requirements. |
 
 For example, disabling Save while a request is in flight improves feedback but does not establish server-side duplicate safety. Keep the operation identifier for a retry of an unknown result; replace it only for a genuinely new action under the contract. For a read-only search, ignoring an obsolete response may suffice; for a payment or reservation, ignoring its response does not cancel the accepted effect. Trace both visible state and the service outcome before choosing cancellation or retry behavior.
+
+Implement preview or draft behavior only when the established journey calls for it. Use the actual service contract for proposed/saved/final states; a client-side distinction cannot establish permission, durable persistence or finalization safety. Keep normal completion direct and identify unsupported recovery rather than promising it in the interface.
 
 ## Keep the implementation readable
 

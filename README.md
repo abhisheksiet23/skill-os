@@ -68,6 +68,8 @@ Author skills by [compiling their inputs](EVOLUTION.md#compile-inputs-into-skill
 
 The [tooling and effort measurement roadmap](docs/tooling-roadmap.md) covers the local per-use tracking pilot, SkillMesh-bundled project-aware MCP tooling with Serena as the first candidate, deterministic offloading and SQL Server evidence access. It records accepted direction, implementation boundaries and adoption criteria; savings remain unmeasured.
 
+The [opportunity roadmap](docs/opportunity-roadmap.md) keeps unresolved improvement hypotheses compact; implemented methods belong in their owning instructions. A roadmap entry does not authorize application changes.
+
 Preserve detail that improves outcomes, correctness and reliable execution. Word count is a loading diagnostic, not a quality target; simplify waste without exporting errors or rework downstream. Keep reusable evaluation inputs and current evidence limits in the tree. The active toolkit starts without inherited run results, scores or installation claims. Remove disposable runs and obsolete records; preserve accepted policy and required provenance. [EVOLUTION.md](EVOLUTION.md) defines the maintenance boundary.
 
 The plugin contains Markdown skills, manifests and a small Serena launcher/configuration. Local validation uses Python 3.10+ and PowerShell 7. Serena runs with uv-managed Python 3.12; language backends have their own prerequisites, described in [code navigation](docs/serena.md).

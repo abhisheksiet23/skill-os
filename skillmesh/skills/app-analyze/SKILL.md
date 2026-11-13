@@ -19,6 +19,8 @@ Investigate before asking. Deepen only where evidence could change the increment
 
 Ask when missing evidence or an owner preference changes useful work or could cause substantial rework. Give the recommended boundary, its consequence and the exact work affected. Resolve reversible details within delegation; defer unrelated questions with a revisit condition and continue independent work. Preserve disagreement until its assumptions, evidence or scope can be reconciled. Demand, interaction or architecture gaps may need other expertise; explain the gap. These are optional recommendations to the agent, never skill invocations or a mandatory sequence.
 
+A worthwhile discovery can remain open beyond the current increment. Check readily available evidence within scope; if future value justifies retaining it, preserve the observation/source, tentative interpretation and useful question in existing product records, separate from accepted scope. Continue the settled path without requiring an answer or adding a speculative feature. Keep required correctness evidence as a dependency; do not turn every curiosity into retained work or claim a possible benefit as fact.
+
 ## Compile the contract
 
 Reconstruct the behavior from the evidence instead of accumulating notes or copying a discovery checklist. Give every distinct rule, qualification and decision one authoritative home in the project's existing records. Keep its source and confirmed/proposed/assumed standing attached; keep verification claims separate from required future proof.

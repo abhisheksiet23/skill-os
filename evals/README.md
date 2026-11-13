@@ -11,7 +11,7 @@ No prior run scores, outputs or success claims are carried forward. Reusable tas
 - Execute the requested artifact where feasible. A written plan, mocked dependency, inspected screenshot and verified integration establish different things.
 - Check a representative small task, consequential task, blocked-boundary case and existing-evidence case where relevant. The shortest path still has to preserve requirements and prove affected behavior.
 - Measure time to a usable correct artifact, owner corrections, rework, retrieval/tool work and available provider usage. Separate setup from execution. Keep unobserved metrics unknown; do not infer speed from word count or quality from test totals.
-- Prefer code/site/model artifacts plus a compact assessment: result | consequential difference | evidence | limit. Keep raw runs only while needed for assessment; remove disposable outputs at closeout. Do not accumulate historical claims in discovery or operating instructions.
+- Keep the requested evaluated artifact primary. Preserve decision-driving results and limits in the existing checkpoint or adequate current record; a run does not automatically need a separate report. Keep raw runs only while needed for assessment, and maintain new task packs/keys only when they add distinct useful regression coverage. Do not accumulate historical claims in discovery or operating instructions.
 
 ## Assessment dimensions
 
