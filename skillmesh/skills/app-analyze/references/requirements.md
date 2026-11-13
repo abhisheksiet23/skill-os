@@ -24,6 +24,8 @@ Define an accepted outcome and the nearest rejected or alternate outcome using o
 
 When accounts are required, the owner's starting convention is one role on each Users row, separate local Roles/Modules/module-role grants and bcrypt local credentials. Assess actual exceptions before proposing multi-role identity tables. Authentication, application permissions and team/clinic/record scope are distinct. Future central identity must preserve local users, permissions and business history. Public sites need no accounts without a use case.
 
+Treat this convention as an applicable owner constraint, not a request to design account infrastructure during analysis. Specify actors, permissions, record scope and preservation obligations; leave technical mechanisms and justified model exceptions to the separate design.
+
 ## Representation and depth
 
 Use brief actor/goal descriptions for deferred work and an outline for active workflows. Clarify actor/system responsibilities where ambiguous; fully describe only the parts whose complexity, consequences or unavailable expert access require it. A chosen test scenario needs enough conditions/inputs and expected outcomes to verify the slice; a test idea alone is insufficient. A slice is an end-to-end outcome and may require several implementation tasks. Shared definitions and system-wide constraints have one home.

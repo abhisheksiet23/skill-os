@@ -11,6 +11,8 @@ Bring a specific application candidate to the requested release state and make t
 
 Establish release scope, exact candidate including relevant uncommitted work, destination, live baseline and the project's existing release process. Start from the existing package manifest/operator procedure and candidate-bound requirement, test and review evidence; inspect changed inputs and missing proof instead of rebuilding the dossier. Check that required proof covers the combined candidate, not only its separately tested increments; retain unaffected proof only while its candidate, environment and assumptions remain valid.
 
+When available, use the use-case specification's selected flows and applicable quality/lifecycle constraints to define release scope and smoke outcomes, linked to candidate-bound QA evidence. Use technical design/operator records for rollout and recovery mechanisms; consult analysis only for unresolved scope or rationale. Flow readiness labels do not establish release acceptance or authority, and no particular specification format is a prerequisite.
+
 Default to owner-controlled release compilation, publishing, package generation, database application and server changes. A preparation request produces settings, profiles, configuration templates and operator instructions. An explicit build/package request authorizes that named artifact and its local verification, not deployment or publication. Honor already granted authority without asking again; resolve genuinely missing authority against the prepared candidate immediately before the dependent action.
 
 ## Prepare an executable handoff

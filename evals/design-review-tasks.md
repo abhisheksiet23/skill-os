@@ -1,6 +1,6 @@
 # Design review comparison
 
-Run these offline requests against the merged pre-change skills and the candidate with comparable models and tools. Give performers only this task file and their variant's skill descriptions/paths. Let them choose between `app-analyze` and `app-solution-design`, loading relevant local references only. Do not give them the assessment key, authoring conversation or peer outputs. Treat each case as a separate user request; record when cases share a performer context.
+Run these offline requests against frozen baseline and candidate skills with comparable models and tools. Give performers only this task file and their variant's skill descriptions/paths. Let them choose between requirements analysis (`app-analyze`) and technical design (`app-design`, previously `app-solution-design`), loading relevant local references only. Do not give them the assessment key, authoring conversation or peer outputs. Treat each case as a separate user request; record when cases share a performer context.
 
 No browsing, installation, production edits, deployment or external integration is authorized. The source excerpts below are the complete synthetic source evidence for these tasks, not a live application. Do not invent execution results. Return a useful assessment of at most 250 words per case, including the skill/reference paths actually read and any limitations. Preserve verbatim outputs and variant snapshots in ignored `.eval-runs/design-review/`.
 

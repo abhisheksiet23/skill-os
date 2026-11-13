@@ -7,6 +7,8 @@ description: Implement or change production application UI against established b
 
 Implement a usable application journey against established behavior, visual direction and service contracts. Inspect the real application and repository guidance first. Accept adequate designs from any source; no earlier skill invocation is required.
 
+Use the current use-case specification or adequate equivalent as the primary behavioral input for the selected journey, rules, alternatives and done-checks; combine it with the prototype/visual direction and real API contracts. Consult analysis findings for rationale or unresolved choices, rather than deriving behavior again. Retain useful flow references in checks, and surface consequential gaps instead of treating proposed behavior as accepted.
+
 ## Settle the consequential interaction
 
 For material new UX, establish a concrete reviewed direction before expanding production UI. Existing approval or delegated design authority counts. Inspect a representative populated layout at relevant widths in development before repeating the pattern: density, primary actions and long content should expose assumptions early. Contained corrections use the established experience. Resolve behavior or contract ambiguity before dependent implementation and continue independent work.

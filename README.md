@@ -44,6 +44,21 @@ Examples:
 
 Every skill accepts adequate project evidence regardless of its author. No previous invocation, phase ledger, preferred framework or in-app wiki is required. Material design, data and release risks still need real decisions and proof.
 
+## Application artifacts
+
+`app-analyze` produces separate analysis findings and a use-case specification for analysis-and-specification work. Findings explain the problem, evidence, current/target differences and decisions needed; the specification owns detailed observable behavior, shared rules, flow acceptance and linked gaps. Explicit analysis-only, specification-only and review-only requests retain their scope. `app-design` (formerly `app-solution-design`) produces the separate technical design.
+
+| Consumer | Primary use of the use-case specification |
+| --- | --- |
+| Technical design | Trace flows and required guarantees to components, interfaces and enforcement |
+| Prototype and frontend | Select journeys, interaction states, alternatives and completion outcomes |
+| Backend | Implement rules, access/data scope, mutations and failure behavior |
+| QA | Map flows and applicable constraints to executed acceptance evidence |
+| Delivery | Select release scope and smoke outcomes alongside QA/operator evidence |
+| Project management | Form outcome increments and relate blockers/progress to current proof |
+
+Consumers retrieve analysis selectively for rationale, evidence conflicts and unresolved choices. They accept adequate equivalent requirements without requiring these filenames or an earlier skill invocation. Flow status does not establish approval, verification or release authority by itself.
+
 ## Automatic project context
 
 For projects adopting automatic maintenance, [project-context](skillmesh/skills/project-context/SKILL.md) maintains project-owned records and a concise assessment at each work-period closeout, pause or handoff. Adapt its [portable instruction snippet](skillmesh/skills/project-context/assets/project-instructions.md) to the project's existing map so another agent/device can follow the same rule. Keep accepted decisions, provisional assumptions, candidate-bound evidence and separate workstream checkpoints in the project; retrieve focused sections instead of loading every record. Existing records are preferred over new folders. Local maintenance does not imply a commit, push or installation in other projects.

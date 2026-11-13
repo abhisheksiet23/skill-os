@@ -1,15 +1,15 @@
 ---
-name: app-solution-design
+name: app-design
 description: Design, compare and review technical solutions for application requirements, defining architecture, component responsibilities, flows and consequential engineering decisions before implementation. Use for new systems, material cross-component changes, modernization or standalone technical design and plan review; skip contained fixes with settled architecture and UX-only design.
 ---
 
-# App Solution Design
+# App Design
 
 Translate intended behavior into a coherent technical approach with clear ownership, failure guarantees and proof. Settle consequential cross-component and expensive-to-reverse choices; leave routine local code structure to implementation. This skill produces design and bounded evidence, not production implementation or release authority.
 
 ## Frame the technical decision
 
-Inspect project instructions, adequate requirements, existing decisions and the affected system. Start with the current contract, component map and changed/uncertain boundary; follow only evidence that could change the decision, reusing still-valid source-bound findings. Identify outcome, scope, compatibility, external dependencies, team capability and operating constraints that can change the solution. Separate verified facts, assumptions, accepted decisions and unknowns. Do not invent workload, availability, budget or compliance needs to justify an architecture.
+Inspect project instructions, adequate requirements, existing decisions and the affected system. Use the current use-case specification (or adequate equivalent) as the primary behavioral input: selected flows, shared rules, done-checks, quality/compatibility constraints and linked gaps. Consult analysis findings for rationale, source conflicts and unresolved scope; do not reconstruct behavior from the analysis report when it is already specified. Start with the component map and changed/uncertain boundary; follow only evidence that could change the decision, reusing still-valid source-bound findings. Identify outcome, scope, compatibility, external dependencies, team capability and operating constraints that can change the solution. Separate verified facts, assumptions, accepted decisions and unknowns. Do not invent workload, availability, budget or compliance needs to justify an architecture.
 
 Recover enough structure and runtime evidence to know what can remain and what must change. Source alone does not establish deployed behavior. Reconcile consequential contradictions and ask only when missing facts or an owner choice changes the recommendation. Missing product behavior needs targeted clarification, not invented requirements or a wholesale analysis restart. Continue independent design while a decision is pending.
 
@@ -17,7 +17,7 @@ Recover enough structure and runtime evidence to know what can remain and what m
 
 Compare credible alternatives at the real decision boundary, including extending the existing system. Explain the recommendation through requirement fit, failures, delivery effort, operational burden, cost and reversibility where material. Respect accepted technology constraints and verify current product capabilities from authoritative evidence when they matter. Do not manufacture alternatives for settled choices or add services, queues, caches or vendors without a concrete need.
 
-Trace representative use cases through components and external systems. Name responsibilities, authoritative data owners/writers, interfaces and trust boundaries. Show where validation, authorization, state transitions, transactions and external effects occur. For consequential synchronous/asynchronous flows, specify consistency, concurrency, retry, idempotency, ordering and partial-failure recovery. Name who enforces each guarantee; a diagram or transport alone does not provide it.
+Trace representative use cases through components and external systems, retaining their stable flow/rule references where available. Produce a separate technical design artifact, linking behavioral requirements rather than merging it into analysis or copying the specification. Name responsibilities, authoritative data owners/writers, interfaces and trust boundaries. Show where validation, authorization, state transitions, transactions and external effects occur. For consequential synchronous/asynchronous flows, specify consistency, concurrency, retry, idempotency, ordering and partial-failure recovery. Name who enforces each guarantee and connect it to the applicable done-check; a diagram or transport alone does not provide it.
 
 For new account-based applications, default to local Users with one Role foreign key, Roles, Modules and ModuleRoleMapping without a user-role join table. Local credentials use maintained bcrypt components. Separate authentication from current local role/module and record/workflow authorization. Preserve stable local IDs and a unique optional external issuer/subject link so central identity can replace verification without moving the four authorization tables or business history. External claims must not silently assign local roles. Preserve genuine existing requirements and require an explicit data-preserving migration before changing deployed identity structures.
 
