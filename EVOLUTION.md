@@ -1,12 +1,25 @@
-# Architecture Escalation Triggers
+# Skill OS Product Evolution
 
-Do not move up the maturity ladder without repeated evidence.
+Skill OS, also called SkillMesh, is one product. Bootstrapping means using its own skills to analyze, design, implement and verify improvements to that same product. Codex selects the methods that materially help the current product decision and owns their orchestration; skills remain independently usable and never invoke one another. The stronger evidence requirements below govern new ecosystem mechanisms, not every bounded expertise improvement.
 
 ## Improve incrementally
 
 The owner's direction is steady improvement: aim for one small useful addition or improvement each day toward practical perfection. Add missing expertise, refine a method, correct a failure or simplify an unnecessary burden. Use project experience, owner feedback and sound specialist reasoning to choose the next increment; repeated failures are not a prerequisite for a bounded improvement. Preserve working guarantees and verify the affected behavior at an appropriate depth. The stronger evidence requirements below still govern new ecosystem mechanisms.
 
 Practical perfection means reliable handling of intended work with useful expertise, little avoidable ceremony and no known consequential gaps. When no worthwhile increment is apparent, observe use rather than manufacture an addition. Revisit as tasks, tools and observed needs change; keep this learning in existing records rather than creating a daily reporting system.
+
+Treat ideas, owner preferences, feedback and observed failures as product opportunities. Reuse adequate existing decisions, evidence and methods before choosing the next investment. Identify the useful outcome and the uncertainty that could change that decision; select a proportionate learning route rather than sending every idea through a fixed workflow.
+
+| Route | When it serves the decision | What to preserve |
+| --- | --- | --- |
+| Verify the consequential hypothesis first | An uncertain premise could invalidate substantial dependent work or change a costly commitment | Use relevant existing evidence or the smallest discriminating check; distinguish proposed tests, observed results and unresolved premises |
+| Build directly, then observe | A bounded, reversible improvement has a clear consumer, adequate direction and justified implementation/upkeep exposure; a separate benefit experiment would add little value | Make the authorized change, verify the artifact appropriately and keep the intended benefit provisional until observed |
+| Learn through ordinary use | Actual adoption, repeated retrieval, task fit, corrections or maintenance determines the benefit | Observe eligible use in existing project records; do not manufacture tasks, a reporting platform or an automatic monitoring obligation |
+| Reuse, defer, reshape or stop | An adequate solution exists, the mechanism lacks useful value or evidence contradicts its premise | Keep the deciding reason and a useful revisit condition where warranted; do not expand work merely to rescue a favorable conclusion |
+
+These routes do not authorize implementation, spending, installation, external actions or release beyond the current task. A planning-only boundary still holds for a promising direct-build opportunity. An unresolved premise blocks its dependent work, not unrelated settled work. Registries, shared state and dynamic runtimes still require the stronger evidence specified below; direct improvement is not a way around those conditions.
+
+Build-direct work still preserves semantics, safeguards and exceptions and receives appropriate affected verification, including representative before/after evaluation for substantive skill changes. Artifact correctness, source readiness, deployment and benefit are different claims. For a useful increment, retain its intended outcome/metric and quality guardrails in the existing product/project record, then inspect relevant use against a valid baseline when available. Include preparation and upkeep when judging value; missing measurements stay unknown rather than blocking independent useful work or becoming a savings claim. An inexpensive owner preference may justify retention without a demonstrated speed gain, with that reason explicit. Review evidence can support retaining, revising or removing the change without requiring a larger experiment or mechanism.
 
 ## Compile inputs into skills
 
