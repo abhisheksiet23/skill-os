@@ -2,6 +2,14 @@
 
 Treat the repository-owned Postman collection as both a readable API reference and an executable check of consumer-visible behavior. Requests without meaningful assertions provide exploration, not a test suite. Establish it with the first API increment. On existing projects extend the agreed collection and retain useful automated tests rather than creating another competing suite. Preserve explicit user/project tool choices; explain a material exception to the default rather than silently omitting coverage.
 
+## Reuse an adequate existing API suite
+
+Postman remains the default for a new HTTP API without an adequate existing suite, and an explicit owner/project collection requirement stays binding even when other tests pass. Maintain an existing agreed collection rather than migrating platforms for a contained change.
+
+An existing project-native suite can be the verification asset when no separate collection requirement applies and it already supplies discoverable request/response contracts and examples, meaningful assertions through the real HTTP boundary, and repeatable setup/execution against an authorized target. Its documented commands and results must expose failures and skips; test data, identity, cleanup and external effects remain scoped. Contract documentation may live beside the tests in adequate existing project records. Unit-only tests, mocks, status-only probes or an old green report do not establish this adequacy.
+
+Inspect the affected coverage and distinct consumers before deciding. Document the selected runner, why the existing asset meets the contract and execution needs, and any gap or reserved deliverable in the project's existing record. Extend it for the changed behavior rather than creating a competing suite. If a gap remains, supply the missing contract/assertions or use the Postman default; do not waive an explicit requirement or choose a substitute solely because Postman tooling is unavailable. Missing targets or credentials leave real execution pending. This exception changes the asset choice, not the guarantees in the remaining sections: apply equivalent contract upkeep, assertions, controlled setup, candidate-bound evidence and failure reporting to the selected suite. Collection-specific format/folder guidance applies when Postman is selected or required.
+
 For new collections, use an obvious `postman/` folder at the application root, with collection files and sanitized environment templates; do not hide them under a generic `api/` or `artifacts/` folder. Preserve an established location unless a move is requested or needed; when moving it, update runner paths and documentation together rather than leaving duplicate collections.
 
 ## Keep the contract current

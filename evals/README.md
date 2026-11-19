@@ -46,6 +46,7 @@ Use [equipment reservations, ER-1](equipment-reservations.md) as the owner-selec
 | Requirements density without factual loss | [contract tasks](requirements-density-tasks.md), separate [key](requirements-density-assessment-key.md) |
 | Implementation and comprehension | [implementation](implementation-guidance-tasks.md), [returning reader](returning-reader-tasks.md), [spacing](code-spacing-tasks.md) |
 | Identity, SQL and HTTP contracts | [identity](identity-authorization-tasks.md), [database](database-script-tasks.md), [Postman](postman-api-tasks.md) |
+| Mixed-stack navigation and provider recovery | [navigation cases](code-navigation-tasks.md); supplied observations are synthetic, not live provider proof |
 | Release authority and recovery | [manual release](manual-release-tasks.md) |
 | Context recovery and isolation | [context tasks](project-context-tasks.md), [key](project-context-assessment-key.md) |
 | Management decisions and upkeep | [management](project-manage-tasks.md), [key](project-manage-assessment-key.md), [delivery](project-manage-delivery-tasks.md), [delivery key](project-manage-delivery-assessment-key.md) |

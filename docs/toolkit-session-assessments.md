@@ -2,7 +2,7 @@
 
 **Check-in scope, 2026-11-19:** owner requested local check-in of the current Skill OS changes: ER-1 guide/specimen and its runnable checks, evaluation index, product status/authority records and learning review. Git owns the resulting commit identity and worktree state. Pre-commit verification: 23-skill library validation with zero errors; repository unit suite 20 passed and one Windows-symlink-privilege skip; specimen suite 32 passed; nine browser scenarios passed; isolated migration checks passed. Loopback/junction restrictions required unsandboxed test reruns; script signing required a process-local execution-policy override. No push, installation or application-repository check-in is included. The learning recommendations below remain unadopted skill changes.
 
-**Current focus, 2026-11-19:** owner shifted the next objective from finishing application work to learning and its impact on Skill OS. The [learning review](opportunity-roadmap.md#learning-review-and-impact-on-skill-os) distinguishes supported existing methods, agent execution corrections, the proposed per-language/active-process navigation clarification and the unresolved API-runner/Postman policy tension. No skill/default change is adopted by this review. Next recommended increment is a bounded before/after evaluation of the navigation clarification; T-04 remains independent and needs a genuine pattern-choice task. Completed repair evidence below retains its original candidate/environment limits.
+**Current focus, 2026-11-19:** the owner requested applying the learning to Skill OS. T-12 source implementation is complete on `main` at parent `fd6225e` plus local edits: task-relevant language/active-process readiness and a bounded adequate-native-API-suite exception with Postman defaults and required deliverables preserved. [Source verification](#learned-guidance-source-verification) owns final identities, before/after evidence and limits. Both variants handled the cases adequately; no comparative benefit is claimed. Installation and commit/push were not performed. T-04 remains an independent ordinary-use dependency.
 
 **Current increment, 2026-11-19:** skill-os remains on local `main` at `a96f92b`, with existing documentation/evaluation edits and ER-1 fixtures uncommitted. Owner requested all pending work. Actionable LinkedIn Studio repairs and their affected verification are complete in the owning application; T-06's bounded navigation correction is verified in a fresh provider process. T-04 remains dependent on a genuine prototype pattern-choice task; T-05 still provisionally retains the guidance with benefit inconclusive. T-01/T-02 source, T-03 selected-candidate proof and T-07-T-11 scopes remain unchanged. [Closeout](#real-project-repairs-and-navigation-closeout) points to current application-owned evidence. No skill-source edits, installation, commit/push or deployment were performed; remote freshness, delivery dates and economic savings remain unknown.
 
@@ -211,15 +211,47 @@ Capture the chosen pattern and task-fit reason, any later correction attributabl
 
 **Closeout checks:** library validation passes for 23 skills with zero errors; 98 local record targets/anchors resolve; all 26 application candidate hashes match the executed runtime snapshot; authority/backlog assertions and `git diff --check` pass. Test-owned ports 5075/4200 have no listeners. SkillMesh source is unchanged. No independent review or production acceptance is claimed.
 
+## Learned-guidance source verification
+
+**Authority / scope, 2026-11-19:** the owner requested implementing the learning in Skill OS. Source changes are limited to code-navigation readiness and app-backend API-runner selection in its entrypoint and owning reference. Existing QA, frontend async-state guidance, discovery descriptions and plugin tooling remain adequate and unchanged. Source implementation is distinct from installation, commit/push and measured benefit.
+
+**Compiled behavior:** check only task-relevant languages and required relationships; reuse valid checks; verify active-process behavior after configuration repairs; retain scoped fallback and explicit dependency/framework authority. Postman remains the new-API default and an explicit collection requirement remains owed. An existing native suite is eligible only with adequate readable contracts/examples, meaningful real HTTP assertions, repeatable controlled execution and documented gaps/results. Mocks, status-only probes, unavailable Postman tools and old green reports cannot establish that exception.
+
+**Identity:** baseline is `fd6225e`. The comparison hashes compact ordered path-to-SHA-256 JSON for `code-navigation/SKILL.md`, `app-backend/SKILL.md` and `app-backend/references/postman-api-checks.md`, relative to `skillmesh/skills/`.
+
+| Variant | Aggregate SHA-256 |
+| --- | --- |
+| A: frozen baseline | `261ee887c5e76c6dfbc348e443ba5c95c28d97aab947aa46246824160ff8e6a0` |
+| B: final source candidate | `d5f14ad38c100fc519cf639e7d304f0e4bfb3ab756a29537d16dbc2816f163b4` |
+
+Final frozen B2 matches current authored files; A2/B2 had equal task/specimen packets and fixed source throughout their runs. An initial A/B pair is excluded from the final behavioral comparison: its API task file included evaluator guidance, and B re-read a permission clarification during that run. The final pair used fresh contexts with evaluator paragraphs removed and the final authorization wording frozen before dispatch. Final task/source hashes were checked; the reusable API task file now explicitly labels evaluator notes for exclusion from performer packets.
+
+**Representative before/after evaluation:** final fresh no-history A2/B2 performers each received only its frozen skills/references, the same four [navigation cases](../evals/code-navigation-tasks.md), six [API cases](../evals/postman-api-tasks.md) without evaluator notes, and ER-1 specimen. They produced bounded decision/verification-plan artifacts. Neither received peer outputs, author conclusions, checkpoints or prior assessments. Their case-4 command ran the unchanged specimen's six actual loopback HTTP tests; both variants passed after sandbox socket restrictions required authorized escalation. This is one final paired comparison, not independent replication across unseen tasks.
+
+| Boundary | Observed comparison / limit |
+| --- | --- |
+| Mixed-stack stale process | Both chose bounded fresh-process recovery, known definitions/relationships and source fallback; supplied observations, not live MCP executions |
+| Adequate single/mixed-language setup | Both reused valid readiness evidence and avoided unrelated setup/restarts |
+| Read-only missing backend | Both retained no-write scope and used source search with explicit semantic gaps |
+| Adequate native API suite | Both retained it. A used the prior material-exception guidance; B used the explicit adequacy boundary. No observed outcome advantage |
+| New API, required collection, incomplete mocks | Both retained Postman defaults/required artifacts and kept missing execution pending; mock/status-only checks were not promoted to real API proof |
+| Real HTTP execution | Same six test methods passed separately in each frozen specimen. This proves that fixture boundary, not every supplied adequacy premise, authentication, browser or deployment guarantee |
+
+**Judgment:** retain this bounded clarification under the owner's implementation direction. The comparison supports preserved behavior and makes no comparative effectiveness claim: the baseline also handled the cases adequately. Total effort, provider usage, cost/savings, live mixed-stack navigation benefit and ordinary application transfer remain unmeasured. This is public synthetic regression material, not held-out evidence.
+
+**Validation / review:** library validation and both skill-creator validators pass; no source/reference/package errors. The separate no-history reviewer assessed final source and then the final A2/B2 packets/results without authoring records or requested conclusions. It found both variants adequate with no consequential candidate regression or overall behavioral winner; B2 explicitly revalidated TypeScript after provider replacement. The final assessment supersedes its earlier A/B artifact comparison. This reviewer did not independently rerun fixture tests, and shared host/filesystem, same-model and public-case exposure limit independence and generalization. All 106 local targets/anchors in affected project/eval records and `git diff --check` pass. Raw comparison artifacts stay under the ignored current evaluation directory while this uncommitted candidate is reviewable; this checkpoint preserves the deciding facts and limits.
+
+**Continuation:** source authoring is complete. T-04 still needs genuine prototype pattern-choice exposure, independently of this increment. No installed-plugin refresh, extra commit/push or deployment was performed.
+
 ## Latest compact assessment
 
-Local check-in, 2026-11-19; toolkit self-assessment. Recovered the existing learning/continuation state, inspected the pending file set and ran applicable pre-commit checks. ER-1, project records and learning review are the check-in scope; no application files or installed skills are included. Provider tokens, elapsed effort, cost and savings remain unknown. Scores: 0 failed, 1 partial, 2 evidenced success; unknown unobserved, N/A unexercised.
+Learning implementation, 2026-11-19; toolkit self-assessment. Compiled the two authorized instruction changes, preserved existing method guarantees, froze before/after variants and executed focused validation. Decision-case comparisons and real fixture HTTP runs are distinguished from live navigation and field-benefit proof. Provider tokens, total elapsed effort, cost and savings remain unknown. Scores: 0 failed, 1 partial, 2 evidenced success; unknown unobserved, N/A unexercised.
 
 | Factor | Score | Evidence / limit |
 | --- | --- | --- |
-| Continuity | 2 | Recovered the current checkpoint and pending file set; next learning increment and natural-use limits preserved |
-| Decision fidelity | 2 | Local check-in authorized; no push or adoption of proposed skill/default changes inferred |
-| Evidence freshness | 2 | Current library, repository/specimen tests, browser scenarios and migration checks executed; Windows symlink skip remains explicit |
-| Retrieval economy | 1 | Diff output truncated; targeted fixture instructions used and environment-restricted checks rerun with suitable permissions |
-| Project/workstream separation | 2 | Only toolkit records and maintained evaluation files selected; application work remains in its own directory |
-| Review independence | N/A | Pre-commit checks and same-agent inspection; no independent review attempted |
+| Continuity | 2 | Recovered the accepted learning review and implemented its bounded source implications without reopening application repairs |
+| Decision fidelity | 2 | User authorized source changes; Postman defaults, explicit deliverables and scoped dependency/framework permissions preserved |
+| Evidence freshness | 2 | Frozen final source identities match current files; equal packets, fresh performer artifacts and actual six-test HTTP runs per variant assessed separately |
+| Retrieval economy | 1 | Some combined reads truncated; cached offline validator resolved runtime restrictions; initial evaluator-cued pair discarded and rerun with fixed clean packets |
+| Project/workstream separation | 2 | Source/evals and sanitized results stayed in toolkit; no application source, installed plugin or external service state changed |
+| Review independence | 2 | No-history performers and a separate reviewer received only target evidence; shared host/filesystem and same-model limitations remain |
