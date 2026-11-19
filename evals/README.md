@@ -33,6 +33,8 @@ Use [the deliverable rubric](deliverable-quality-rubric.md) for detailed artifac
 
 ## Reusable inputs
 
+Use [equipment reservations, ER-1](equipment-reservations.md) as the owner-selected default common case for major and minor experiments. Select only the affected slice, keep synthetic observations labelled, and supplement it when the experiment needs evidence the case cannot supply. Adoption is not execution or proof of real-project benefit.
+
 | Need | Inputs |
 | --- | --- |
 | Broad composition and restraint | [task pack](task-pack.md), [efficiency](efficiency-tasks.md), [business scenarios](scenarios.md) |

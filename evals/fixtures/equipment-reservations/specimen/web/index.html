@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Equipment desk — reservation recovery</title>
+    <link rel="stylesheet" href="/example.css">
+    <script src="/example.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to reservation</a>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Equipment desk home"><span aria-hidden="true">ed.</span> Equipment desk</a>
+      <span class="example-label">Synthetic example <span aria-hidden="true">·</span> In-memory session</span>
+    </header>
+
+    <main id="main">
+      <div class="page-heading">
+        <p class="eyebrow">WORKPLACE / SHARED EQUIPMENT</p>
+        <h1>Reserve equipment</h1>
+        <p>Choose your equipment and dates. We’ll check availability when you confirm.</p>
+      </div>
+
+      <div class="workspace">
+        <section class="booking-panel" aria-labelledby="booking-title">
+          <div class="panel-heading"><span class="step">01</span><h2 id="booking-title">Your reservation</h2></div>
+
+          <div id="notice" class="notice" role="alert" tabindex="-1" hidden>
+            <p id="notice-title" class="notice-title"></p>
+            <p id="notice-body"></p>
+            <div id="conflict-actions" class="recovery-actions" hidden>
+              <button id="choose-asset" type="button">Choose another asset <span aria-hidden="true">↗</span></button>
+              <button id="edit-dates" type="button">Edit dates <span aria-hidden="true">↗</span></button>
+            </div>
+          </div>
+
+          <form id="reservation-form">
+            <fieldset id="draft-fields" disabled>
+              <legend class="sr-only">Reservation details</legend>
+              <label for="asset">Equipment</label>
+              <select id="asset" name="asset_id" required aria-describedby="asset-help">
+                <option value="REC-01">Recorder · REC-01</option>
+                <option value="CAM-01">Camera · CAM-01</option>
+                <option value="PROJ-01">Projector · PROJ-01</option>
+              </select>
+              <p class="field-help" id="asset-help">Up to 7 days. Dates include weekends.</p>
+
+              <div class="date-fields">
+                <div>
+                  <label for="start">Start date</label>
+                  <input id="start" name="start" type="date" value="2026-11-20" min="2026-11-18" required>
+                </div>
+                <div>
+                  <label for="end">End date</label>
+                  <input id="end" name="end" type="date" value="2026-11-21" min="2026-11-18" required>
+                </div>
+              </div>
+              <p class="field-help">Both dates are included. Office calendar: Asia/Kolkata.</p>
+            </fieldset>
+
+            <div class="draft-summary"><span>Your selection</span><strong id="draft-summary">Recorder · 2 calendar days</strong></div>
+            <div class="submit-row">
+              <button id="confirm" class="primary" type="submit" disabled>Confirm reservation <span aria-hidden="true">→</span></button>
+              <p id="draft-status" role="status" aria-live="polite">Loading the equipment desk…</p>
+            </div>
+          </form>
+        </section>
+
+        <aside class="side-panel" aria-labelledby="own-title">
+          <div class="panel-heading"><span class="step">02</span><h2 id="own-title">Your confirmations</h2></div>
+          <div id="confirmations" aria-live="polite"><p class="muted">Loading your reservations…</p></div>
+          <div class="session-note"><span class="status-dot" aria-hidden="true"></span><div><strong>One session, one employee</strong><p>You’re viewing Maya’s reservations. This example resets when its local service restarts.</p></div></div>
+        </aside>
+      </div>
+
+      <footer>Equipment desk <span aria-hidden="true">/</span> Sample office today: 18 November 2026</footer>
+    </main>
+  </body>
+</html>
