@@ -44,6 +44,14 @@ If not, do not use the skill.
 - Reuse evidence only for the same relevant source, candidate and environment. After a change, rerun affected checks and consumers; do not repeat valid unrelated checks or weaken required proof for speed.
 - Stop when acceptance is met or the precise dependency is established. Judge speed by time to a correct usable outcome, including owner decisions and rework; report unknown measurements honestly.
 
+### Model selection and bounded delegation
+
+Native subagent delegation is authorized for suitable bounded work in this repository, within the current task, permissions and spending authority. Choose a lower-cost available model explicitly when it can meet clear acceptance; do not assume inherited lead settings are economical. Keep tiny tasks direct when dispatch and review would cost more. Use capable judgment for unresolved architecture, consequential diagnosis and visual direction; delegate execution of settled patterns where useful rather than assigning each skill a permanent model.
+
+Give a worker the objective, accepted constraints, selected evidence/files, write boundary and required checks, using a fresh context when available instead of copying the full chat. Retain relevant shared-state/integration facts. Require artifacts, actual checks and gaps; the lead verifies consequential acceptance without redoing every step. Parallelize only independent work with justified coordination cost.
+
+Reassess after a failed correction or new cross-component risk; distinguish missing evidence from inadequate model capability. Escalate model/effort when warranted, carrying the reproduction and prior attempts instead of restarting discovery. If model selection or delegation is unavailable, continue directly with the available model and disclose only material limitations. Never silently buy access, switch billing/providers or relax required proof. Compare total accepted-outcome cost, including lead work, handoffs, retries and verification; keep tokens, account allowance and attributable charges distinct. Cheaper-worker suitability is provisional until demonstrated for its task class; unknown cost is not a savings claim.
+
 ## Artifact design
 
 Make the requested code, site, prototype, model or decision primary. For supporting artifacts, prefer meaningful labels and complete facts over paragraph-first narration: `Decision`, `Why`, `Evidence`, `Risk`, `Next` are examples, not compulsory fields. Omit empty or irrelevant sections.

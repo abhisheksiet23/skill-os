@@ -30,6 +30,14 @@ Compare with actual owner-authorized limits and delegation. Provide a recommenda
 
 At adoption or a genuine cost decision, establish which authorized spend source is actually accessible, its cutoff/coverage and any attribution method. Reuse that finding until access or reporting changes; repeated requests for unavailable data add no visibility. Prefer an existing report/export over a new connector. If no project cost source exists, state that financial visibility is unavailable and distinguish useful operational observations from money. Only when a project sets a genuinely binding cap and incomplete evidence prevents knowing whether further discretionary expenditure is authorized, resolve a bounded fallback or the actual authority question; do not invent a financial gate for nonbinding estimates or claim a cap is enforced by reporting alone.
 
+## Choose models by the cost of an accepted outcome
+
+Prefer a supported lower-cost model for clear, bounded work when it can meet the required quality. Extraction, current-record reconciliation and settled-pattern edits can be candidates; these examples are not proof that all such tasks are safe to delegate. Do not freeze a skill-to-model registry or automatically use the most capable model for every task. Confirm available native controls and applicable authority; do not change providers, billing or user defaults merely to begin.
+
+Give a worker enough accepted constraints, selected source evidence, write scope and checks to avoid local correctness breaking the journey. Fresh bounded context can reduce irrelevant retrieval; it must not omit consequential integration facts. Keep the lead's acceptance check proportional rather than repeating the worker's whole task. Reassess a failed correction, repeated attempts or new uncertainty before further work; missing inputs call for retrieval, while inadequate capability may justify a stronger model or deeper reasoning. Carry useful failure evidence forward.
+
+Use direct execution when startup/supervision outweighs the saving, delegation is prohibited, or the required controls are unavailable. Evaluate lead and worker work, setup, retries, integration and verification together. Account-wide credit movement is not per-worker attribution, and shorter output is not measured provider savings. Promote task-class defaults only with adequate quality and economic evidence, or retain a provisional choice for an explicit owner preference without claiming measured benefit.
+
 ## Test whether an intervention improved delivery
 
 Use milestone/scope variance, blocked work and remaining-work forecasts before elaborate indices. Earned-value ratios require defensible planned value, completion measurement and actual-cost coverage. AI spend alone may poorly represent delivery value; do not infer project health from a cheaper run. Quantitative risk/capacity analysis is useful only when its inputs and decision consequence justify it.
