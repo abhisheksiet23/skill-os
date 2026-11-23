@@ -24,6 +24,16 @@ Command text, arguments, output, prompts, code, query results, environment value
 
 Nested wrappers inherit an environment marker and record only the outer operation. Separately launched operations can overlap: compare intervals and never sum their durations as wall-clock task time. Opt-in sampling cannot establish overall task frequency or total effort. Logging is best effort: write failures warn and preserve the underlying exit code. Concurrent appends are not guaranteed lossless. No dashboard, automatic aggregation or background collector is included.
 
+## Session usage report (transcript mining)
+
+`python -I scripts/usage_report.py` reads Claude Code's local transcripts (`~/.claude/projects`) and upserts one record per session into `.use-tracking/sessions.jsonl` (Git-ignored, local). It prints usage by project, skill invocation counts, skillmesh skills with no recorded use, and turns by model.
+
+Record fields: session ID, project basename, UTC interval, models, provider token counts (input, output, cache read/write), assistant/user turn counts, tool-call counts, tool-error count, skill names with timestamps, subagent spawns. Prompt text, assistant text, skill arguments and tool inputs/outputs are not captured.
+
+The same command also reads Codex rollouts (`~/.codex/sessions`, override with `--codex-dir`). Codex records add `source: "codex"`, final cumulative token totals, model-call count, peak per-call context size, Serena calls by tool, skill `SKILL.md` reads, subagent spawns and the account rate-limit percentage at session start and end. Rate-limit deltas are account-wide and can include other concurrent use. Serena with/without comparisons are confounded by task size and are not evidence of Serena's effect until matched on the same task.
+
+Limits: Claude Code prunes old transcripts, so run the report regularly; stored records survive pruning, but sessions pruned before the first run are lost. Skill invocations appear only when the Skill tool was called, so skills read by other means are not counted. Tool errors are a coarse rework signal, not a correctness measure. Tokens are provider counts, not billing. Subagent work in separate transcripts is not attributed to the parent skill.
+
 ## Verification and adoption boundary
 
 `scripts/Test-UseTracking.ps1` supplies process checks for success/nonzero exits, unavailable executable, metadata without command/output capture, unknown metrics, inherited nesting, marker restoration and unwritable collection. Execute it for the selected candidate/environment before claiming a current pass. These synthetic runner checks do not establish ordinary-use value or migration readiness.
