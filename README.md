@@ -2,7 +2,18 @@
 
 Skill OS and SkillMesh are names for the same product: a library of independently usable skills for Abhishek's business, naming, website and software-engineering practices, installable as a Codex plugin. We bootstrap it by using its own skills to analyze, design, implement and verify improvements to that same product.
 
-Codex selects relevant methods to assess product opportunities, make authorized changes and verify their outcomes. The [evolution policy](EVOLUTION.md#improve-incrementally) governs proportionate validation, direct improvement and learning through use; the [opportunity roadmap](docs/opportunity-roadmap.md) holds current product work and evidence limits.
+Codex selects relevant methods to assess product opportunities, make authorized changes and verify their outcomes. The [evolution policy](EVOLUTION.md#improve-incrementally) governs proportionate validation, direct improvement and learning through use.
+
+For project maintenance, retrieve only the record needed for the question:
+
+| Record | Owns |
+| --- | --- |
+| [Opportunity roadmap](docs/opportunity-roadmap.md) | Proposed product work and eligible observations |
+| [Tooling roadmap](docs/tooling-roadmap.md) | Unresolved tooling work and conditional maintenance |
+| [Product contracts](docs/product-improvement-use-cases.md) | Standing use cases, authority and open evidence gaps |
+| [Lessons learned](docs/lessons-learned.md) | Retained conclusions and implemented/parked decisions |
+| [Environmental factors](docs/environmental-factors.md) | Host, dependencies, permissions and measurement constraints |
+| [Current checkpoint](docs/toolkit-session-assessments.md) | Continuation state and latest session assessment |
 
 ## Three responsibilities
 

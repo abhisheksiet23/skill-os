@@ -26,7 +26,7 @@ From the repository root with Python 3.12+ (prefix commands with `rtk proxy` whe
 python -B -m unittest discover -s evals/fixtures/equipment-reservations/specimen -v
 ```
 
-The same test file accepts an absolute implementation path through `ER1_IMPLEMENTATION` for a frozen baseline/candidate comparison. Keep environment overrides out of subsequent unrelated runs. The initial comparison's exact identities and results belong in the toolkit checkpoint; this file does not import historical passes as current evidence.
+The same test file accepts an absolute implementation path through `ER1_IMPLEMENTATION` for a frozen baseline/candidate comparison. Keep environment overrides out of subsequent unrelated runs. Record the source identities and results for each comparison.
 
 For frozen domain variants, run `test_reservations.py` directly with that override. The separate HTTP tests always exercise the maintained server and its current service; do not report them as proof of a different frozen implementation.
 
@@ -34,7 +34,7 @@ For frozen domain variants, run `test_reservations.py` directly with that overri
 
 The existing unittest runner is sufficient; no wrapper or new platform is needed. Its maintained contract suite now checks three-day projector acceptance, four-day rejection, unchanged recorder/camera limits and training requirements, and accepted-result replay. It also creates a two-day projector confirmation under the legacy policy, restores the current policy, and verifies the same confirmation survives and replays without another effect before accepting a new three-day booking.
 
-The legacy-policy context is a controlled in-process simulation using the same service state. It does not establish database upgrade, service restart or durable recovery. The original T-08 sources/tests were frozen before editing; they remain comparison inputs, not the acceptance oracle for this changed rule. [Current executed evidence](../../../../docs/toolkit-session-assessments.md#t-09-er-limit-repeatable-verification) separates the old-contract pass, expected failure under new acceptance and final candidate passes.
+The legacy-policy context is a controlled in-process simulation using the same service state. It does not establish database upgrade, service restart or durable recovery. For a new comparison, deliberately select and freeze baseline sources/tests; retired run snapshots are not maintained inputs or the acceptance oracle for this changed rule. Run the suite above to establish results for the checked-out candidate.
 
 ## T-10 rendered conflict example
 
@@ -60,6 +60,6 @@ node evals/fixtures/equipment-reservations/specimen/test_example_ui.cjs
 
 With no module override, the browser runner resolves `playwright` normally. Missing browser prerequisites or restricted loopback access are failures, not skipped passes. Each scenario starts a fresh local server and browser context, cleans them up, and checks for browser runtime errors. Screenshots go to the ignored `.eval-runs/er1-t10/` area, overridable with `ER1_ARTIFACT_DIR`.
 
-Nine browser scenarios cover three viewport widths (1280, 768, 360), non-default typed-date retention, explicit alternative confirmation, keyboard edit recovery, duplicate-submit suppression, accepted-then-lost response recovery and server-side duration rejection. Keyboard/focus, semantics, reflow and inspected screenshots do not establish assistive-technology usability or owner comprehension. [T-10 evidence](../../../../docs/toolkit-session-assessments.md#t-10-rendered-conflict-example) records observations, setup correction and proof limits.
+Nine browser scenarios cover three viewport widths (1280, 768, 360), non-default typed-date retention, explicit alternative confirmation, keyboard edit recovery, duplicate-submit suppression, accepted-then-lost response recovery and server-side duration rejection. Keyboard/focus, semantics, reflow and inspected screenshots do not establish assistive-technology usability or owner comprehension. Run the browser commands above to establish results for the checked-out candidate.
 
 **Upkeep:** keep one page, stylesheet, client module and narrow loopback adapter with tests. Recheck changed UI states after rule/API changes; the shared policy/catalogue prevents a separate hardcoded limit list. Setup/maintenance effort and benefit economics are unmeasured. A real application should reuse/adapt the verified behavior in its own directory and prove its own authentication, persistence and rendering.

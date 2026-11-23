@@ -9,6 +9,7 @@ import time
 
 root = Path(__file__).resolve().parents[1]
 messages = queue.Queue()
+(root / '.validation-deps').mkdir(exist_ok=True)
 with (root / '.validation-deps/host-probe.log').open('w', encoding='utf-8') as log:
     process = subprocess.Popen(['codex', 'app-server'], cwd=root, env=dict(os.environ, RUST_LOG='info'), stdin=subprocess.PIPE,
                                stdout=subprocess.PIPE, stderr=log, text=True, encoding='utf-8')

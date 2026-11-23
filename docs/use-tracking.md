@@ -24,12 +24,11 @@ Command text, arguments, output, prompts, code, query results, environment value
 
 Nested wrappers inherit an environment marker and record only the outer operation. Separately launched operations can overlap: compare intervals and never sum their durations as wall-clock task time. Opt-in sampling cannot establish overall task frequency or total effort. Logging is best effort: write failures warn and preserve the underlying exit code. Concurrent appends are not guaranteed lossless. No dashboard, automatic aggregation or background collector is included.
 
-## Evidence as of 2026-11-12
+## Verification and adoption boundary
 
-- Before: `rtk gain --project --format json` reported zero commands, input/output estimates and duration on this device. RTK supplied no usable baseline. Its command-level output-size estimates would not establish provider billing or purposeful-use boundaries.
-- After: the local pilot captured actual migration-validation failures and a successful tracking-validation operation in this repository. The first migration attempt was blocked by unsigned-script policy; a process-scoped policy override reached the migration tests, which then failed creating a junction with access denied. Neither failure is a migration pass. Correction is explicitly linked by the shared task label and rework flag.
-- `scripts/Test-UseTracking.ps1` exercises success/nonzero exits, unavailable executable, metadata without command/output capture, unknown metrics, inherited nesting, marker restoration and unwritable collection. These are executed process tests using synthetic fixtures, separate from the real-use pilot.
-- No skills or routing behavior changed. The before/after result is availability of useful local operation records, not an improvement in model behavior. Collection overhead, repeated-use usefulness, application coverage, provider usage and savings remain unmeasured.
+`scripts/Test-UseTracking.ps1` supplies process checks for success/nonzero exits, unavailable executable, metadata without command/output capture, unknown metrics, inherited nesting, marker restoration and unwritable collection. Execute it for the selected candidate/environment before claiming a current pass. These synthetic runner checks do not establish ordinary-use value or migration readiness.
+
+Collection is implemented; useful recurrence, collection overhead, application coverage, attributable provider usage and savings remain open. Command-output estimates do not establish billing. See [retained lessons](lessons-learned.md) and [environmental factors](environmental-factors.md) for the conclusions and execution constraints, without carrying pilot history into this usage contract.
 
 ## Next boundary
 
