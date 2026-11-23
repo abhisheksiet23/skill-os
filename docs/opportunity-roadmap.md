@@ -20,6 +20,12 @@ Current guidance already limits candidate-bound claims. The observed fixture/rea
 
 The original case exposed playback, lifecycle and focus defects despite proposed ownership. Preventive benefit remains a hypothesis. Evaluate CR-02 and CR-03 together with a fixture-to-real transition, a second shared-state entry point and an unrelated copy edit as the restraint case. Check existing guidance first and add only the missing behavior. A caveat alone leaves affected proof pending.
 
+## Remaining questions from the two-month review
+
+The review's host-discovery, manual-release and identity inconsistencies have been corrected in source under the owner's clarified policy; see [retained decisions](lessons-learned.md). Current verification boundaries belong in the [checkpoint](toolkit-session-assessments.md), not future backlog.
+
+Two narrower evaluation questions remain: whether copy-only website requests retrieve existing writing expertise without expanding into prototypes, and whether naming evaluations exercise live shortlist checks and lookup failure as well as offline restraint. Establish an actual selection/coverage gap before adding permanent evaluation inputs or another skill. Broad instruction growth is a loading diagnostic, not a reason to trim useful guarantees. CR-02/03 remains the next proposed behavioral increment, outside the current consistency correction.
+
 ## Independent pilots
 
 ### CR-06 · Diagnose avoidable model work and establish usage evidence · P0

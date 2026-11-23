@@ -25,7 +25,7 @@ Write for a developer returning after six years. Separate logical handler blocks
 
 Use the real API when available. If a dependency is unavailable, put contract-faithful mocks behind the same service boundary, label them and identify the unproved integration. Do not alter API/data/auth rules for UI convenience. Frontend-only scope does not authorize backend changes.
 
-Consume the backend's current-user and allowed-capability contract. Keep credential storage/provider details out of UI logic; unvalidated token contents and external role claims do not establish application permissions. Hidden buttons are not authorization. Preserve denied-access and expired-session recovery when authentication changes, without exposing hashes or server secrets.
+Consume the backend's current-user and effective action-permission contract, derived from the same authority used by APIs and services. Use stable capability codes such as `expenses.approve`; a role label or visible module does not imply that action. Resource-specific availability also reflects record scope and workflow state, and the server rechecks at mutation. Keep credential/provider details out of UI logic; token role claims cannot grant application access. Hidden buttons are not authorization. Preserve denied-access, expired-session and changed-permission recovery without exposing hashes or secrets; reuse an adequate existing policy contract rather than introduce a second permission store.
 
 ## Inspect actual behavior
 
