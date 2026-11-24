@@ -1,8 +1,10 @@
 # Choose the visual system
 
-Use this reference for a new visual direction or a material visual change. An existing identity and design system win. Extend them instead.
+Use this reference when the project has no existing design system or tokens, or for a new visual direction or a material visual change. An existing identity and design system win. Extend them instead.
 
 Choose roles and reasons, not default values. Derive them from brand, audience, task and density. Record the chosen tokens, their reasons and the icon mapping once, in design artifacts.
+
+Spend visual weight where attention or a decision is needed. Surfaces for sustained use, such as long reading, stay calm: quiet chrome, comfortable type, one accent.
 
 A default is not a decision. A system font stack, one blue accent and a uniform radius are acceptable only when chosen for the audience and brand, with the reason noted.
 

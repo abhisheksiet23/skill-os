@@ -44,9 +44,10 @@ Scope:
 
 Direction:
 - Existing identity: keep it. Redesign only when authorized.
+- Reference products: study two or three products the audience already uses for the same job. Take the reason behind what works, not the look.
 - New direction: choose a reasoned starting point. Ask about preferences only when they materially change the outcome.
 - Fix concrete typography, spacing, color, surface, shape, icons, layout and interaction choices.
-- New direction or material visual change: read [visual system](references/visual-system.md).
+- No existing design system or tokens, a new direction or a material visual change: read [visual system](references/visual-system.md).
 - Use mature controls where they represent difficult interactions accurately.
 
 ## Choose components
@@ -70,6 +71,7 @@ Build more than the happy screen.
 
 - Format: browser-inspectable HTML/CSS/JS, or the project's suitable prototype format.
 - Separation: keep prototype changes apart from production code.
+- Content integrity: content that carries authority, such as scripture, law, medicine or prices, comes from a named source or is plainly placeholder. A prototype must not lend credibility to invented material.
 - States: include realistic density and long content. Include permission, loading, empty, success, validation, error and recovery states that affect the journey.
 - Layouts: render narrow, intermediate and wide layouts appropriate to the product.
 - Exercise: run the primary journey, keyboard and focus, and recovery.
@@ -84,6 +86,7 @@ Source readability:
 
 ## Present the revision
 Keep the inspectable prototype primary. Add compact labeled facts:
+- The job the prototype serves, in one line, with its evidence label.
 - Launch.
 - Consequential choices, with the reason for those that affect the journey.
 - Observed states and viewports.

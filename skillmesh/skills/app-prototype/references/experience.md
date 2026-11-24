@@ -5,7 +5,8 @@ Use this reference to choose the hardest decision, compose layout and words, and
 ## Start with the task and visual language
 - Map entry, user decisions, anxiety or friction, completion and recovery.
 - Group information around tasks, not database entities.
-- Choose navigation that supports the work. A card dashboard is not the default answer.
+- Choose navigation that supports the work. The user always knows where they are, what else is here and how to move on. Frequent moves get direct access. Rare ones can sit deeper.
+- A card dashboard is not the default answer.
 - Identify the hardest decision and the observation that would show whether the design supports it.
 - Build enough realistic context to make that decision before polishing a family of screens.
 - A working click is not enough if the user cannot tell what to choose or what will happen.
