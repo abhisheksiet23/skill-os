@@ -16,6 +16,12 @@ A default is not a decision. A system font stack, one blue accent and a uniform 
 | Shape | Radius and border language per surface role, elevation | Nested radii agree. Focus ring is visible on every surface |
 | Motion | Purpose of each motion | Reduced-motion setting is honored |
 
+## Theme
+- Light is the default theme, in a tinted off-white, not pure white. Start light even when the system is set to dark. Following the system setting is the owner's call.
+- Offer dark only when asked or when the use conditions call for it. The user can switch, and the choice is remembered.
+- Keep dark soft. Derive it from the palette's hue as a deep tinted tone, not near-black, with off-white text.
+- Measure text and control contrast in both themes. Contrast decides how dark is too dark.
+
 ## Iconography
 Icons carry meaning, so keep them semantic.
 

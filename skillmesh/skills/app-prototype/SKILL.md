@@ -71,11 +71,14 @@ Build more than the happy screen.
 
 - Format: browser-inspectable HTML/CSS/JS, or the project's suitable prototype format.
 - Separation: keep prototype changes apart from production code.
+- Scaffolding: keep controls for simulated conditions out of the product's viewport, collapsed or docked at the edge. They must not hide the design.
 - Content integrity: content that carries authority, such as scripture, law, medicine or prices, comes from a named source or is plainly placeholder. A prototype must not lend credibility to invented material.
 - States: include realistic density and long content. Include permission, loading, empty, success, validation, error and recovery states that affect the journey.
 - Layouts: render narrow, intermediate and wide layouts appropriate to the product.
 - Exercise: run the primary journey, keyboard and focus, and recovery.
 - Review loop: inspect the actual output, correct visible defects, then inspect again.
+- Compare: set the output beside the reference products and the job. Name where yours is harder to scan, heavier or less oriented, and fix the largest gap.
+- Measure: check with a script what the browser can measure, such as contrast, tap-target size and focus order. State what you measured and what you did not.
 
 Source readability:
 - Put blank lines between logical handlers and UI sections.
