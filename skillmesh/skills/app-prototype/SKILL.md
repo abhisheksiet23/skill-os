@@ -5,7 +5,7 @@ description: Design and build an inspectable, high-fidelity software prototype w
 
 # App Prototype
 
-Build a realistic, clickable prototype that answers the open UX questions of a software change. The owner can react to the real experience and the frontend implementer can build from it before production code exists. Choose the questions first. Build only the path that answers them, inspect it in a browser, then hand over the prototype, what you observed and the design direction to keep. It proves the experience, not production behavior.
+Answer the open UX questions of a software change with a realistic, clickable prototype that the owner can react to and the frontend implementer can build from, before production code exists. Choose the questions first and build only the path that answers them. Inspect the result in a browser and hand over the prototype, what you observed and the design direction to keep. It proves the experience, not production behavior.
 
 ## Terms
 - **Consequential:** changes observable behavior, cost, risk or rework.

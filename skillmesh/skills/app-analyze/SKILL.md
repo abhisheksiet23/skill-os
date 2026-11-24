@@ -5,7 +5,7 @@ description: Analyze software needs and existing behavior, producing an owner br
 
 # App Analyze
 
-Turn a software need into decisions the owner can make quickly and behavior that design, build and QA can work from without consequential guesses. Write no production code. Choose no architecture.
+Turn an unclear software request into decisions the owner can make and behavior the team can build and verify without consequential guesses. Work from the problem and the people's goals, not from the proposed solution. Write no production code. Choose no architecture.
 
 ## Terms
 - **Consequential:** changes observable behavior, cost, risk or rework.
