@@ -1,54 +1,133 @@
 ---
 name: app-analyze
-description: Analyze software needs and existing behavior, producing separate business-analysis findings and a use-case specification with flows, rules, acceptance and gaps. Use for material product changes, ambiguous defects, modernization or requirements review; skip mechanical fixes, technical architecture design/review and business-demand validation.
+description: Analyze software needs and existing behavior, producing an owner brief with ranked decisions, business-analysis findings and a use-case specification with flows, rules, acceptance and gaps. Use for material product changes, ambiguous defects, modernization or requirements review; skip mechanical fixes, technical architecture design/review and business-demand validation.
 ---
 
 # App Analyze
 
-Produce two distinct artifacts: **analysis findings** explaining the need, evidence and unresolved choices, and a **use-case specification** defining observable behavior for design, implementation and verification. Separate the requested solution, underlying problem and desired outcome; challenge unsupported choices, then preserve the owner's decision. Architecture and technical mechanism choices belong in a separate design, outside this skill; record the required guarantee and the design question without choosing its mechanism. Do not implement production code.
+Turn a software need into decisions the owner can make quickly and behavior that design, build and QA can work from without consequential guesses. Write no production code. Choose no architecture.
 
-For analysis-and-specification work, deliver both artifacts separately and link them, using adequate existing project records where possible. Default to two Markdown documents in the application project, not one blended analysis report. An explicit analysis-only request delivers findings; a specification-only request uses adequate existing analysis; review-only work reports findings without editing the reviewed records. A contained correction can use brief linked records rather than a full module dossier. Do not force a prior skill invocation or duplicate adequate artifacts.
+## Terms
+- **Consequential:** changes observable behavior, cost, risk or rework.
+- **Authoritative home:** the one document that owns a rule or decision. Others link to it.
+- **Increment:** the next coherent slice to specify in detail.
+- **Delegated decision:** a choice the owner has said the team may make. A recommended default is not one until the owner says so.
+- **Fact:** a value or system detail nobody on the team knows. It has no default. Request it from whoever can supply it.
+
+## Always
+1. Separate the requested solution, the underlying problem and the desired outcome. Challenge unsupported choices, then keep the owner's decision.
+2. Keep unknowns unknown. Propose and label; never invent policy, numbers, schemas or guarantees.
+3. Separate observed behavior, inference and intended behavior.
+4. Leave architecture and mechanism to design. Record the required guarantee and the design question.
+5. Treat a planned check as unexecuted. Writing a document never marks anything Built or Verified.
+
+## Choose the document set
+Use existing project records first. Link instead of copying.
+
+| Work | Documents |
+| --- | --- |
+| Contained correction or single flow | One short record: need, rule, flow with done-check, open decisions |
+| One module or feature | Exactly three Markdown files in the application project: owner brief, findings, specification. Rules stay inside the specification |
+| Several modules reusing rules, or a second decision-maker (never for one module) | Add a shared product-rules document (see the specification reference) |
+
+When the request is narrower:
+- Analysis only: deliver the owner brief and findings.
+- Specification only: reuse adequate existing analysis.
+- Review only: report findings and leave the reviewed records unedited.
 
 ## Establish the boundary
+Before specifying anything:
+- Recover project instructions, accepted decisions and existing contracts.
+- Identify affected actors, entry points and the next useful outcome.
+- Defect: trace its path.
+- Broad work: map capabilities and dependencies shallowly, then detail the increment.
+- Scope or compatibility choice that could invalidate the work: settle it first.
+- Deferred capability: keep it visible and leave its internals unspecified.
 
-Recover project instructions, accepted decisions and adequate existing contracts before rediscovering requirements. Identify affected actors, entry points and the next useful outcome. Trace a defect's path; for broad work, map the major capabilities and dependencies shallowly, then detail the next coherent increment. Settle scope or compatibility choices that could invalidate the investigation. Keep deferred capabilities visible without specifying their future internals.
+When existing behavior matters:
+- Read [existing-system evidence](references/existing-systems.md).
+- Inspect affected rules with the [requirements lenses](references/requirements.md).
+- Load only what applies.
+- Reuse evidence only while its source, revision and question still apply.
+- Do not treat an existing defect as a compatibility obligation by default.
 
-Recover consequential existing behavior with [existing-system evidence](references/existing-systems.md); inspect the affected rules using the [requirements lenses](references/requirements.md). Load only the relevant material. Reuse source/revision-bound evidence while it remains applicable; distinguish observed behavior from intended behavior, inference and implementation drift. An existing defect is not automatically a compatibility obligation.
+## Resolve uncertainty
+Investigate before asking. Go deeper only where evidence could change the increment or protect existing behavior.
 
-## Resolve consequential uncertainty
+When the owner is in the conversation, ask before writing the documents:
+- Send one batch: the decisions needed now and the facts you need.
+- Question form: one plain line, your recommended default, what it changes.
+- Facts: ask as ordinary questions ("Which phone do you use?"), not as decisions.
+- Use the host's question tool if it has one. Otherwise a numbered list in chat.
+- Let the owner accept all defaults at once.
+- Record each answer as confirmed, with date and decider.
+- Do not wait for the owner to read the documents to collect these answers.
 
-Investigate before asking. Deepen only where evidence could change the increment or protect affected behavior. Recover the actor/data scope, transitions, exceptions, external effects and quality constraints needed for that decision.
+Ask the owner only when the answer is consequential. When you ask:
+- Include your recommended answer, what it changes and the work it affects.
+- Reversible details: decide within your delegation and note them.
+- Unrelated questions: record with a revisit condition and keep working.
+- Conflicting views: keep both until the assumption or evidence is settled.
 
-Ask when missing evidence or an owner preference changes useful work or could cause substantial rework. Give the recommended boundary, its consequence and the exact work affected. Resolve reversible details within delegation; defer unrelated questions with a revisit condition and continue independent work. Preserve disagreement until its assumptions, evidence or scope can be reconciled. Demand, interaction or architecture gaps may need other expertise; explain the gap. These are optional recommendations to the agent, never skill invocations or a mandatory sequence.
+When the owner cannot answer now:
+- Bundle the open decisions into one ranked set in the [owner brief](references/owner-brief.md), each with a recommended default.
+- More than half the High decisions unanswered: leave the flows they block as outlines. Write every other flow in full, marked "on defaults".
+- No High decisions: write every flow in full, marked "on defaults".
 
-A worthwhile discovery can remain open beyond the current increment. Check readily available evidence within scope; if future value justifies retaining it, preserve the observation/source, tentative interpretation and useful question in existing product records, separate from accepted scope. Continue the settled path without requiring an answer or adding a speculative feature. Keep required correctness evidence as a dependency; do not turn every curiosity into retained work or claim a possible benefit as fact.
+When a gap needs other expertise (demand, interaction, architecture):
+- Name the gap and why.
+- The agent decides whether to bring that expertise in. This skill invokes none.
 
-## Artifact 1: analysis findings
+When a discovery is worth keeping beyond the increment:
+- Record source, tentative reading and a revisit question in existing product records, apart from accepted scope.
+- Keep correctness evidence as a dependency.
+- Do not retain every curiosity. Do not present a possible benefit as fact.
 
-Explain what was learned and what it changes, rather than presenting the specification as the analysis. Recover the following to the depth the requested decision needs:
+## Write the documents
+**Owner brief** (read [owner brief](references/owner-brief.md)):
+- One page, plain language, actionable without the other documents.
+- Contents: outcome and measure, why now, decisions needed now, release cut, decision register.
+- It is the authoritative home for gaps and decisions.
 
-- Problem, affected actors/goals, desired outcome and agreed scope/exclusions; distinguish an accepted boundary from a recommendation.
-- Relevant current behavior and target changes, with source/revision/environment identity and the limits of available evidence.
-- Candidate use cases linked to actor goals and events; explain missing goals, contradictory requests, unsupported solution assumptions and consequential dependencies.
-- Gaps and decisions needed, with consequence, affected use case/work, owner when known and a proposal when justified. Keep confirmed decisions, proposals and assumptions distinct.
-- Recommended next increment and analysis limits; preserve deferred discoveries only when they have a useful revisit condition.
+**Findings:**
+- Problem, actors, goals, outcome and agreed scope. Mark accepted versus recommended.
+- Current behavior and target changes, with source, revision, environment and evidence limits.
+- Candidate use cases: an index of coverage linked to goals and events.
+- Contradictions, unsupported solution assumptions and dependencies.
+- Assumptions and constraints. For each untested business assumption, its cheapest test.
+- Domain risks that need an owner call, linked to their decision.
+- Recommended next increment and the limits of the analysis.
 
-Use short findings, actor/goal or current/target comparisons where useful, and prose for causal reasoning. Candidate use cases here are an index and analysis of coverage, not a second copy of their detailed flows. Existing source-bound evidence and decisions retain their authoritative homes.
-
-## Artifact 2: use-case specification
-
-Compile the analysis and accepted choices into behavior that implementers and verifiers can use without consequential guesses. Read [use-case specification](references/use-case-specification.md) when authoring or updating this artifact; it defines depth, product baseline, coverage, flows, tracking and gap handling adapted from the owner's supplied method. Keep consequential quality, security, compatibility and failure requirements visible at every depth; depth limits exploration, not preservation of known obligations.
-
-Give each rule and decision one authoritative home. Link the analysis for evidence and rationale; make starting conditions, actor actions, observable outcomes, shared rules and consequential alternatives recoverable from the specification and its explicit links. Include required UX, API, data, authorization and deployment constraints as behavior, not invented architecture. A done-check defines required acceptance, not executed proof. Do not repeat it in another acceptance narrative.
-
-Keep one authoritative gap/decision entry and link it from both artifacts and affected flows. Record where a gap was found, what it blocks and whether it affects this increment or later work. Unknown behavior stays unknown; a proposed default is not permission to build it. Do not invent policies, schemas, numeric thresholds or external guarantees to complete a template. Start with the useful outline and expand ambiguity and consequential behavior, rather than padding settled rules.
+**Specification** (read [use-case specification](references/use-case-specification.md)). Flows, rules, alternatives and done-checks that an implementer and tester can use without consequential guesses:
+- Keep quality, security, compatibility and failure requirements visible at every depth.
+- Express UX, API, data, authorization and deployment constraints as behavior.
+- Give each flow one source reference. Name the flow each quality item constrains.
+- Done-check: required acceptance, not executed proof. State it once.
+- Flow in full: its decisions and facts are settled or have a safe revisable default.
+- Flow outline: a High decision with no safe default, or a missing fact that changes its behavior, blocks it.
+- Decisions and facts: link them, never copy them.
 
 ## Check and hand over
+After a decision changes:
+- Update the authoritative rule or decision and its links.
+- Reopen a settled choice only for changed scope or new evidence.
 
-Keep a current version of each artifact with their distinct purpose intact. When a decision changes, update the authoritative rule/gap and affected links and flows; do not silently replace accepted intent with implementation. Reopen settled choices only for changed scope or relevant new evidence. Remove duplicated rules across analysis, specification and design while retaining rationale and qualifications that change interpretation.
+Before a consequential handoff:
+- Confirm a reader can recover current versus target, rules, dependencies and acceptance without this conversation.
+- Ask a fresh reader to state the rules back. Resolve any difference in the authoritative document.
+- Owner brief test: its reader can say which decisions they can make now.
+- Specification test: its reader meets no undefined reference.
+- Outside the tracking table, describe content, never readiness ("ready", "specified in full").
+- Remove duplicated rules across documents. Keep rationale that changes interpretation.
+- Self-review is not independent review.
 
-For a consequential handoff, check that a reader can recover the current/target distinction, rules, dependencies and acceptance without the authoring conversation. A reader's restatement can expose a different interpretation; resolve it in the authoritative artifact. Self-review is not independent review, and routine corrections need no separate reviewer.
+How the documents are used:
+- The specification is the main input to design, prototype, build, QA, release and delivery slicing.
+- Findings serve rationale, evidence and scope disputes.
+- A specification's existence or flow status does not establish owner acceptance, tested behavior or release authority.
+- Do not require a prior skill run. Do not duplicate adequate existing requirements.
 
-Use the specification as the primary behavioral input for technical design, prototypes, backend/frontend implementation, QA, release checks and delivery slicing. Use analysis selectively for problem framing, evidence, rationale, scope disputes and unresolved choices. A specification's existence or flow status does not establish owner acceptance, tested behavior or release authority. Other skills need no output from this particular skill when adequate equivalent requirements already exist. The agent chooses expertise; this skill invokes none.
-
-Finish at the requested boundary: supported analysis/review findings, or selected flows implementable and verifiable without consequential guesses. Preserve the release boundary, accepted choices, applicable evidence and precise gaps for continuation. If one alternative remains blocked, hand over settled flows separately; do not make its decision a gate for all implementation unless a shared dependency actually blocks that work. Complete independent analysis and state partial readiness precisely; do not claim unexecuted checks or an unproved boundary as complete.
+Finish at the requested boundary: supported findings, or flows that can be built and verified without consequential guesses.
+- One alternative stays blocked: hand over the settled flows separately. Its decision gates others only when a shared dependency blocks them.
+- State partial readiness precisely.
+- Preserve the release boundary, accepted choices, evidence and gaps for continuation.
