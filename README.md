@@ -59,7 +59,7 @@ Every skill accepts adequate project evidence regardless of its author. No previ
 
 ## Application artifacts
 
-`app-analyze` produces separate analysis findings and a use-case specification for analysis-and-specification work. Findings explain the problem, evidence, current/target differences and decisions needed; the specification owns detailed observable behavior, shared rules, flow acceptance and linked gaps. Explicit analysis-only, specification-only and review-only requests retain their scope. `app-design` (formerly `app-solution-design`) produces the separate technical design.
+`app-analyze` produces separate documents for analysis-and-specification work, sized to the work: an owner brief (outcome, success measure, release cut and the ranked decision register), analysis findings and a use-case specification, with a shared product-rules document only for multi-module or multi-decider work. The brief owns decisions and gaps; findings explain the problem, evidence, risks and current/target differences; the specification owns detailed observable behavior, rules, flow acceptance and links to the decisions. Explicit analysis-only, specification-only and review-only requests retain their scope. `app-design` (formerly `app-solution-design`) produces the separate technical design.
 
 | Consumer | Primary use of the use-case specification |
 | --- | --- |

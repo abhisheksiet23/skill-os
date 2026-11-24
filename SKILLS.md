@@ -20,7 +20,7 @@ This is a human review aid, not a routing database. Each skill's description is 
 | [website-build](skillmesh/skills/website-build/SKILL.md) | Production marketing site and integrations | Existing direction accepted; no implied publishing |
 | [website-review](skillmesh/skills/website-review/SKILL.md) | Buyer clarity, craft and conversion verification | Standalone audits need no discovery records |
 | [website-deliver](skillmesh/skills/website-deliver/SKILL.md) | Authorized launch and owner handoff | Live proof and business results remain distinct |
-| [app-analyze](skillmesh/skills/app-analyze/SKILL.md) | Separate analysis findings and use-case specification: flows, rules, acceptance and gaps | Scoped analysis/specification or review; no technical architecture, production code or demand proof |
+| [app-analyze](skillmesh/skills/app-analyze/SKILL.md) | Owner brief with ranked decisions, analysis findings and use-case specification: flows, rules, acceptance and gaps | Scoped analysis/specification or review; no technical architecture, production code or demand proof |
 | [app-design](skillmesh/skills/app-design/SKILL.md) | Separate technical design from use cases: architecture trade-offs, component ownership and cross-component guarantees | Standalone design/review or unresolved technical approach; no mandatory phase |
 | [app-prototype](skillmesh/skills/app-prototype/SKILL.md) | Inspectable application experience and states | Material UX; contained fixes use existing baseline |
 | [app-frontend](skillmesh/skills/app-frontend/SKILL.md) | Application UI implementation and integration | Real API when present; mocks only where useful |
