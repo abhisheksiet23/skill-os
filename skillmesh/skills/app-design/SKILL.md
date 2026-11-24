@@ -26,7 +26,7 @@ Use existing project records first. Link them instead of copying.
 Inputs, in order of use:
 - Project instructions, adequate requirements and existing decisions.
 - The current use-case specification, or an adequate equivalent. It is the main behavioral input: selected flows, shared rules, done-checks, quality and compatibility constraints, linked gaps.
-- Analysis findings, for rationale, source conflicts and unresolved scope.
+- Analysis findings, for rationale, source conflicts and unresolved scope. Their jobs and journey show where quality constraints matter most. Consume them; do not produce them.
 - The owner brief's decisions (D-n) and facts (F-n), linked and not copied. A default marked "on defaults" makes the dependent design provisional.
 
 Do not rebuild behavior from analysis findings when the specification already states it.

@@ -64,7 +64,7 @@ Every skill accepts adequate project evidence regardless of its author. No previ
 | Consumer | Primary use of the use-case specification |
 | --- | --- |
 | Technical design | Trace flows and required guarantees to components, interfaces and enforcement |
-| Prototype and frontend | Select journeys, interaction states, alternatives and completion outcomes |
+| Prototype and frontend | Select journeys, interaction states, alternatives and completion outcomes; owner-brief decisions marked "on defaults" keep the prototype provisional |
 | Backend | Implement rules, access/data scope, mutations and failure behavior |
 | QA | Map flows and applicable constraints to executed acceptance evidence |
 | Delivery | Select release scope and smoke outcomes alongside QA/operator evidence |

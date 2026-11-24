@@ -13,10 +13,13 @@ Turn a software need into decisions the owner can make quickly and behavior that
 - **Increment:** the next coherent slice to specify in detail.
 - **Delegated decision:** a choice the owner has said the team may make. A recommended default is not one until the owner says so.
 - **Fact:** a value or system detail nobody on the team knows. It has no default. Request it from whoever can supply it.
+- **Job:** what a user is trying to get done: their situation, motivation, current workaround and desired outcome.
+- **Journey:** the stages a user passes through to get a job done, with the decision and the pain at each stage.
+- **Evidence label:** owner-stated, observed or inferred. Mark every job and journey stage with one.
 
 ## Always
-1. Separate the requested solution, the underlying problem and the desired outcome. Challenge unsupported choices, then keep the owner's decision.
-2. Keep unknowns unknown. Propose and label; never invent policy, numbers, schemas or guarantees.
+1. Separate the requested solution, the underlying problem and the desired outcome. Challenge unsupported choices with presented evidence. Supplement what the owner has not said. Then keep the owner's decision.
+2. Keep unknown facts unknown. Propose and label; never invent policy, numbers, schemas or guarantees. User needs and experience may be inferred, as labeled hypotheses.
 3. Separate observed behavior, inference and intended behavior.
 4. Leave architecture and mechanism to design. Record the required guarantee and the design question.
 5. Treat a planned check as unexecuted. Writing a document never marks anything Built or Verified.
@@ -39,6 +42,7 @@ When the request is narrower:
 Before specifying anything:
 - Recover project instructions, accepted decisions and existing contracts.
 - Identify affected actors, entry points and the next useful outcome.
+- Material UX or a solution-shaped request: find the job and journey before specifying flows. Users often cannot state what they need.
 - Defect: trace its path.
 - Broad work: map capabilities and dependencies shallowly, then detail the increment.
 - Scope or compatibility choice that could invalidate the work: settle it first.
@@ -75,8 +79,8 @@ When the owner cannot answer now:
 - No High decisions: write every flow in full, marked "on defaults".
 
 When a gap needs other expertise (demand, interaction, architecture):
-- Name the gap and why.
-- The agent decides whether to bring that expertise in. This skill invokes none.
+- Name the gap and why, and ask the agent to bring that expertise in. Unevidenced demand or adoption is a gap of this kind.
+- The agent decides. This skill invokes none.
 
 When a discovery is worth keeping beyond the increment:
 - Record source, tentative reading and a revisit question in existing product records, apart from accepted scope.
@@ -91,6 +95,7 @@ When a discovery is worth keeping beyond the increment:
 
 **Findings:**
 - Problem, actors, goals, outcome and agreed scope. Mark accepted versus recommended.
+- Jobs and journey, for material UX or a solution-shaped request: each job and journey stage with its evidence label. Treat inferred ones as hypotheses, not accepted scope. Link flows to their stage.
 - Current behavior and target changes, with source, revision, environment and evidence limits.
 - Candidate use cases: an index of coverage linked to goals and events.
 - Contradictions, unsupported solution assumptions and dependencies.

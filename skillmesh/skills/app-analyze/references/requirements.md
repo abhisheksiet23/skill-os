@@ -11,7 +11,8 @@ Use these to find gaps that change the contract in the affected behavior. They a
 | Access | Capability permission, record and data scope, authority for exceptional actions, enforced by the authoritative system |
 | Data | Ownership, identifiers, calculations, history and retention, migration, transactions, concurrency |
 | Integration | API shapes, authentication, errors, paging, filter and sort, timeouts, retries, idempotency, partial failure |
-| Experience | Journey and navigation, density, meaningful states, accessibility, supported devices, customer terminology and tone |
+| Job and journey | Situation and motivation, current workaround, desired outcome, journey stages with the decision and pain at each, evidence label |
+| Experience | Navigation, density, meaningful states, accessibility, supported devices, customer terminology and tone |
 | Consequential copy | Wording and state conditions where a message defines behavior or consequences; queued work is not completed work |
 | Domain risk | Who else can be the subject of or act in the transaction (proxies, minors, delegates, third parties); consent or regulatory regime for the data and messages involved; misuse and fraud paths; safety or eligibility limits on who may receive an outcome. These raise questions for the owner, never compliance claims |
 | Quality | Performance and load, recovery and reliability, security, compatibility, observability, auditability. Ground targets in applicable evidence or mark them assumptions; a compliance claim needs actual evidence |
@@ -31,7 +32,6 @@ When accounts are required, start from the owner's convention:
 - one role on each Users row;
 - separate local Roles, Modules and module-role grants;
 - bcrypt local credentials.
-
 - Assess real exceptions before proposing multi-role identity tables.
 - Keep authentication, application permissions and team, clinic or record scope distinct.
 - A future central identity must preserve local users, permissions and business history.

@@ -73,6 +73,7 @@ This shows a format, not renewal requirements.
 
 **Flow detail:**
 - State starting conditions, observable state and side effects.
+- Job and journey: when the findings record them, name the job or stage the flow serves in its goal line.
 - Main flow: short, typically six steps or fewer. Split by distinct actor goal, not by step count. Keep necessary sequence and cause.
 - Alternative: state it as condition → outcome, naming its point in words if needed. That pair is its done-check.
 - Add only a missing input, fixture, oracle or proof method to a done-check.
