@@ -27,12 +27,13 @@ Real users, operators, suppliers or authorities remain stakeholders even when ab
 
 For each proposed control, identify the outcome protected, credible failure, lightest effective action and trigger. Retain it when expected decision/risk benefit justifies execution, upkeep and owner-interruption cost. Combine responsibilities; do not create a document, agent or ceremony for each activity. Apply the following as decision lenses, not a fixed sequence:
 
-- **Outcome and acceptance:** preserve what matters, what is excluded and who can decide completion. Reopen intent only when evidence or scope changes it.
-- **Next path and forecast:** identify useful deliverables, prerequisites, capacity and the next meaningful milestone. Keep committed targets, observed actuals and conditional forecasts distinct.
+- **Outcome and acceptance:** preserve what matters, what is excluded and who can decide completion. The accepted scope, schedule and cost form the baseline; report variance against it. Reopen intent only when evidence or scope changes it.
+- **Next path and forecast:** identify useful deliverables, prerequisites, capacity, the critical path (the dependency chain that sets the date) and the next meaningful milestone. Keep committed targets, observed actuals and conditional forecasts distinct.
 - **Risk-led investment:** resolve decision-critical assumptions before disproportionate dependent effort or irreversible effects. Continue useful independent work while blocked, within existing authority. Size increments by coupling, new mechanisms and verification burden rather than item count.
 - **Evidence-backed completion:** connect consequential completion claims to accepted conditions and current evidence. Distinguish implemented work, checks performed, unproved boundaries and reserved owner acceptance without imposing a new status taxonomy.
-- **Exceptions and changes:** assess effects across value, scope, schedule, cost, quality and risk; update affected forecasts and preserve consequential decisions. Escalate only when the decision exceeds delegation or needs the owner's judgment.
+- **Change control (exceptions and changes):** assess effects across value, scope, schedule, cost, quality and risk; update affected forecasts and preserve consequential decisions. Escalate only when the decision exceeds delegation or needs the owner's judgment.
 - **Applied learning:** diagnose the constraint, select a bounded corrective action, predict its effect and inspect the result with quality/scope guardrails. Retain relevant failures and alternative explanations.
+- **RAIDD:** keep Risks, Assumptions, Issues, Dependencies and Decisions in the existing current view, one line each: item, owner, trigger or date, next action, status. A risk may happen; an issue has happened, so move a risk to an issue when its trigger fires. Link evidence and the decision's own record. Add no document.
 
 Choose the next action by its contribution to the next accepted outcome, not by availability alone. Compare advancing delivery, resolving its driving blocker, reducing consequential uncertainty and stopping/deferring low-value work. Useful independent work can proceed while blocked, but must not become an expanding side backlog that delays the highest-value path. Use a short rationale for a consequential choice, not a ranking ritual for every task.
 
@@ -44,7 +45,7 @@ When AI execution cost affects the delivery choice, consider an explicit lower-c
 
 ## Explain position, forecast and financial coverage together
 
-For an early roadmap, give the goal and a short set of work items: what, why, next step and done when. Detail only the next uncertain increment. Defer schemas, exhaustive test cases and future operating procedures until they affect execution; do not create another document just to relocate speculative detail. Keep hypotheses beside the work they inform instead of repeating the plan in a second table. Measurement should support decisions without becoming a prerequisite for independent useful work.
+For an early roadmap, give the goal and a short set of work items: what, why, success measure, next step and done when. Link an existing outcome measure instead of restating it. Detail only the next uncertain increment. Defer schemas, exhaustive test cases and future operating procedures until they affect execution; do not create another document just to relocate speculative detail. Keep hypotheses beside the work they inform instead of repeating the plan in a second table. Measurement should support decisions without becoming a prerequisite for independent useful work.
 
 Use the existing current view. Lead with **Position**, followed by a compact milestone/path table only where it helps: outcome | current evidence/state | dependency/owner | forecast or next action. Include the as-of cutoff and known spend coverage once. Keep assumptions and uncertainty beside their figures. Link specialist evidence instead of repeating it, omit unsupported percentages, and keep self-assessment out of the owner-facing view. A status answer should not require reading a narrative history.
 
@@ -60,4 +61,4 @@ Reuse this evidence for required session assessments in their mapped record, or 
 
 ## Close at the requested delivery boundary
 
-At the requested boundary, reconcile what is accepted, still owed, blocked or changed; identify handover/operational and benefits ownership where applicable. Do not make the owner's acceptance or an external decision on their behalf. Finish with the project position, recommendation, evidence/limits and next useful action. Planning or status scope does not authorize implementation, spending, contacting others, deployment or new external access.
+At the requested boundary, reconcile what is accepted, still owed, blocked or changed; identify handover/operational and benefits ownership where applicable, and check each success measure against its evidence or name who will. Do not make the owner's acceptance or an external decision on their behalf. Finish with the project position, recommendation, evidence/limits and next useful action. Planning or status scope does not authorize implementation, spending, contacting others, deployment or new external access.

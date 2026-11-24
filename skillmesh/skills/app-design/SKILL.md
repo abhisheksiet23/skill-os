@@ -5,40 +5,145 @@ description: Design, compare and review technical solutions for application requ
 
 # App Design
 
-Translate intended behavior into a coherent technical approach with clear ownership, failure guarantees and proof. Settle consequential cross-component and expensive-to-reverse choices; leave routine local code structure to implementation. This skill produces design and bounded evidence, not production implementation or release authority.
+Turn intended behavior into a technical approach with clear ownership, failure guarantees and proof. Settle consequential choices. Leave routine local code structure to implementation. Produce design and bounded evidence, not production implementation or release authority.
+
+## Terms
+- **Consequential:** crosses components, or is expensive to reverse.
+- **Guarantee:** a behavior the design promises, such as no duplicate effect or no lost work. A named component enforces it.
+- **Done-check:** the acceptance condition for a flow or quality item, taken from the specification. It is required acceptance, not executed proof.
+- **ADR:** architecture decision record. One consequential decision with its reasons, rejected alternatives, evidence, open risks and revisit conditions.
+- **Executed evidence:** a check that was run on a stated candidate. A validation plan is not executed evidence.
+## Always
+1. Separate verified facts, assumptions, accepted decisions and unknowns.
+2. Invent no workload, availability, budget or compliance need to justify an architecture.
+3. Treat source alone as insufficient evidence of deployed behavior.
+4. Treat a recommendation as a proposal until the owner accepts it.
+5. Build only on explicit request, and never deploy or execute against a database without authority. Writing scripts does not grant it.
 
 ## Frame the technical decision
+Use existing project records first. Link them instead of copying.
 
-Inspect project instructions, adequate requirements, existing decisions and the affected system. Use the current use-case specification (or adequate equivalent) as the primary behavioral input: selected flows, shared rules, done-checks, quality/compatibility constraints and linked gaps. Consult analysis findings for rationale, source conflicts and unresolved scope; do not reconstruct behavior from the analysis report when it is already specified. Start with the component map and changed/uncertain boundary; follow only evidence that could change the decision, reusing still-valid source-bound findings. Identify outcome, scope, compatibility, external dependencies, team capability and operating constraints that can change the solution. Separate verified facts, assumptions, accepted decisions and unknowns. Do not invent workload, availability, budget or compliance needs to justify an architecture.
+Inputs, in order of use:
+- Project instructions, adequate requirements and existing decisions.
+- The current use-case specification, or an adequate equivalent. It is the main behavioral input: selected flows, shared rules, done-checks, quality and compatibility constraints, linked gaps.
+- Analysis findings, for rationale, source conflicts and unresolved scope.
+- The owner brief's decisions (D-n) and facts (F-n), linked and not copied. A default marked "on defaults" makes the dependent design provisional.
 
-Recover enough structure and runtime evidence to know what can remain and what must change. Source alone does not establish deployed behavior. Reconcile consequential contradictions and ask only when missing facts or an owner choice changes the recommendation. Missing product behavior needs targeted clarification, not invented requirements or a wholesale analysis restart. Continue independent design while a decision is pending.
+Do not rebuild behavior from analysis findings when the specification already states it.
+
+Scope the investigation:
+- Start with the component map and the changed or uncertain boundary.
+- Follow only evidence that could change the decision. Reuse source-bound findings while still valid.
+- Identify outcome, scope, compatibility, external dependencies, team capability and operating constraints that could change the solution.
+- Recover enough structure and runtime evidence to know what can stay and what must change.
+
+When facts conflict or are missing:
+- Reconcile consequential contradictions.
+- Ask only when a missing fact or owner choice changes the recommendation.
+- Missing product behavior: ask a targeted question. Do not invent requirements or restart the analysis.
+- Keep designing independent parts while a decision is pending.
+
+When the owner is in the conversation, ask before writing the design:
+- Send one batch: the decisions needed now and the facts you need.
+- Question form: one plain line, your recommended default, what it changes.
+- Facts: ask as ordinary questions, not as decisions.
+- Use the host's question tool if it has one. Otherwise a numbered list in chat.
+- Let the owner accept all defaults at once. Record each answer with date and decider.
+- Owner absent: design the independent parts and mark dependent parts "on defaults".
 
 ## Choose mechanisms from required guarantees
+Compare credible alternatives at the real decision boundary, including extending the existing system.
+- Explain the recommendation by requirement fit, failures, delivery effort, operating burden, cost and reversibility, where material.
+- Name the few quality characteristics that drive the design (for example availability, scalability, security, cost) and which one wins when they conflict. Justify the architecture style against them.
+- Respect accepted technology constraints. Verify current product capabilities from authoritative evidence when they matter.
+- Do not manufacture alternatives for settled choices.
+- Add no service, queue, cache or vendor without a concrete need.
 
-Compare credible alternatives at the real decision boundary, including extending the existing system. Explain the recommendation through requirement fit, failures, delivery effort, operational burden, cost and reversibility where material. Respect accepted technology constraints and verify current product capabilities from authoritative evidence when they matter. Do not manufacture alternatives for settled choices or add services, queues, caches or vendors without a concrete need.
+Produce a technical design artifact:
+- Keep it separate from analysis. Link behavioral requirements and do not copy the specification.
+- Trace representative use cases through components and external systems. Keep their stable flow and rule references.
+- Name responsibilities, authoritative data owners and writers, interfaces and trust boundaries.
+- Show where validation, authorization, state transitions, transactions and external effects occur.
+- For consequential synchronous or asynchronous flows, specify consistency, concurrency, retry, idempotency, ordering and partial-failure recovery.
+- For each guarantee, name who enforces it and the done-check it satisfies. A diagram or transport alone does not provide it.
 
-Trace representative use cases through components and external systems, retaining their stable flow/rule references where available. Produce a separate technical design artifact, linking behavioral requirements rather than merging it into analysis or copying the specification. Name responsibilities, authoritative data owners/writers, interfaces and trust boundaries. Show where validation, authorization, state transitions, transactions and external effects occur. For consequential synchronous/asynchronous flows, specify consistency, concurrency, retry, idempotency, ordering and partial-failure recovery. Name who enforces each guarantee and connect it to the applicable done-check; a diagram or transport alone does not provide it.
+Quality requirements:
+- Connect each material one to a mechanism and an observable check. Examples: latency to a critical path, recovery objectives to restore behavior, tenant isolation to enforcement.
+- Use measured evidence or calculations where available. Label estimates and their assumptions.
+- Cover topology, configuration and secrets, observability and operating cost to the depth that affects the decision.
 
-Settle the same simple permission structure before dependent account/access implementation: Users, Roles, Permissions with stable resource/action codes, UserRoles assignments and RolePermissions grants. One role per user is sufficient when it fits; multiple roles use the same assignment relation and combine explicit grants applicable to the target scope. Access also requires an active trusted user, resource scope and workflow eligibility, rechecked at the guarded write where mutable; roles or module visibility never grant every action or record. Use equivalent framework entities rather than duplicate stores, and a consistent authorization boundary for APIs, services and UI capability projection. Add external identity links, typed memberships, scoped assignments and session state only for actual requirements, without a table-count limit or speculative policy engine. Local passwords use maintained bcrypt; SSO needs no local fallback. Preserve stable business IDs, adequate existing systems and accepted central policy; migration needs explicit data-preserving scope and effective-access comparison.
+Consequential mechanism choice, integration or replacement: read [boundary and failure design](references/boundaries-and-failures.md).
+- Use it to compare the smallest sufficient alternatives and stress failure and migration transitions.
+- Focused change: a short decision and sequence is enough.
+- Broad system: component views, critical flows and focused contracts.
+- Diagrams show ownership and execution. Prose states guarantees and trade-offs.
 
-Connect material quality requirements to mechanisms and observable checks: latency to a critical path, recovery objectives to restore behavior, tenant isolation to enforcement. Use measured evidence or calculations where available and label estimates and their assumptions. Address topology, configuration/secrets, observability and operating cost to the depth that affects the decision.
-
-For consequential mechanism choices, integration or replacement, read [boundary and failure design](references/boundaries-and-failures.md) to compare the smallest sufficient alternatives and stress failure/migration transitions. A focused change may need a short decision/sequence; a broad system may need component views, critical flows and focused contracts. Use diagrams to clarify ownership/execution and prose to state guarantees and trade-offs.
+### Permission structure
+Settle this before dependent account or access implementation.
+- Entities: Users, Roles, Permissions with stable resource and action codes, UserRoles assignments, RolePermissions grants.
+- One role per user is enough when it fits. Multiple roles use the same assignment relation and combine the explicit grants that apply to the target scope.
+- Access also requires an active trusted user, resource scope and workflow eligibility. Recheck them at the guarded write where state is mutable.
+- Roles and module visibility never grant every action or record.
+- Use equivalent framework entities instead of duplicate stores.
+- Use one authorization boundary for APIs, services and UI capability projection.
+- Add external identity links, typed memberships, scoped assignments or session state only for an actual requirement. Set no table-count limit and build no speculative policy engine.
+- Local passwords use maintained bcrypt. SSO needs no local fallback.
+- Preserve stable business IDs, adequate existing systems and accepted central policy.
+- Migration needs an explicit data-preserving scope and an effective-access comparison.
 
 ## Reduce uncertainty before dependent investment
+- Identify the assumptions most likely to invalidate the approach.
+- Choose the smallest authorized check that could change the decision before dependent work grows. Keep required safety and recovery.
+- Mocks cannot settle an uncertain external contract.
+- No evidence available: bound the affected investment and continue independent work within your delegation. Surface consequential trade-offs outside it.
+- Design-only scope: propose the check and what its result would change, unless execution is already authorized.
+- Keep executed evidence apart from validation plans.
 
-Identify assumptions most likely to invalidate the approach. Choose the smallest authorized check that could change the decision before disproportionate dependent work, preserving required safety and recovery. Mocks cannot settle uncertain external contracts. If evidence is unavailable, bound the affected investment and continue independent work within delegation; surface consequential trade-offs outside that authority.
+Plan implementation increments:
+- Build them around working paths and stable contracts.
+- Size them by coupling, new mechanisms, reversibility and verification effort, not item count.
+- Include compatibility, migration, rollout and recovery where users or data are affected.
+- Separate enabling work from delivered outcomes. Invent no supporting features.
 
-In design-only scope, propose the check and its decision consequence unless execution is already authorized. Separate executed evidence from validation plans. Plan coherent implementation increments around working paths and stable contracts, sized by coupling, new mechanisms, reversibility and verification effort rather than item count. Include compatibility, migration, rollout and recovery where users/data are affected; distinguish enabling work from delivered outcomes without inventing supporting features.
-
-For standalone design/plan review or consequential handoff, read [design review](references/design-review.md). Check comprehension outside the authoring context, verify relied-on existing components/interfaces and connect guarantees to acceptance. After material fixes reassess fit, simplicity and contradictions. These checks do not require a review pipeline or approval ceremony.
+Standalone design or plan review, or a consequential handoff: read [design review](references/design-review.md).
+- Check comprehension outside the authoring context.
+- Verify the existing components and interfaces the plan relies on.
+- Connect guarantees to acceptance.
+- After material fixes, reassess fit, simplicity and contradictions.
+- No review pipeline or approval ceremony is required.
 
 ## Make the approach operable and recoverable
+Release, build and deploy:
+- Plan owner-initiated release compilation, publishing and deployment by default.
+- Prepare settings, profiles and commands.
+- Produce artifacts only within explicit authority. An explicit build request covers that build, not deployment.
 
-Plan owner-initiated release compilation, publishing and deployment by default. Prepare settings, profiles and commands; execute artifact production only within explicit authority. An explicit build request is sufficient for that build, not for deployment.
+Relational backends:
+- Existing adequate native migration workflow: keep it, with versioned artifacts, repeatable install and upgrade steps and recovery. Add SQL files only when the owner or project requires them.
+- Otherwise: plan repository-owned initial DDL and master-data SQL, plus ordered later changes.
+- Require safe rerun and partial-failure handling through the chosen mechanism.
+- Include guarded database creation where the operator owns provisioning. Managed or provider creation is a separate prerequisite. Do not require privileges that are unavailable.
+- Script authoring and safe local generation do not authorize database execution or release compilation.
+- New .NET relational projects keep EF migrations as schema authority, with SQL Server and SSMS manual application. Other stacks keep their own native mechanisms.
+- Administrator bootstrap is separate. Production startup verifies compatibility and never mutates schema or seeds data.
+- Design app and schema compatibility, and persistent data and configuration locations, so upgrades and recovery are concrete.
 
-For relational backends, preserve an adequate existing native migration workflow with versioned artifacts, repeatable install/upgrade steps and recovery; additional SQL files remain required only when explicitly requested by the owner/project. Otherwise plan actual repository-owned initial DDL/master-data SQL and ordered later changes. Require safe rerun and partial-failure handling through the selected mechanism. Include guarded database creation where the operator owns provisioning; managed/provider creation is a separate prerequisite, not a reason to require unavailable privileges. Script authoring and safe local generation do not authorize database execution or release compilation. New .NET relational projects retain EF migrations as schema authority and SQL Server/SSMS manual application; other stacks retain appropriate native mechanisms. Administrator bootstrap is separate, and production startup verifies compatibility without schema mutation or seeding. Design app/schema compatibility and persistent data/configuration locations so upgrades and recovery are concrete.
+## Present and hand over
+Presentation:
+- Lead with the recommended solution, rationale and material trade-offs.
+- Use labeled facts: decision, guarantee and enforcing boundary, evidence, open risk.
+- Genuine alternatives go in a short table. A critical flow or ownership goes in a diagram when clearer.
+- Add prose for failure behavior and why the recommendation fits.
+- Reuse authoritative project records. Link requirements instead of copying them into a new dossier.
 
-Lead with the recommended solution, rationale and material trade-offs. Use labeled facts for decision, guarantee/enforcing boundary, evidence and open risk; compare genuine alternatives in a short table when useful and show critical flow/ownership in a diagram when clearer. Add enough prose to explain failure behavior and why the recommendation fits. Reuse authoritative project records, linking requirements rather than copying them into a new dossier. Preserve important decisions, rejected alternatives/reasons, evidence, unresolved risks and revisit conditions. Recommendations remain proposals until accepted. In projects adopting automatic context maintenance, update accepted technical decisions and provisional risks before handoff and keep each workstream's next action distinct from shipped behavior.
+Record:
+- Record each consequential decision as an ADR and link it from the design.
+- Keep unresolved risks with their revisit conditions.
+- Projects with automatic context maintenance: update accepted technical decisions and provisional risks before handoff. Keep each workstream's next action distinct from shipped behavior.
 
-Finish when the scoped approach is coherent, consequential choices are resolved or precisely bounded, and implementers know what to build and how to prove it. State any blocker and its affected work. Requirements, prototype, implementation or independent-verification expertise may help a concrete remaining gap; explain that gap and leave orchestration to the agent.
+Finish when:
+- The scoped approach is coherent.
+- Consequential choices are resolved or precisely bounded.
+- Implementers know what to build and how to prove it.
+
+State any blocker and the work it affects. When a concrete gap needs requirements, prototype, implementation or independent-verification expertise, name the gap and why. The agent decides whether to bring it in.
