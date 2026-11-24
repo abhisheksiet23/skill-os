@@ -5,19 +5,19 @@ description: Design and build an inspectable, high-fidelity software prototype w
 
 # App Prototype
 
-Answer the open UX questions of a software change with a realistic, clickable prototype that the owner can react to and the frontend implementer can build from, before production code exists. Choose the questions first and build only the path that answers them. Inspect the result in a browser and hand over the prototype, what you observed and the design direction to keep. It proves the experience, not production behavior.
+Answer the open UX questions of a software change with a realistic, clickable prototype that the owner can react to and the frontend implementer can build from, before production code exists. Choose the questions first and build only the path that answers them. Inspect the result where it runs and hand over the prototype, what you observed and the design direction to keep. It proves the experience, not production behavior.
 
 ## Terms
 - **Consequential:** changes observable behavior, cost, risk or rework.
 - **Hardest decision:** the user decision most likely to be misunderstood or costly to get wrong.
 - **Representative path:** the smallest path through the journey that exposes the hardest decision.
-- **Inspected:** opened in a browser, exercised, and the actual output examined. A saved screenshot nobody examined, or source reading, is not inspection.
+- **Inspected:** run where the prototype runs (a browser for web, otherwise the simulator, emulator or device its format targets), exercised, and the actual output examined. A saved screenshot nobody examined, or source reading, is not inspection.
 - **Design artifacts:** the project's existing design records, such as design-system notes, tokens and handoff notes.
 - **Simulated:** data or an operation with no production backing.
 - **Job and journey:** what the user is trying to get done, and the stages they pass through to do it. Each carries an evidence label: owner-stated, observed or inferred.
 
 ## Always
-1. Inspect what you build in a browser. States and viewports you did not see stay unverified.
+1. Inspect what you build where it runs, a browser for web. States, viewports and devices you did not see stay unverified.
 2. Label simulated data and operations. A prototype never proves production integration, durable recovery, server enforcement or user comprehension.
 3. Keep accepted behavior. Record a gap or a better interaction as a proposal, and do not change accepted behavior silently.
 4. Preserve existing identity and settled designs unless redesign is authorized.
@@ -30,7 +30,7 @@ Inputs:
 - Adequate briefs and existing journeys are enough. A formal specification is not required, and missing records from earlier work are not missing requirements.
 - Use-case specification, when one exists: choose journeys and states from its actor goals, selected flows, alternatives, shared rules and done-checks.
 - Analysis findings: consult for the problem, rationale and open choices.
-- Owner brief: link the decisions (D-n) and facts (F-n) the prototype touches. A flow marked "on defaults" makes its prototype provisional.
+- Owner brief, if one exists: link the decisions (D-n) and facts (F-n) the prototype touches. A flow resting on a recommended default the owner has not confirmed is marked "on defaults", and its prototype is provisional.
 - Job and journey: the primary lens for choosing the path. When absent and the UX is material, derive a provisional one from the brief and label each part inferred.
 - Unstated business rules, such as limits, windows and thresholds, are open facts. Mark them simulated and list them in the handoff.
 - Existing evidence: reuse settled behavior and design evidence. Retrieve only the journey, component and state details the open question needs.
@@ -78,7 +78,7 @@ Build more than the happy screen.
 - Exercise: run the primary journey, keyboard and focus, and recovery.
 - Review loop: inspect the actual output, correct visible defects, then inspect again.
 - Compare: set the output beside the reference products and the job. Name where yours is harder to scan, heavier or less oriented, and fix the largest gap.
-- Measure: check with a script what the browser can measure, such as contrast, tap-target size and focus order. State what you measured and what you did not.
+- Measure: check with a script what the environment can measure, such as contrast, tap-target size and focus order. State what you measured and what you did not.
 
 Source readability:
 - Put blank lines between logical handlers and UI sections.
@@ -100,5 +100,5 @@ Then:
 - Detailed evidence: link it. Do not narrate every screen.
 - Durable direction: save useful tokens, component treatments, icon mapping and direction using project conventions.
 - After a change: reuse review evidence for unchanged states and inspect the affected states again.
-- Lessons: feed reusable pattern-selection lessons from review and later development into [component selection](references/component-selection.md#refine-suggestions-from-development-feedback), even when the original choice was settled.
+- Lessons: record pattern-selection lessons from review and later development in the project's design artifacts, even when the original choice was settled.
 - Missing consequential behavior: it may need analysis. An established direction may support frontend implementation. Name the gap and why. The agent decides whether more expertise changes the result.

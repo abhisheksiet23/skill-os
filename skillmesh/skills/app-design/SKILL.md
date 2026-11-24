@@ -13,6 +13,7 @@ Turn intended behavior into a technical approach an implementer can build and pr
 - **Done-check:** the acceptance condition for a flow or quality item, taken from the specification. It is required acceptance, not executed proof.
 - **ADR:** architecture decision record. One consequential decision with its reasons, rejected alternatives, evidence, open risks and revisit conditions.
 - **Executed evidence:** a check that was run on a stated candidate. A validation plan is not executed evidence.
+
 ## Always
 1. Separate verified facts, assumptions, accepted decisions and unknowns.
 2. Invent no workload, availability, budget or compliance need to justify an architecture.
@@ -27,7 +28,7 @@ Inputs, in order of use:
 - Project instructions, adequate requirements and existing decisions.
 - The current use-case specification, or an adequate equivalent. It is the main behavioral input: selected flows, shared rules, done-checks, quality and compatibility constraints, linked gaps.
 - Analysis findings, for rationale, source conflicts and unresolved scope. Their jobs and journey show where quality constraints matter most. Consume them; do not produce them.
-- The owner brief's decisions (D-n) and facts (F-n), linked and not copied. A default marked "on defaults" makes the dependent design provisional.
+- The owner brief's decisions (D-n) and facts (F-n), if one exists, linked and not copied. Work resting on a recommended default the owner has not confirmed is marked "on defaults", and design that depends on it is provisional.
 
 Do not rebuild behavior from analysis findings when the specification already states it.
 
