@@ -14,12 +14,13 @@ This is a human review aid, not a routing database. Each skill's description is 
 | [business-model](skillmesh/skills/business-model/SKILL.md) | Delivery, capacity, economics, cash and growth | Scenarios are conditional, not demand proof |
 | [business-challenge](skillmesh/skills/business-challenge/SKILL.md) | Skeptical evidence and assumption review | Specific contradictions, not automatic negativity |
 | [naming-architect](skillmesh/skills/naming-architect/SKILL.md) | Naming strategy, candidate critique and recommendations | Proportionate research and preliminary screening; no invented availability or legal clearance |
-| [website](skillmesh/skills/website/SKILL.md) | Whole-site coherence for broad marketing-site work | Judgment, not routing or mandatory child skills |
+| [website-brief](skillmesh/skills/website-brief/SKILL.md) | Whole-site coherence for broad marketing-site work | Judgment, not routing or mandatory child skills |
 | [website-discover](skillmesh/skills/website-discover/SKILL.md) | Buyer, offer, positioning and claims | Website strategy, not a full venture case |
 | [website-create](skillmesh/skills/website-create/SKILL.md) | Copy, art direction and responsive prototype | Non-production experience, not live delivery |
 | [website-build](skillmesh/skills/website-build/SKILL.md) | Production marketing site and integrations | Existing direction accepted; no implied publishing |
 | [website-review](skillmesh/skills/website-review/SKILL.md) | Buyer clarity, craft and conversion verification | Standalone audits need no discovery records |
 | [website-deliver](skillmesh/skills/website-deliver/SKILL.md) | Authorized launch and owner handoff | Live proof and business results remain distinct |
+| [website-operate](skillmesh/skills/website-operate/SKILL.md) | Post-launch review of search, analytics and technical health | Recurring work needs owner authorization; no automatic monitoring |
 | [app-analyze](skillmesh/skills/app-analyze/SKILL.md) | Owner brief with ranked decisions, analysis findings and use-case specification: flows, rules, acceptance and gaps | Scoped analysis/specification or review; no technical architecture, production code or demand proof |
 | [app-design](skillmesh/skills/app-design/SKILL.md) | Separate technical design from use cases: architecture trade-offs, component ownership and cross-component guarantees | Standalone design/review or unresolved technical approach; no mandatory phase |
 | [app-prototype](skillmesh/skills/app-prototype/SKILL.md) | Inspectable application experience and states | Material UX; contained fixes use existing baseline |

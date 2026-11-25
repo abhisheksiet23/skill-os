@@ -1,51 +1,76 @@
 # Release the reviewed candidate and hand over operation
 
-Use this guidance for a meaningful launch or migration. Reuse adequate project release records and provider workflows; the purpose is a recoverable, verified publication, not a new fixed document set.
+Use this for a meaningful launch or migration. Reuse adequate project release records and provider workflows. The purpose is a recoverable, verified publication, not a new fixed document set.
+
+## Terms
+- **Frozen revision:** the exact, unchanging version that was reviewed.
+- **Candidate-bound:** tied to one specific candidate. If the candidate changes, the evidence may no longer apply.
+- **Documented versus demonstrated:** a step written down versus a step actually exercised.
 
 ## Candidate-bound launch plan
+- Bind: the release to the reviewed frozen revision and the intended production destination.
+- Record, as applicable: the previous live revision, build command, configuration names, domain and DNS changes, and operator. Keep secret values in their designated store.
+- Candidate changed after review: determine which evidence is invalidated before relying on it for launch.
+- Checks: identify which were performed locally, in preview and against real integrations.
+- Unresolved items: state the impact and an actionable owner or dependency.
+- Forms: a primary form that only pretends to submit is not a functioning conversion path. If the owner chooses a simpler contact route, implement and verify that honest alternative before launch. A simulated primary form never ships.
 
-Bind the release to the reviewed revision/snapshot and intended production destination. Record the previous live revision, build command, configuration names, domain/DNS changes and operator as applicable. Keep secret values in their designated store. If the candidate changes after review, determine which evidence is invalidated before relying on it for launch.
-
-Identify which checks were performed locally, in preview, and against real integrations. For unresolved items, state impact and an actionable owner/dependency. A primary form that only pretends to submit is not a functioning conversion path. If the owner chooses a simpler contact route, implement and verify that honest alternative before launch.
-
-Record recovery: how to restore the prior version or provider deployment, who can perform it, and what data/configuration changes complicate reversal. Prefer a release that preserves the current working site until the new candidate is ready. Do not delete infrastructure or previous deployments as routine cleanup.
+Recovery:
+- Record how to restore the prior version or provider deployment, who can perform it, and what data or configuration changes complicate reversal.
+- Prefer a release that preserves the current working site until the new candidate is ready.
+- Do not delete infrastructure or previous deployments as routine cleanup.
 
 ## Live smoke checks
+After publication, inspect the actual deployed candidate.
+- Domain: correct domain, TLS, intended pages and assets, important redirects.
+- Search: production robots.txt does not block intended pages, preview noindex rules are gone, canonical and hreflang point to production, the sitemap lists intended URLs, and structured data renders. Metadata and social previews work where applicable.
+- Crawler policy: the live policy matches the owner's recorded decision. If none is recorded, ask the owner before launch.
+- Identity: the favicon, logo and share image render as supplied.
+- Search ownership: verify search-console ownership with an authorized account. Sitemap submission and any DNS verification need their own authorization.
+- Journey: primary navigation and conversion, including destination and receipt checks using authorized recipients.
+- Production specifics: forms, form-mail email authentication, booking embeds, consent and tracking settings, configuration.
+- Layout: representative responsive layout and any material issue likely to differ from preview.
 
-After publication, inspect the actual deployed candidate:
+Then:
+- Record what the deployed destination actually demonstrated and which checks remain unavailable.
+- Uncertain operation: inspect provider and deployment state before retrying, so a timeout does not cause duplicate mutations.
+- Failure: diagnose it and choose a bounded recovery action.
+- Rollback beyond current authorization: specify the concrete failure and recovery scope while completing non-mutating diagnosis.
 
-- Correct domain, TLS, intended pages/assets, and important redirects.
-- Appropriate canonical, robots/indexing, sitemap, metadata, and social preview behavior where applicable.
-- Primary navigation and conversion journey, including destination/receipt checks using authorized recipients.
-- Production-specific forms, booking embeds, consent/tracking settings, and configuration.
-- Representative responsive layout and any material issue likely to differ from preview.
-
-Record what the deployed destination actually demonstrated and which checks remain unavailable. When an operation has an uncertain result, inspect provider/deployment state before retrying so a timeout does not cause duplicate mutations. Diagnose the failure and choose a bounded recovery action. If a needed rollback exceeds current authorization, specify the concrete failure and recovery scope while completing non-mutating diagnosis.
-
-## Handoff that an owner can use
-
-Start the handoff with actual status: prepared, deployed and directly verified are distinct facts. Supply the revision, time, live URL, relevant evidence, residual limitations and recovery path. Update the live baseline only for what shipped.
-
-Then explain the owner's recurring actions: edit common content, replace assets without breaking composition, preview/publish changes, access enquiry destinations and recognize delivery failures. Identify who owns domain, hosting, editing, integrations and measurement. Link the relevant project/provider surfaces without credentials.
-
-Keep maintenance proportional to the site. Do not create a large operations manual for a small static website. Document the few actions the owner actually needs and material dependencies that could expire or fail.
+## Hand off in a form an owner can use
+- Start: with actual status. Prepared, deployed and directly verified are distinct facts.
+- Supply: the revision, time, live URL, relevant evidence, residual limitations, recovery path and launch baseline. Update the shipped record only for what shipped.
+- Owner actions: explain how to edit common content, replace assets without breaking composition, preview and publish changes, access enquiry destinations and recognize delivery failures.
+- Ownership: identify who owns domain, hosting, editing, integrations and measurement. Link the relevant project and provider surfaces without credentials.
+- Review: name who will review search and analytics after launch, and how often. Record whether recurring review is authorized, declined or not yet asked. It is a separate scope.
+- Size: keep maintenance proportional to the site. Do not create a large operations manual for a small static website. Document the few actions the owner needs and the material dependencies that could expire or fail.
 
 ## Close operating gaps without inventing ownership
-
-A named provider or mailbox is not an operating owner. For the consequential recurring actions, establish who can act, how they recognize a problem and what supported fallback exists. Reuse existing roles/runbooks; a small site may need only a few labeled facts. Confirm unknown ownership with the business rather than assigning people by inference.
+- Operating owner: for each consequential recurring action, establish who can act, how they recognize a problem and what supported fallback exists.
+- Reuse: existing roles and runbooks. A small site may need only a few labeled facts.
+- Unknown ownership: confirm it with the business. Do not assign people by inference.
 
 | Boundary | Useful handoff proof | Gap and practical consequence |
 | --- | --- | --- |
-| Enquiries | Authorized receipt/routing result, responsible role and actual follow-up expectation. | Provider acceptance with no monitored destination can lose real enquiries; qualify the live claim and identify the missing receipt/operator proof. |
-| Content and assets | An ordinary edit through preview/publication, or clear unverified steps and required access. | Access without a usable editing path leaves routine changes dependent on a developer. |
-| Integrations | Responsible role, configuration location without values, expiry/failure signal and supported fallback. | A functioning embed today does not establish renewal or failure response ownership. |
-| Domain and hosting | Authorized account owner, renewal responsibility and known domain/deployment dependencies. | A live domain does not prove the business can renew, recover or transfer it. |
-| Recovery | Prior deploy identifier, restoration procedure, authorized operator and limits on reversing data/configuration. | A documented rollback button is insufficient if the operator cannot access it or restoring code leaves incompatible configuration. |
+| Enquiries | Authorized receipt and routing result, responsible role and actual follow-up expectation. | Provider acceptance with no monitored destination can lose real enquiries. Claim only what was verified, and name the missing receipt or operator proof. |
+| Content and assets | An ordinary edit through preview and publication, or clear unverified steps and required access. | Access without a usable editing path leaves routine changes dependent on a developer. |
+| Integrations | Responsible role, configuration location without values, expiry or failure signal and supported fallback. | A functioning embed today does not establish renewal or failure response ownership. |
+| Domain and hosting | Authorized account owner, renewal responsibility and known domain and deployment dependencies. | A live domain does not prove the business can renew, recover or transfer it. |
+| Recovery | Prior deploy identifier, restoration procedure, authorized operator and limits on reversing data and configuration. | A documented rollback button is insufficient if the operator cannot access it, or if restoring code leaves incompatible configuration. |
 
-Exercise a representative edit or recovery step only within scope and authority; otherwise distinguish documented from demonstrated. Do not trigger a live rollback merely to complete the table. Explain who handles an enquiry, what the visitor was promised and how failures will become visible. If ownership remains unknown, report that precise operating dependency beside the verified live state. Preparation for ongoing operation does not authorize a new monitoring service or recurring task.
+Exercise and report:
+- Exercise a representative edit or recovery step only within scope and authority. Otherwise distinguish documented from demonstrated.
+- Do not trigger a live rollback merely to complete the table.
+- Explain who handles an enquiry, what the visitor was promised and how failures will become visible.
+- If ownership stays unknown, report that precise operating dependency beside the verified live state.
+- Preparing for ongoing operation does not authorize a new monitoring service or recurring task.
 
 ## Measurement
-
-Agree what a useful business outcome means and preserve any valid pre-launch baseline. Map each observable event to what it actually establishes: traffic, CTA engagement, attempted submission, accepted submission, received enquiry or qualified opportunity. Identify the outcomes needing business follow-up; do not call a CTA click a lead or treat a thank-you view as receipt.
-
-Do not claim causality from a short before/after comparison without considering traffic mix, seasonality, campaigns, and volume. Recommend learning priorities rather than automatically launching experiments. Additional campaigns, monitoring, or recurring optimization require their own scope.
+- Outcome: agree what a useful business outcome means.
+- Launch baseline: before launch, record what exists: source and date range, indexed pages, impressions and clicks, the query list with positions, and technical state. Without a baseline, later change cannot be attributed.
+- AI answers: capture the set at launch where access exists. Record each question, assistant and date. Reuse an existing set.
+- Events: map each observable event to what it establishes: traffic, call-to-action engagement, attempted submission, accepted submission, received enquiry or qualified opportunity.
+- Follow-up: identify the outcomes needing business follow-up. Do not call a call-to-action click a lead. Do not treat a thank-you view as receipt.
+- Causality: do not claim it from a short before-and-after comparison without considering traffic mix, seasonality, campaigns and volume.
+- Next: recommend learning priorities. Do not automatically launch experiments.
+- Scope: additional campaigns, monitoring or recurring optimization need their own scope.

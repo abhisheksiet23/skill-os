@@ -7,26 +7,54 @@ description: Implement responsive marketing websites, content, forms and integra
 
 Deliver a functioning marketing website whose implemented content, responsive composition and conversion behavior preserve the established direction. A successful build is one piece of evidence, not the delivered visitor outcome.
 
+## Terms
+- **Candidate:** the specific version of the site that is being built, reviewed or released.
+- **Representative journey:** one entry-to-action path, including difficult content, built with the real stack and integration.
+- **Risky seam:** the join most likely to invalidate the implementation, such as design into a CMS, mobile composition into real content, a form into its receiving service, or old URLs into new routing.
+- **Target queries:** the searches and questions each page should answer, listed per page.
+- **Crawler policy:** the owner's decision on which crawlers may access the site and for what purpose, such as search results, AI answers or AI training.
+- **Real versus simulated:** a client success message, provider acceptance and downstream receipt are different facts. A mock proves only the behavior it exercised.
+
 ## Establish the implementation contract
-
-Inspect the repository, existing site and adequate content/design decisions from any author. Use established direction for contained corrections; no sibling skill, phase status or new documentation tree is required. Resolve only uncertainty that would make dependent pages speculative.
-
-Preserve suitable stack, provider, URLs, integrations and editing workflows. Read [technology selection](references/technology-selection.md) for greenfield choices and relevant sections of [implementation guidance](references/implementation.md) for routes, forms, accessibility or performance. For new shared layouts or integrations, use its risky-seam selection to prove the consequential boundary before repetition. Make acceptance concrete around the actual entry-to-action journeys, including redesign continuity and operational destinations.
+Do this before writing code.
+- Inspect: the repository, the existing site and adequate content and design decisions from any author.
+- Contained corrections: use the established direction. Create no new documentation tree.
+- Uncertainty: resolve only what would make dependent pages speculative.
+- Preserve: suitable stack, provider, URLs, integrations and editing workflows.
+- Authority: accounts, subscriptions, domain registrations and publicly reachable previews need the owner's authorization.
+- Greenfield choices: read [technology selection](references/technology-selection.md).
+- Routes, forms, accessibility or performance: read the relevant sections of [implementation guidance](references/implementation.md).
+- New shared layouts or integrations: use its risky-seam selection to prove the consequential boundary before repetition.
+- Acceptance: make it concrete around the actual entry-to-action journeys, including redesign continuity and operational destinations.
 
 ## Implement complete journeys
-
-Use real copy, purposeful composition, usable assets and mobile-first behavior. Implement and render a representative entry-to-action slice before multiplying shared layouts across pages; include difficult content and inspect small-screen and desktop behavior so defects do not spread. For a contained correction, inspect the affected component in its real page instead of building a new demonstration. Reuse good prototype assets while correcting poor semantics, markup or accessibility.
-
-Make navigation, validation, submission and recovery truthful. Validate at trust boundaries and integrate the real destination where available. A client success message, provider acceptance and downstream receipt establish different facts; mocks prove only the behavior exercised. Test live enquiries only with authorization. Keep secrets server-side and private research out of public output.
+- Content: use real copy, purposeful composition, usable assets and mobile-first behavior.
+- Journey first: implement and render a representative journey before multiplying shared layouts across pages. Include difficult content and inspect small-screen and desktop behavior so defects do not spread.
+- Contained correction: inspect the affected component in its real page. Do not build a new demonstration.
+- Prototype assets: reuse the good ones. Correct poor semantics, markup or accessibility.
+- Truthful behavior: make navigation, validation, submission and recovery truthful. Validate at trust boundaries and integrate the real destination where available.
+- Live enquiries: test them only with authorization.
+- Secrets: keep them server-side. Keep private research out of public output.
 
 ## Make the source maintainable
-
-Write source for an owner returning to code after six years. Require blank lines between logical blocks: input/state preparation, validation, payload construction, requests, success updates and recovery where present. Keep cohesive statements together; do not put a gap after every line. Expand guard/branch/catch/finally bodies, callbacks, calls and object literals rather than packing multiple operations onto one line. In HTML/templates/JSX, make nesting, significant attributes, conditions and events visible, with gaps between meaningful sections. In CSS separate rules and meaningful property groups without reordering cascade-sensitive declarations. Use names and boundaries that explain the visitor journey. Inspect the actual formatted source; a formatter or successful build does not establish readable spacing. Preserve behavior and scope, and present a representative code path for owner review when readability is the issue. Owner readability remains unresolved until they review the result.
+Write source for an owner returning to code after six years.
+- Logic: leave blank lines between logical blocks: input and state preparation, validation, payload construction, requests, success updates and recovery where present.
+- Cohesion: keep cohesive statements together. Do not add a gap after every line.
+- Expansion: expand guard, branch, catch and finally bodies, callbacks, calls and object literals. Do not pack several operations onto one line.
+- Markup: in HTML, templates and JSX, make nesting, significant attributes, conditions and events visible, with gaps between meaningful sections.
+- CSS: separate rules and meaningful property groups. Do not reorder cascade-sensitive declarations.
+- Names: use names and boundaries that explain the visitor journey.
+- Check: inspect the actual formatted source. A formatter or successful build does not establish readable spacing.
+- When readability is the issue: preserve behavior and scope, and present a representative code path for owner review. It stays unresolved until the owner reviews the result.
 
 ## Prove the affected outcome
+- Checks: run relevant project build and static checks and meaningful behavioral tests.
+- Rendering: inspect affected pages at sizes that exercise actual breakpoints. Complete the important journeys, including failure and recovery.
+- Fix and retest: correct observed defects and retest the affected behavior. Keep unrelated valid evidence. Do not rerun everything reflexively.
 
-Run relevant project build/static checks and meaningful behavioral tests. Inspect affected rendered pages at sizes that exercise actual breakpoints and complete the important journeys, including failure and recovery. Fix observed defects and retest affected behavior; retain unrelated valid evidence instead of rerunning everything reflexively.
-
-Lead the handoff with the visitor outcome and consequential choices, followed by actual visual/functional proof and named gaps. Use short, meaningful route/state labels and link evidence rather than narrating each check. Record the candidate, configuration names, important routes and real versus simulated integrations in existing records. A preview or build does not authorize production publishing.
-
-Recommend additional expertise only for a concrete gap: independent candidate quality (`website-review`), unresolved experience (`website-create`), or a genuine application boundary. The agent chooses; these are not prerequisites and this skill invokes none of them.
+## Hand off
+- Lead with the visitor outcome and consequential choices. Follow with actual visual and functional proof and named gaps.
+- Labels: use short, meaningful route and state labels. Link evidence. Do not narrate each check.
+- Records: record the candidate, configuration names, important routes, the crawler-policy decision, and real versus simulated integrations in existing records.
+- Publication: a preview or build does not authorize production publishing.
+- Gaps: recommend added expertise only for a concrete gap, such as independent candidate quality, unresolved experience design or a genuine application boundary.

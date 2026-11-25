@@ -2,6 +2,17 @@
 
 Treat installed skills as a cooperating library of specialist expertise, not as isolated prompts and not as a workflow that must always run in full.
 
+## Never purchase
+**Skill OS never purchases anything.** No skill, and no agent using one, buys domains, hosting, subscriptions, licenses, fonts, stock or generated assets, advertising, paid tools, research data or credits.
+- Needed purchase: stop that step. Tell the user what is needed, why and the cost if known, and ask the user to buy it.
+- Other work: continue everything that does not depend on the purchase.
+- Alternative: offer a free option when one exists.
+- Domains: screen availability read-only. Never register, reserve or bid on a domain, and never pay a broker.
+- Services: never provision paid hosting, databases, cloud services or licenses.
+- Libraries and assets: never buy fonts, icon sets, component libraries or stock assets.
+- Tests and research: never buy test services, advertising, panels, incentives, reports or datasets.
+- Costs: forecast and report spend. Never incur it.
+
 ## Core behaviour
 
 For substantial tasks:

@@ -1,30 +1,60 @@
 ---
 name: website-create
-description: Develop real marketing copy, page narrative, art direction and a responsive high-fidelity website prototype together. Use for material website design or redesign with enough offer clarity to tell an honest story; skip production integration and minor established-design fixes.
+description: Develop real marketing copy, page narrative, art direction and a responsive high-fidelity website prototype together, plus a brand identity when none exists. Use for material website design or redesign with enough offer clarity to tell an honest story; skip production integration and minor established-design fixes.
 ---
 
 # Website Create
 
-Create an inspectable design in which copy, imagery, composition and interaction tell the same company-specific story. The deliverable is a responsive prototype and a usable direction for implementation, not a claim of live delivery.
+Create an inspectable design in which copy, imagery, composition and interaction tell the same company-specific story. The deliverable is a responsive prototype and a usable direction for implementation. It does not claim live delivery.
+
+## Terms
+- **Creative argument:** the company-specific story the site must make credible, plus the creative idea that expresses it.
+- **Representative set:** the smallest set of pages and states that could reveal a wrong direction. It includes difficult content and the full conversion journey.
+- **Direction:** a distinct way of telling the story. Changing only color, font or a decorative motif is a treatment variation, not a direction.
+- **Findability:** how readily search engines and AI assistants locate the site's pages and describe them accurately.
+- **Target queries:** the searches and questions each page should answer, listed per page.
+- **Simulated operation:** any form submission, payment, booking or external call the prototype does not actually perform.
 
 ## Establish the creative argument
-
-Use adequate company, buyer, claim and brand evidence from any source. Preserve suitable direction and existing brand unless change is authorized. Resolve uncertainty that would make the central story misleading; missing testimonials alone do not prevent an honest design.
-
-Give each page a visitor question, message, proof and next step. Draft the substantive argument and a creative idea before committing to layouts. Use [creative practice](references/creative-practice.md) for material design work: narrative, visual expression and microcopy develop together through critique. Its direction comparison and difficult-page test help resolve a material creative choice without building alternate whole sites.
+Start here for any material design or redesign.
+- Evidence: use adequate company, buyer, claim and brand evidence from any source.
+- Direction and brand: keep suitable existing direction and brand unless change is authorized.
+- Identity: when no usable brand exists, or the owner authorizes change, read [identity](references/identity.md).
+- Uncertainty: resolve what would make the central story misleading. Missing testimonials alone do not block an honest design.
+- Pages: give each page a visitor question, message, proof and next step. Add its target queries, where known.
+- Order: draft the substantive argument and a creative idea before committing to layouts.
+- Method: use [creative practice](references/creative-practice.md) so narrative, visual expression and microcopy develop together through critique.
+- Comparison: its direction comparison and difficult-page test resolve a material creative choice without building alternate whole sites.
 
 ## Build the smallest convincing demonstration
+Build a representative set, not the whole site.
+- Content: use real draft copy, realistic lengths and final-quality representative assets.
+- Imagery: for substantial imagery, read [artwork](references/artwork.md). Conceptual assets must not imply real people, customers or delivered projects.
+- Labels: label every simulated operation clearly.
+- Mobile first: design the mobile reading journey first. Then compose intermediate and large layouts deliberately.
+- Settle before multiplying: render and critique the slice before extending its templates or asset family.
+- Alternatives: explore genuinely different directions only when comparison resolves a material uncertainty. Use the same representative content so trade-offs are visible.
+- Completeness: a finished hero without secondary sections, detail content and interactions does not demonstrate the direction.
 
-Choose representative pages and states that expose difficult content and the full conversion journey. Use real draft copy, realistic lengths and final-quality representative assets. Clearly label simulated operations. For substantial imagery read [artwork](references/artwork.md); conceptual assets must not imply real people, customers or delivered projects.
-
-Design the mobile reading journey first, then deliberately compose intermediate and large layouts. Render and critique the representative journey before extending its templates or asset family; settle the repeated pattern before multiplying it. Explore genuinely different directions only when comparison resolves a material uncertainty, using the same representative content so trade-offs are visible. A finished hero without the secondary sections, detail content and interactions cannot demonstrate the whole direction.
-
-Keep authored prototype code readable for an owner returning after six years: blank lines between logical handler blocks and page sections, expanded branches/error handling and object literals, visible HTML/template nesting and attributes, and separated CSS rules. Keep cohesive statements together rather than inserting a gap after each line. Inspect final formatted source; an attractive preview does not establish code readability. Exclude generated/minified dependencies from this source standard.
+## Keep the source readable
+Use this when you author prototype code. Write it for an owner returning after six years.
+- Spacing: leave blank lines between logical handler blocks and page sections. Keep cohesive statements together rather than adding a gap after each line.
+- Structure: expand branches, error handling and object literals. Keep HTML and template nesting and attributes visible. Separate CSS rules.
+- Check: inspect the final formatted source. An attractive preview does not establish readability.
+- Exclusion: generated and minified dependencies are outside this standard.
 
 ## Critique the rendered candidate
+Inspect the rendered result before presenting it.
+- Screenshots: inspect actual screenshots at relevant narrow, intermediate and wide sizes.
+- Interaction: exercise navigation, keyboard and focus, calls to action, and the represented form and recovery states.
+- Comparison: compare the complete experience with its creative idea and benchmarks.
+- Correction: fix generic expression, weak composition and interaction defects, then re-render the affected views.
+- Missing browser access: visual proof stays pending. A numerical self-score cannot replace inspection.
 
-Inspect actual screenshots at relevant narrow, intermediate and wide sizes. Exercise navigation, keyboard/focus, CTAs and represented form/recovery states. Compare the complete experience with its creative idea and benchmarks. Correct generic expression, weak composition and interaction defects, then re-render affected views. Missing browser access leaves visual proof pending; a numerical self-score cannot replace inspection.
-
-Present the concrete revision, why its key choices support the buyer story, actual review evidence and consequential unresolved choices. Keep explanatory artifacts scannable with specific labels, short lists or a focused direction-comparison table; the rendered design and substantive copy remain the main result. Reuse unchanged accepted direction and applicable review evidence, checking the views and journeys a revision can affect. Save copy/assets, tokens, responsive intent and prototype launch instructions using project conventions. Honor existing approvals and delegated design authority; silence does not establish a newly reserved decision or justify an arbitrary approval gate.
-
-If unresolved positioning or production implementation needs other expertise, describe that gap and useful evidence; `website-discover` and `website-build` are optional possibilities. The agent chooses. This skill does not invoke others or impose a sequence.
+## Present and hand off
+- Present: the concrete revision, why its key choices support the buyer story, the actual review evidence and any consequential unresolved choices.
+- Form: keep explanatory artifacts scannable, with specific labels, short lists or a focused direction-comparison table. The rendered design and substantive copy remain the main result.
+- Reuse: reuse unchanged accepted direction and applicable review evidence. Check the views and journeys a revision can affect.
+- Save: store copy and assets, page titles and descriptions, target queries, tokens, responsive intent and prototype launch instructions using project conventions.
+- Authority: honor existing approvals and delegated design authority. Silence does not create a newly reserved decision or justify an arbitrary approval gate.
+- Gaps: if unresolved positioning or production implementation needs other expertise, describe the gap and the evidence that would resolve it.
