@@ -1,11 +1,15 @@
 # Current toolkit checkpoint
 
-**Workstream, 2026-11-26:** make the website skills beat a no-skill run on looks and judgment at acceptable cost. Branch `main`, fast-forwarded to `9605049` (`origin/main`). Local commit `7fb84fd` holds the business-findings wording. A following local commit holds this record; Git owns its identity. Neither was pushed when written.
+**Workstream, 2026-11-26:** website-review, aimed at helping a site win more of the right customers. Branch `main`. Earlier the same day, the website-looks work was closed; `7fb84fd` (business findings) and `b6c5715` (its checkpoint) were pushed on request. The local commit holding this record also holds the website-review changes; Git owns its identity. It was not pushed when written.
 
 ## Done
 
 - **Business findings:** [website-brief](../skillmesh/skills/website-brief/SKILL.md) uses existing findings, names gaps and recommends matching expertise, and keeps provisional prices and packaging off the page. [website-create](../skillmesh/skills/website-create/SKILL.md) states which sources can support a claim. [website-discover](../skillmesh/skills/website-discover/SKILL.md) applies its reuse conditions to findings.
 - **Source:** a patch pasted from a cloud session, which names commit `9ef9a84` (not present here). Its file hashes matched before the wording was revised. The revision replaced "describe how it will be set", stopped confirmed facts being limited to findings files, and kept hypotheses as hypotheses.
+- **Review gaps:** [website-review](../skillmesh/skills/website-review/SKILL.md) now recommends named business work where page edits cannot answer, without blocking or changing readiness by itself. The local commit holding this record also holds the website-review changes; Git owns its identity. It was not pushed when written. Validation: 24 skills, 0 errors; 49 tests, 48 passed, one skipped.
+- **Review gaps test, 2026-11-26:** one Sonnet run each on a weak and a clear sample, criteria written first; all passed. The weak sample drew named, reasoned, optional recommendations (business model then pricing, market research, demand validation) with claim findings kept; the clear sample drew none. The weak sample's short owner note compressed the recommendations to one unnamed sentence. No run without the new section, author-graded, and the clear brief made holding back easy. Tokens: 90.8k and 84.3k. Details: `skill-os-test/review-gap/results.md`.
+- **Review summary line:** after that test, the owner approved a line putting the most important business question in the short summary. Validation: 24 skills, 0 errors; 49 tests, 48 passed, one skipped. Its behavior is untested; the test above predates it.
+- **Review goal rewrite:** the owner then approved a right-customer goal, a customer-decision section and an owner-first results structure with blockers plus up to three changes. Validation: 24 skills, 0 errors; 49 tests, 48 passed, one skipped. Entrypoint grew from 887 to 1,303 words. Behavior and token effect are untested. The sentence suggesting a short list or table for scanning was dropped with the replaced section.
 - **Earlier, committed:** the website rewrite and findability, [website-operate](../skillmesh/skills/website-operate/SKILL.md), the [identity reference](../skillmesh/skills/website-create/references/identity.md) and the simulated-form publish gate.
 
 ## Accepted owner decisions
@@ -15,6 +19,8 @@
 | Test whether business-skill output should feed the website skills | A hypothesis under test, not an established benefit. Skills only recommend expertise |
 | Apply the revised business-findings wording | Approved 2026-11-26. Local commit authorized; push not authorized |
 | Judge website design by effect: what colors connote and how well type works, not how distinctive fonts are | Owner direction, 2026-11-26. The wording matched the owner's meaning but showed no visible difference in testing and is not applied |
+| website-review's goal is helping the site win more of the right customers | Owner choice and approved wording, 2026-11-26. A review cannot show that a change will win customers |
+| website-review makes the case for missing business work | Wording approved 2026-11-26. Persuade honestly; never block or push |
 | Close the website-looks workstream | Owner, 2026-11-26. Reopen only on request |
 | Search and AI search are part of the existing process, not a new skill | None set |
 | `website` is renamed `website-brief` | Legacy migration names keep the old `website` |
@@ -34,6 +40,7 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 - **Visual comparison, 2026-11-26:** one page each from no skills, current skills (the guard-run page) and current skills plus a draft visual-craft reference (test copy only). The owner judged shuffled screenshots: no-skill colors a bit better on desktop, its phone fonts weak; the draft's content and logo better; full desktop pages almost the same. No overall ranking or client-ready judgment. Tokens: 88.0k, 122.5k and 124.3k. The draft showed no visible change in overall look and is not adopted; its worker did read it. n=1 each. Details: `skill-os-test/website-craft/results-compare.md`.
 - **Design-method test, 2026-11-26:** one no-skill worker inspected reference sites, rendered alternative openings and could use web fonts and image files. Against the first no-skill page, the owner judged it not better, with fonts too fancy. 151.3k tokens against 88.0k. Not blind, n=1, several changes at once. Not adopted. Details: `skill-os-test/website-craft/results-method.md`.
 - **Color and type wording test, 2026-11-26:** two runs each of current website-create and the same with the owner-approved color and type wording, pass rule written first, pages shuffled. The owner judged all four much the same and all OK, so the rule was not met. Tokens: current 139.3k and 139.5k, new 115.5k and 126.1k; too few runs to claim a saving. Details: `skill-os-test/website-effect/` (patch, rule, results).
+- **Real-site review comparison, 2026-11-26:** one run each of website-review before and after the right-customer rewrite on a public bookkeeping site. The owner liked the new review's findings-by-consequence section and found the rest much the same. The editing agent, not blind, judged neither clearly better: the new one framed customer, trust, keep and measurement better; the old one ranked a cut-off booking calendar first, which the new one buried. Tokens: 207.9k new, 200.6k old. Details: `skill-os-test/site-compare/results.md`.
 - **Not shown:** the worker listed gaps but did not recommend pricing, market research or demand validation by name. A findings file was present, so the "When missing" rule was barely exercised.
 - **Prior experiments, reported by the pasted handoff and not verified here:** one run per arm, lead-graded, not blind, same fictional firm. Business input changed content modestly, not looks; findings plus site used about 178k tokens against 78k with no skill. The handoff judged visual craft the weak link. The original files are not on this device.
 - **Earlier website rewrite:** one scenario run per version favored the rewrite (12 against 6 of 13) with a partly circular key. One independent review predates the final fixes.
@@ -41,7 +48,7 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 
 ## Open
 
-1. Push this change only when the owner asks.
+1. website-review: the rewrite showed no clear overall gain on one real site and under-ranked a booking-path fault. The owner then approved a main-action ranking line; its behavior is untested and the comparison predates it. Commit or push only when asked. A harder business-recommendation hold-back case is also untested. Commit or push only when asked.
 2. Website looks: closed by the owner. Three attempts (visual-craft draft, reference-and-alternatives method, color and type wording) showed no clear overall improvement. A skill advantage over no-skill on looks is not established. Items 3 and 4 below are parked with it.
 3. Cut tokens: lighter website-brief, conditional reference loading, at most two critique rounds, less guidance the base model already follows.
 4. Larger test: multi-page brief, 3 runs per arm (no skill; website skills; with business findings), rubric written first, a separate blind grader; record tokens, tool calls and time. Add to `evals/` only if the owner wants it kept. Include a case with no findings file.
@@ -53,17 +60,17 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 
 **Installation:** not performed in this workstream. An earlier local record reports release `0.2.0+codex.20261125063121379`, built from `6c8b61b`, installed on this device; it was not rechecked. The untracked `docs/handoff-new-device.md` is an older 2026-11-25 handoff.
 
-**Next:** the owner picks new work, in a fresh session; push when asked. Real-application adoption, cross-device rollout, account usage, charges, rework and savings remain unknown.
+**Next:** website-review work in a fresh session; push when asked. Real-application adoption, cross-device rollout, account usage, charges, rework and savings remain unknown.
 
 ## Latest session assessment, 2026-11-26, self-assessment
 
 | Factor | Score | Reason |
 | --- | --- | --- |
 | Continuity | 1 | Recovered from a pasted handoff. The cloud commit, experiment files and original fixtures were unavailable |
-| Decision fidelity | 2 | Revised wording was shown and approved before editing; commit only on request and no push; local files backed up before the update |
-| Evidence freshness | 1 | Structural checks and runs match their stated candidates. Samples are one or two runs per setup; older results are unverified or predate the wording |
-| Retrieval economy | 1 | Reads were targeted, but the session ran long past the AGENTS.md bound; a fresh session was suggested late |
-| Project/workstream separation | 2 | Test copies, fixtures and runs stayed in the sibling test folder |
-| Review independence | 1 | Workers were not told the criteria. The owner judged looks, blind in two of three comparisons; the editing agent wrote and graded the price check |
+| Decision fidelity | 1 | Skill wording was shown and approved before editing, and commits and push followed requests. The review rewrite's draft did not point out one dropped line |
+| Evidence freshness | 1 | Structural checks match the current skill. The summary and main-action lines are untested; other runs are single and predate later wording |
+| Retrieval economy | 0 | The session ran far past the AGENTS.md bound; a fresh session was suggested late and the work continued |
+| Project/workstream separation | 2 | Test copies, fixtures, runs and real-site review material stayed in the sibling test folder |
+| Review independence | 1 | Workers were not told the criteria. The owner judged blind or partly blind comparisons; the editing agent graded other checks |
 
 Subagent usage per run is reported above. Total session usage, cost and savings are unknown.
