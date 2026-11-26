@@ -1,6 +1,6 @@
 # Current toolkit checkpoint
 
-**Workstream, 2026-11-26:** website skill set rewrite and findability (search and AI-answer visibility). Branch `main`. Commit `38883ed` holds the work. The local `origin/main` ref records a push of it; the agent did not push. Uncommitted: a one-line publish-gate fix in [website-deliver](../skillmesh/skills/website-deliver/SKILL.md) and this record.
+**Workstream, 2026-11-26:** website skill set rewrite and findability (search and AI-answer visibility). Branch `main`. Commit `38883ed` holds the work. The local `origin/main` ref records a push of it; the agent did not push. A following local commit holds the publish-gate fix in [website-deliver](../skillmesh/skills/website-deliver/SKILL.md) and this record; Git owns its identity. That commit and later ones were not pushed.
 
 ## Done
 
@@ -44,7 +44,7 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 
 1. Fresh independent review of the final website text.
 2. Unapplied wording for discover and deliver: if no AI assistant can be queried, report unknown and never write an unobserved answer. Neither scenario run invented one.
-3. Commit the gate fix and this record when the owner asks.
+3. Push the local commits only when the owner asks.
 4. Reinstall the package. Installed copies predate this work, including the rename and the new skill.
 5. Purchase-rule reach: AGENTS.md is not plugin payload, so installed skills do not carry the rule. A few inline purchase guards remain in the website skills. Adding the rule to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
 6. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
