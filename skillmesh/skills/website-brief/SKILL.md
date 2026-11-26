@@ -20,6 +20,25 @@ Start here for any broad website request.
 - Scope: separate a website assignment from changing the business itself.
 - Preserve: valuable content, URLs, integrations and editing workflows.
 
+## Use business findings
+Use this at the start of any broad request. A site's story is only as good as the business evidence under it.
+- Look first: inspect project records and supplied material for findings on buyers and alternatives, demand, pricing, offer viability and accepted positioning.
+- Use what exists: carry forward adequate, dated findings as the site's evidence. Do not rerun them or ask the owner to repeat them.
+- When missing: name each gap the site depends on and recommend the matching expertise to the agent, with the question and what a useful answer would change on the site.
+
+| Site depends on | Recommend |
+| --- | --- |
+| Competitors, buyer behavior, category language | market research |
+| A published price, packaging or guarantee | pricing |
+| Unproven demand or willingness to pay | demand validation |
+| Doubt the offer is viable, or contradictory inputs | business model review or challenge |
+| A raw idea with no settled offer | venture investigation |
+
+- Proportion: recommend only a gap that could change the site. An established business with a clear offer needs none of this. Missing evidence on a gap is a stated limit and never justifies invented proof.
+- Provisional findings: price hypotheses and ranges, packaging, guarantees and test designs are options, not the firm's practice. Keep them off the page until the owner, or someone with delegated authority, approves them.
+- Unsettled price: state only what the owner has confirmed. Do not describe a fee structure, or how a price is set, from findings or assumptions. With nothing confirmed, invite the visitor to ask about price.
+- Conflict: when business findings and the site's evidence disagree, surface it. Do not silently pick one.
+
 ## Choose the next work
 Pick it from the uncertainty most likely to invalidate the result.
 - Unclear offer: clarify it first, because every later page depends on it.

@@ -1,18 +1,19 @@
 # Current toolkit checkpoint
 
-**Workstream, 2026-11-26:** website skill set rewrite and findability (search and AI-answer visibility). Branch `main`. Commit `38883ed` holds the work. The local `origin/main` ref records a push of it; the agent did not push. A following local commit holds the publish-gate fix in [website-deliver](../skillmesh/skills/website-deliver/SKILL.md) and this record; Git owns its identity. That commit and later ones were not pushed.
+**Workstream, 2026-11-26:** make the website skills beat a no-skill run on looks and judgment at acceptable cost. Branch `main`, fast-forwarded to `9605049` (`origin/main`). The commit holding this record also holds the business-findings wording; Git owns its identity. It was not pushed when written.
 
 ## Done
 
-- **Rewrite:** the website skills now follow the authoring standard (short lead, Terms, "Label: action" bullets, conditional references).
-- **Findability:** added across brief, discover, create, build, review and deliver, with a launch baseline, crawler-policy decision, publish gate on Blocking findings, and form-mail and consent checks.
-- **New:** [website-operate](../skillmesh/skills/website-operate/SKILL.md) for post-launch review, and an [identity reference](../skillmesh/skills/website-create/references/identity.md) in website-create. The library has 24 skills.
-- **Gate fix:** a simulated primary form never ships, even with owner acceptance.
+- **Business findings:** [website-brief](../skillmesh/skills/website-brief/SKILL.md) uses existing findings, names gaps and recommends matching expertise, and keeps provisional prices and packaging off the page. [website-create](../skillmesh/skills/website-create/SKILL.md) states which sources can support a claim. [website-discover](../skillmesh/skills/website-discover/SKILL.md) applies its reuse conditions to findings.
+- **Source:** a patch pasted from a cloud session, which names commit `9ef9a84` (not present here). Its file hashes matched before the wording was revised. The revision replaced "describe how it will be set", stopped confirmed facts being limited to findings files, and kept hypotheses as hypotheses.
+- **Earlier, committed:** the website rewrite and findability, [website-operate](../skillmesh/skills/website-operate/SKILL.md), the [identity reference](../skillmesh/skills/website-create/references/identity.md) and the simulated-form publish gate.
 
 ## Accepted owner decisions
 
 | Decision | Boundary or revisit condition |
 | --- | --- |
+| Test whether business-skill output should feed the website skills | A hypothesis under test, not an established benefit. Skills only recommend expertise |
+| Apply the revised business-findings wording | Approved 2026-11-26. Local commit authorized; push not authorized |
 | Search and AI search are part of the existing process, not a new skill | None set |
 | `website` is renamed `website-brief` | Legacy migration names keep the old `website` |
 | `website-operate` covers post-launch work | More post-launch processes can join it. Recurring review needs owner authorization |
@@ -25,45 +26,39 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 
 ## Evidence
 
-- **Structure:** with the gate fix applied, library validation reports 24 skills and 0 errors. The unit suite ran 49 tests, 48 passed and one skipped. Migration and live-host checks were not run.
-- **Restatement checks:** Haiku readers answered questions written by the editing agent. They show the text can be restated, not that behavior improved.
-- **Independent review:** one fresh Sonnet review gave 25 findings before the three fix passes. Paraphrased duplicates and the readability wording were left as they were. The final text has had no independent review.
-- **Scenario, bound to `38883ed`:** one fictional launch task, one Haiku run per version, current text against the pre-search rewrite, both given the AGENTS.md purchase rule. A Sonnet grader scored version-label-scrubbed outputs; the editing agent spot-checked them.
-
-| Comparative score, 13 items | Pre-search | `38883ed` |
-| --- | --- | --- |
-| Grader scoring | 6 | 12 |
-| Every part of each item required | 3 | 11 |
-
-- **Scenario limits:** the key came mostly from the added text, so the result is partly circular. n=1, fictional, both outputs over the 900-word limit, and vocabulary may have hinted at the version. No real-site, ranking or citation benefit is established.
-- **Scenario observations:** neither output named a post-launch search and analytics reviewer. The older output covered keyboard and form-error checks, measurement events, content-editing handover and testimonial permissions better. The current skills still hold that guidance; crowding by new text is an untested guess.
-- **Scenario finding:** the publish gate conflicted with the simulated-form rule. The gate fix addresses it; no behavior check ran on the fix.
-- **Local test material:** `skill-os-test/library-pass/` on this device holds drafts, questions, the scenario key and outputs. It is not committed and no scenario was added to `evals/`.
+- **Structure:** with the new wording, validation reports 24 skills and 0 errors. The unit suite ran 49 tests: 48 passed, one skipped. Migration and live-host checks were not run.
+- **Price guard, one run:** one Sonnet worker, fictional bookkeeping firm with recreated fixtures, current wording. All four price criteria passed: neither provisional price hypothesis reached the page, no other unconfirmed price or package appeared, and the confirmed free call stayed. 122.5k subagent tokens, 28 tool calls, 234s, including web search and browser checks.
+- **Price guard limits:** n=1, no run with the original wording, criteria written and graded by the editing agent. Looks were not graded and the worker's transcript was not audited.
+- **Not shown:** the worker listed gaps but did not recommend pricing, market research or demand validation by name. A findings file was present, so the "When missing" rule was barely exercised.
+- **Prior experiments, reported by the pasted handoff and not verified here:** one run per arm, lead-graded, not blind, same fictional firm. Business input changed content modestly, not looks; findings plus site used about 178k tokens against 78k with no skill. The handoff judged visual craft the weak link. The original files are not on this device.
+- **Earlier website rewrite:** one scenario run per version favored the rewrite (12 against 6 of 13) with a partly circular key. One independent review predates the final fixes.
+- **Local test material:** `skill-os-test/website-guard/` (patches, criteria, results, backup of the replaced local checkpoint) and `skill-os-test/tidewater-run1/` (the run).
 
 ## Open
 
-1. Fresh independent review of the final website text.
-2. Unapplied wording for discover and deliver: if no AI assistant can be queried, report unknown and never write an unobserved answer. Neither scenario run invented one.
-3. Push the local commits only when the owner asks.
-4. Reinstall the package. Installed copies predate this work, including the rename and the new skill.
-5. Purchase-rule reach: AGENTS.md is not plugin payload, so installed skills do not carry the rule. A few inline purchase guards remain in the website skills. Adding the rule to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
-6. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
+1. Push this change only when the owner asks.
+2. Add concrete visual-craft guidance to website-create. Show the wording first.
+3. Cut tokens: lighter website-brief, conditional reference loading, at most two critique rounds, less guidance the base model already follows.
+4. Larger test: multi-page brief, 3 runs per arm (no skill; website skills; with business findings), rubric written first, a separate blind grader; record tokens, tool calls and time. Add to `evals/` only if the owner wants it kept. Include a case with no findings file.
+5. Fresh independent review of the final website text.
+6. Unapplied wording for discover and deliver: if no AI assistant can be queried, report unknown and never write an unobserved answer.
+7. Reinstall the package. Installed copies predate the website rewrite and this change.
+8. Purchase-rule reach: installed skills do not carry the AGENTS.md rule. Adding it to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
+9. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
 
-**Installation:** not performed or verified in this workstream. A pasted owner handoff reported release `0.2.0+codex.20261125063121379` installed on another device; that is unverified here. Its referenced `docs/handoff-new-device.md` was not found in this checkout.
+**Installation:** not performed in this workstream. An earlier local record reports release `0.2.0+codex.20261125063121379`, built from `6c8b61b`, installed on this device; it was not rechecked. The untracked `docs/handoff-new-device.md` is an older 2026-11-25 handoff.
 
-**Next:** start a fresh session from this checkpoint. Real-application adoption, cross-device rollout, provider tokens, elapsed effort, charges, rework and savings remain unknown.
+**Next:** visual-craft guidance; push when the owner asks. Real-application adoption, cross-device rollout, account usage, charges, rework and savings remain unknown.
 
 ## Latest session assessment, 2026-11-26, self-assessment
 
-One work period covering 2026-11-25 and 2026-11-26.
-
 | Factor | Score | Reason |
 | --- | --- | --- |
-| Continuity | 1 | Work resumed from a pasted handoff and across a day break. The handoff file was missing, and this record stayed stale until closeout |
-| Decision fidelity | 1 | Owner decisions and commit authority were followed, and most skill wording was previewed. The requested removal of purchase blocks was applied without a preview |
-| Evidence freshness | 1 | The scenario is bound to `38883ed`. The later gate fix has structural checks only, and the independent review predates the fix passes |
-| Retrieval economy | 0 | The session far exceeded the AGENTS.md session bound, and the owner was told only at the end |
-| Project/workstream separation | 2 | Drafts and eval runs stayed in the sibling test folder; no application project was touched |
-| Review independence | 1 | One fresh review and a label-scrubbed grader were used. The editing agent wrote the questions and scoring key |
+| Continuity | 1 | Recovered from a pasted handoff. The cloud commit, experiment files and original fixtures were unavailable |
+| Decision fidelity | 2 | Revised wording was shown and approved before editing; commit only on request and no push; local files backed up before the update |
+| Evidence freshness | 1 | Structural checks and the guard run match the current wording. The run is single and uncontrolled; older results are unverified or predate it |
+| Retrieval economy | 2 | Reads were limited to the affected skills, records and run output |
+| Project/workstream separation | 2 | Test copies, fixtures and the run stayed in the sibling test folder |
+| Review independence | 1 | The worker was not told the criteria; the editing agent wrote and graded them |
 
-Provider usage, cost and savings were not measured and are unknown.
+Subagent usage for the guard run is reported above. Total session usage, cost and savings are unknown.

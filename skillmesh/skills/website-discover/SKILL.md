@@ -30,7 +30,7 @@ Choose the evidence method from the missing fact.
 - Low-risk details: keep them as explicit hypotheses.
 
 Reuse before asking:
-- Carry forward accepted answers and adequately sourced findings while their date, market and scope still apply.
+- Carry forward accepted answers and adequately sourced findings, including business findings on buyers, alternatives, price and demand, while their date, market and scope still apply. A hypothesis stays a hypothesis.
 - Investigate the gap that could change the site. Do not recreate the whole brief.
 - Do not ask the owner to repeat supplied answers.
 - Do not infer unapproved prices, guarantees or commitments.
@@ -51,4 +51,4 @@ Privacy: keep private customer material out of public research tools and deploya
 - Sources: put sources and limits beside consequential conclusions.
 - Records: in existing project records, keep accepted decisions, recommendations, assumptions, usable assets and open dependencies separate.
 - Stop: when the requested positioning decision is useful and its remaining limits are clear.
-- Gaps: recommend the evidence gap. Unresolved demand may call for demand validation. Expression may call for copy and design work.
+- Gaps: recommend the evidence gap. Category or competitor questions may call for market research. A stated price may call for pricing work, and unresolved demand for demand validation. Expression may call for copy and design work.

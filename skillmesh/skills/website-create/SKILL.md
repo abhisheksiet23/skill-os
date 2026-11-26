@@ -22,6 +22,7 @@ Start here for any material design or redesign.
 - Identity: when no usable brand exists, or the owner authorizes change, read [identity](references/identity.md).
 - Uncertainty: resolve what would make the central story misleading. Missing testimonials alone do not block an honest design.
 - Pages: give each page a visitor question, message, proof and next step. Add its target queries, where known.
+- Claim sources: take promises, proof and prices from owner-confirmed facts, approved decisions and adequate evidence, including business findings. Provisional findings, such as price hypotheses and packaging, are not the firm's practice, so keep them out of page copy until approved. When a page lacks support for a claim, leave the claim out and record the gap. Do not invent it.
 - Order: draft the substantive argument and a creative idea before committing to layouts.
 - Method: use [creative practice](references/creative-practice.md) so narrative, visual expression and microcopy develop together through critique.
 - Comparison: its direction comparison and difficult-page test resolve a material creative choice without building alternate whole sites.
