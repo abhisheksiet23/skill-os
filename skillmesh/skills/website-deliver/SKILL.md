@@ -27,6 +27,7 @@ Do this before any publication.
 Authority:
 - Honor existing publication authority.
 - Review gate: do not publish with an open Blocking finding, or with readiness known to be "needs changes", unless the owner explicitly accepts the named risk. Acceptance does not turn the finding into a pass.
+- Never ships: a simulated primary form, even with owner acceptance. Use a tested, honest contact route instead.
 - Readiness not yet determinable: tell the owner which evidence is missing before publishing.
 - Crawler policy: if no decision is recorded, ask the owner before launch. Do not change crawler rules without the owner's decision.
 - If it is absent, finish the reviewable candidate and release plan before requesting it.

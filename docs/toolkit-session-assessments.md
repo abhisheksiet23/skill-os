@@ -1,17 +1,69 @@
 # Current toolkit checkpoint
 
-**Workstream, 2026-11-23:** completed the owner's authorized commit, GitHub push and Skill OS reinstall. Source commit `4b244eb` on `main` is titled "Standardize permissions and strengthen SkillMesh verification" and was pushed to `origin/main` before installation. The installer found zero legacy copies and preserved recovery without retirement. Installed release `0.2.0+codex.20261123144422335` now passes current-source content and live catalog verification. This record-only closeout does not alter the installed package; Git owns its resulting commit identity. No application migration or unrelated configuration change occurred.
+**Workstream, 2026-11-26:** website skill set rewrite and findability (search and AI-answer visibility). Branch `main`. Commit `38883ed` holds the work. The local `origin/main` ref records a push of it; the agent did not push. Uncommitted: a one-line publish-gate fix in [website-deliver](../skillmesh/skills/website-deliver/SKILL.md) and this record.
 
-**Accepted structure:** the owner explicitly superseded the earlier four-table/single-role restriction. New account apps use Users, Roles, Permissions, UserRoles and RolePermissions responsibilities or equivalent existing framework relations. One role remains sufficient when it fits; additional assignments use the same model. Explicit action grants are combined only from assignments applicable to the resource's scope, then constrained by active identity, resource membership and workflow eligibility. Supporting external identities, typed memberships and session state are conditional, without a table quota. Grant administration covers delegated authority and shared-role effects; mutable scope/workflow checks belong at guarded writes. Preserve stable IDs, adequate existing/central policy and effective access; no instruction change migrates an application. Design/backend/frontend/QA agree. [Retained decisions](lessons-learned.md) preserve the supersession; [owning contract](../skillmesh/skills/app-backend/references/identity-and-authorization.md) supplies detail. Prior accepted native-migration/explicit-SQL and controlled release boundaries remain unchanged.
+## Done
 
-**Evaluation improvement:** [raw project facts](../evals/fixtures/authorization/brief.md) now request an actual standard-library SQLite policy example plus an existing claims-export handoff, without prescribing tables or telling the performer which exception to preserve. [Evaluation guidance](../evals/identity-authorization-tasks.md) separates performer inputs from [independent checks](../evals/fixtures/authorization/check_policy.py). Fresh no-history performers on the same selected model produced baseline/candidate artifacts; their own eight/nine SQLite tests passed. Lead ran 44 independent decision/revocation/failure assertions on each, all passing, and demonstrated the checker rejects three behavioral mutations removing active-user, resource-scope or action-grant enforcement. Both handoffs retained the existing claims policy/search boundary and left real integration pending. Candidate used the canonical permission relations; baseline adapted its older module model to action grants and added role assignments. No comparative speed/quality gain follows. This is real execution of synthetic policy artifacts, not provider, tenant-scoped assignment, concurrent mutation, API/browser or application proof. Published fixtures are reusable regression material, not permanently held-out evidence. Release prompts also lost direct answer cues; the committed legacy database scenario remains an explicit no-redesign boundary.
+- **Rewrite:** the website skills now follow the authoring standard (short lead, Terms, "Label: action" bullets, conditional references).
+- **Findability:** added across brief, discover, create, build, review and deliver, with a launch baseline, crawler-policy decision, publish gate on Blocking findings, and form-mail and consent checks.
+- **New:** [website-operate](../skillmesh/skills/website-operate/SKILL.md) for post-launch review, and an [identity reference](../skillmesh/skills/website-create/references/identity.md) in website-create. The library has 24 skills.
+- **Gate fix:** a simulated primary form never ships, even with owner acceptance.
 
-**Candidate binding:** sorted relative Markdown paths plus bytes for design/backend/frontend/QA yield SHA256 baseline `ec3c64618fe0f1b4cf28129a096fbee5030972198cd4530eefd6a9ab9f202433`, executable-example candidate `463b706b05cbc6d71e99d8c9d122a3851ec2ae1e558a4ab7770498cda461a864`, current source `ad678fbbee8af405adfa2ba8200b3fb1b1e3a1034d303aa1cababd12d67fba59`. The last delta adds explicit standalone QA proof cues for cross-scope denial, delegated shared-role effects and guarded writes; focused source review verified it without regenerating unaffected policy examples. Disposable model outputs/snapshots were retired after assessment; the maintained brief/checker and these results retain the useful evidence.
+## Accepted owner decisions
 
-**Current deployment proof:** the existing installer prepared Serena 2.1.0 and TypeScript/Angular/C# dependencies, validated source and prepared package, stamped both manifests and confirmed the exact enabled native release. A fresh host process then ran `scripts/test_plugin_host.py` with the repository package as its default candidate. Both the marketplace source and materialized cache match current source bytes, allowing only manifest-version normalization; all 23 skills and the seven expected Serena tool definitions have the correct enabled identity, paths and plugin ownership. Process-only `CODEX_SQLITE_HOME` used ignored writable scratch; `UV_OFFLINE=true` and disabled Python downloads constrained verification. No project activation, application tools or models/chats were invoked. Device paths and the new recovery location are in ignored `docs/installation-status.local.md`. Names select the provider before returned ownership is verified; that documented limit remains. A fresh chat must load the new skill catalog; actual consultation, application enforcement and other-device rollout are not established by this pass.
+| Decision | Boundary or revisit condition |
+| --- | --- |
+| Search and AI search are part of the existing process, not a new skill | None set |
+| `website` is renamed `website-brief` | Legacy migration names keep the old `website` |
+| `website-operate` covers post-launch work | More post-launch processes can join it. Recurring review needs owner authorization |
+| Brand identity lives in website-create | Reconsider a separate skill if standalone identity requests appear |
+| Ongoing content program is deferred | Think it over later |
+| Skill OS never purchases anything | The rule lives only in [AGENTS.md](../AGENTS.md). Per-skill blocks were removed at the owner's request |
+| Working rules | `main` only; experiments in the sibling `skill-os-test` folder; show planned skill wording before editing; commit or push only when asked |
 
-**Verification/review:** unchanged source retains 42 discovered Python tests: 41 passed, one Windows symlink-privilege skip; 21 probe acceptance tests passed. Source/prepared-package validators report 23 skills and zero errors. All 23 skills passed metadata validation using the existing offline Python environment; the website check needed UTF-8 mode after a Windows-default decoding failure. Isolated migration checks now passed with junction permissions, resolving the previous blocked suite boundary. Prior no-history permission review and executed SQLite/negative-mutation evidence remain bound to the candidates above; they were not repeated for this release-only task. At source closeout 59 local links/anchors across 17 changed/new Markdown files resolved and whitespace checks passed. No routing engine, permission runtime package or broad tracking framework was introduced.
+The accepted permission model is unchanged. See [retained decisions](lessons-learned.md) and the [owning contract](../skillmesh/skills/app-backend/references/identity-and-authorization.md).
 
-**Next boundary:** the requested source check-in/push and local installation are complete. This record-only closeout uses the same check-in authority; Git owns its resulting commit and synchronization identity. Start a new chat for the installed skill instructions. Actual application adoption maps existing policy and proves effective access in that project. CR-02/03 and other roadmap observations remain proposed, not authorized by this release. Provider tokens, total elapsed effort, attributable charges, owner rework and savings remain unknown.
+## Evidence
 
-**Latest session assessment, 2026-11-23, self-assessment:** continuity 2 (recovered the exact reviewed candidate, deployment guide and permission boundaries; future handoff unobserved); decision fidelity 2 (explicit commit/push/install authority used, recovery preserved, no legacy or application migration); evidence freshness 2 (fresh migration/metadata/native listing and current-source live catalog proof; prior behavioral evidence reused at its original limits); retrieval economy 2 (scoped release reads, independent preflight batching and only the encoding-affected metadata check repeated); project/workstream separation 2 (device/recovery details kept local and source/package separated); review independence N/A (no new reviewer in release-only work; prior review remains evidence at its original boundary). Provider usage, elapsed effort, charges and savings unknown.
+- **Structure:** with the gate fix applied, library validation reports 24 skills and 0 errors. The unit suite ran 49 tests, 48 passed and one skipped. Migration and live-host checks were not run.
+- **Restatement checks:** Haiku readers answered questions written by the editing agent. They show the text can be restated, not that behavior improved.
+- **Independent review:** one fresh Sonnet review gave 25 findings before the three fix passes. Paraphrased duplicates and the readability wording were left as they were. The final text has had no independent review.
+- **Scenario, bound to `38883ed`:** one fictional launch task, one Haiku run per version, current text against the pre-search rewrite, both given the AGENTS.md purchase rule. A Sonnet grader scored version-label-scrubbed outputs; the editing agent spot-checked them.
+
+| Comparative score, 13 items | Pre-search | `38883ed` |
+| --- | --- | --- |
+| Grader scoring | 6 | 12 |
+| Every part of each item required | 3 | 11 |
+
+- **Scenario limits:** the key came mostly from the added text, so the result is partly circular. n=1, fictional, both outputs over the 900-word limit, and vocabulary may have hinted at the version. No real-site, ranking or citation benefit is established.
+- **Scenario observations:** neither output named a post-launch search and analytics reviewer. The older output covered keyboard and form-error checks, measurement events, content-editing handover and testimonial permissions better. The current skills still hold that guidance; crowding by new text is an untested guess.
+- **Scenario finding:** the publish gate conflicted with the simulated-form rule. The gate fix addresses it; no behavior check ran on the fix.
+- **Local test material:** `skill-os-test/library-pass/` on this device holds drafts, questions, the scenario key and outputs. It is not committed and no scenario was added to `evals/`.
+
+## Open
+
+1. Fresh independent review of the final website text.
+2. Unapplied wording for discover and deliver: if no AI assistant can be queried, report unknown and never write an unobserved answer. Neither scenario run invented one.
+3. Commit the gate fix and this record when the owner asks.
+4. Reinstall the package. Installed copies predate this work, including the rename and the new skill.
+5. Purchase-rule reach: AGENTS.md is not plugin payload, so installed skills do not carry the rule. A few inline purchase guards remain in the website skills. Adding the rule to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
+6. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
+
+**Installation:** not performed or verified in this workstream. A pasted owner handoff reported release `0.2.0+codex.20261125063121379` installed on another device; that is unverified here. Its referenced `docs/handoff-new-device.md` was not found in this checkout.
+
+**Next:** start a fresh session from this checkpoint. Real-application adoption, cross-device rollout, provider tokens, elapsed effort, charges, rework and savings remain unknown.
+
+## Latest session assessment, 2026-11-26, self-assessment
+
+One work period covering 2026-11-25 and 2026-11-26.
+
+| Factor | Score | Reason |
+| --- | --- | --- |
+| Continuity | 1 | Work resumed from a pasted handoff and across a day break. The handoff file was missing, and this record stayed stale until closeout |
+| Decision fidelity | 1 | Owner decisions and commit authority were followed, and most skill wording was previewed. The requested removal of purchase blocks was applied without a preview |
+| Evidence freshness | 1 | The scenario is bound to `38883ed`. The later gate fix has structural checks only, and the independent review predates the fix passes |
+| Retrieval economy | 0 | The session far exceeded the AGENTS.md session bound, and the owner was told only at the end |
+| Project/workstream separation | 2 | Drafts and eval runs stayed in the sibling test folder; no application project was touched |
+| Review independence | 1 | One fresh review and a label-scrubbed grader were used. The editing agent wrote the questions and scoring key |
+
+Provider usage, cost and savings were not measured and are unknown.
