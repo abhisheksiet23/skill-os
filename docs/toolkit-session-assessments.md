@@ -1,6 +1,6 @@
 # Current toolkit checkpoint
 
-**Workstream, 2026-11-26:** editorial review of the seven website skills. Branch `main`. The local commit holding this record also holds the approved wording; Git owns its identity. The owner asked for a commit and push; it was not pushed when written. `96ee11b` was on `origin/main` before it.
+**Workstream, 2026-11-26:** editorial review of the seven website skills. Branch `main`. The local commit holding this record also holds the approved wording; Git owns its identity. It was committed as `009b7db` and pushed on request. The local commit holding this record also holds a later change, business understanding before judgment in website-review; Git owns its identity. The owner asked for a commit and push; it was not pushed when written.
 
 ## Done
 
@@ -8,6 +8,7 @@
 - **Gaps closed:** the never-ships gate covers any simulated primary conversion; website-operate keeps the launch baseline unchanged and adds dated results; discover, deliver, operate and review report an unqueried AI assistant as unknown, and the agent's own reply is not an observation.
 - **Cleanup:** website-brief description; repeated handoff lines in the release reference; overlap in creative practice; website-review evidence reuse and short-summary contents; vague references; two filler phrases; the review row in [SKILLS.md](../SKILLS.md).
 - **Readiness decisions:** only Blocking findings make a site need changes; ready requires the main conversion path and central claims to be checked; website-review and website-deliver encourage the owner to close other material problems. Exposed secrets, unauthorized private data, known false claims and simulated primary conversions never ship. website-deliver checks the essentials before publishing, reviewed or not.
+- **Business understanding first:** when nothing records whom the site should win, why they choose the business and what they should do next, website-review takes a quick look, reports serious faults, asks the owner and waits. It pushes back once, then gives a provisional first look with no keep, redesign or rebuild verdict. Replacement advice names its unknowns and says to secure access and record current pages and figures. Narrow checks and briefed reviews are not delayed. The entrypoint grew from 1,541 to 2,088 words by the validator.
 - **Known trims:** the removed creative-practice bullet had suggested comparison columns and a "small number" of concepts. Smaller assets no longer ask for role and crop. The library grew from 17,413 to 17,508 words by `wc`, then to 17,806 with the readiness decisions.
 - **Earlier, committed:** business findings, website-review's right-customer goal and business-work recommendations, the website rewrite, findability, website-operate and the identity reference.
 
@@ -31,6 +32,7 @@
 | Never publish exposed secrets, unauthorized private data or known false claims | Owner, 2026-11-26. No risk acceptance covers them |
 | Check the main conversion path and central claims before publishing, or get explicit acceptance of the gap | Owner, 2026-11-26. A fake conversion still cannot ship |
 | Readiness wording choices | Approved 2026-11-26: unproven receipt may remain a named gap; unsupported central claims and inaccessible main journeys block; an unfinished look blocks only if it defeats safe intended use |
+| A review that starts a project must push to get business understanding | Owner, 2026-11-26: plan it, mature it, then add it. Persuade; never withhold the review |
 | Apply the editorial review draft | Approved 2026-11-26, including the wider never-ships gate and the short-summary contents. Commit and push not requested |
 | Working rules | `main` only; experiments in the sibling `skill-os-test` folder; show planned skill wording before editing; commit or push only when asked |
 
@@ -39,6 +41,7 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 ## Evidence
 
 - **Editorial review:** a text read of all 16 website files, not a behavior test. The patch applied cleanly and matched the tested copy, ignoring line endings. The agent challenged its own findings; this was not independent, and it had read this checkpoint first. Four past review outputs all reported verification status, so that gap was minor. All four said "needs changes", one with no blocking defect seen; their samples had real problems. Patch and script: `skill-os-test/website-editorial/`.
+- **First-look tests, 2026-11-26:** fictional joinery site, Sonnet, source reading only, rules written first, same agent as author and grader, not blind; 8 workers and 10 replies. The current skill, in both go-between cases, guessed the customer, gave readiness and ranked changes. With draft wording, the review-now, briefed and narrow-check runs passed. The go-between run failed the five-question limit; after allowing extras, a rerun added bundled ones; after a further limit, the final rerun passed. With owner answers, the draft gave a confident replacement verdict and no advice to secure access or record figures; after a new line, that advice appeared but the unknowns sat apart from the verdict. After testing, the replacement line was moved to the results section, now requires unknowns in the same paragraph and applies when asked outside a first look; this final form is untested. Review-now, briefed and narrow-check runs used the first draft. Each worker turn reported about 70k to 81k tokens. Details: `skill-os-test/website-first-look/`.
 - **Structure:** with the new wording, validation reports 24 skills and 0 errors. The unit suite ran 49 tests: 48 passed, one skipped. Migration and live-host checks were not run.
 - **Price guard, one run:** one Sonnet worker, fictional bookkeeping firm with recreated fixtures, current wording. All four price criteria passed: neither provisional price hypothesis reached the page, no other unconfirmed price or package appeared, and the confirmed free call stayed. 122.5k subagent tokens, 28 tool calls, 234s, including web search and browser checks.
 - **Price guard limits:** n=1, no run with the original wording, criteria written and graded by the editing agent. Looks were not graded and the worker's transcript was not audited.
@@ -58,11 +61,12 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 3. Untested behavior: the editorial and readiness wording, the website-brief description's effect on skill selection, website-review's summary and main-action lines, and a harder business-recommendation hold-back case. The website-review rewrite showed no clear overall gain on one real site.
 4. Whether website-brief earns its place is unsettled. Do not remove it without a test.
 5. Website looks: closed by the owner. Three attempts showed no clear overall improvement, and a skill advantage over no-skill is not established. Token cuts and the visual part of item 1 are parked with it.
-6. Reinstall the package. Installed copies predate the website rewrite and later changes.
-7. Purchase-rule reach: installed skills do not carry the AGENTS.md rule. Adding it to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
-8. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
+6. The installed Codex release predates the business-understanding change. Claude's SkillMesh copy is not updated or verified. `dist/skillmesh.plugin` is built for the owner to install.
+7. Existing-site, new-site request: website-review now covers it. website-brief still has no fix-or-rebuild guidance or early prompt to secure access and figures. Untested: the final replacement line, a real browser review, a real owner and a real site.
+8. Purchase-rule reach: installed skills do not carry the AGENTS.md rule. Adding it to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
+9. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
 
-**Installation:** not performed in this workstream. An earlier local record reports release `0.2.0+codex.20261125063121379`, built from `6c8b61b`, installed on this device; it was not rechecked. The untracked `docs/handoff-new-device.md` is an older 2026-11-25 handoff.
+**Installation:** on 2026-11-26, Codex release `0.2.0+codex.20261126143336451` was installed from `009b7db` and passed the live host check with 24 skills. The ignored `docs/installation-status.local.md` holds the detail. The untracked `docs/handoff-new-device.md` is an older 2026-11-25 handoff.
 
 **Next:** further commits or pushes only when asked. Real-application adoption, cross-device rollout, account usage, charges, rework and savings remain unknown.
 
