@@ -13,7 +13,7 @@ Use this for a meaningful launch or migration. Reuse adequate project release re
 - Candidate changed after review: determine which evidence is invalidated before relying on it for launch.
 - Checks: identify which were performed locally, in preview and against real integrations.
 - Unresolved items: state the impact and an actionable owner or dependency.
-- Forms: a primary form that only pretends to submit is not a functioning conversion path. If the owner chooses a simpler contact route, implement and verify that honest alternative before launch. A simulated primary form never ships.
+- Conversion: a primary form, booking or payment step that only pretends to work is not a functioning conversion path. If the owner chooses a simpler contact route, implement and verify that honest alternative before launch. A simulated primary conversion never ships.
 
 Recovery:
 - Record how to restore the prior version or provider deployment, who can perform it, and what data or configuration changes complicate reversal.
@@ -24,7 +24,7 @@ Recovery:
 After publication, inspect the actual deployed candidate.
 - Domain: correct domain, TLS, intended pages and assets, important redirects.
 - Search: production robots.txt does not block intended pages, preview noindex rules are gone, canonical and hreflang point to production, the sitemap lists intended URLs, and structured data renders. Metadata and social previews work where applicable.
-- Crawler policy: the live policy matches the owner's recorded decision. If none is recorded, ask the owner before launch.
+- Crawler policy: the live policy matches the owner's recorded decision. If none is recorded, report the gap and leave crawler rules unchanged.
 - Identity: the favicon, logo and share image render as supplied.
 - Search ownership: verify search-console ownership with an authorized account. Sitemap submission and any DNS verification need their own authorization.
 - Journey: primary navigation and conversion, including destination and receipt checks using authorized recipients.
@@ -38,11 +38,8 @@ Then:
 - Rollback beyond current authorization: specify the concrete failure and recovery scope while completing non-mutating diagnosis.
 
 ## Hand off in a form an owner can use
-- Start: with actual status. Prepared, deployed and directly verified are distinct facts.
-- Supply: the revision, time, live URL, relevant evidence, residual limitations, recovery path and launch baseline. Update the shipped record only for what shipped.
 - Owner actions: explain how to edit common content, replace assets without breaking composition, preview and publish changes, access enquiry destinations and recognize delivery failures.
 - Ownership: identify who owns domain, hosting, editing, integrations and measurement. Link the relevant project and provider surfaces without credentials.
-- Review: name who will review search and analytics after launch, and how often. Record whether recurring review is authorized, declined or not yet asked. It is a separate scope.
 - Size: keep maintenance proportional to the site. Do not create a large operations manual for a small static website. Document the few actions the owner needs and the material dependencies that could expire or fail.
 
 ## Close operating gaps without inventing ownership
@@ -69,6 +66,7 @@ Exercise and report:
 - Outcome: agree what a useful business outcome means.
 - Launch baseline: before launch, record what exists: source and date range, indexed pages, impressions and clicks, the query list with positions, and technical state. Without a baseline, later change cannot be attributed.
 - AI answers: capture the set at launch where access exists. Record each question, assistant and date. Reuse an existing set.
+- AI answers unavailable: If no AI assistant can be queried, report the result as unknown. Never record an answer you did not observe. Your own reply is not an observation.
 - Events: map each observable event to what it establishes: traffic, call-to-action engagement, attempted submission, accepted submission, received enquiry or qualified opportunity.
 - Follow-up: identify the outcomes needing business follow-up. Do not call a call-to-action click a lead. Do not treat a thank-you view as receipt.
 - Causality: do not claim it from a short before-and-after comparison without considering traffic mix, seasonality, campaigns and volume.

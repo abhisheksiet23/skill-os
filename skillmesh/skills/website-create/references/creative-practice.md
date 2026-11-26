@@ -38,7 +38,7 @@ Write each page so a visitor, a search engine and an AI assistant can each take 
 - Opening: answer the page's question in plain, specific terms before elaborating.
 - Headings: state the topic. Do not use a clever line a reader cannot scan.
 - Passages: make each self-contained, with its qualification beside the claim, so an excerpt stays accurate.
-- Facts as text: state scope, locations, credentials, process and price ranges as page text, not only in images, sliders or scripts.
+- Facts as text: state scope, locations, credentials, process and any approved price ranges as page text, not only in images, sliders or scripts.
 - Questions: add an FAQ only for questions buyers actually ask. Do not invent questions to add markup.
 - Duplicates: do not produce near-identical pages for different keywords or locations.
 - Stuffing: do not repeat keywords for their own sake. Check that each repeated term earns its place.
@@ -72,7 +72,8 @@ Motion:
 Compare only when a new direction has a real unresolved choice. Skip it when accepted direction already settles the choice.
 - Basis: compare concepts on the same buyer problem and evidence.
 - Test: a distinct direction changes what the visitor notices, how the argument unfolds and what assets are needed.
-- Recommendation: base it on buyer relevance, supported proof, composition at small sizes and realistic production and maintenance cost.
+- Recommendation: base it on buyer relevance, supported proof, composition at small sizes and realistic production and maintenance cost. Explain the trade-off and recommend one.
+- Limit: do not build complete alternate websites to avoid choosing.
 - Missing assets: an unavailable documentary asset may change the direction. It is not a reason to synthesize fake evidence.
 - Output: the comparison is a decision aid. Keep the substantial page narrative and do not replace website copy with it.
 
@@ -90,22 +91,18 @@ Run it on the page most likely to break the direction: for example a service pag
 - Fix first: if the concept works only with a short hero headline, revise it before multiplying pages.
 
 ## Asset decisions
-- Record: each visual's availability, source, rights, role, crop and factual implications.
-- Detail: use [artwork guidance](artwork.md) for material production detail.
-- Roles: authentic photography and conceptual illustration serve different roles. Generated artwork is optional and cannot replace documentary evidence.
+- Substantial imagery: use [artwork guidance](artwork.md) to plan and record each asset.
+- Smaller needs: record each asset's source, rights and factual implications.
 - Fallbacks when material is missing: licensed conceptual imagery, diagrams, intentional typography, a photography brief or a reduced claim.
-- Never present a synthetic office, team, project or product as the company's real one.
+- Never present a synthetic office, team, project or product as the company's real one. Generated artwork is optional and cannot replace documentary evidence.
 - Keep private source materials out of deployed assets.
 
 ## Representative prototype
 Choose the smallest set of pages and states that could reveal a wrong direction.
 - Content: include the distinctive story and difficult content, such as long service explanations, proof, comparisons, pricing qualifications or forms. A favorable short-copy homepage alone is a weak test of a multi-page design.
-- Lengths: use realistic lengths. Inspect mobile reading order and navigation as compositions in their own right.
 - Forms: show validation, success and failure visibly. Label external calls as simulated unless genuinely integrated.
 - Order: render the sample before extending shared layouts. Correct weaknesses in argument, composition and interaction first. Then reuse the working pattern where page purposes match.
 - Expansion: widen the sample when a different page purpose or state introduces a new risk. An inspected homepage does not cover a complex detail page by implication.
-- Concepts: for substantial visual uncertainty, compare a small number of genuinely different concepts on representative content. Explain the trade-off and recommend one, using a compact table of buyer effect, visual consequence and limitation when useful.
-- Limit: do not build complete alternate websites to avoid choosing.
 
 ## Critique before presenting
 Use these lenses to locate a weakness, not to award a reassuring score.

@@ -12,7 +12,9 @@ Find what is stopping the right customers from choosing this business, and show 
 - **Candidate:** the specific version of the site that is being built, reviewed or released.
 - **Candidate-bound:** tied to one specific candidate. If the candidate changes, the evidence may no longer apply.
 - **Findability:** how readily search engines and AI assistants locate the site's pages and describe them accurately.
-- **Readiness:** ready, needs changes, or not yet determinable.
+- **Blocking finding:** a false or unsupported central claim, a broken primary journey (including one that keyboard or assistive-technology users cannot complete), exposed secrets or private data, or another defect that defeats safe intended use.
+- **Readiness:** needs changes means a Blocking finding is open. Not yet determinable means none is known, but the main conversion path or central claims are unchecked. Ready means both are checked and no Blocking finding is open. Other problems may remain.
+- **Checked conversion path:** followed as far as the environment and authority safely allow. Later steps, such as receipt, are named verification gaps.
 - **Verification:** complete, or incomplete with named gaps. It is independent of readiness: a candidate can have observed defects and untested areas together.
 - **Representative journey:** one complete entry-to-action path used early to expose systemic issues.
 
@@ -39,11 +41,11 @@ A site can work in every part and still give nobody a reason to choose it.
 ## Inspect the actual experience
 - Guidance: for a substantial review read the relevant sections of [review guidance](references/review-guide.md), including entry and task selection when choosing a sample.
 - Order: inspect a representative journey early. Then extend to other page types, unusual states and all business-critical journeys.
-- Reuse: reuse valid proof for unchanged parts of the candidate. Concentrate new inspection on changed, shared or unverified behavior. Sampling still needs an explicit boundary.
+- Reuse: reuse trustworthy proof for unchanged parts of the same candidate. Concentrate new inspection on changed, shared or unverified behavior. Sampling still needs an explicit boundary.
 - Together: assess story, fit, proof, copy, imagery, hierarchy, responsive composition, accessibility, functionality, findability and operating ownership. Attractive generic copy is not a credible offer.
 - Layouts: render and examine narrow, intermediate and wide layouts at recorded sizes.
 - Interaction: exercise navigation, calls to action, keyboard and focus, form validation and recovery.
-- Evidence: reuse trustworthy evidence for the same candidate. Distinguish build results, screenshots and actual receipt.
+- Evidence: distinguish build results, screenshots and actual receipt.
 - Delivery tests: external ones need authorization. Missing tools or credentials leave their checks unverified.
 
 Source readability, only when implementation or source is in scope:
@@ -66,12 +68,14 @@ A better page cannot answer an open business question. When a finding depends on
 
 ## Return what to change first
 Write the summary for the owner's decision and the findings for whoever makes the fix.
-- Lead: with readiness and what most stands between the right customer and choosing the business.
+- Lead: with readiness, whether verification is complete or what it lacks, and what most stands between the right customer and choosing the business.
+- Short summary: keep it to readiness, verification, the assumed customer, blockers, first changes and the business question. Put what to keep, open questions and how to learn after it, before the findings.
 - Assumed customer: say who the review judged for and how sure you are.
 - Blockers: show every one, because they cannot wait their turn.
 - Main action: put a fault on the way to the main action in the summary, as a blocker or among the first changes, even if one attempt got through. Say where it fails, because every other improvement depends on customers getting through.
 - First changes: give up to three beyond the blockers, fewer if fewer matter. For each, say where the customer hesitates, why, what to change and how confident you are.
 - Rank: weigh how much a problem affects the choice, how many visitors are likely to meet it and how strong the evidence is. These are judgments, not scores.
+- Improvements: ready does not mean finished. Encourage the owner to close the other material problems, before launch where practical. For each, say what customers may lose while it stays open and the smallest fix, because owners act on reasons they can weigh. Promise no results and raise no alarm. The choice stays with the owner, and these do not change readiness. Do not press again without new evidence.
 - Keep: name what already works, so changes do not damage it.
 - Open questions: show what page edits cannot answer.
 - Learn: suggest a practical way to tell whether the changes helped, such as asking new enquirers why they chose the business and what nearly stopped them. With little traffic, conversion numbers alone may say little.

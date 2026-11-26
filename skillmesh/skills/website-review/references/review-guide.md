@@ -9,7 +9,7 @@ Choose the lenses below from the requested scope. A useful review connects an ob
 - **Sampling boundary:** the explicit statement of which routes, templates and states were inspected and which were not.
 - **Target queries:** the searches and questions each page should answer, listed per page.
 - **Crawler policy:** the owner's decision on which crawlers may access the site and for what purpose, such as search results, AI answers or AI training.
-- **Blocking:** materially false central claims, a broken primary journey, exposed secrets or private data, or another defect that defeats safe intended use.
+- **Blocking:** a false or unsupported central claim, a broken primary journey (including one that keyboard or assistive-technology users cannot complete), exposed secrets or private data, or another defect that defeats safe intended use.
 - **Material:** meaningfully damages comprehension, fit assessment, trust, access or responsiveness.
 - **Polish:** a localized craft issue without material loss of function or meaning.
 
@@ -22,7 +22,7 @@ Choose the lenses below from the requested scope. A useful review connects an ob
 
 Severity rules:
 - Explain consequence and scope.
-- Readiness is "needs changes" while any Blocking finding is open.
+- Readiness is "needs changes" while any Blocking finding is open, and only then. Report other problems as improvements.
 - Do not equate personal stylistic preference with a defect.
 - Record unresolved material issues and any explicit owner acceptance of a limitation. Acceptance does not turn a failed test into a pass.
 
@@ -96,6 +96,7 @@ Findability:
 - Check that each page answers its intended query.
 - Check that crawler rules match the owner's recorded decision. If none is recorded, report that as a gap.
 - Where the brief names target queries or questions, record dated snapshots of search results and AI-assistant answers. Do not infer ranking or influence from them.
+- If no AI assistant can be queried, report the result as unknown. Never record an answer you did not observe. Your own reply is not an observation.
 
 Real effects:
 - Separate a safe UI exercise from a real downstream transaction.

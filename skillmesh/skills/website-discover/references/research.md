@@ -25,6 +25,7 @@ Source reliability:
 - Buyers: public questions and reviews, plus authorized private evidence. Capture language, evaluation criteria, objections and information gaps. Protect private identities.
 - Search: intents and observed result types for relevant services and buying situations. Record query, region and language when known, date and source. Never invent search volume, rankings or traffic. Observed results are snapshots.
 - AI answers: for a few representative buyer questions, record the assistant, the exact question, the date, what the answer says about the category and whether it names the company or competitors.
+- AI answers unavailable: If no AI assistant can be queried, report the result as unknown. Never record an answer you did not observe. Your own reply is not an observation.
 - AI answer limits: answers vary between runs. They show how the category is described, not how many people see it.
 - Authority sources: the third-party sources buyers and assistants rely on, such as directories, reviews, publications and associations. Note where the company is missing or described inaccurately.
 - Category expectations: the information visitors need to assess fit and trust. Explain when following a convention helps and when it creates sameness.

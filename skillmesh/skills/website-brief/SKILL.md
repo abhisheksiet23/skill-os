@@ -1,6 +1,6 @@
 ---
 name: website-brief
-description: Shape a complete company marketing or lead-generation website brief and assess whether its business story, experience and delivery work together. Use for broad website creation or redesign requests; focused research, design, implementation, review and launch requests fit the corresponding specialist.
+description: Judge whether the business story, experience and delivery of a company marketing or lead-generation website work as one whole, and choose the next work. Use for broad website creation or redesign requests; focused research, design, implementation, review and launch requests fit the corresponding specialist.
 ---
 
 # Website Brief
@@ -21,7 +21,7 @@ Start here for any broad website request.
 - Preserve: valuable content, URLs, integrations and editing workflows.
 
 ## Use business findings
-Use this at the start of any broad request. A site's story is only as good as the business evidence under it.
+A site's story is only as good as the business evidence under it.
 - Look first: inspect project records and supplied material for findings on buyers and alternatives, demand, pricing, offer viability and accepted positioning.
 - Use what exists: carry forward adequate, dated findings as the site's evidence. Do not rerun them or ask the owner to repeat them.
 - When missing: name each gap the site depends on and recommend the matching expertise to the agent, with the question and what a useful answer would change on the site.
@@ -82,7 +82,6 @@ Apply this to every claim, price, guarantee and image on the site.
 - Conceptual imagery and simulated forms must be recognizable as such. Neither supplies documentary or delivery proof.
 
 ## Complete at the requested boundary
-Use this when closing out any request.
 - Primary: keep the site or concrete direction primary.
 - Explain: consequential page and journey choices through buyer evidence and the action they support.
 - Form: use meaningful labels and short lists for decisions, proof and dependencies. Use a comparison table when it makes an actual choice easier. Keep the buyer argument and its qualifications intact. Do not reduce website copy to keywords.

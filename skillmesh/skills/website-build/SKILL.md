@@ -21,10 +21,10 @@ Do this before writing code.
 - Contained corrections: use the established direction. Create no new documentation tree.
 - Uncertainty: resolve only what would make dependent pages speculative.
 - Preserve: suitable stack, provider, URLs, integrations and editing workflows.
-- Authority: accounts, subscriptions, domain registrations and publicly reachable previews need the owner's authorization.
+- Authority: accounts and publicly reachable previews need the owner's authorization. Never buy or register anything, including subscriptions and domains. Ask the user to.
 - Greenfield choices: read [technology selection](references/technology-selection.md).
 - Routes, forms, accessibility or performance: read the relevant sections of [implementation guidance](references/implementation.md).
-- New shared layouts or integrations: use its risky-seam selection to prove the consequential boundary before repetition.
+- New shared layouts or integrations: use the risky-seam selection in implementation guidance to prove the consequential boundary before repetition.
 - Acceptance: make it concrete around the actual entry-to-action journeys, including redesign continuity and operational destinations.
 
 ## Implement complete journeys

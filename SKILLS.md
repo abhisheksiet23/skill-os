@@ -18,7 +18,7 @@ This is a human review aid, not a routing database. Each skill's description is 
 | [website-discover](skillmesh/skills/website-discover/SKILL.md) | Buyer, offer, positioning and claims | Website strategy, not a full venture case |
 | [website-create](skillmesh/skills/website-create/SKILL.md) | Copy, art direction and responsive prototype | Non-production experience, not live delivery |
 | [website-build](skillmesh/skills/website-build/SKILL.md) | Production marketing site and integrations | Existing direction accepted; no implied publishing |
-| [website-review](skillmesh/skills/website-review/SKILL.md) | Buyer clarity, craft and conversion verification | Standalone audits need no discovery records |
+| [website-review](skillmesh/skills/website-review/SKILL.md) | What stops the right customers choosing, and what to change first | Standalone audits need no discovery records |
 | [website-deliver](skillmesh/skills/website-deliver/SKILL.md) | Authorized launch and owner handoff | Live proof and business results remain distinct |
 | [website-operate](skillmesh/skills/website-operate/SKILL.md) | Post-launch review of search, analytics and technical health | Recurring work needs owner authorization; no automatic monitoring |
 | [app-analyze](skillmesh/skills/app-analyze/SKILL.md) | Owner brief with ranked decisions, analysis findings and use-case specification: flows, rules, acceptance and gaps | Scoped analysis/specification or review; no technical architecture, production code or demand proof |

@@ -45,7 +45,7 @@ Read [search review](references/search-review.md).
 ## Decide and report
 - Findings: rank by consequence. Give each its evidence, buyer impact and a practical correction.
 - Changes: content, page or configuration changes need authority, and the review itself does not edit the live site.
-- Records: record the review date, sources, snapshot set, findings, accepted decisions and unresolved dependencies. Update the baseline only with verified live facts.
+- Records: record the review date, sources, snapshot set, findings, accepted decisions and unresolved dependencies. Add this review's figures as a new dated entry and keep the launch baseline unchanged, so later reviews can compare with it. Record only verified live facts as live.
 - Form: lead with status. Then what changed since the last review, the evidence and named gaps.
 - Out of scope: ongoing content programs, campaigns, paid media and conversion experiments need their own scope.
 - Gaps: if another capability would resolve a named gap, such as page changes, content creation or an independent candidate review, describe the gap and the evidence that would resolve it.

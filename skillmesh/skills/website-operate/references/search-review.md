@@ -19,6 +19,7 @@ Use this for the findability part of a review. Compare like with like, label wha
 
 ## AI-answer evidence
 - Snapshots: repeat the baseline's questions with the same assistants. Record the date, the exact question, whether the company is named, how it is described, whether the description is accurate and which sources are cited.
+- Unavailable: If no AI assistant can be queried, report the result as unknown. Never record an answer you did not observe. Your own reply is not an observation.
 - Variation: results vary between runs, users and regions. Run each question more than once where the assistant allows, and report the variation.
 - Referrals: identify visits referred by AI assistants where analytics shows a referrer. Some are unlabeled, so the count is a floor.
 - Accuracy: where an assistant states something wrong or outdated, trace the source, whether the company's own site, a directory or a third party. Recommend the correction at that source.

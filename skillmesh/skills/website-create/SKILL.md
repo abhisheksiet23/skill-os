@@ -11,7 +11,6 @@ Create an inspectable design in which copy, imagery, composition and interaction
 - **Creative argument:** the company-specific story the site must make credible, plus the creative idea that expresses it.
 - **Representative set:** the smallest set of pages and states that could reveal a wrong direction. It includes difficult content and the full conversion journey.
 - **Direction:** a distinct way of telling the story. Changing only color, font or a decorative motif is a treatment variation, not a direction.
-- **Findability:** how readily search engines and AI assistants locate the site's pages and describe them accurately.
 - **Target queries:** the searches and questions each page should answer, listed per page.
 - **Simulated operation:** any form submission, payment, booking or external call the prototype does not actually perform.
 
@@ -25,7 +24,7 @@ Start here for any material design or redesign.
 - Claim sources: take promises, proof and prices from owner-confirmed facts, approved decisions and adequate evidence, including business findings. Provisional findings, such as price hypotheses and packaging, are not the firm's practice, so keep them out of page copy until approved. When a page lacks support for a claim, leave the claim out and record the gap. Do not invent it.
 - Order: draft the substantive argument and a creative idea before committing to layouts.
 - Method: use [creative practice](references/creative-practice.md) so narrative, visual expression and microcopy develop together through critique.
-- Comparison: its direction comparison and difficult-page test resolve a material creative choice without building alternate whole sites.
+- Comparison: the direction comparison and difficult-page test in creative practice resolve a material creative choice without building alternate whole sites.
 
 ## Build the smallest convincing demonstration
 Build a representative set, not the whole site.
@@ -33,7 +32,7 @@ Build a representative set, not the whole site.
 - Imagery: for substantial imagery, read [artwork](references/artwork.md). Conceptual assets must not imply real people, customers or delivered projects.
 - Labels: label every simulated operation clearly.
 - Mobile first: design the mobile reading journey first. Then compose intermediate and large layouts deliberately.
-- Settle before multiplying: render and critique the slice before extending its templates or asset family.
+- Settle before multiplying: render and critique the representative set before extending its templates or asset family.
 - Alternatives: explore genuinely different directions only when comparison resolves a material uncertainty. Use the same representative content so trade-offs are visible.
 - Completeness: a finished hero without secondary sections, detail content and interactions does not demonstrate the direction.
 

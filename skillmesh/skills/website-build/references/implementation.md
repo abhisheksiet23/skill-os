@@ -80,7 +80,7 @@ Testing:
 Untestable boundary:
 - Name the exact missing proof and its visitor consequence.
 - Explicit owner acceptance may permit launch of a real integration that could not be tested. It does not turn the gap into verified delivery.
-- A simulated primary form never ships. Implement and test an honest contact route instead.
+- A simulated primary conversion, such as a form, booking or payment, never ships. Implement and test an honest contact route instead.
 
 ## Responsive and accessible behavior
 Mobile first:
