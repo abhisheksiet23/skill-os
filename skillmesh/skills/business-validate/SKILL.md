@@ -121,7 +121,7 @@ Write one business document, not a separate report for each question.
 | Why | Up to three reasons |
 | Against | The strongest case against, even when recommending a stop |
 | Would change if | The observation that would change the answer |
-| At risk | Time, money, obligations and the limit on the whole plan |
+| At risk | Time, money, obligations, and the loss limit with what counts toward it |
 | Cost if wrong | What is lost if the answer is wrong, and who bears it |
 | Stop | What ends or pauses the current step |
 | Unknown | Only what could change the answer |
@@ -150,7 +150,7 @@ Use these whoever writes the section. Add no second layout.
 | Bound | Time and cost |
 | Then | Action for each result |
 
-When the test has stages or added rules, add one table:
+Anything unmet or unchecked that must be true before the owner offers, sells or delivers, including to prevent harm, is a step row at the earliest step it blocks. It is never only a note, risk or open item. Stages and added rules use the same table:
 
 | Step | Limit | Pass | Fail | Inconclusive | Then |
 | --- | --- | --- | --- | --- | --- |
@@ -166,10 +166,10 @@ When the test has stages or added rules, add one table:
 
 **Section 8, one list:**
 
-| Assumption or claim | Evidence tag, source and limit | Finding type | If it fails | Resolving check |
-| --- | --- | --- | --- | --- |
+| Assumption or claim | Evidence tag, source and limit | If it fails | Resolving check |
+| --- | --- | --- | --- |
 
-Finding type: contradiction, unsupported assumption, execution risk or preference, meaning a choice rather than a fault. Say whether a risk is manageable.
+Say whether a risk is manageable.
 
 ### Evidence tags
 | Tag | Meaning |

@@ -1,8 +1,19 @@
 # Current toolkit checkpoint
 
-**Workstream, 2026-11-26:** editorial review of the seven website skills. Branch `main`. The local commit holding this record also holds the approved wording; Git owns its identity. It was committed as `009b7db` and pushed on request. The local commit holding this record also holds a later change, business understanding before judgment in website-review; Git owns its identity. The owner asked for a commit and push; it was not pushed when written.
+**Workstream, 2026-11-27: business skills effectiveness.** Branch `main`. **Paused; resume Monday.** The commit holding this record also holds four edits to the six business and research skills; Git owns its identity. The owner asked for commit and push at the pause, before testing finished.
 
-## Done
+- **Applied, untested:** pre-sale needs become section 2 step rows; venture-investigate drafts the message the next step sends; the At risk row asks what counts toward the loss limit; the section 8 "Finding type" column is removed. About 17 words added per skill, 28 in venture-investigate.
+- **Round 1:** one run each, with skills at `05e22b1` and without, on Keenspan and a fictional tiffin business, blind review. Without skills scored higher on critical items in both (8.5 vs 8.0; 9.0 vs 7.5 of 9) and was the reviewer's pick. Baselines still saw project instructions and skill names; the pass-mark author was not independent.
+- **Round 2, unfinished:** new fictional trek case and keep rule fixed before runs. Only the no-skills trek run finished. The edited trek, current-skills trek and edited tiffin runs were stopped to save tokens; rerun them in fresh run folders.
+- **Next:** finish round 2, blind review, apply the keep rule; revert the four edits if it fails. A stripped-layout arm was left out by owner choice. If skills still do not beat no skills on the trek, reconsider simplifying.
+- **Keenspan:** old business document and fresh rerun both kept as they are.
+- **Material:** `skill-os-test/with-without/` (round 1 `grading/results.md`, `review/review.md`; round 2 `round2/grading/pass-marks.md`, `round2/skills-b/`; resume note `RESUME.md`).
+
+## Website workstream, 2026-11-26
+
+**Editorial review of the seven website skills.** Committed as `009b7db` and pushed on request. A later change added business understanding before judgment in website-review; Git owns its identity.
+
+### Done
 
 - **Fixes:** website-deliver's publication-authority sentence is whole again and it defines a Blocking finding; the post-launch crawler check no longer asks a prelaunch question; website-build no longer implies authorization permits purchases or domain registration; website-review reports verification beside readiness; the page-text rule names only approved price ranges.
 - **Gaps closed:** the never-ships gate covers any simulated primary conversion; website-operate keeps the launch baseline unchanged and adds dated results; discover, deliver, operate and review report an unqueried AI assistant as unknown, and the agent's own reply is not an observation.
@@ -70,15 +81,15 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 
 **Next:** further commits or pushes only when asked. Real-application adoption, cross-device rollout, account usage, charges, rework and savings remain unknown.
 
-## Latest session assessment, 2026-11-26, self-assessment
+## Latest session assessment, 2026-11-27, self-assessment
 
 | Factor | Score | Reason |
 | --- | --- | --- |
-| Continuity | 2 | The checkpoint and local test material were enough to resume and to test findings against past outputs |
-| Decision fidelity | 2 | Both drafts were built on a test copy and applied after approval. Commit and push followed the owner's request |
-| Evidence freshness | 1 | Validation and tests match the applied text. Its behavior is untested, and past outputs used earlier wording |
-| Retrieval economy | 1 | All website files were read once, as an editorial review needs. Some history searches returned much unrelated output |
-| Project/workstream separation | 2 | The draft copy, patch and script stayed in the sibling test folder |
-| Review independence | 0 | The same agent reviewed, challenged its own findings and wrote the fixes. The first review claimed too much on two points and mislabelled a cross-skill repeat |
+| Continuity | 2 | Earlier session records and local material were enough to rerun and compare |
+| Decision fidelity | 1 | Keenspan documents and earlier owner choices were kept. The four edits were committed at the owner's request before their keep rule could be applied |
+| Evidence freshness | 0 | The committed wording has no completed behavior run |
+| Retrieval economy | unknown | Not measured for the authoring session |
+| Project/workstream separation | 2 | Experiments and drafts stayed in the sibling test folder |
+| Review independence | 1 | Fresh blind reviewer for round 1; the session author wrote cases, pass marks and edits. A faulty search led to one wrong claim, later corrected |
 
 Total session usage, cost and savings are unknown.
