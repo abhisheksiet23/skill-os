@@ -62,3 +62,5 @@ Reuse this evidence for required session assessments in their mapped record, or 
 ## Close at the requested delivery boundary
 
 At the requested boundary, reconcile what is accepted, still owed, blocked or changed; identify handover/operational and benefits ownership where applicable, and check each success measure against its evidence or name who will. Do not make the owner's acceptance or an external decision on their behalf. Finish with the project position, recommendation, evidence/limits and next useful action. Planning or status scope does not authorize implementation, spending, contacting others, deployment or new external access.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

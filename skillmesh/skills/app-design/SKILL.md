@@ -129,3 +129,5 @@ Finish when:
 - Implementers know what to build and how to prove it.
 
 State any blocker and the work it affects. When a concrete gap needs requirements, prototype, implementation or independent-verification expertise, name the gap and why. The agent decides whether to bring it in.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

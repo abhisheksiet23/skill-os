@@ -30,7 +30,7 @@ A site's story is only as good as the business evidence under it.
 | --- | --- |
 | Competitors, buyer behavior, category language | market research |
 | A published price, packaging or guarantee | pricing |
-| Unproven demand or willingness to pay | demand validation |
+| Demand or willingness to pay not yet proven | demand validation |
 | Doubt the offer is viable, or contradictory inputs | business model review or challenge |
 | A raw idea with no settled offer | venture investigation |
 
@@ -90,3 +90,5 @@ Apply this to every claim, price, guarantee and image on the site.
 - Authority: honor delegated authority and existing approvals. Pause only dependent work for a reserved decision.
 - Publication: preparation alone does not authorize publication or messages to people. Purchases are never made.
 - Gaps: for a gap that needs specialist depth, recommend the question and the evidence that would resolve it. The categories are positioning, narrative and design, implementation, candidate assessment, authorized launch, post-launch operation and demand evidence.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

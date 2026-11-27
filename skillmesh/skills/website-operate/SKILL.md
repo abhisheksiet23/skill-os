@@ -49,3 +49,5 @@ Read [search review](references/search-review.md).
 - Form: lead with status. Then what changed since the last review, the evidence and named gaps.
 - Out of scope: ongoing content programs, campaigns, paid media and conversion experiments need their own scope.
 - Gaps: if another capability would resolve a named gap, such as page changes, content creation or an independent candidate review, describe the gap and the evidence that would resolve it.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

@@ -136,3 +136,5 @@ Finish at the requested boundary: supported findings, or flows that can be built
 - One alternative stays blocked: hand over the settled flows separately. Its decision gates others only when a shared dependency blocks them.
 - State partial readiness precisely.
 - Preserve the release boundary, accepted choices, evidence and gaps for continuation.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

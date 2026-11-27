@@ -102,3 +102,5 @@ Then:
 - After a change: reuse review evidence for unchanged states and inspect the affected states again.
 - Lessons: record pattern-selection lessons from review and later development in the project's design artifacts, even when the original choice was settled.
 - Missing consequential behavior: it may need analysis. An established direction may support frontend implementation. Name the gap and why. The agent decides whether more expertise changes the result.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

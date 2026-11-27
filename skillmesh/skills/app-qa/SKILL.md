@@ -36,3 +36,5 @@ Lead with the assessment and highest-consequence finding. Give each actionable f
 For authorized fixes, rerun the original reproduction and affected regressions; preserve unaffected valid proof. Stop at the requested scope rather than expanding into a lifecycle or deployment. In projects adopting automatic context maintenance, update this workstream's verification checkpoint and invalidate only affected earlier evidence. Session self-assessment does not establish correctness or independent review.
 
 Recommend analysis, implementation or release expertise only when a concrete remaining need warrants it. The agent decides whether another skill helps; this skill invokes none.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

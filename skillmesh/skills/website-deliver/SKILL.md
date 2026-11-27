@@ -57,3 +57,5 @@ Measurement:
 - Recurring monitoring and campaigns need their own scope.
 
 Finish with verified status or the precise dependency preventing completion. Missing candidate proof may call for an independent candidate review. Explain the gap.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

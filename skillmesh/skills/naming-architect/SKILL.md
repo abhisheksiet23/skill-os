@@ -46,3 +46,5 @@ Learn from rejection reasons and preserve constraints rather than producing cosm
 [Research and attribution](references/research-and-attribution.md) records selectively adapted MIT-licensed ideas and methods deliberately not adopted; read when source provenance or further borrowing matters.
 
 This skill does not provide legal clearance, guaranteed availability or validated consumer research. Do not claim source access, language expertise or live checks without evidence. Naming work does not authorize purchases, registration, outreach, publication or migration. Stop when the requested naming decision is supported.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

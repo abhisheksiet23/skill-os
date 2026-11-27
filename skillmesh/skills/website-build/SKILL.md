@@ -58,3 +58,5 @@ Write source for an owner returning to code after six years.
 - Records: record the candidate, configuration names, important routes, the crawler-policy decision, and real versus simulated integrations in existing records.
 - Publication: a preview or build does not authorize production publishing.
 - Gaps: recommend added expertise only for a concrete gap, such as independent candidate quality, unresolved experience design or a genuine application boundary.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

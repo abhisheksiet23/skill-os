@@ -16,3 +16,5 @@ Distinguish configured languages from those loaded by the active provider proces
 An empty response is not proof of no usages. Check initialization, language support, dependencies and ignore rules. Use `rg` and file reads for unsupported paths, routes, configuration, reflection, SQL and framework relationships. For Angular, verify template relationships separately; the language server needs resolvable Angular dependencies. For C#, verify backend/runtime compatibility without changing the application's target framework.
 
 Keep application facts and navigation findings in the owning project. This bundle exposes navigation, not Serena editing, shell execution or memory management. Continue the authorized task through ordinary tools; tool failure must not block useful work. Report consequential coverage gaps and count fallback/correction effort before claiming savings.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

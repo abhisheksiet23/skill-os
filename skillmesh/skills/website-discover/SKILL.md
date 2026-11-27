@@ -52,3 +52,5 @@ Privacy: keep private customer material out of public research tools and deploya
 - Records: in existing project records, keep accepted decisions, recommendations, assumptions, usable assets and open dependencies separate.
 - Stop: when the requested positioning decision is useful and its remaining limits are clear.
 - Gaps: recommend the evidence gap. Category or competitor questions may call for market research. A stated price may call for pricing work, and unresolved demand for demand validation. Expression may call for copy and design work.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

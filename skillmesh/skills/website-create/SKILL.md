@@ -58,3 +58,5 @@ Inspect the rendered result before presenting it.
 - Save: store copy and assets, page titles and descriptions, target queries, tokens, responsive intent and prototype launch instructions using project conventions.
 - Authority: honor existing approvals and delegated design authority. Silence does not create a newly reserved decision or justify an arbitrary approval gate.
 - Gaps: if unresolved positioning or production implementation needs other expertise, describe the gap and the evidence that would resolve it.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

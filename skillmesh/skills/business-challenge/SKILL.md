@@ -73,77 +73,152 @@ When analyses disagree:
 
 ## Report and stop
 
-Use this structure for a substantial result. A short answer needs only the answer and its limit.
+Write one business document, not a separate report for each question.
 
-### Hard limits
-- Whole result: 600 words at most, tables included. This is a limit, not a target.
-- Three parts only: decision card, core table, closing table or list.
-- Decision card: 200 words at most. Each line: three fragments at most, 12 words each.
-- Core table: six rows at most. A template with more standard fields keeps every field. Closing part: four rows at most.
-- Assumptions: one line under the table that uses them. No separate calculation walkthrough.
-- Say each fact once across all three parts.
-- One idea per table cell. Do not pack several rules or branches into a cell.
-- Only warnings and stop conditions may push the result past 600 words.
-- Too much to fit: keep what changes the decision. Drop the rest.
+### One document
+- Find first: use the project's business document or equivalent records. Otherwise create `business.md` in the project's records.
+- Short question: answer it and its limit in chat. Create no document for it.
+- No write access, or a read-only request: give the changed sections in chat.
+- Read the whole document before changing it. Keep its IDs, history and wording that still holds.
+- Add only sections that hold something useful. Number and order them as below.
+- One home per item. Elsewhere, cite its section or ID.
 
-### Writing style
-- Fragments and keywords. No introduction, recap, headline sentence or method notes.
-- Short plain words a business owner understands. No unexplained shorthand.
-- Evidence tags: Known, Supported, Assumed, Unknown, Contradicted.
-- Unknown cell: write "Unknown". Never present a guess as fact.
+| # | Section | Holds |
+| --- | --- | --- |
+| 1 | Decision and next steps | The one current summary |
+| 2 | Current test | The one test: pass marks, limits, stops and results |
+| 3 | Customers and offer fit | Needs linked to the offer |
+| 4 | Alternatives and positioning | Choices and proof of difference |
+| 5 | Reaching customers | Who, where, message, follow-up and effort |
+| 6 | Offer and price | Packages, terms and bills |
+| 7 | Business model | Canvas, numbers, capacity and cash |
+| 8 | Assumptions and risks | One ordered list and the countercase |
+| 9 | Records | Facts, owner decisions, open items, evidence, conflicts, replaced items |
 
-### Part 1. Decision card
-Always first. It covers only the immediate step, up to the owner's next decision. Write it as a two-column table, Line and Content, never as labelled paragraphs.
+### Your sections and others
+- Yours: section 8.
+- Write yours in full, using the templates below.
+- Another section: add only supported information it lacks. Otherwise do not reword or shorten it.
+- Test changes go in section 2. New risks go in section 8.
+- Section 1: update it when your evidence changes the answer, actions or warnings. Keep one summary.
 
+### Changing what is recorded
+- Different judgment: add a conflict to section 9. Do not rewrite the other conclusion. Show it in section 1 while unresolved.
+- Checked error: you recomputed it from recorded inputs, or confirmed it against its cited source.
+- A different assumption or method is a judgment, not an error.
+- Checked calculation or factual error: correct it where it appears, marked "Corrected" with the date. Update what depends on it.
+- For each correction, record the old value, new value and basis in section 9.
+- Error not yet checked: keep the value, flag it beside the value and record a conflict.
+- Correction never covers owner statements, owner decisions, approved terms, pass marks or recorded results. Flag those and ask the owner.
+- Pass marks: change them in section 2 only, before results. After results, start a new test and keep the old one.
+- Replaced item: move it to the replaced list with the reason. Do not silently delete it.
+
+### Records
+- IDs: F fact, D owner decision, O open item, E evidence, X conflict, numbered, such as F-1. Keep an existing document's own scheme.
+- Give each record its source and date.
+- A recommendation never becomes an owner decision.
+
+### Section 1 template
 | Line | Content |
 | --- | --- |
-| **Verdict** | The verdict and deciding reason, plus who owns the decision |
+| **Recommendation** | The current answer and its main reason |
 | Why | Up to three reasons |
-| Against | The strongest case against your answer, even when you recommend stopping |
-| Would change if | The observation that would change the answer, and what it would change |
-| Next | Ordered actions in this step |
-| Stop | What ends or pauses this step |
-| At risk | Time, money, obligations, and the limit on the whole plan |
-| Cost if wrong | What is lost if this answer is wrong, and who bears it |
-| You decide | Approvals needed now, each with a default. A default grants no permission to spend, contact or launch |
-| Warnings | One line each, for this step. Later-stage warnings sit beside their stage below |
+| Against | The strongest case against, even when recommending a stop |
+| Would change if | The observation that would change the answer |
+| At risk | Time, money, obligations and the limit on the whole plan |
+| Cost if wrong | What is lost if the answer is wrong, and who bears it |
+| Stop | What ends or pauses the current step |
 | Unknown | Only what could change the answer |
 
-The owner can complete the step from this card. Explain any check it names.
+Below the table:
+- **Next, in order:** actions for the immediate step, up to the owner's next decision.
+- **You decide:** approvals needed now, each with a default. A default grants no permission to spend, contact or launch.
+- **Warnings:** one line each for this step.
 
-### Part 2. Claims that carry the decision
-| Claim | Evidence or counterevidence | Fault, unknown or manageable risk | Decision consequence | Resolving check |
+The owner can complete the step from section 1 and the test it names.
+
+### Shared layouts
+Use these whoever writes the section. Add no second layout.
+
+**Section 2, test card:**
+
+| Field | Content |
+| --- | --- |
+| We believe | Falsifiable hypothesis |
+| Who | Eligible audience, recruitment, exposure |
+| We will | Method and offer |
+| We measure | Observable action and counts kept separate |
+| Right if | Success signal and threshold |
+| Wrong if | Failure signal and threshold |
+| Inconclusive if | When access or measurement cannot tell |
+| Bound | Time and cost |
+| Then | Action for each result |
+
+When the test has stages or added rules, add one table:
+
+| Step | Limit | Pass | Fail | Inconclusive | Then |
+| --- | --- | --- | --- | --- | --- |
+
+- Put stages, price tests, guardrails, reversal and kill criteria in this table or the card.
+- Reversal or kill row: observation under Step, date under Limit, effect under Then.
+- Add no other table to section 2. A learning card for results is the only exception.
+
+**Section 8, one list:**
+
+| Assumption or claim | Evidence tag, source and limit | Finding type | If it fails | Resolving check |
 | --- | --- | --- | --- | --- |
 
-Order by decision impact.
+Finding type: contradiction, unsupported assumption, execution risk or preference, meaning a choice rather than a fault. Say whether a risk is manageable.
 
-### Part 3. Reversal and kill criteria
-| Observation, set in advance | By when | Effect: reverse, reduce exposure or test again |
-| --- | --- | --- |
+### Evidence tags
+| Tag | Meaning |
+| --- | --- |
+| Known | Directly observed, or stated by the owner about their own business. Say which |
+| Supported | Evidence points to it, within stated limits |
+| Assumed | Not yet checked; used to proceed |
+| Unknown | No basis yet |
+| Contradicted | Evidence or arithmetic goes against it |
 
-### Detail on request
-End with one line naming what the owner can ask for. Produce a block below only when asked.
+An owner's statement does not show how customers behave. Never present a guess as fact.
 
-#### Best case and countercase
-Two short lists.
+Calculated figures: mark them "calculated" and give them the evidence tag of their weakest input.
 
-#### Strategy check
-| Part | In the plan | Gap |
-| --- | --- | --- |
-| Diagnosis: the real obstacle | | |
-| Approach: how to overcome it | | |
-| Actions: do they support each other | | |
+### Length and style
+- Limits: section 1, 250 words. Sections 2 to 8, 400 words each. Tables count.
+- May exceed a limit: warnings, stop conditions, the canvas and required records.
+- Before saving: count each section you changed and cut it to its limit.
+- Order: main choice first, then only what changes the decision.
+- Calculations: show the deciding inputs and results in a table, each formula once.
+- Detailed calculations and extra examples: add them only when the owner asks.
+- Writing: fragments, lists and tables in plain words. A sentence only for cause, trade-off or warning.
+- Leave out introductions, recaps and method notes.
+- Table cell: one idea, 15 words at most.
+- A later-stage warning sits beside its stage.
 
-#### Pre-mortem
-Assume the plan failed.
-| Likely cause | Early warning sign | Safeguard |
-| --- | --- | --- |
+### Chat reply
+After writing the document, reply in five short lines at most, one sentence each:
+- Changed: what is new or different, and where.
+- Answer: the current recommendation.
+- Decide: the one decision the owner must make now.
+- Watch: the most serious warning, only if one applies.
+- Not verified: the biggest gap.
 
-Label these as imagined failures, not findings.
+No tables, figures lists or reasons. The document holds them. Add the file path.
+
+### Your content
+**Section 8.** First line: **Verdict**, the deciding reason and who owns the decision.
+
+Merge claims into the shared list. Include counterevidence, and state the decision consequence under If it fails. Order by decision impact.
+
+Below it: the strongest counterargument and the strengths that survive.
+
+**Section 2:** add reversal and kill criteria that meet Set fair reversal conditions, set in advance, as rows in the shared test table.
+
+**Only when it changes the decision or the owner asks:**
+- Strategy check: diagnosis of the real obstacle, approach, whether actions support each other, and each gap.
+- Pre-mortem: assume the plan failed. List likely cause, early warning sign and safeguard. Label these imagined failures, not findings.
 
 ### Always
-- Records: preserve useful findings in existing project records.
-
 Stop when further critique cannot change the decision or its safeguards.
 
 When research, demand-validation, pricing or business-economics expertise may help a decisive gap:
@@ -151,3 +226,5 @@ When research, demand-validation, pricing or business-economics expertise may he
 - Invoke no other skill. Do not request reviews recursively.
 
 Structure adapted in our own words from Good Strategy Bad Strategy (Rumelt), the pre-mortem described by Gary Klein and the kill criteria in Quit (Duke).
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.

@@ -104,3 +104,5 @@ Write the summary for the owner's decision and the findings for whoever makes th
 - Repairs: fix reversible defects only when implementation is in scope. Review-only work does not edit the site. Recheck affected views and downstream journeys after repairs.
 - Records: record concise findings in existing project records. Stop at the requested outcome.
 - Gaps: if another capability would resolve a named gap, recommend it with evidence. The categories are positioning, design, authorized launch and the business work above.
+
+**Wording:** be truthful and growth-minded. Say "not yet" where something can still happen, and keep evidence, warnings and results exact.
