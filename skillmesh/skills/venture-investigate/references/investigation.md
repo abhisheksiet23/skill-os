@@ -1,42 +1,74 @@
 # Investigation lenses, not a lifecycle
 
-Use these lenses to locate the next decisive question, not to generate twelve mandatory report sections. Start with the uncertainty that could invalidate the next commitment cheaply. Revisit a lens when new evidence changes its premise; skip it when adequate evidence already settles the relevant question.
+Use these lenses to find the next decisive question. They are not twelve required report sections.
+- Start: with the uncertainty that could cheaply invalidate the next commitment.
+- Revisit: when new evidence changes a lens's premise.
+- Skip: when adequate evidence already settles its question.
 
-1. **Framing:** customer, problem, proposed solution, differentiating insight and why now.
-2. **Falsification:** demand, substitutes, technical/regulatory constraints, buyer ability and structural economics that could invalidate the idea cheaply.
-3. **Opportunity anatomy:** who experiences, uses, pays and benefits; pain, frequency, current behavior/spend and switching friction.
-4. **Competition/value curve:** direct competitors, substitutes, self-service and doing nothing. A Strategy Canvas and eliminate/reduce/raise/create proposals can expose trade-offs; a differentiated drawing is not demand evidence.
-5. **Market reality:** rough bounds first, then reachable customers multiplied by plausible spend when warranted. Separate total category, addressable offer and realistically reachable business.
-6. **Assumptions:** rank by consequence if false and weakness of evidence across desirability, feasibility, economics, distribution and execution.
-7. **Experiments:** define hypothesis, sample, observable signal, threshold, time/cost bound and action before testing. Do not lower the threshold after failure without recording a new hypothesis.
-8. **Pricing:** payer, value, unit, packaging, reference spend, objections and behavioral tests. Pricing is a hypothesis until demonstrated.
-9. **Business engine:** delivery effort/capacity, margins, acquisition, sales cycle, cash timing, repeat behavior and sensitivity.
-10. **Product-market evidence:** distinguish founder-pushed pilots from repeat use, retention, referral and expansion. A paid pilot alone does not establish fit.
-11. **Venture scale:** plausible expansion, growth mechanics, defensibility, capital requirements and founder advantage. A good small business can be a poor VC investment.
-12. **Decision case:** recommendation, strongest supporting/contradicting evidence, decisive uncertainties, capital/time exposure and next milestone or stopping reason.
+## Lenses
+
+| Lens | What to examine |
+| --- | --- |
+| 1. Framing | Customer, problem, proposed solution, differentiating insight and why now |
+| 2. Falsification | What could cheaply invalidate the idea: demand, substitutes, technical or regulatory constraints, buyer ability, structural economics |
+| 3. Opportunity anatomy | Who experiences, uses, pays and benefits. Pain, frequency, current behavior and spend, switching friction |
+| 4. Competition and value curve | Direct competitors, substitutes, self-service and doing nothing |
+| 5. Market reality | Size and reach |
+| 6. Assumptions | Which matter most and are least supported |
+| 7. Experiments | The test design |
+| 8. Pricing | Payer, value, unit, packaging, reference spend, objections, behavioral tests |
+| 9. Business engine | Delivery effort and capacity, margins, acquisition, sales cycle, cash timing, repeat behavior, sensitivity |
+| 10. Product-market evidence | Whether use goes beyond what the founder pushes |
+| 11. Venture scale | Expansion, growth mechanics, defensibility, capital needs, founder advantage |
+| 12. Decision case | Recommendation, strongest supporting and contradicting evidence, decisive uncertainties, capital and time exposure, next milestone or reason to stop |
+
+Rules for particular lenses:
+- Value curve: a Strategy Canvas and eliminate, reduce, raise and create proposals can expose trade-offs. A differentiated drawing is not demand evidence.
+- Market size: set rough bounds first. When warranted, multiply reachable customers by plausible spend. Separate total category, addressable offer and realistically reachable business.
+- Assumption ranking: rank by consequence if false and weakness of evidence, across desirability, feasibility, economics, distribution and execution.
+- Before testing: define hypothesis, sample, observable signal, threshold, time and cost bound, and action.
+- After failure: do not lower the threshold without recording a new hypothesis.
+- Pricing: it stays a hypothesis until demonstrated.
+- Product-market fit: distinguish founder-pushed pilots from repeat use, retention, referral and expansion. A paid pilot alone does not establish fit.
+- Venture scale: a good small business can be a poor venture investment.
 
 ## Convert findings into action
-
-Choose the next reversible commitment by both information value and downside. A test is useful when its result can alter that commitment; cheap activity that cannot discriminate the decisive explanations is not efficient learning. Compare the exposure of being wrong with the cost and delay of obtaining better evidence. Owner constraints govern acceptable downside; no generic score grants permission to spend or launch.
+Choose the next reversible commitment by both information value and downside.
+- Useful test: its result can alter that commitment. Cheap activity that cannot separate the decisive explanations is not efficient learning.
+- Trade-off: compare the exposure of being wrong with the cost and delay of better evidence.
+- Downside: the owner's constraints govern what is acceptable.
 
 | Current uncertainty and exposure | Useful next commitment | Decision boundary |
 | --- | --- | --- |
-| Buyers praise an idea, but building would consume the available runway | A bounded offer test with qualified buyers and an observable commitment | Proceed only to the exposure supported by the signal; park if credible buyer access cannot be obtained within the agreed bound. Praise alone does not warrant the build. |
-| Paid demand exists, but delivery effort might erase margin | Deliver a bounded representative unit and measure full effort, rework and collections | Reshape scope/price if contribution misses the required floor; stop if no credible configuration meets it within owner constraints. More market sizing will not resolve delivery economics. |
-| A feasible offer has no reachable decision maker until a seasonal procurement window | Preserve the hypothesis and a dated reopening trigger | Park with the trigger, owner and maximum carrying effort; do not leave an indefinite research backlog. Reject if the opportunity cannot survive the wait. |
-| Proposed scale depends on exceptional founder sales and manual support | Test one acquisition/delivery path without those exceptions | Expand only when the observed path supports its incremental cost and exposure; retain a small viable business as a distinct option. |
+| Buyers praise an idea, but building would consume the available runway | A bounded offer test with qualified buyers and an observable commitment | Proceed only to the exposure the signal supports. Park if credible buyer access cannot be obtained within the agreed bound. Praise alone does not warrant the build |
+| Paid demand exists, but delivery effort might erase margin | Deliver a bounded representative unit. Measure full effort, rework and collections | Reshape scope or price if contribution misses the required floor. Stop if no credible configuration meets it within owner constraints. More market sizing will not resolve delivery economics |
+| A feasible offer has no reachable decision maker until a seasonal procurement window | Preserve the hypothesis and a dated reopening trigger | Park with the trigger, owner and maximum carrying effort. Leave no indefinite research backlog. Reject if the opportunity cannot survive the wait |
+| Proposed scale depends on exceptional founder sales and manual support | Test one acquisition and delivery path without those exceptions | Expand only when the observed path supports its added cost and exposure. Keeping a small viable business is a distinct option |
 
-Make stop/park actionable: name what work ceases, any unavoidable carrying obligation, and the specific evidence or event that permits reconsideration. A failed premise is not repaired by changing several assumptions at once; state a reshaped premise separately and retain only still-relevant evidence. Stop researching once additional information is unlikely to change the bounded decision.
+## When a hypothesis fails
+- Test or idea: use evidence to tell a bad test from an invalidated idea. Did qualified buyers encounter the offer? Could the method detect the intended behavior?
+- No excuse: another test possibly succeeding does not excuse an unfavorable result.
+- Premise: changing several assumptions at once does not repair a failed one.
+- Reshaped premise: state it separately and keep only evidence that still applies.
 
-When a hypothesis fails, distinguish a bad test from an invalidated idea using evidence: did qualified buyers encounter the offer, and could the method detect the intended behavior? Do not excuse an unfavorable result merely because another test might succeed.
+## Choose the recommendation
 
-- Reject when decisive contradictions make pursuit unattractive under the owner's constraints.
-- Park when timing, access or resources prevent useful learning; state the condition for reopening.
-- Reshape when a different segment, offer or delivery model changes the premise; carry forward only evidence that remains relevant.
-- Test when a bounded observation could resolve a consequential uncertainty.
-- Build when the next delivery commitment is justified by the evidence and its exposure.
-- Scale when acquisition, retention, delivery and funding evidence supports repeatability beyond founder-led exceptions.
+| Recommendation | When it applies |
+| --- | --- |
+| Reject | Decisive contradictions make pursuit unattractive under the owner's constraints |
+| Park | Timing, access or resources prevent useful learning |
+| Reshape | A different segment, offer or delivery model changes the premise |
+| Test | A bounded observation could resolve a consequential uncertainty |
+| Build | The evidence and exposure justify the next delivery commitment |
+| Scale | Acquisition, retention, delivery and funding evidence supports repeatability beyond founder-led exceptions |
 
-These are reasoned recommendations, not numeric gates or promises. State the cost of being wrong and the observation that would change the recommendation.
+- Park: state the condition for reopening.
+- Stop or park: name the work that ceases, any unavoidable carrying obligation, and the evidence or event that permits reconsideration.
+- Reshape: carry forward only evidence that remains relevant.
+- Status: these are reasoned recommendations, not numeric gates or promises.
+- Always state: the cost of being wrong and the observation that would change the recommendation.
 
-For a final business case, scale detail to the decision. It may include segment/offer, evidence, alternatives, differentiation, pricing, distribution, operations, scenarios and learning milestones. Clearly label fictional company cases and illustrative values. Do not promote their assumptions into the real project's baseline.
+## Final business case
+Scale its detail to the decision. It may include segment and offer, evidence, alternatives, differentiation, pricing, distribution, operations, scenarios and learning milestones.
+- Label fictional company cases and illustrative values clearly.
+- Do not promote their assumptions into the real project's baseline.

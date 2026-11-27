@@ -5,33 +5,149 @@ description: Challenge a business case, strategy or investment thesis by testing
 
 # Business Challenge
 
-Help the owner decide whether a case survives scrutiny, needs a different premise, or no longer merits investment. Review the supplied case directly; no earlier skill or template is required. Establish the pending decision and exposure, then state the strongest reasonable version of the thesis before challenging it.
+Help the owner decide whether a case survives scrutiny, needs a different premise or no longer merits investment. Return a verdict, not a criticism inventory.
+
+## Terms
+- **Thesis:** the claim that the case should be backed.
+- **Countercase:** the strongest argument against the thesis that is consistent with the evidence.
+- **Reversal condition:** an observation that would change what should be done about the pending commitment.
+
+## Always
+1. State the strongest reasonable version of the thesis before challenging it.
+2. Apply comparable evidence standards to upside and downside.
+3. Missing support for a claim does not by itself show the opposite.
+4. Keep criticism tied to the decision. Do not perform negativity, or rerun the whole investigation without cause.
+
+## Establish the decision
+- Case: review what is supplied. Require no earlier skill run or template.
+- Before challenging: establish the pending decision and the exposure.
 
 ## Find the claims that carry the decision
+- First target: the assumption most capable of changing the verdict.
+- Trace: follow the conclusion back to the assumptions it needs.
+- Priority: rank them by how much failure changes the decision and how weak their support is.
+- Peripheral points: a correct one must not displace a decisive demand, distribution, delivery or cash constraint.
+- Research: reuse adequate evidence. Broaden only if a competing explanation remains decision-relevant.
 
-Challenge the assumption most capable of changing the verdict first. Reuse adequate evidence; broaden research only if a competing explanation remains decision-relevant. Trace the conclusion back to its necessary assumptions. Prioritize assumptions by how much their failure changes the decision and how weakly they are supported. A correct but peripheral criticism should not displace a decisive demand, distribution, delivery or cash constraint.
+Check that evidence supports the precise claim: segment, buying situation, geography, time, price and outcome. Look for these substitutions:
 
-Check whether evidence supports the precise claim: segment, buying situation, geography, time, price and outcome. Look for intent presented as payment, competitor presence as profitability, revenue as margin, fictional scenarios as forecasts, or a differentiated canvas as demand proof.
+| Presented | As if it were |
+| --- | --- |
+| Intent | Payment |
+| Competitor presence | Profitability |
+| Revenue | Margin |
+| Fictional scenarios | Forecasts |
+| A differentiated canvas | Demand proof |
 
 ## Test the strongest case
-
-Construct the strongest evidence-consistent countercase, not a list of things that could go wrong. Pair it with the best defense of the thesis and a fair reversal condition. Apply comparable evidence standards to upside and downside: do not accept optimistic intent while demanding perfect proof of risk, or reject observed sales because every future risk is unresolved.
+Build a countercase, not a list of things that could go wrong.
+- Pair it with: the best defense of the thesis and a fair reversal condition.
+- Upside: do not accept optimistic intent while demanding perfect proof of risk.
+- Downside: do not reject observed sales because every future risk is unresolved.
+- Alternatives: search for decisive counterexamples and other explanations.
+- Critical claim: identify its evidence, the strongest plausible competing explanation and an observation that would distinguish them.
+- Finding types: distinguish a demonstrated contradiction, an unsupported assumption, an execution risk and a mere preference.
+- Strengths: supported ones should survive scrutiny.
 
 | Thesis and evidence | Strongest countercase | Fair deciding observation |
 | --- | --- | --- |
-| Paid pilots support expansion | Founder relationships and bespoke delivery may explain payment; repeatable acquisition and margin remain unknown | Nonrelationship buyers accept the same bounded offer with delivery contribution above the stated floor. This supports expansion within that scope, not universal fit. |
-| A funded incumbent will make entry impossible | A neglected segment may tolerate fewer features for a materially better workflow | Observe actual switching from the incumbent in that segment, including migration effort. Incumbent size alone proves neither rejection nor an opening. |
+| Paid pilots support expansion | Founder relationships and bespoke delivery may explain payment. Repeatable acquisition and margin remain unknown | Buyers without a founder relationship accept the same bounded offer, with delivery contribution above the stated floor. This supports expansion within that scope, not universal fit |
+| A funded incumbent will make entry impossible | A neglected segment may accept fewer features for a materially better workflow | Observe actual switching from the incumbent in that segment, including migration effort. Incumbent size alone proves neither rejection nor an opening |
 
-A reversal condition must be achievable, observable and tied to the pending commitment. State whether it would reverse the verdict, reduce exposure or merely justify another test; do not demand proof that only a full launch could produce to justify a small reversible experiment.
+## Set fair reversal conditions
+Each reversal condition must be achievable, observable and tied to the pending commitment.
+- State its effect: it reverses the verdict, reduces exposure or only justifies another test.
+- Proportion: for a small reversible experiment, do not demand proof that only a full launch could produce.
 
-Search for decisive counterexamples and alternative explanations. For a critical claim, identify its evidence, the strongest plausible competing explanation, and an observation that would distinguish them. Distinguish a demonstrated contradiction, unsupported assumption, execution risk and mere preference. An absence of supporting evidence does not by itself demonstrate the opposite claim. Strengths should survive scrutiny when supported.
+## Reconcile conflicting analyses
+When analyses disagree:
+- Preserve both claims and their sources.
+- Before calling one wrong: test differences in segment, conditions, time, method and definitions.
+- Reconciliation: treat it as a hypothesis, not an automatic answer. For example, bounded packaging may reconcile a usage metric with buyers' demand for predictable budgets.
 
-When analyses disagree, preserve both claims and their sources. Test differences in segment, conditions, time, method or definitions before declaring one wrong. A usage metric and buyer demand for budget predictability may be reconciled through bounded packaging; treat that as a hypothesis, not an automatic answer.
+## Resolve decisive uncertainty
+- Recommend: the smallest evidence or experiment that could resolve each decisive uncertainty.
+- In advance: define what would change the verdict.
+- Skip research whose result is unlikely to affect the decision.
+- After an unfavorable test: do not move the criteria.
 
-Recommend the smallest evidence or experiment that could resolve each decisive uncertainty. Predefine what would change the verdict. Do not add research whose result is unlikely to affect the decision or move criteria after an unfavorable test.
+## Report and stop
 
-## Return a decision, not a criticism inventory
+Use this structure for a substantial result. A short answer needs only the answer and its limit.
 
-Lead with **Verdict** and the deciding reason. Use a short finding list or, for several claims, a table: claim | evidence or counterevidence | decision consequence | resolving check. Distinguish demonstrated faults, unknowns and manageable risks. State what would reverse the verdict and who owns any decision. Stop when further critique cannot change the decision or its safeguards; preserve useful findings in existing project records.
+### Hard limits
+- Whole result: 600 words at most, tables included. This is a limit, not a target.
+- Three parts only: decision card, core table, closing table or list.
+- Decision card: 200 words at most. Each line: three fragments at most, 12 words each.
+- Core table: six rows at most. A template with more standard fields keeps every field. Closing part: four rows at most.
+- Assumptions: one line under the table that uses them. No separate calculation walkthrough.
+- Say each fact once across all three parts.
+- One idea per table cell. Do not pack several rules or branches into a cell.
+- Only warnings and stop conditions may push the result past 600 words.
+- Too much to fit: keep what changes the decision. Drop the rest.
 
-Research, validation, pricing or economics expertise may help a decisive gap. Recommend it with the question and useful evidence; the agent decides. Never invoke skills or recursively request reviews.
+### Writing style
+- Fragments and keywords. No introduction, recap, headline sentence or method notes.
+- Short plain words a business owner understands. No unexplained shorthand.
+- Evidence tags: Known, Supported, Assumed, Unknown, Contradicted.
+- Unknown cell: write "Unknown". Never present a guess as fact.
+
+### Part 1. Decision card
+Always first. It covers only the immediate step, up to the owner's next decision. Write it as a two-column table, Line and Content, never as labelled paragraphs.
+
+| Line | Content |
+| --- | --- |
+| **Verdict** | The verdict and deciding reason, plus who owns the decision |
+| Why | Up to three reasons |
+| Against | The strongest case against your answer, even when you recommend stopping |
+| Would change if | The observation that would change the answer, and what it would change |
+| Next | Ordered actions in this step |
+| Stop | What ends or pauses this step |
+| At risk | Time, money, obligations, and the limit on the whole plan |
+| Cost if wrong | What is lost if this answer is wrong, and who bears it |
+| You decide | Approvals needed now, each with a default. A default grants no permission to spend, contact or launch |
+| Warnings | One line each, for this step. Later-stage warnings sit beside their stage below |
+| Unknown | Only what could change the answer |
+
+The owner can complete the step from this card. Explain any check it names.
+
+### Part 2. Claims that carry the decision
+| Claim | Evidence or counterevidence | Fault, unknown or manageable risk | Decision consequence | Resolving check |
+| --- | --- | --- | --- | --- |
+
+Order by decision impact.
+
+### Part 3. Reversal and kill criteria
+| Observation, set in advance | By when | Effect: reverse, reduce exposure or test again |
+| --- | --- | --- |
+
+### Detail on request
+End with one line naming what the owner can ask for. Produce a block below only when asked.
+
+#### Best case and countercase
+Two short lists.
+
+#### Strategy check
+| Part | In the plan | Gap |
+| --- | --- | --- |
+| Diagnosis: the real obstacle | | |
+| Approach: how to overcome it | | |
+| Actions: do they support each other | | |
+
+#### Pre-mortem
+Assume the plan failed.
+| Likely cause | Early warning sign | Safeguard |
+| --- | --- | --- |
+
+Label these as imagined failures, not findings.
+
+### Always
+- Records: preserve useful findings in existing project records.
+
+Stop when further critique cannot change the decision or its safeguards.
+
+When research, demand-validation, pricing or business-economics expertise may help a decisive gap:
+- Recommend it with the question and the useful evidence. The agent decides.
+- Invoke no other skill. Do not request reviews recursively.
+
+Structure adapted in our own words from Good Strategy Bad Strategy (Rumelt), the pre-mortem described by Gary Klein and the kill criteria in Quit (Duke).

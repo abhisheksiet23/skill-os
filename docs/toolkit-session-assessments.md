@@ -61,12 +61,12 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 3. Untested behavior: the editorial and readiness wording, the website-brief description's effect on skill selection, website-review's summary and main-action lines, and a harder business-recommendation hold-back case. The website-review rewrite showed no clear overall gain on one real site.
 4. Whether website-brief earns its place is unsettled. Do not remove it without a test.
 5. Website looks: closed by the owner. Three attempts showed no clear overall improvement, and a skill advantage over no-skill is not established. Token cuts and the visual part of item 1 are parked with it.
-6. The installed Codex release predates the business-understanding change. Claude's SkillMesh copy is not updated or verified. `dist/skillmesh.plugin` is built for the owner to install.
+6. Claude's SkillMesh copy is not updated or verified. `dist/skillmesh.plugin` is built for the owner to install.
 7. Existing-site, new-site request: website-review now covers it. website-brief still has no fix-or-rebuild guidance or early prompt to secure access and figures. Untested: the final replacement line, a real browser review, a real owner and a real site.
 8. Purchase-rule reach: installed skills do not carry the AGENTS.md rule. Adding it to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
 9. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
 
-**Installation:** on 2026-11-26, Codex release `0.2.0+codex.20261126143336451` was installed from `009b7db` and passed the live host check with 24 skills. The ignored `docs/installation-status.local.md` holds the detail. The untracked `docs/handoff-new-device.md` is an older 2026-11-25 handoff.
+**Installation:** on 2026-11-26, Codex release `0.2.0+codex.20261126145246612` was installed from `3f06a49` and passed the live host check with 24 skills. The ignored `docs/installation-status.local.md` holds the detail. The untracked `docs/handoff-new-device.md` is an older 2026-11-25 handoff.
 
 **Next:** further commits or pushes only when asked. Real-application adoption, cross-device rollout, account usage, charges, rework and savings remain unknown.
 
