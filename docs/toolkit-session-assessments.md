@@ -1,5 +1,15 @@
 # Current toolkit checkpoint
 
+**App QA workstream, 2026-11-28:** owner requested stronger QA combined with implementation review and investigative judgment, keeping `app-qa` as the entry point rather than adding `app-review`. On `main`, source updated in [App QA](../skillmesh/skills/app-qa/SKILL.md) and its new [investigation reference](../skillmesh/skills/app-qa/references/investigation-and-review.md). Whole-app coverage, falsifiable checks, destructive-operation recovery and domain-fidelity limits are explicit. Existing release/readability/regression guarantees retained. Independent static review led to conditional authority for persistent tests, policy-aware access checks and high-impact routing. Planned wording was shown before editing. Source only: not rebuilt, installed, committed or pushed; existing installation workstream below is unchanged.
+
+**Current proof:** one fresh no-history `gpt-6.2-sol` high-effort performer per version, same synthetic attachment fixture and tools, followed by a separate no-history evaluator. Both met all ten predefined criteria, found the six core defects, withheld unsafe sole-copy operation and passed both transfer judgments (lossy patient replacement versus immutable-original previews). Revised gathered additional compression, partial-write and conditional upload evidence; readiness and overall detection were parity. Baseline: 3 existing passes; 11 probes, 3 pass/5 assertion failures/3 read errors. Revised: 3 existing passes; 13 probes, 3 pass/10 fail, 14 failures including subtests. Failures reproduce intentionally seeded application defects, not Skill OS unit failures. Lead independently reran partial-write, tenant and display probes and confirmed their outcomes. The separate evaluator recommended retaining the revision, while flagging the revised report's phrase "rollback simulation": the test rejects an update; it does not execute rollback. Source findings remain valid. No general capability, clinical safety, production readiness or savings claim follows from this n=1 comparison.
+
+**Evidence retention and limits:** reusable [task](../../skill-os-test/app-qa-review/task.md), [assessment key](../../skill-os-test/app-qa-review/assessment-key.md), synthetic source and examiner probes retained; disposable variant copies/reports removed after synthesis. Parent designed the case/key and knew the changes; performers lacked author history/answers, but share the filesystem/global instructions. Comparator saw version labels. Library validation: 24 skills, 0 errors; retained happy-path fixture: 3 passes; diff whitespace check passed. Official Skill Creator validator unavailable: PyYAML absent in both available interpreters and offline cache; not counted as passed. No real Medcross source, patient records, actual disk exhaustion, power-loss durability or production integration assessed. Final authorization wording clarification received source inspection, not a separate held-out behavior test.
+
+**Next for App QA:** source is ready for owner review; installation remains a separate deployment step. Observe a real application review in that application's directory; do not treat this synthetic exercise as Medcross clearance. Broader/held-out benefit and provider tokens, elapsed total effort, account usage and charges remain unknown. Preserve separately paused business work below.
+
+**Installation workstream, 2026-11-28:** owner-requested latest-source rebuild/reinstall completed from bb647be. Enabled release 0.2.0+codex.20261128081758825 passes fresh source/cache/host verification: 24 skills and seven Serena tools. Package and all official skill metadata checks passed; 49 unit tests ran (48 passed, one Windows symlink skip); migration checks passed with junction permissions. Existing local checkpoint edits are preserved in stash named checkpoint before Skill OS update 2026-11-28. No commit, push or behavioral evaluation. The paused business workstream below remains paused.
+
 **Workstream, 2026-11-27: business skills effectiveness.** Branch `main`. **Paused; resume Monday.** The commit holding this record also holds four edits to the six business and research skills; Git owns its identity. The owner asked for commit and push at the pause, before testing finished.
 
 - **Applied, untested:** pre-sale needs become section 2 step rows; venture-investigate drafts the message the next step sends; the At risk row asks what counts toward the loss limit; the section 8 "Finding type" column is removed. About 17 words added per skill, 28 in venture-investigate.
@@ -77,19 +87,19 @@ The accepted permission model is unchanged. See [retained decisions](lessons-lea
 8. Purchase-rule reach: installed skills do not carry the AGENTS.md rule. Adding it to the [portable project instructions](../skillmesh/skills/project-context/assets/project-instructions.md) is a proposal only.
 9. [Roadmap](opportunity-roadmap.md) items such as CR-02/03 remain proposals.
 
-**Installation:** on 2026-11-26, Codex release `0.2.0+codex.20261126145246612` was installed from `3f06a49` and passed the live host check with 24 skills. The ignored `docs/installation-status.local.md` holds the detail. The untracked `docs/handoff-new-device.md` is an older 2026-11-25 handoff.
+**Installation:** current workstation verified 2026-11-28 at bb647be, release 0.2.0+codex.20261128081758825. Native host confirms matching payload, 24 skills and seven Serena tools. Device recovery details remain in ignored docs/installation-status.local.md.
 
 **Next:** further commits or pushes only when asked. Real-application adoption, cross-device rollout, account usage, charges, rework and savings remain unknown.
 
-## Latest session assessment, 2026-11-27, self-assessment
+## Latest session assessment, 2026-11-28, self-assessment
 
 | Factor | Score | Reason |
 | --- | --- | --- |
-| Continuity | 2 | Earlier session records and local material were enough to rerun and compare |
-| Decision fidelity | 1 | Keenspan documents and earlier owner choices were kept. The four edits were committed at the owner's request before their keep rule could be applied |
-| Evidence freshness | 0 | The committed wording has no completed behavior run |
-| Retrieval economy | unknown | Not measured for the authoring session |
-| Project/workstream separation | 2 | Experiments and drafts stayed in the sibling test folder |
-| Review independence | 1 | Fresh blind reviewer for round 1; the session author wrote cases, pass marks and edits. A faulty search led to one wrong claim, later corrected |
+| Continuity | unknown | Current task came from this chat; future recovery of this checkpoint is unobserved |
+| Decision fidelity | 2 | Kept one QA entry point, showed wording before edits, preserved safeguards; no live execution or installation |
+| Evidence freshness | 2 | Actual synthetic before/after runs, transfer answers, static review and final library checks; missing official validator explicit |
+| Retrieval economy | 1 | Focused source reads mostly; initial combined output too large and validator dependency attempts added avoidable retrieval |
+| Project/workstream separation | 2 | Synthetic evaluations only in toolkit; unrelated existing checkpoint edits and paused workstreams preserved |
+| Review independence | 2 | Fresh no-history performers, static reviewer and evaluator completed with selected evidence; shared filesystem, visible version labels and author-designed case limit independence |
 
-Total session usage, cost and savings are unknown.
+Provider usage, charges, total effort and savings unknown. The installed snapshot still predates this App QA source change.

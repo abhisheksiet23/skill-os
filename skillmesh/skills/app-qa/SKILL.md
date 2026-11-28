@@ -1,23 +1,31 @@
 ---
 name: app-qa
-description: Verify software behavior and review implementation against requirements using executed tests, real integration and browser evidence where relevant. Use for existing or newly changed software, including standalone QA and review-only requests; no lifecycle records are required.
+description: Verify software behavior with executed tests and real integration or browser evidence where relevant. Use for focused QA, implementation reviews, and operational safety assessments of new or existing software, including apps without formal specifications.
 ---
 
 # App QA
 
 Assess the requested software scope using observable behavior and source evidence tied to an exact candidate. Review-only work produces findings; fix implementation only when authorized. A local candidate, an available package and a verified deployment have different evidence needs.
 
+Act as an investigating QA engineer: understand what users and operators could lose, question the implementation and the tests, and seek evidence that could disprove the apparent success. Behavioral QA asks whether outcomes meet requirements; implementation review asks whether the code preserves its guarantees and can be maintained; operational assessment asks whether this candidate can be used safely in its intended environment. Keep these conclusions distinct even when their investigation overlaps. Neither a green suite nor source inspection establishes all three, and no assessment promises flawless software.
+
 ## Define what the evidence must establish
 
 Identify the candidate revision/snapshot, relevant uncommitted changes, requirement sources, environment and requested scope. Accept adequate tickets, specifications, contracts and tests; SkillMesh lifecycle records are not prerequisites. Mark consequential requirement ambiguity and investigate observable defects without inventing intent.
 
+Identify consequential assets, failure impact, trust boundaries and permitted test side effects before execution. Inspect unfamiliar setup/test commands before running them; a review request does not authorize production mutation or exposing private data. Missing specifications limit requirement conclusions, but do not prevent finding demonstrable defects.
+
+For whole-app or inherited-code reviews, map entry points, components, authoritative stores and external effects before selecting representative critical flows. Do not substitute the latest diff for the requested application scope. Keep a compact coverage map of inspected, executed, sampled and unreviewed areas; sampling is not exhaustive assurance. For substantive implementation review, uncertain diagnosis or high-impact or irreversible operations, read [investigation and review](references/investigation-and-review.md). A contained low-impact check needs no whole-app audit.
+
 Prefer the current use-case specification as the behavioral oracle where available: map selected main/alternative flows, shared rules and applicable quality/constraint done-checks to executed evidence. Retain stable flow references and identify passed, failed, blocked and untested coverage. Read analysis findings for source conflicts, rationale and unresolved decisions; the analysis report, a Specified status or a proposed assumption cannot substitute for accepted behavior or proof. Assess technical design guarantees against the implementation separately.
 
-Choose checks from changed behavior, affected consumers and consequence of failure. Inspect existing coverage/results and the affected diff first; reuse valid proof and retrieve detailed logs or source along the failing or uncertain path. Exercise the boundary most likely to invalidate the assessment early, then complete required coverage; early success does not replace regression or combined acceptance. Read [verification practice](references/verification.md) for risk-to-test selection and proving a regression assertion detects the original defect, or for material diagnosis/release assessment. Include interacting increments when assessing a combined release, and distinguish requirement-source changes from implementation changes when invalidating evidence.
+Choose checks from requested scope, changed behavior, affected consumers and consequence of failure. Inspect existing coverage/results and the affected diff where relevant; reuse valid proof and retrieve detailed logs or source along the failing or uncertain path. Exercise the boundary most likely to invalidate the assessment early, then complete required coverage; early success does not replace regression or combined acceptance. Read [verification practice](references/verification.md) for risk-to-test selection and proving a regression assertion detects the original defect, or for material diagnosis/release assessment. Include interacting increments when assessing a combined release, and distinguish requirement-source changes from implementation changes when invalidating evidence.
 
-Reuse project runners and fixtures. For important recurring journeys, read [repeatable verification](references/repeatable-verification.md) and preserve useful checks as executable project tests with reliable setup and a documented command. A contained correction does not justify a new automation platform.
+Reuse project runners and fixtures. For important recurring journeys, read [repeatable verification](references/repeatable-verification.md) and, when persistent test changes are authorized, preserve useful checks as executable project tests with reliable setup and a documented command. Review-only scope permits existing checks and authorized disposable probes, not implicit changes to project tests or runner configuration. A contained correction does not justify a new automation platform.
 
 ## Execute and inspect
+
+Assume today's check may be repeated, with or without changes. For routine QA, run the requested checks and report the result and command or brief manual steps. An existing runnable check is enough when it captures the setup and assertion. For costly or recurring checks, capture only what the next run would otherwise have to rediscover. Use [repeatable verification](references/repeatable-verification.md) when reuse can materially reduce effort, and follow the authority for persistent changes above.
 
 Run applicable checks rather than predict results. Exercise normal, boundary, invalid and recovery behavior, with real API/consumer integration where required. For UI, inspect representative rendered states/screenshots, keyboard/focus and realistic journeys against the reviewed direction or established product. Automated assertions do not replace visual judgment; unavailable browser access remains an evidence gap.
 
@@ -32,6 +40,8 @@ For manual-release assessment, inspect the actual package, affected components a
 ## Report and close the assessed scope
 
 Lead with the assessment and highest-consequence finding. Give each actionable finding compact labeled facts for location/state, observation/reproducer, consequence and useful correction, adding prose where causality needs it. Distinguish defects, unresolved decisions and optional improvements. Use a short check/result/limit table when it helps compare coverage; retain candidate/environment identity and executed, passed, failed, blocked and untested coverage. Link commands and detailed reports rather than copying successful logs; compact reporting must preserve reproduction details.
+
+Prioritize by credible impact, exposure and recoverability; state the conditions that make a finding consequential. Separate confirmed defects from hypotheses needing a distinguishing check and preferences needing no fix. State what can proceed, what needs correction or evidence, and which exact operation is unsafe or not yet assessed. Limit any readiness recommendation to the reviewed candidate, environment and covered guarantees; unknowns are neither passes nor automatic reasons to block unrelated work.
 
 For authorized fixes, rerun the original reproduction and affected regressions; preserve unaffected valid proof. Stop at the requested scope rather than expanding into a lifecycle or deployment. In projects adopting automatic context maintenance, update this workstream's verification checkpoint and invalidate only affected earlier evidence. Session self-assessment does not establish correctness or independent review.
 

@@ -26,7 +26,7 @@ This is a human review aid, not a routing database. Each skill's description is 
 | [app-prototype](skillmesh/skills/app-prototype/SKILL.md) | Inspectable application experience and states | Material UX; contained fixes use existing baseline |
 | [app-frontend](skillmesh/skills/app-frontend/SKILL.md) | Application UI implementation and integration | Real API when present; mocks only where useful |
 | [app-backend](skillmesh/skills/app-backend/SKILL.md) | Domain, API, data, migrations and integration | No frontend-first prerequisite |
-| [app-qa](skillmesh/skills/app-qa/SKILL.md) | Behavior and engineering verification | Standalone/review-only supported |
+| [app-qa](skillmesh/skills/app-qa/SKILL.md) | Behavioral QA, implementation review and operational risk assessment | Existing apps and review-only work supported |
 | [app-deliver](skillmesh/skills/app-deliver/SKILL.md) | Authorized software release and knowledge | Preparation and verified delivery are distinct |
 
 Website expertise emphasizes marketing narrative and conversion; app expertise emphasizes workflows and domain behavior. An application-backed marketing journey may benefit from both for actual gaps. Business validation establishes demand evidence; website discovery establishes a credible site story. Neither automatically reruns the other.
